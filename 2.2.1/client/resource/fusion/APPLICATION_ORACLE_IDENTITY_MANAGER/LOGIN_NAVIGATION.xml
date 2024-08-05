@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<navigation xmlns="http://navigation0005.configurator.erapidsuite.com" xmlns:xsd="http://xsdutility.configurator.erapidsuite.com">
+	<name>LOGIN_NAVIGATION</name>
+	<svn>
+		<xsd:revision>$Revision: $:</xsd:revision>
+		<xsd:author>$Author: $:</xsd:author>
+		<xsd:date>$Date: $:</xsd:date>
+		<xsd:headURL>$HeadURL: $:</xsd:headURL>
+		<xsd:id>$Id:  $:</xsd:id>
+	</svn>
+	<description/>
+	<type>FUSION</type>
+	<engine_type>SELENIUM</engine_type>
+	<modules/>
+	<mapper_use_type>UNDEFINED</mapper_use_type>
+	<validate_parent_child_relationships_for_mapped_data>true</validate_parent_child_relationships_for_mapped_data>
+
+	<fusionNavigation hasScope="false" isBatchingAllowed="false" taskName="n/a" applicationKey="APPLICATION_ORACLE_IDENTITY_MANAGER" >
+		
+		<block name="WAIT UNTIL ERROR">
+            <IfThenElse>
+				<if>
+					<findElement by="xpath">//p[contains(text(),'An incorrect Username or Password was specified')]</findElement>
+				</if>
+				<then>
+					<IfThenElse>
+						<if>
+							<findElement by="id" >username</findElement> 
+						</if>
+						<then>
+							<findElement by="id" >username</findElement> 
+							<sendKeys isClear="true"><valueText>###FUSION_USER_NAME###</valueText></sendKeys>
+							<error message="Wrong credentials for the Application name '###APPLICATION_NAME###', please recheck the username/ password in the Injection environment screen." />						
+						</then>
+						<else>
+							<findElement by="id" >userid</findElement> 
+							<sendKeys isClear="true"><valueText>###FUSION_USER_NAME###</valueText></sendKeys>
+							<error message="Wrong credentials for the Application name '###APPLICATION_NAME###', please recheck the username/ password in the Injection environment screen." />
+						</else>
+					</IfThenElse>
+					<break/>
+				</then>
+				<else>
+					<IfThenElse>
+						<if>
+							<findElement by="id" >username</findElement> 
+						</if>
+						<then>
+							<pause durationInSecs="1"/>
+						</then>
+						<else>
+							<IfThenElse>
+								<if>
+									<findElement by="id" >userid</findElement> 
+								</if>
+								<then>
+									<pause durationInSecs="1"/>
+								</then>
+								<else>
+									<break/>
+								</else>
+							</IfThenElse>
+						</else>
+					</IfThenElse>
+				</else>
+            </IfThenElse>
+        </block>
+		<IfThenElse>
+			<if>
+				<findElement by="id" >username</findElement> 
+			</if>
+			<then>
+				<wait type="presenceOfElementLocated" by="id" >username</wait>
+				<sendKeys isClear="true"><valueText>###FUSION_USER_NAME###</valueText></sendKeys> 
+				<findElement by="id" >password</findElement> 
+				<sendKeys isClear="true"><valueText>###FUSION_PASSWORD###</valueText></sendKeys> 
+				<findElement by="xpath">//input[@type='submit']</findElement>
+				<click waitForPageToFinishRendering="false" isSkipCheckDomError="true" isSkipBrowserTitleChange="true" />
+				<executeBlock name="WAIT UNTIL ERROR" isRepeatUntilBreak="true"/>			
+			</then>
+			<else>
+				<wait type="presenceOfElementLocated" by="id" >userid</wait>
+				<sendKeys isClear="true"><valueText>###FUSION_USER_NAME###</valueText></sendKeys> 
+				<findElement by="name" >password</findElement> 
+				<sendKeys isClear="true"><valueText>###FUSION_PASSWORD###</valueText></sendKeys> 
+				<findElement by="tagName" >button</findElement>
+				<click waitForPageToFinishRendering="false" />
+				<executeBlock name="WAIT UNTIL ERROR" isRepeatUntilBreak="true"/>
+			</else>
+        </IfThenElse>		
+	</fusionNavigation>
+</navigation>

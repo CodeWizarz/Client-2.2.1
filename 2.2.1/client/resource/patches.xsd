@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://patches0000.swiftreverse.rsc.com"
+           elementFormDefault="qualified"
+           xmlns:d="http://patches0000.swiftreverse.rsc.com">
+
+	<xs:complexType name="patch">
+       <xs:sequence>
+			<xs:element name="releaseNotesDownloadURL" type="xs:normalizedString" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="patchDownloadURL" type="xs:normalizedString" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="revision" type="xs:positiveInteger" use="required"/>
+		<xs:attribute name="name" type="xs:normalizedString" use="required"/>
+		<xs:attribute name="type" type="xs:normalizedString" use="required"/>
+    </xs:complexType>
+		   
+    <xs:complexType name="patches">
+         <xs:sequence>
+			<xs:element name="patch" type="d:patch" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="patches" type="d:patches"/>
+	
+</xs:schema>

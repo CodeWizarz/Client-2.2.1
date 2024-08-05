@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<navigation xmlns="http://navigation0005.configurator.erapidsuite.com" xmlns:xsd="http://xsdutility.configurator.erapidsuite.com">
+	<name>Assign Business Unit Business Function</name>
+	<svn>
+		<xsd:revision>$Revision: $:</xsd:revision>
+		<xsd:author>$Author: $:</xsd:author>
+		<xsd:date>$Date: $:</xsd:date>
+		<xsd:headURL>$HeadURL: $:</xsd:headURL>
+		<xsd:id>$Id:  $:</xsd:id>
+	</svn>
+	<description/>
+	<type>FUSION</type>
+	<engine_type>SELENIUM</engine_type>
+	<modules/>
+	<mapper_use_type>UNDEFINED</mapper_use_type>
+	<validate_parent_child_relationships_for_mapped_data>true</validate_parent_child_relationships_for_mapped_data>
+
+	<fusionNavigation hasScope="true" taskName="Assign Business Unit Business Function" isBatchingAllowed="false" >
+
+		<repeat inventoryName="Manage Taxes" selectedScopeColumnName="Tax Regime Code" >
+
+			<!-- NAVIGATION TO CLICK ON THE TASK WITH SELECTED SCOPE -->
+			<IfThenElse>
+				<if>
+					<findElement by="xpath" >//div[text()='###TASK_NAME###']/../..//a[text()='Select...']</findElement>
+				</if>
+				<then>
+					<findElement by="xpath" >//div[text()='###TASK_NAME###']/../..//a[text()='Select...']</findElement>
+					<click waitForPageToFinishRendering="true" />
+					<findElement by="xpath" isDebug="true">//div[text()='Select Scope']/../../../../../../../..//select</findElement>
+					<select by="selectByVisibleText" isPageLoadingOnSelectValue="true">Select and Add</select>
+					<findElement by="xpath" >//button[text()='Apply and Go to Task']</findElement>
+					<click waitForPageToFinishRendering="true" />
+
+					<findElement by="xpath" isDebug="true">//label[text()='Name']/../..//input</findElement>
+					<sendKeys isClear="true">###SELECTED_SCOPE###</sendKeys>
+					<findElement by="xpath" >//button[text()='Search']</findElement>
+					<click waitForPageToFinishRendering="true" />
+					<findElement by="xpath" >//a[text()='###SELECTED_SCOPE###']</findElement>
+					<click waitForPageToFinishRendering="true" />
+					<findElement by="xpath" >//span[text()='Save and Close']/..</findElement>
+					<click waitForPageToFinishRendering="true" />
+				</then>
+				<else>
+					<findElement by="xpath" >//tr[.//div[text()='###TASK_NAME###']]//a[@title='Go to Task']</findElement>
+					<click waitForPageToFinishRendering="true" />
+				</else>
+			</IfThenElse>
+
+			<pause durationInSecs="3" />
+
+		</repeat>
+
+	</fusionNavigation>
+</navigation>

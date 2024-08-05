@@ -1,0 +1,57 @@
+<patterns xmlns="http://ebs_version_conversion.client.rapidesuite.com">
+
+	<!-- EBSDBVersionPattern allows % as a wildcard  -->
+	
+	
+	<!-- 
+	The inventoriesPackageEBSDBVersion will be matched to the value contained in targetVersion.txt within an exported
+    inventory package.  
+	If no such match is found, the package will be rejected.
+	If a match is found, the EBSDBVersionPatterns within that inventoriesPackageEBSDBVersion will be tested against 
+	the version string returned by EBS.
+	If one of the EBSDBVersionPatterns match the version string returned by EBS, the package will be accepted, 
+	otherwise it will be rejected.
+	-->
+
+	<pattern inventoriesPackageEBSDBVersion='11.5.9'>
+		<EBSDBVersionPattern value='11.5.9%'/>
+	</pattern>
+
+	<pattern inventoriesPackageEBSDBVersion='11.5.10'>
+		<EBSDBVersionPattern value='11.%'/>
+	</pattern>
+	
+	<pattern inventoriesPackageEBSDBVersion='12.1.1'>
+		<EBSDBVersionPattern value='12.1.1%'/>
+	</pattern>	
+	
+	<pattern inventoriesPackageEBSDBVersion='12.2.3'>
+		<EBSDBVersionPattern value='12.2.3%'/>
+	</pattern>		
+	
+	<pattern inventoriesPackageEBSDBVersion='12.1.3'>
+		<EBSDBVersionPattern value='12.1.3%'/>
+		<EBSDBVersionPattern value='12.%'/>
+	</pattern>	
+	
+	<pattern inventoriesPackageEBSDBVersion='12.2.0'>
+		<EBSDBVersionPattern value='12.2.0%'/>
+	</pattern>	
+	
+    <pattern inventoriesPackageEBSDBVersion='12.2.4'>
+        <EBSDBVersionPattern value='12.2.4%'/>
+    </pattern>	
+	
+    <pattern inventoriesPackageEBSDBVersion='12.2.5'>
+        <EBSDBVersionPattern value='12.2.5%'/>
+    </pattern>	
+	
+    <pattern inventoriesPackageEBSDBVersion='12.2.6'>
+        <EBSDBVersionPattern value='12.2.6%'/>
+    </pattern>	
+
+	<pattern inventoriesPackageEBSDBVersion='FUSION_11.1.9'>
+        <EBSDBVersionPattern value='11.1.9%'/>
+    </pattern>
+	
+</patterns>

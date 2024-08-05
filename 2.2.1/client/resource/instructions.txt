@@ -1,0 +1,11 @@
+1. Start RapidSnapshot normally using the desktop icon.
+2. Create your connection via the User Interface and note down the connection name.
+3. Optional: create a template from the User Interface and note down the template name.
+4. Modify the argument.xml file and populate the <connectionName> with the information from 2. (let <templateSelectionName> blank if you skipped 3.)
+ change <logFolderPath> to be a real path on your system.
+5. Rename "snapshot64.batx" to "snapshot64.bat"
+6. You can call "snapshot64.bat" from any scheduling software to run RapidSnapshot automatically. Make sure the argument.xml file is located in the same
+folder as the snapshot64.bat file.
+
+Important: RapidSnapshot requires a display in order to run.
+

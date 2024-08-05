@@ -1,0 +1,482 @@
+ABC Assignment Groups - ABC_ASSIGNMENT_GROUPS
+ABC Assignment Groups - ABC_ASSIGNMENT_GROUPS - DFF
+ABC Classes
+ABC Compiles - ABC_COMPILES
+ABC Compiles - ABC_COMPILES - DFF
+ABC Group Class Assignment - ABC_GROUP_CLASS_ASSGN
+ATP Data Collection - DFF
+ATP Data Collection - SET_REQUESTS
+Account Aliases - ACCOUNT_ALIAS
+Account Aliases - ACCOUNT_ALIAS - DFF
+Accounting Setups - Accounting Representations
+Accounting Setups - Add Legal Entities
+Accounting Setups - Intracompany Balancing Rules
+Accounting Setups - Ledger Balancing Segment Value Assignments
+Accounting Setups - Ledger Options
+Accounting Setups - Legal Update Balancing Segment Value
+Accounting Setups - Operating Unit Assignments
+Accounting Setups - Primary to Secondary Ledger Mapping
+Accounting Setups - Reporting Currencies
+Accounting Setups - Secondary Ledgers
+Additional Organization Information - HOI2 - 001 Click - DFF
+Additional Organization Information - HOI2 - 002 - DFF
+Additional Organization Information - NAV1
+Advanced Setup Options - Associate Tax Determining Factors
+Advanced Setup Options - Tax Condition Sets
+Advanced Setup Options - Tax Condition Sets - Tax Conditions
+Advanced Setup Options - Tax Determining Factor Set
+Advanced Setup Options - Tax Formula
+Advanced Setup Options - Tax Formula Compounding Details
+Application Instances - APPS_INSTANCES
+Application Instances - APPS_INSTANCES - DFF
+Application Instances - INSTANCE_ORGS
+Approval Groups - PO_CONTROL_GROUPS
+Approval Groups - PO_CONTROL_GROUPS - DFF
+Approval Groups - PO_CONTROL_RULES
+Approval Groups - PO_CONTROL_RULES - DFF
+Approval Groups - PO_CONTROL_RULES - Flexfield Range - DFF
+Asset categories - CATEGORY
+Asset categories - CATEGORY - DFF
+Asset categories - CATEGORY_BOOK
+Asset categories - CATEGORY_BOOK - DFF
+Asset categories - CATEGORY_BOOK_DEF
+Asset categories - CATEGORY_BOOK_DEF - DFF
+Assign Approval Groups - ASSIGNMENTS
+Assign Approval Groups - ASSIGNMENTS - DFF
+Assign Approval Groups - FIND
+Assign Security Rules - KEY - USAGES
+Attribute Defaulting Rules - DEFCONDN_RULE
+Attribute Defaulting Rules - DEFRULE
+Attribute Defaulting Rules - DEFRULE - DFF
+AutoAccounting-AUTOGL
+AutoAccounting-SEGMENTS
+AutoPost Criteria Sets - AUTOPOST
+AutoPost Criteria Sets - AUTOPOST - DFF
+AutoPost Criteria Sets - AUTOPOST_SET
+AutoPost Criteria Sets - AUTOPOST_SET - DFF
+Book Controls - ACCOUNTING_RULES
+Book Controls - BOOK_CONTROLS
+Book Controls - BOOK_CONTROLS - DFF
+Book Controls - CALENDAR
+Book Controls - NATURAL_ACCOUNTS
+Book Controls - TAX_RULES
+Calendar Dates - B_CAL_DATES
+Carriers - CARRIERS
+Carriers - SERVICES
+Carriers - SERVICES - DFF
+Category Accounts Summary - MTL_CAT_ACCTS
+Chart of Accounts Mapping - CHILD_RANGES - DFF
+Chart of Accounts Mapping - FLEXFIELD_MAP
+Chart of Accounts Mapping - FLEXFIELD_MAP - DFF
+Chart of Accounts Mapping - MAPPING
+Chart of Accounts Mapping - SEGMENT_ACTIONS
+Chart of Accounts Mapping - SEGMENT_RULES
+Consolidation Definition - CONSOLIDATION
+Consolidation Set - CONSOLIDATION_SET
+Consolidation Set - SET_ASSIGN
+Consumption Set Up - CONSGN_VMI_CONSUMP
+Cost Type - C_CST_TYPE
+Cost Type - C_CST_TYPE - DFF
+Credit Profiles - PROFILES
+Credit Profiles - PROF_AMTS
+Custom Security - PSP1
+Cycle Count Classes - CC_CLASSES
+Cycle Counts - CC_HEADERS_FOLDER
+Cycle Counts - CC_HEADERS_FOLDER - DFF
+Cycle Counts Subinventory - CC_SUBINVENTORIES
+Data Access Set - ACCESS_DETAIL
+Data Access Set - ACCESS_SET
+Defaulting Condition Validation Templates - DEFCONDN
+Defaulting Condition Validation Templates - DEFELEMENT
+Defaulting Condition Validation Templates - DEFELEMENT - DFF
+Defaulting Setup - Entity Attributes - DEFOBJ
+Defaulting Setup - Entity Attributes - DEFOBJATTR
+Define Credit Check Rules
+Define Credit Check Rules - DFF
+Define Security Rules - KEY
+Define Security Rules - KEY_LINES
+Define Security Rules - KEY_RULES
+Distribution Sets - DIST_SET
+Distribution Sets - DIST_SET_LINES
+Distribution Sets - DIST_SET_LINES - DFF
+Document - Types - Create - Type
+Document - Types - Update
+Document Categories - CATEGORIES
+Document Categories - WSH_DOC_SEQ_CTG
+Document Categories - WSH_DOC_SEQ_CTG - DFF
+Document Sequences - SEQUENCES
+E-Business Tax - Create Application Tax Options
+E-Business Tax - Create Configuration Owner Tax Options
+E-Business Tax - Create Country Defaults
+E-Business Tax - Create Tax Reporting Type
+E-Business Tax - Jurisdictions
+E-Business Tax - Jurisdictions - Tax Accounts
+E-Business Tax - Party Authority
+E-Business Tax - Party First Establish
+E-Business Tax - Party First Establish - Classifications
+E-Business Tax - Party First Establish - Tax Reporting Codes
+E-Business Tax - Party First Establish - Update Account
+E-Business Tax - Party First Legal
+E-Business Tax - Party Tax Profile Operating Unit - Configuration Options
+E-Business Tax - Party Tax Profile Operating Unit - Main
+E-Business Tax - Party Tax Profile Operating Unit - Tax Reporting Codes
+E-Business Tax - Rate
+E-Business Tax - Rate - Rate Details
+E-Business Tax - Rate - Rate Periods
+E-Business Tax - Rate - Tax Accounts
+E-Business Tax - Recovery Rates
+E-Business Tax - Recovery Rates - Tax Accounts
+E-Business Tax - Regimes
+E-Business Tax - Regimes - Configuration Options
+E-Business Tax - Regimes - Service Subscriptions
+E-Business Tax - Reporting Code
+E-Business Tax - Reporting Type - Tax Reporting Codes
+E-Business Tax - Status
+E-Business Tax - Tax
+E-Business Tax - Tax - Statuses - Reporting Codes
+E-Business Tax - Tax - Update - Available
+E-Business Tax - Tax Account
+E-Business Tax - Tax Rule
+E-Business Tax - Tax Rule - Expert Rule - Condition Set
+E-Business Tax - Tax Rule - Expert Rule - Entry
+E-Business Tax - Tax Rule - Expert Rule - Rule Order
+E-Business Tax - Tax Rule - Guided Rule Entry
+E-Business Tax - Tax Rule - Guided Rule Entry - Account based
+E-Business Tax - Tax Rule - Guided Rule Entry - Additional Factors
+E-Business Tax - Tax Rule - Guided Rule Entry - Document Classification
+E-Business Tax - Tax Rule - Guided Rule Entry - Intended Use
+E-Business Tax - Tax Rule - Guided Rule Entry - Locations
+E-Business Tax - Tax Rule - Guided Rule Entry - Non-Inventory
+E-Business Tax - Tax Rule - Guided Rule Entry - Registration Status
+E-Business Tax - Tax Rule - Guided Rule Entry - Transaction Business
+E-Business Tax - Tax Zone - General Information
+E-Business Tax - Tax Zone - Geographies
+E-Business Tax - Tax Zone Types
+E-Business Tax - Tax Zone Types - Details
+Exceptions - B_CAL_EXCEPT
+Exceptions - B_CAL_EXCEPT - DFF
+Expense Account Rules - Create Expense Account Rules
+Expense Report Templates - CARD_EXPENSE_TYPES
+Expense Report Templates - EXPENSE_REPORT
+Expense Report Templates - ITEMIZATIONS
+Expense Report Templates - PARAMET
+Financials Options - FINANCIALS_SYSTEM_PARAMETER
+Find Key Flexfield Segment - KEY
+Find Transit Times - FIND_LOCATIONS
+Freight Carriers - ORG_FREIGHT
+Funds Transfer Error Handling - AR_CC_ERROR_MAPPING
+Holds
+Holds - Authorizations
+Holds - Authorizations - DFF
+Holds - DFF
+Inter Org Shipping Networks - SHIP_METHOD
+Inter Org Shipping Networks - SHIP_METHOD - DFF
+Intercompany Accounts - Payables Accounts
+Intercompany Accounts - Receivables Accounts
+Intercompany Accounts - Relationships
+Invoice Tolerances - TOLERANCE
+Item Attribute Controls - ITEM_ATTRIBUTES_CONTROL
+Item Attribute Controls - ITEM_STATUS_ATTRIBUTES_CONTROL
+Item Templates
+Item Templates - Attributes
+Item Templates - DFF
+Itemizations - PARAMET
+Job - DFF
+Job - Further Information - DFF
+Job - JOBS
+Job - Name - DFF
+Job - PO_Further Information - DFF
+Job - PO_JOBS
+Journal Reversal Criteria - Assign Access
+Journal Reversal Criteria - Assign Access - DFF
+Journal Reversal Criteria - CRITERIA
+Journal Reversal Criteria - CRITERIA - DFF
+Journal Reversal Criteria - CRITERIA_SETS
+Journal Reversal Criteria - CRITERIA_SETS - DFF
+Jurisdiction - Legal Functions
+Jurisdiction - Legislative Category
+Ledger Set - LEDGER_ASSIGNMENT
+Ledger Set - LEDGER_ASSIGNMENT - DFF
+Ledger Set - LEDGER_SETS
+Ledger Set - LEDGER_SETS - DFF
+Legal Authority - Identification Information
+Legal Authority - Legislative Categories
+Legal Entity - Argentina
+Legal Entity - Australia
+Legal Entity - Austria
+Legal Entity - Barbados
+Legal Entity - Belgium
+Legal Entity - Bermuda
+Legal Entity - Brazil
+Legal Entity - Bulgaria
+Legal Entity - Canada
+Legal Entity - Cayman Islands
+Legal Entity - Chile
+Legal Entity - China
+Legal Entity - Colombia
+Legal Entity - Croatia
+Legal Entity - Czech Republic
+Legal Entity - Denmark
+Legal Entity - Dominican Republic
+Legal Entity - Finland
+Legal Entity - France
+Legal Entity - Germany
+Legal Entity - Gibraltar
+Legal Entity - Greece
+Legal Entity - Guatemala
+Legal Entity - Hong Kong
+Legal Entity - Hungary
+Legal Entity - India
+Legal Entity - Indonesia
+Legal Entity - Ireland
+Legal Entity - Israel
+Legal Entity - Italy
+Legal Entity - Japan
+Legal Entity - Korea Republic of
+Legal Entity - Latvia
+Legal Entity - Luxembourg
+Legal Entity - Malaysia
+Legal Entity - Malta
+Legal Entity - Mauritius
+Legal Entity - Mexico
+Legal Entity - Morocco
+Legal Entity - Netherlands
+Legal Entity - Netherlands Antilles
+Legal Entity - New Zealand
+Legal Entity - Norway
+Legal Entity - Panama
+Legal Entity - Peru
+Legal Entity - Philippines
+Legal Entity - Poland
+Legal Entity - Portugal
+Legal Entity - Puerto Rico
+Legal Entity - Romania
+Legal Entity - Russian Federation
+Legal Entity - Saudi Arabia
+Legal Entity - Serbia and Montenegro
+Legal Entity - Singapore
+Legal Entity - Slovakia
+Legal Entity - Slovenia
+Legal Entity - South Africa
+Legal Entity - Spain
+Legal Entity - Sweden
+Legal Entity - Switzerland
+Legal Entity - Taiwan
+Legal Entity - Thailand
+Legal Entity - Turkey
+Legal Entity - Ukraine
+Legal Entity - United Arab Emirates
+Legal Entity - United Kingdom
+Legal Entity - United States
+Legal Entity - Venezuela
+Legal Entity - Virgin Islands British
+Line Workflow Assingments - ORDER_TRXN_DETAIL
+Line Workflow Assingments - ORDER_TRXN_TYPE
+Location - Address - DFF
+Location - LOC
+Location - LOC - DFF
+Location - LOC - GDF
+Material Subelements - SUB_ELEMENTS
+Miscellaneous Security - PSP1
+OM System Parameters - Parameters
+OM System Parameters - Parameters - DFF
+OM System Parameters - Values
+Open Account Balances Listing Definitions
+Open Account Balances Listing Definitions - Details
+Open Account Balances Listing Definitions - Journal Source
+Organization - Classification
+Organization - HOU1
+Organization - HOU1 - DFF
+Organization Access - ORG_ACCESS
+Organization Assignments - ASSIGNMENTS
+Organization Assignments - ASSIGNMENTS - DFF
+Organization Hierarchy - OS1
+Organization Hierarchy - OS1 - DFF
+Organization Hierarchy - OSE1
+Organization Hierarchy - OSV1
+Organization Hierarchy - OU1
+Organization Parameters - ATP Pick Item - Sourcing
+Organization Parameters - Costing Information
+Organization Parameters - INV_PARAM
+Organization Parameters - INV_PARAM - DFF
+Organization Parameters - Inter-Org Information
+Organization Parameters - Other Accounts
+Organization Parameters - Revision Lot Serial
+Organization Security - PSO
+Organization Security - PSP1
+Overheads - C_OVERHEAD
+Overheads - C_OVERHEAD - DFF
+Payables Options - AP_SYSTEM_PARAMETERS
+Payables Options - AP_SYSTEM_PARAMETERS - GDF
+Payment Administrator - Defaulting Rules - Cash Management
+Payment Administrator - Defaulting Rules - Cash Management - Legal Entity
+Payment Administrator - Defaulting Rules - Cash Management - Organization
+Payment Administrator - Defaulting Rules - Cash Management - Others
+Payment Administrator - Defaulting Rules - Cash Management - Payment Processing
+Payment Administrator - Defaulting Rules - Loans
+Payment Administrator - Defaulting Rules - Loans - Legal Entity
+Payment Administrator - Defaulting Rules - Loans - Organization
+Payment Administrator - Defaulting Rules - Loans - Others
+Payment Administrator - Defaulting Rules - Loans - Payment Processing
+Payment Administrator - Defaulting Rules - Payables
+Payment Administrator - Defaulting Rules - Payables - Legal Entity
+Payment Administrator - Defaulting Rules - Payables - Organization
+Payment Administrator - Defaulting Rules - Payables - Others
+Payment Administrator - Defaulting Rules - Payables - Payment Processing
+Payment Administrator - Defaulting Rules - Receivables
+Payment Administrator - Defaulting Rules - Receivables - Legal Entity
+Payment Administrator - Defaulting Rules - Receivables - Organization
+Payment Administrator - Defaulting Rules - Receivables - Others
+Payment Administrator - Defaulting Rules - Receivables - Payment Processing
+Payment Administrator - Defaulting Rules - Student System
+Payment Administrator - Defaulting Rules - Student System - Legal Entity
+Payment Administrator - Defaulting Rules - Student System - Organization
+Payment Administrator - Defaulting Rules - Student System - Others
+Payment Administrator - Defaulting Rules - Student System - Payment Processing
+Payment Administrator - Formats
+Payment Administrator - Payment Method - General
+Payment Administrator - Payment Method - Pre Validations
+Payment Administrator - Payment Method - Update - Usage Rules
+Payment Administrator - Payment Method - Usage Rules
+Payment Administrator - Payment Method - User Validations
+Payment Process Profiles - Additional Information
+Payment Process Profiles - Payment Creation
+Payment Process Profiles - Payment Instruction Creation Rules
+Payment Process Profiles - Payment Instruction Format
+Payment Process Profiles - Payment Process Profiles
+Payment Process Profiles - Payment System
+Payment Process Profiles - Reporting
+Payment Process Profiles - Usage Rules
+Payment Process Profiles - Usage Rules - Currencies
+Payment Process Profiles - Usage Rules - First Party Organizations
+Payment Process Profiles - Usage Rules - Internal Bank Accounts
+Payment Process Profiles - Usage Rules - Payment Method
+Payment Terms - AP_TERMS
+Payment Terms - AP_TERMS - DFF
+Payment Terms - Discounts
+Payment Terms - Discounts - DFF
+Payment Terms - Due
+Payment Terms - Due - DFF
+Payment Terms - First Discount
+Payroll Security - PSP1
+Payroll Security - PSP2-Payroll
+Pick Slip Grouping Rules
+Pick Slip Grouping Rules - DFF
+Planners
+Planners - PLANNERS - DFF
+Position - Additional Detail
+Position - Budgets
+Position - Hiring Information
+Position - POSITIONS
+Position - POSITIONS - DFF
+Position - PST1
+Position - Work Terms
+Position Hierarchy
+Position Hierarchy - DFF
+Position Hierarchy - Position
+Position Hierarchy - Subordinates
+Position Hierarchy - Version
+Position Security - PSP1
+Primary to Secondary Ledger Mapping - Journal Source and Category Conversion
+Project Information - DIST_SET_LINES
+Purchasing - Options - Additional Information - DFF
+Purchasing - Options - Define
+Receipt Classes - AR_RECEIPT_CLASSES
+Receipt Classes - AR_RECEIPT_CLASSES - DFF
+Receipt Classes - AR_RECEIPT_CLASSES - DFF1
+Receipt Classes - Bill Receivable Remittance
+Receipt Methods - AR_RECEIPT_METHODS
+Receipt Methods - AR_RECEIPT_METHODS - DFF
+Receipt Sources - AR_BATCH_SOURCES
+Receipt Sources - AR_BATCH_SOURCES - DFF
+Receipts From
+Receivable Activities - AR_ARXSUMRT
+Receivable Activities - AR_ARXSUMRT - DFF
+Receiving - Options - Define
+Release Rules - RELEASE
+Release Rules - RELEASE - DFF
+Release Sequence Rules
+Release Sequence Rules - DFF
+Remit -To Addresses - Brazilian Style
+Remit -To Addresses - Brazilian Style - Globalization - DFF
+Remit -To Addresses - Default Address Style
+Remit -To Addresses - Default Address Style - DFF
+Remit -To Addresses - Japanese Style
+Remit -To Addresses - Northern Europe Style
+Remit -To Addresses - South America Style
+Remit -To Addresses - Southern Europe Style
+Remit -To Addresses - UK-Africa-Australasia Style
+Remit -To Addresses - United States Style
+Remittance Bank Accounts - AR_RECEIPT_METHOD_ACCOUNTS
+Remittance Bank Accounts - AR_RECEIPT_METHOD_ACCOUNTS - DFF
+Remittance Bank Accounts - Bills Receivable
+Reporting Currencies - Journal Source and Category Conversion
+Reporting Entities - ENTITY_LINE
+Reporting Entities - REP_ENTITY
+Resource Information - SUB_ELEMENTS - DFF
+Responsibilities - EXCLUDED_ITEMS
+Responsibilities - RESPONSIBILITY
+Responsibilities - RESP_FUNCTIONS
+Responsibilities - SECURITY_ATTRIBUTES
+Security Profile - PSP1
+Sequence Assignments - ASSIGNMENTS
+Sequence Assignments - ASSIGNMENTS - DFF
+Shift Times - B_SHIFT_TIMES
+Shift Times - B_SHIFT_TIMES - DFF
+Shift Workday Patterns - B_SHIFT_WRKDAY
+Shifts - B_CAL_SHIFTS
+Shifts - B_CAL_SHIFTS - DFF
+Ship Confirm Rules - SHIP_CONFIRM
+Shipping Document Sets
+Shipping Document Sets - DFF
+Shipping Document Sets - Documents
+Shipping Document Sets - Documents - DFF
+Shipping Network - INTER_PARA
+Shipping Network - INTER_PARA - DFF
+Shipping Parameters - WSH_SHIPPING_PARAMETERS
+Standard Memo Lines - AR_MEMO_LINES
+Standard Memo Lines - AR_MEMO_LINES - DFF
+Static Lists - SEU
+Stock Locators - LOC
+Stock Locators - LOC - DFF
+Subinventories
+Subinventories - DFF
+Subledger Applications - Accounting Event Class Options
+Subledger Applications - Accounting Options
+Subledger Applications - Application
+Summary Accounts - TEMPLATES
+Summary Accounts - TEMPLATES - DFF
+Summary Accounts - Template Value - DFF
+Supervisor Security - PSP1
+Suspense Accounts - SUSPENSE_ACCTS
+Suspense Accounts - SUSPENSE_ACCTS - DFF
+System Controls - SYS_CTLS
+System Options - Accounting
+System Options - Claims
+System Options - Miscellaneous
+System Options - Miscellaneous - DFF
+System Options - Miscellaneous - Globalization - DFF
+System Options - Trans and Customers
+System Parameters - SYSPARAM
+System Profile Values - PROFILE_VALUES
+Transaction Sources - RA_BATCH_SOURCES
+Transaction Sources - RA_BATCH_SOURCES - DFF
+Transaction Types - ORDER_TYPES
+Transaction Types - ORDER_TYPES - DFF
+Transaction Types - RA_CUST_TRX_TYPES
+Transaction Types - RA_CUST_TRX_TYPES - Globalization - DFF
+Transaction Types - RA_CUST_TRX_TYPES-DFF
+Transaction Types - TAB Account
+Transaction Types - TAB Bills Receivable
+Transaction Types - TAB Deposit
+Transit Times - LOCATIONS
+Transit Times - SHIP_METHOD
+Transit Times - SHIP_METHOD - DFF
+User Management - Roles and Role Inheritance
+User Operating Unit Preferences - Multi-Org Preferences
+Withholding Tax Details - AP_AWT_TAX_RATES
+Withholding Tax Details - AP_TAX_CODES
+Withholding Tax Details - AP_TAX_CODES - DFF
+Workday Calendars - B_CALENDARS
+Workday Calendars - B_CALENDARS - DFF
+Workday Patterns - B_WRKDAY_PAT

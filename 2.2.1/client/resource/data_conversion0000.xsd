@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://data_conversion0000.client.rapidesuite.com"
+	xmlns:e="http://data_conversion0000.client.rapidesuite.com"
+	elementFormDefault="qualified">
+	
+	<xs:complexType name="inventoryType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+	
+	<xs:complexType name="removeTargetDuplicatesType">
+		<xs:sequence>
+			<xs:element name="inventory" type="e:inventoryType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="mapType">
+		<xs:attribute name="source-name" type="xs:string" use="required"/>
+		<xs:attribute name="source-type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="COLUMN"/>
+					<xs:enumeration value="VARIABLE"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="target-name" type="xs:string" use="required"/>
+    </xs:complexType>
+	
+	<xs:complexType name="mappingsType">
+		<xs:sequence>
+			<xs:element name="map" type="e:mapType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+		
+	<xs:complexType name="targetType">
+		<xs:sequence>
+			<xs:element name="ignoreMandatoryValidationColumns" type="e:ignoreMandatoryValidationColumnsType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="mappings" type="e:mappingsType" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+		<xs:attribute name="name" use="required" type="xs:string"/>
+		<xs:attribute name="isPostImplementation" type="xs:boolean"/>
+		<xs:attribute name="isPostConfiguration" type="xs:boolean"/>
+		<xs:attribute name="isObsolete" type="xs:boolean"/>
+    </xs:complexType>
+	
+	<xs:complexType name="valueMapType">
+		<xs:attribute name="source" type="xs:string" use="required"/>
+		<xs:attribute name="target" type="xs:string" use="required"/>
+    </xs:complexType>
+	
+	<xs:complexType name="valuesMapType">
+		<xs:sequence>
+			<xs:element name="valueMap" type="e:valueMapType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+		
+	<xs:complexType name="operationType">
+		<xs:sequence>
+			<xs:element name="valuesMap" type="e:valuesMapType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="IfThenElse" type="e:IfThenElseType" minOccurs="0" maxOccurs="1" />
+        </xs:sequence>
+		<xs:attribute name="type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="REPLACE"/>
+					<xs:enumeration value="DECODE"/>
+					<xs:enumeration value="SUBSTRING"/>
+					<xs:enumeration value="MATH_ADDITION"/>
+					<xs:enumeration value="SPLIT"/>
+					<xs:enumeration value="CONDITION"/>
+					<xs:enumeration value="CONCATENATE"/>
+					<xs:enumeration value="FIRST_INDEX_OF"/>
+					<xs:enumeration value="LAST_INDEX_OF"/>
+					<xs:enumeration value="LENGTH"/>
+					<xs:enumeration value="DFF_FIELD_NAME"/>
+					<xs:enumeration value="UPPER"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="in-column" type="xs:string" />
+		<xs:attribute name="in-variable" type="xs:string" />
+		<xs:attribute name="out-variable" type="xs:string" />
+		<xs:attribute name="text-to-search" type="xs:string" />
+		<xs:attribute name="replacement-text" type="xs:string" />
+		<xs:attribute name="startPosition" type="xs:positiveInteger" />
+		<xs:attribute name="endPosition" type="xs:positiveInteger" />
+		<xs:attribute name="startPositionVariable" type="xs:string" />
+		<xs:attribute name="endPositionVariable" type="xs:string" />
+		<xs:attribute name="number" type="xs:integer" />
+		<xs:attribute name="separator" type="xs:string" />
+		<xs:attribute name="out-variables" type="xs:string" />
+		<xs:attribute name="concatenate-text" type="xs:string" />
+		<xs:attribute name="concatenate-column" type="xs:string" />
+		<xs:attribute name="concatenate-variable" type="xs:string" />
+		<xs:attribute name="concatenate-direction" >
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="BEFORE"/>
+					<xs:enumeration value="AFTER"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="shared-map-name" type="xs:string" />
+		<xs:attribute name="start-value" type="xs:integer" />
+		<xs:attribute name="pre-increment" type="xs:integer" />
+		<xs:attribute name="dffFieldIndex" type="xs:positiveInteger" />
+    </xs:complexType>
+	
+	<xs:complexType name="operationsType">
+		<xs:sequence>
+			<xs:element name="operation" type="e:operationType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="ignoreMandatoryValidationColumnType">
+		<xs:attribute name="name" type="xs:string" use="required" />
+    </xs:complexType>
+	
+	<xs:complexType name="ignoreMandatoryValidationColumnsType">
+		<xs:sequence>
+			<xs:element name="ignoreMandatoryValidationColumn" type="e:ignoreMandatoryValidationColumnType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+			
+	<xs:complexType name="valueType" > 
+		<xs:attribute name="name" type="xs:string" />
+		<xs:attribute name="type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="COLUMN"/>
+					<xs:enumeration value="VARIABLE"/>
+					<xs:enumeration value="TEXT"/>
+					<xs:enumeration value="DATE"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="text" type="xs:string" />
+		<xs:attribute name="code" type="xs:string" />
+		<xs:attribute name="output-name" type="xs:string" />
+		<xs:attribute name="isCurrentDate" type="xs:boolean" />
+		<xs:attribute name="isDefaultValue" type="xs:boolean" />
+    </xs:complexType>
+	
+	<xs:complexType name="leftOperandType" >
+		<xs:choice minOccurs="1" maxOccurs="1">
+            <xs:element name="value" type="e:valueType"  />
+		</xs:choice>
+	</xs:complexType>
+	
+	<xs:complexType name="rightOperandType" >
+		<xs:choice minOccurs="1" maxOccurs="1">
+            <xs:element name="value" type="e:valueType"  />
+		</xs:choice>
+	</xs:complexType>
+	
+	<xs:complexType name="comparisonType">
+		<xs:sequence>
+            <xs:element name="leftOperand" type="e:leftOperandType" minOccurs="1" maxOccurs="1" />
+			<xs:element name="rightOperand" type="e:rightOperandType" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+		<xs:attribute name="operator" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="EQUAL"/>
+					<xs:enumeration value="NOT_EQUAL"/>
+					<xs:enumeration value="LESS_THAN"/>
+					<xs:enumeration value="GREATER_THAN"/>
+					<xs:enumeration value="LESS_THAN_OR_EQUAL"/>
+					<xs:enumeration value="GREATER_THAN_OR_EQUAL"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="comparisonsType">
+		<xs:sequence>
+            <xs:element name="comparison" type="e:comparisonType" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="separator" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="AND"/>
+					<xs:enumeration value="OR"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="ifType">
+		<xs:sequence>
+            <xs:choice minOccurs="1" maxOccurs="1">
+				<xs:element name="comparisons" type="e:comparisonsType" />
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="thenType">
+		<xs:choice>
+			<xs:element name="IfThenElse" type="e:IfThenElseType" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="target" type="e:targetType" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="value" type="e:valueType" minOccurs="0" maxOccurs="1" />
+			<xs:element name="operation" type="e:operationType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+	</xs:complexType>
+	
+	<xs:complexType name="elseType">
+		<xs:choice>
+			<xs:element name="IfThenElse" type="e:IfThenElseType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="target" type="e:targetType" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="value" type="e:valueType" minOccurs="0" maxOccurs="1" />
+			<xs:element name="operation" type="e:operationType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+	</xs:complexType>
+	
+	<xs:complexType name="IfThenElseType">
+		<xs:sequence>
+            <xs:element name="if" type="e:ifType" minOccurs="1" maxOccurs="1" />
+			<xs:element name="then" type="e:thenType" minOccurs="1" maxOccurs="1" />
+			<xs:element name="else" type="e:elseType" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="hasDataLoopType" > 
+		<xs:attribute name="source" type="xs:string" />
+    </xs:complexType>
+	
+	<xs:complexType name="ifLoopType">
+		<xs:sequence>
+            <xs:choice>
+				<xs:element name="hasDataLoop" type="e:hasDataLoopType" minOccurs="1" maxOccurs="1" />
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="thenLoopType">
+		<xs:choice>
+			<xs:element name="IfThenElseLoop" type="e:IfThenElseLoopType" minOccurs="0" maxOccurs="unbounded" />
+			<xs:element name="loopRecords" type="e:loopRecordsType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+	</xs:complexType>
+	
+	<xs:complexType name="elseLoopType">
+		<xs:choice>
+			<xs:element name="IfThenElseLoop" type="e:IfThenElseLoopType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="loopRecords" type="e:loopRecordsType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:choice>
+	</xs:complexType>
+	
+	<xs:complexType name="IfThenElseLoopType">
+		<xs:sequence>
+            <xs:element name="ifLoop" type="e:ifLoopType" minOccurs="1" maxOccurs="1" />
+			<xs:element name="thenLoop" type="e:thenLoopType" minOccurs="1" maxOccurs="1" />
+			<xs:element name="elseLoop" type="e:elseLoopType" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+		
+	<xs:complexType name="loopRecordsType">
+		<xs:sequence>
+			<xs:element name="operations" type="e:operationsType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="IfThenElse" type="e:IfThenElseType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="target" type="e:targetType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+		<xs:attribute name="source-code" use="required" type="xs:string"/>
+		<xs:attribute name="startRecord" type="xs:positiveInteger" />
+		<xs:attribute name="endRecord" type="xs:positiveInteger" />
+    </xs:complexType>
+	
+	<xs:complexType name="columnType">
+		<xs:attribute name="direction" >
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="LEFT"/>
+					<xs:enumeration value="RIGHT"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="COLUMN"/>
+					<xs:enumeration value="VARIABLE"/>
+					<xs:enumeration value="TEXT"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="text" type="xs:string" />
+		<xs:attribute name="name" type="xs:string" />
+		<xs:attribute name="output-name" type="xs:string" />
+    </xs:complexType>
+	
+	<xs:complexType name="columnsType">
+		<xs:sequence>
+			<xs:element name="column" type="e:columnType" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="fromLeftSourceType">
+		<xs:attribute name="code" type="xs:string" />
+		<xs:attribute name="startRecord" type="xs:positiveInteger" />
+		<xs:attribute name="endRecord" type="xs:positiveInteger" />
+    </xs:complexType>
+	
+	<xs:complexType name="fromRightSourceType">
+		<xs:attribute name="code" type="xs:string" />
+		<xs:attribute name="startRecord" type="xs:positiveInteger" />
+		<xs:attribute name="endRecord" type="xs:positiveInteger" />
+    </xs:complexType>
+	
+	<xs:complexType name="fromType">
+		<xs:sequence>
+			<xs:element name="fromLeftSource" type="e:fromLeftSourceType" minOccurs="1" maxOccurs="1" />
+			<xs:element name="fromRightSource" type="e:fromRightSourceType" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+		<xs:attribute name="type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="CARTESIAN"/>
+					<xs:enumeration value="LEFT_JOIN"/>
+					<xs:enumeration value="LEFT_JOIN_STRICT"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+    </xs:complexType>
+	
+	<xs:complexType name="conditionType">
+		<xs:sequence>
+            <xs:element name="leftOperand" type="e:leftOperandType" minOccurs="1" maxOccurs="1" />
+			<xs:element name="rightOperand" type="e:rightOperandType" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+		<xs:attribute name="operator" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="EQUAL"/>
+					<xs:enumeration value="NOT_EQUAL"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+    </xs:complexType>
+	
+	<xs:complexType name="conditionsType">
+		<xs:sequence>
+			<xs:element name="condition" type="e:conditionType" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="viewType">
+		<xs:sequence>
+			<xs:element name="columns" type="e:columnsType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="from" type="e:fromType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="conditions" type="e:conditionsType" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="fieldValueType">
+		<xs:attribute name="value" type="xs:string" use="required" />
+    </xs:complexType>
+	
+	<xs:complexType name="fieldValuesType">
+		<xs:sequence>
+			<xs:element name="fieldValue" type="e:fieldValueType" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="rowType">
+		<xs:sequence>
+			<xs:element name="fieldValues" type="e:fieldValuesType" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="rowsType">
+		<xs:sequence>
+			<xs:element name="row" type="e:rowType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="fieldDefinitionType">
+		<xs:attribute name="name" type="xs:string" use="required" />
+    </xs:complexType>
+	
+	<xs:complexType name="fieldsDefinitionType">
+		<xs:sequence>
+			<xs:element name="fieldDefinition" type="e:fieldDefinitionType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="sourceType">
+		<xs:sequence>
+			<xs:element name="view" type="e:viewType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="fieldsDefinition" type="e:fieldsDefinitionType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="rows" type="e:rowsType" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+		<xs:attribute name="code" use="required" type="xs:string"/>
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="INVENTORY"/>
+					<xs:enumeration value="VIEW"/>
+					<xs:enumeration value="ROWS"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="dataConversionType">
+		<xs:sequence>
+			<xs:element name="removeTargetDuplicates" type="e:removeTargetDuplicatesType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="source" type="e:sourceType" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="loopRecords" type="e:loopRecordsType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="IfThenElseLoop" type="e:IfThenElseLoopType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="dataConversion" type="e:dataConversionType"/>
+	
+</xs:schema>

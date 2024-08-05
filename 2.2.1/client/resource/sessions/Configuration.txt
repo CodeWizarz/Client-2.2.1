@@ -1,0 +1,3598 @@
+Messages - FND_NEW_MESSAGES
+Asset Groups - EAM_EAMITMDF_ASSET
+Attributes Assignment - ASSET_GROUP
+Depreciation Rates - LIFE_RATES
+Application Utilities Lookups - FND_LOOKUP_VALUES - Translation
+Columns - COLUMN
+Account Assignments - ASSIGNMENTS
+Application Utilities Lookups - AP_FND_LOOKUP_VALUES
+Application Utilities Lookups - FND_LOOKUP_VALUES
+Application Utilities Lookups - HR_FND_LOOKUP_VALUES
+Find Stock Locators - LOCATOR_FIND
+Stock Locators - LOC
+Define Attributes - ATTRIBUTES
+Value Sets - USAGE_SRS
+Concurrent Program - Parameters
+Concurrent Program Parameters - ARGUMENTS
+Concurrent Program Parameters - ARGUMENTS - Translation
+Menus Entry - FND_MENU_ENTRIES
+Menus Entry - FND_MENU_ENTRIES - Translation
+Purchasing Lookups - FND_LOOKUP_VALUES
+Purchasing Lookups - PO_FND_LOOKUP_VALUES
+Purchasing Lookups - PO_FND_LOOKUP_VALUES - Translation
+Pull Sequences - PULLSEQ_BLK
+Create Contract - CREATE_CONTACT_CUST_BLK
+Form Function - FND_FORM_FUNCTIONS
+Segment Values - VALUE
+System Profile Values - PROFILE_VALUES
+Application Object Library Lookups - FND_LOOKUP_VALUES
+Receivables Lookups - QuickCodes - Value - Translation
+GL Accounts - GLXACCMB - DFF
+Find Requests - JOBS_QF
+Sourcing Rule - Bill of Distribution Assignments - ASSIGNMENTS
+Request Groups - Requests
+DFF - Segments - SEG
+DFF - Segments Summary - SEG
+DFF - Segments - SEG - Translation
+Cotermination - COTERM
+Cotermination - PARTY
+Journal Line Accounting Attribute Assignments - XLA_AB_ACCT_LINE_SOURCES
+Audit Tables - FND_AUDIT_TABLES
+Conditions - Create New Condition
+Classifications - Class Codes
+Receivables Lookups - QuickCodes - Values
+Value Sets - SET
+Spreadtable Meta Data Administration - Alignments and Formatting
+Spreadtable Meta Data Administration - Custom Format Masks and Mappings
+Spreadtable Meta Data Administration - Database
+Spreadtable Meta Data Administration - Display
+Spreadtable Meta Data Administration - Query
+Menus - FND_MENUS - Translation
+Segment Values - VALUE - Qualifiers - DFF
+Concurrent Program - CONC_PROG - Translation
+Segment Values - VALUE - Translation
+Value Sets - USAGE_DFF
+Validation Table Information - TABLE
+Descriptive Flexfields - CODE
+Users - USER_RESP
+Menus - FND_MENUS
+Concurrent Program - Executable
+Concurrent Program - Onsite Setting
+Concurrent Program - Request
+Concurrent Program - Search
+Concurrent Program - CONC_PROG
+Concurrent Program Executable - FND_EXECUTABLES - Translation
+Item Transaction Defaults - ITEM_LOC_DEFAULTS
+Application Developer - Profile-Translation
+Users - ATTR
+Shorthand Aliase - ALIASES
+Shorthand Aliase - STRUCT
+Cycle Count Items - CC_ITEMS
+Interface File Definition - ECE_INTERFACE_COLUMNS
+Update ABC Item Assignments - UPDATE_ASSIGNMENTS
+Descriptive Flexfield Segments - CONTEXT - Translation
+Subinventory Transfer - MTL_TRX_LINE
+Profiles - PROFILE_OPTIONS
+Collection Elements - Q_CHARS
+Concurrent Program Executable - FND_EXECUTABLES
+Enterprise Asset Management Lookups - EAM_FND_LOOKUP_VALUES
+Child Ranges - RANGE
+Concurrent Program - Incompatibilities
+Incompetible Programs - CONC_SERIAL
+Federal Financials Lookups - FND_LOOKUP_TYPES - Values
+Descriptive Flexfield Segments - CONTEXT
+Sources - XLA_AB_SOURCES
+Attributes - Attributes
+Values - QC_VALUES
+Move Child Ranges - SOURCE
+Grants - Define Grant
+Grants - Define Object Parameters and Select Set
+Organization - Classification
+Application Utilities Lookups - AP_FND_LOOKUP_TYPES - Translation
+Application Utilities Lookups - FND_LOOKUP_TYPES - Translation
+Journal Lines Definitions - XLA_AB_ADR_ASSGNS
+Journal Line Type Conditions - XLA_AB_CONDITIONS
+Application Object Library Lookups - FND_LOOKUP_TYPES
+Users - USER
+Projects Lookups - FND_LOOKUP_VALUES
+Assignments - ASSIGNMENTS_DIST
+Asset Details - ASSET
+Assignments - ASSIGNMENTS_HEADER
+Books - FA_BOOKS
+Books - FA_BOOKS_HEADER
+Application Utilities Lookups - AP_FND_LOOKUP_TYPES
+Application Utilities Lookups - FND_LOOKUP_TYPES
+Units of Measure Conversions - INTRA_CLASS_CONVERSIONS
+XML Publisher - Templates - Available - Translations
+Forms - FND_FORM
+Application Utilities Lookups - HR_FND_LOOKUP_TYPES
+Grants - Select Object Data Context
+Security - Objects - Define Grant
+Security - Objects - Define Object Parameters and Select Set
+Security - Objects - Select Object Data Context
+Journal Lines Definitions - XLA_AB_JLT_ASSGNS
+Payables Lookups - FND_LOOKUP_VALUES
+Payables Lookups - FND_LOOKUP_VALUES - Translation
+Purchasing Lookups - AP_FND_LOOKUP_VALUES - Translation
+XML Publisher Format Templates - General
+XML Publisher - Templates - Template
+XML Publisher Format Templates - Copy Templates
+Account Aliases - ACCOUNT_ALIAS
+Audit Tables - FND_AUDIT_COLUMNS
+Attribute Set - Displayed Columns
+Column Details - REPCOLUMNS
+Change Location Name - LOC
+Legal Entity - Setup Addresses - Australia
+Legal Entity - Setup Addresses - Belgium
+Legal Entity - Setup Addresses - Canada
+Legal Entity - Setup Addresses - Germany
+Legal Entity - Setup Addresses - Hong Kong
+Legal Entity - Setup Addresses - Japan
+Legal Entity - Setup Addresses - Singapore
+Legal Entity - Setup Addresses - Sweden
+Legal Entity - Setup Addresses - Taiwan
+Legal Entity - Setup Addresses - United States
+Location - Address - DFF
+Location - HR_Address Detail
+Location - HR_Address Detail - DFF
+Location - HR_LOC
+Location - LOC
+Extra Location Information - LIT - DFF
+Location - HR_LOC - DFF
+Location - LOC - DFF
+Descriptive Flexfield Segments - TABLE - Translation
+Descriptive Flexfields - CODE - Translation
+Administrator Dashboard - Mandatory Attributes
+Organization - HOU1
+Organization Hierarchy - OSE1
+Organization - HOU1 - DFF
+Accounting Attribute Assignments - XLA_AB_AAA
+Assign - Roles and Role Inheritance - Hierarchy
+User Maintenance - Users
+Security Roles - Role Mapping
+XML Publisher - Data Definitions - Data Definitions
+XML Publisher - Data Definitions - Data Definitions - Files
+Descriptive Flexfield Segments - FREEZE - Control - Translation
+Descriptive Flexfield Segments - TABLE
+Manufacturing Lookups - FND_LOOKUP_VALUES
+Collection Plans - QP_CHARS
+Asia-Pacific Localizations Lookups - FND_LOOKUP_VALUES
+Define Custom Labels - CUSTOM_SQL_FIELDS
+Configuration Variables - Forwarding Behaviors
+Configuration Variables - Rule Priority Modes
+Define Label Field Variables - LABEL_FIELD_VARS
+Manufacturing Lookups - INV_FND_LOOKUP_VALUES - Translation
+Manufacturing Lookups - INV_FND_LOOKUP_VALUES
+Inventory Accounting Periods - PERIODS
+Request Parameter - PARAMETERS
+Release Rules - RELEASE
+Values - QPC_VALUES
+Values - QP_CHARS
+Responsibilities - RESPONSIBILITY - Translation
+Organization - HOU1 - Translation
+ATP Rules - ATP_RULES
+Journal Line Types - XLA_AB_LINE_TYPES
+Segment Values - VALUE - DFF
+Responsibilities - RESPONSIBILITY
+Responsibilities - RESP_FUNCTIONS
+Enterprise Asset Management Lookups - EAM_FND_LOOKUP_TYPES
+Project - Journal Line Accounting Attribute Assignments - XLA_AB_ACCT_LINE_SOURCES
+Service Lookups - FND_LOOKUP_VALUES
+Formula - LINES
+Define Stages Translation
+Order Management Lookups - FND_LOOKUP_VALUES - Translation
+Security - Objects
+Stage Requests - PROGRAM
+Order Management Lookups - FND_LOOKUP_VALUES
+Assign Value-Output Variables - QPC_ACTION_OUTPUTS
+E-Business Tax - Tax Rule - Guided Rule Entry
+Rows - AXES
+Account Assignments - AXIS_CONTENTS
+Account Assignments - AXIS_CONTENTS - DFF
+Oracle Trade Management Administrator Lookups - FND_LOOKUP_TYPES_VALUES
+Summary Details - Sum Detail
+Define Attributes - ATTRIBUTES - DFF
+Link Stages - STAGE_LINKS
+Stages - STAGES
+Application Document categories - CATEGORY_ASSIGNMENTS
+Categories - CATEGORY_ASSIGNMENTS
+Subinventories
+Account Derivation Rule Conditions - XLA_AB_CONDITIONS
+Entity Declaration - FND_ATTACHMENT_BLK_ENTITIES
+E-Business Tax - Tax Rule - Guided Rule Entry - Account based
+Journal Entry Description Details - XLA_AB_DESC_DETAILS
+Subinventories - DFF
+E-Business Tax - ThirdParty
+Find Key Flexfield Segment - Detail
+Asset Calendars - CALENDAR_PERIODS
+Prorate Conventions - CONVENTIONS
+Formula - LINES - Account - DFF
+Value Sets - USAGE_KFF
+Standard Code Conversion - CODE_CONVERSION
+KFF - Segments - SEG
+KFF - Segments Summary - SEG
+Spreadtable Meta Data Administration - JTF_GRID_DATASOURCES
+Spreadtable Meta Data Administration - Test
+Reason Lookups - FND_LOOKUP_VALUES - DFF
+Project - Accounting Attribute Assignments - XLA_AB_AAA
+Web PLSQL - ENABLED_PLSQL
+Depreciation Methods - DEPRN_METHODS
+Receivables Lookups - QuickCodes
+KFF - Segments Summary - SEG - Translation
+Receivables DEMAND CLASS Lookups - FND_LOOKUP_TYPES - Translation
+Block Declaration - FND_ATTACHMENT_BLOCKS
+Header Assignments - XLA_AB_AAD_HDR_ACCT_ATTRS
+Application Accounting Definitions - XLA_AB_AAD_LINE_DEFN_ASSGNS
+Operation Documents - DOCUMENT_HEADER
+Manufacturing Lookups - BOM_FND_LOOKUP_VALUES - Translation
+Property Manager Lookups - FND_LOOKUP_VALUES
+Manufacturing Lookups - BOM_FND_LOOKUP_VALUES
+Enter Rates by Date Range - DATE_RANGES
+Request Groups
+Projects Lookups - FND_LOOKUP_TYPES
+Application Accounting Definitions - XLA_AB_PROD_CLASSES
+Shipping Execution Lookups - FND_LOOKUP_VALUES
+Shipping Execution Lookups - FND_LOOKUP_VALUES - Translation
+Account Derivation Rules - XLA_AB_SEG_RULE_DETAILS
+Advanced Setup Options - Tax Condition Sets - Tax Conditions
+Organization Hierarchy - OU1
+Cross-Validation Rules - RULE_LIST
+Cross-Validation Rules - RULE_LIST - DFF
+Action Sets Details - AS_OUTPUT
+Assign AutoAccounting Rules - TRANSACTION
+Receivables Lookups - QuickCodes - Values - DFF
+Manufacturing Lookups - WIP_FND_LOOKUP_VALUES
+Manufacturing Lookups - WIP_FND_LOOKUP_VALUES - Translation
+Abstract and Forms - Section - Sections and Fields
+Assign Categories - ECE_INTERFACE_COLUMNS
+Spreadtable Meta Data Administration - Sort Order
+Row Order - RG_FLEXFIELD_DISPLAYS
+Setup Workbench - Item - Attribute Groups - Attribute
+Standard Memo Lines - AR_MEMO_LINES
+Request Set Translation
+Public Sector Financials International Lookups - FND_LOOKUP_VALUES
+Locations - LOCATIONS
+Manufacturing Lookups - INV_FND_LOOKUP_TYPES - Translation
+Information Type Security - PER_INFO_TYPE_SECURITY
+Manufacturing Lookups - INV_FND_LOOKUP_TYPES
+Alert Details - ALR_OUTPUT
+Journal Lines Definitions - XLA_AB_LINE_DEFINITIONS
+Purchasing Lookups - FND_LOOKUP_TYPES
+Purchasing Lookups - PO_FND_LOOKUP_TYPES
+Purchasing Lookups - PO_FND_LOOKUP_TYPES - Translation
+Install Base Lookups - FND_LOOKUP_VALUES
+Sourcing Rules - MRP_SOURCING_RULES
+Sourcing Rules - RECEIVING
+Sourcing Rules - SHIPPING
+Assign Column Rules - ECE_COLUMN_RULES
+SQL Script-Output Variables - QPC_ACTION_OUTPUTS
+Manufacturing Lookups - WMS_FND_LOOKUP_VALUES
+Processing Constraints - CONSTRAINT_CONDITIONS
+Attachment Functions - ATCHMT_FUNCTIONS
+Security - Objects - Object Instance Set
+Account Derivation Rules - XLA_AB_SEG_RULES
+Column Set - AXES
+Sales Foundation Lookups - FND_LOOKUP_VALUES
+Project - Sources - XLA_AB_SOURCES
+Action Sets Details - AS_MEMBER
+Document Entities - DOCUMENT_ENTITIES
+Reason Lookups - FND_LOOKUP_VALUES
+Payables Lookups - FND_LOOKUP_TYPES
+Payables Lookups - FND_LOOKUP_TYPES - Translation
+Advanced Pricing Lookups - FND_LOOKUP_VALUES
+Purchasing Lookups - AP_FND_LOOKUP_TYPES - Translation
+Request Set - SET
+Launch a Workflow-Output Variables - QPC_ACTION_OUTPUTS
+Link Stages - CONTROL
+Order Capture Lookups - FND_LOOKUP_VALUES
+Roles and Role Inheritance - Object Parameters and Select Set - Instance Details
+Purchasing Lookups - FND_LOOKUP_VALUES - DFF
+Purchasing Lookups - PO_FND_LOOKUP_VALUES - DFF
+Transmission Formats - AR_TRANS_FIELD_FORMATS
+Sent Email-Output Variables - QPC_ACTION_OUTPUTS
+Application Utilities Lookups - AP_FND_LOOKUP_VALUES - DFF
+Contract Terms Library - Variables
+E-Business Tax - Tax Rule - Guided Rule Entry - Locations
+Document Categories - CATEGORIES
+Administrator Dashboard - Item Classes
+Administrator Dashboard - Item Classes - Details
+Rollup Groups - KEY
+Header Assignments - XLA_AB_PROD_HDR_DESC
+Advanced Pricing - Attribute Mapping - REQU
+Abstract and Forms - Field
+E-Business Tax - Tax Rule - Expert Rule - Condition Set
+Abstract and Forms - Form - Sections and Fields
+Change Management - Categories - Configuration - Primary Attributes
+Actions - ACTION
+Order Management Lookups - FND_LOOKUP_TYPES - Translation
+e-Commerce Gateway Lookups - FND_LOOKUP_VALUES
+Order Management Lookups - FND_LOOKUP_TYPES
+Service Lookups - FND_LOOKUP_TYPE
+Shipping Execution Grants
+Concurrent Program - Annotation
+Data Groups - DATA_GROUP_UNITS
+Formula - FORMULA
+Advanced Pricing - Pricing Transaction Entity - Attribute Linking - PTE_SEG
+Payments Setup - Payment Reason Codes
+Application Document categories - DOCUMENT_CATEGORIES
+Advanced Pricing - Attribute Mapping - SRC2
+Mapping Objects - Note Type Mapping
+Journal Entry Descriptions - XLA_AB_DESC_PRIORITIES
+Accounting Calendar - PERIODS
+KFF - Flexfield Qualifiers - QUALIFIERS
+Applications - APPLICATION
+Configuration Variables - General Configuration Variables
+Configuration Variables - Transaction Type
+Administrator Dashboard - Transaction Type Details
+Manufacturing Lookups - FND_LOOKUP_TYPES
+Project - Journal Line Type Conditions - XLA_AB_CONDITIONS
+Status and Operations - ASSENT
+Journal Entry Descriptions - XLA_AB_DESCRIPTIONS
+Action - OKC_ACTION_ATTRIBUTES_V
+Statuses - PROJECT_STATUS_CONTROLS
+Action Sets - ACTION_SET
+Define Transactions - ECX_EXT_PROCESSES
+Quality Actions - QPC_ACTIONS
+Roles and Role Inheritance - Grant
+Countries and Territories - Countries
+Currencies - FND_CURRENCIES - GDF
+Currencies - FND_CURRENCIES - Translation
+Item Transaction Defaults - ITEM_SUB_DEFAULTS
+Oracle Trade Management Administrator Lookups - FND_LOOKUP_TYPES
+Role Sources - CONTACT_SOURCES
+Sequence Assignments - ASSIGNMENTS
+Customer Profile Setup - CSC_FND_ALL_COLUMNS
+Item Attribute Controls - ITEM_ATTRIBUTES_CONTROL
+Delete Constraints - B_DEL_SQL_STMT
+Journal Categories - CATEGORY
+Application Object Library Lookups - FND_LOOKUP_VALUES - DFF
+Table Event Groups - DATETRACKED_EVENTS
+Action Sets Details - AS_INPUT
+Define Transactions - ECX_DEFINE_TRANSACTIONS
+Conditions - String Values
+Expenditure Types - EXPENDITURE_TYPES
+Expenditure Types - EXPENDITURE_TYPES - DFF
+Expenditure Types - PA_EXPEND_TYP_SYS_LINKS_V
+Summary Details - Count Detail
+Processing Constraints - CONSTRAINTS
+Subledger Applications - Accounting Event Class Options
+Manufacturing Lookups - BOM_FND_LOOKUP_TYPES - Translation
+Depreciation Rates - FLAT_RATES
+Journal Lines Definitions - XLA_AB_AC_ASSGNS
+Manufacturing Lookups - BOM_FND_LOOKUP_TYPES
+Payables Lookups - FND_LOOKUP_VALUES - DFF
+Journal Categories - CATEGORY-Translation
+Setup Workbench - Item - Attribute Groups - Business Entities
+Item Categories - Item Category
+Payment Process Profiles - Usage Rules - Payment Method
+Project - Journal Lines Definitions - XLA_AB_ADR_ASSGNS
+Category Codes - CATEGORY
+Category Codes - Find
+Financials Common Modules Lookups - FND_LOOKUP_VALUES
+Standard Code Conversion - CODE_CATEGORY
+Key Flexfields Segments - FREEZE - Control - Translation
+Key Flexfields Segments - STRUCT
+Key Flexfields Segments - STRUCT - Translation
+Transactions Setup - Create Metric - Rating
+Calculations - CALCULATIONS_COLUMN
+Category Sets - VALID_CATEGORIES
+Category Codes - DFF
+Category Mapping - Purchasing Category
+Category Mapping - Shopping Category
+Context Setup - Advanced Pricing - SEG
+Create New Rule - Add Actions
+Printer Type - PRTINFO
+Attribute Defaulting Rules - DEFRULE
+Attribute Defaulting Rules - DEFRULE - DFF
+Table Event Updates - EVENT_UPDATE
+QuickCodes - FA_LOOKUPS
+Public Sector Financials International Lookups - FND_LOOKUP_TYPES
+Cross-Validation Rules - RULE_NAME
+People and Roles - Privileges
+QuickCodes - FA_LOOKUPS - Translation
+AuditTrail Install - FND_ORACLE_USERID
+Category - SUBCLASS_RG_DEFS
+Payment Administrator - Payment Method - Usage Rules - Others
+Project - Journal Lines Definitions - XLA_AB_JLT_ASSGNS
+Federal Financials Lookups - FND_LOOKUP_TYPES
+Quality Actions - QPC_ACTION_TRIGGERS
+Control Purchasing Periods - Control Purchasing Periods
+Open Accounting Periods - GL_PERIOD_STATUSES
+Printer Drivers - FND_PRINTER_DRIVERS
+Project - Journal Line Types - XLA_AB_LINE_TYPES
+E-Business Tax - Rate - Legal Justification Message Reporting Codes
+E-Business Tax - Rate - Rate Details
+E-Business Tax - Rate - Rate Periods
+E-Business Tax - Rate - Tax Reporting Codes
+E-Business Tax - Rate - Tax Accounts
+Account Aliases - ACCOUNT_ALIAS - DFF
+E-Business Tax - Rate
+Tasks Options - TASKS_OPTIONS
+Property Manager Lookups - FND_LOOKUP_TYPES
+Advanced Setup Options - Tax Condition Sets
+Account Assignments - AXIS_CONTENTS_COLUMN
+Account Assignments - AXIS_CONTENTS_COLUMN - DFF
+Application Utilities DEMAND CLASS Lookups - FND_LOOKUP_VALUES - DFF
+Application Utilities Lookups - FND_LOOKUP_VALUES - DFF
+Accounting Attribute Assignments - CONTROL
+Attribute Set - Default Format
+Attribute Set - Page Setup
+Attribute Set - REPORTS_CONTROL
+Mapping Objects - Task Notes References
+Media Objects - Media Object
+Assign a Value - QPC_ACTIONS
+Customer Profile Setup - CSC_PROF_GROUP_CATEGORIES1
+Shipping Execution Lookups - FND_LOOKUP_TYPES - Translation
+Roles and Role Inheritance - Role
+Payment Administrator - Formats
+Shipping Execution Lookups - FND_LOOKUP_TYPES
+Manufacturing Lookups - WIP_FND_LOOKUP_TYPES
+Manufacturing Lookups - WIP_FND_LOOKUP_TYPES - Translation
+Process Definitions - PROCESS_DEFS
+Code Conversion Values - ECE_XREF_DATA
+Assign AutoAccounting Rules - PAIRING
+Create New Rule - Add Conditions
+Defaulting Setup - Entity Attributes - DEFOBJATTR
+Advanced Pricing - Attribute Mapping - SRC1
+Payment Process Profiles - Payment Creation
+Payment Process Profiles - Payment Instruction Creation Rules
+Payment Process Profiles - Payment Instruction Format
+Payment Process Profiles - Payment Process Profiles
+Payment Process Profiles - Payment System
+Payment Process Profiles - Payment System Accounts
+Payment Process Profiles - Reporting
+Payment Process Profiles - Usage Rules
+Payment Process Profiles - Usage Rules - Currencies
+Payment Process Profiles - Usage Rules - Internal Bank Accounts
+Projects Lookups - FND_LOOKUP_VALUES - DFF
+Customer Care Lookups - FND_LOOKUP_VALUES
+Abstract and Forms - Section
+Validation Templates - VALIDATION_TMPLTS
+Enable Matching Attributes - Select Attribute
+Asia-Pacific Localizations Lookups - FND_LOOKUP_TYPES
+Printers - PRINT
+Assign Categories - ECE_EXTERNAL_LEVELS
+Interface File Definition - ECE_EXTERNAL_LEVELS
+Post-Accounting Programs - XLA_ACCT_CLASS_ASSGNS
+Change Management - Categories - Configuration - Sections
+Concurrent Program Parameters - CONC_PROG
+Sales Foundation Lookups - FND_LOOKUP_TYPES
+Advanced Setup Options - Associate Tax Determining Factors
+Buyers - Define
+Calculations - CALCULATIONS
+Customer Profile Setup - CSC_PROF_CHECK_RATINGS
+User Maintenance - Role Mapping
+Security Roles - Create Roles
+Advanced Pricing - Pricing Formulas - QP_PRICE_FORMULAS_VL - Translation
+Advanced Pricing Lookups - FND_LOOKUP_TYPES
+E-Business Tax - Tax Rule - Guided Rule Entry - Registration Status
+Quality Assurance Checklist - QA_LIST_PROCESSES
+Setup Workbench - Functions - Create Function
+Format Programs - AP_PAYMENT_PROGRAMS
+Shipping Network - INTER_PARA
+Movement Statistics Validation Rules - RULES_PROPERTY
+Supporting References - Source Assignments
+Geography Hierarchy - Primary and Alternate Names
+Information Type Security - FND_RESPONSIBILITY
+Note Types Lookups - FND_LOOKUP_VALUES
+Project Templates - Setup Options
+Payments Setup - Delivery Channel Codes
+XML Gateway Lookups - FND_LOOKUP_VALUES
+Document Sequences - SEQUENCES
+Project Status Inquiry Column - SETUP
+Reason Lookups - FND_LOOKUP_TYPES
+Transaction Types - MTL_TRANSACTION_TYPES_SYS
+AutoAccounting-SEGMENTS
+Project - Application Accounting Definitions - XLA_AB_AAD_LINE_DEFN_ASSGNS
+Order Capture Lookups - FND_LOOKUP_TYPES
+Journal Source - SOURCE
+Media Objects - Source File Detail
+Media Objects - Source File Mapping
+Transaction Subtypes - CSI_SRC_TXN_SUB_TYPES
+Setup Workbench - Item - Attribute Groups
+Transaction Sources - RA_BATCH_SOURCES
+Users - USER_RESP_INDIR
+Create New Rule - Enter Rule Details
+Invoice Hold and Release Names - HOLD_CODES
+Attribute Defaulting Rules - DEFCONDN_RULE
+Change Management - Categories - Codes Reasons
+Classifications - Assign Entities
+Transaction Business Categories - Search
+Define Security Rules - VSET
+Journal Source - SOURCE - Translation
+Collection Plans - Q_PLANS
+Score Component - Aging Bucket Line for Customer
+Specification Types - QPC_SPEC_LIMITS
+CRM Roles - ROLES
+Transaction Types - RA_CUST_TRX_TYPES
+Payment Administrator - Payment Method - Usage Rules
+Payment Administrator - Payment Method - Usage Rules - Legal Entity
+Payment Administrator - Payment Method - Usage Rules - Organization
+Payment Administrator - Payment Method - Usage Rules - Transaction Type
+Assign Process Rules - ECE_PROCESS_RULES
+Cost Groups - CST_COST_GROUPS
+Define Financial Report - RG_REPORTS
+Policy Management - Additional Data Points
+Project - Header Assignments - XLA_AB_AAD_HDR_ACCT_ATTRS
+Supplier - Contact Directory
+Cost Groups - CST_COST_GROUP_ACCOUNTS
+Asset Fiscal Years - FISCAL_YEAR
+Print Styles - FND_PRINTER_STYLES
+Code Conversion Categories - ECE_XREF_CATEGORIES
+Setup Workbench - Item - Lifecycle Phases - Item Status Attributes
+Print Styles - FND_PRINTER_STYLES - Translation
+Process Definitions - PROCESS_DEF_PARMS
+Change Management - Categories - Workflow
+Statuses - PROJECT_STATUSES
+Create Strategy - Work items
+Column Set - AXIS_SETS
+Database Views - Q_PLANS
+Define Shipping Exceptions - EXCEPTION_DEFINITION
+Define Shipping Exceptions - EXCEPTION_DEFINITION - Translation
+Manufacturing Lookups - WMS_FND_LOOKUP_TYPES
+Pick Load Page Setup - TEMPLATE_FIELDS
+AuditTrail Group - FND_AUDIT_TABLES
+Item Templates - Attributes
+Dynamic Triggers - PAY_TRIGGER_DECLARATIONS
+Transaction Types - RA_CUST_TRX_TYPES - DFF
+Create Work Item - General Information
+Project - Application Accounting Definitions - XLA_AB_PROD_CLASSES
+Repair Order Status Transition - REPAIR_TYPE
+Update Work Item - Work Item Detail
+Alert Details - ALR_INPUT
+Approval Groups - PO_CONTROL_RULES
+Manufacturing Lookups - ENG_FND_LOOKUP_VALUES - Translation
+Application Utilities Lookups - HR_FND_LOOKUP_VALUES - DFF
+Manufacturing Lookups - ENG_FND_LOOKUP_VALUES
+Status Transition - JTF_STATE_TRANSITIONS
+Customer Profile Setup - CSC_PROF_CHECKS
+Customer Profile Setup - CSC_PROF_BLOCKS
+Validation Templates - VALIDATION_TMPLT_COLS
+Asset categories - CATEGORY
+Asset categories - CATEGORY_BOOK
+Asset categories - CATEGORY_BOOK_DEF
+E-Business Tax - Recovery Rates
+E-Business Tax - Recovery Rates - Tax Accounts
+e-Commerce Gateway Lookups - FND_LOOKUP_TYPES
+Parameters - PARAMETERS
+Category - SUBCLASS_ROLES
+Cross-Validation Rules - RULE_NAME - Translation
+User Defined Transaction Classifications - User Defined
+Content Zones - Add Categories
+Dynamic Triggers - PAY_TRIGGER_INITIALISATIONS
+Advanced Pricing - Pricing Transaction Entity - Attribute Linking - CONT
+Asset categories - CATEGORY - Translation
+Define OM System Parameters
+Install Base Lookups - FND_LOOKUP_TYPES
+Project - Subledger Accounting Methods - XLA_AB_ACCTG_METHOD_RULES
+Setup Workbench - Item - Attribute Groups - Maintain Unique Key
+Subledger Accounting Methods - XLA_AB_ACCTG_METHOD_RULES
+Approval Groups - PO_CONTROL_RULES - Flexfield Range - DFF
+Approval Groups - PO_CONTROL_RULES - Flexfield Range - DFF - rapidmigrate
+Customer Profile Setup - CSC_PROF_BLOCKS2
+Financials Common Modules Lookups - FND_LOOKUP_TYPES
+Income Tax Regions - REGIONS
+Work Shifts - QUEUE_SIZE
+Concurrent Manager - QUEUES - Translation
+Customer Profile Setup - ALLCHECKS
+Row Set - AXIS_SETS
+Role Sources - PARTY_SOURCES
+Change Management - Categories - Codes Priorities
+Concurrent Manager - QUEUES
+Geography Hierarchy
+Geography Hierarchy - Primary and Alternate Codes
+Geography Hierarchy - View Details
+Project - Journal Lines Definitions - XLA_AB_LINE_DEFINITIONS
+Transaction Sources - TRX_SOURCE
+Classifications - Class Category Details
+Customer Profile Setup - ALLCATEGORIES - Find
+User Types - Enrollments
+Autoinvice Grouping Rules - Group By
+Contact Role Lookups - FND_LOOKUP_VALUES
+E-Business Tax - Tax Rule - Expert Rule - Entry
+E-Business Tax - Tax Rule - Expert Rule - Rule Order
+Journal Entry Description Conditions - XLA_AB_CONDITIONS
+Jurisdiction - Legislative Category
+Project - Account Derivation Rules - XLA_AB_SEG_RULE_DETAILS
+Assign Security Rules - DESCR
+Base Descriptors - Base Descriptor
+Category - SUBCLASS_TOP_LINE
+Define Security Rules - DESCR
+Hazard Classes
+Actions Send Electronic Mail - ACTION
+AuditTrail Group - FND_AUDIT_GROUPS
+E-Business Tax - Reporting Type - Tax Reporting Codes
+Pick Load Page Setup - PAGE_LEVEL_PROPERTIES
+Transmission Formats - AR_TRANS_RECORD_FORMATS
+Transactions Setup - Create Metric
+Transactions Setup - Create Metric - Testing
+Units of Measure - UOM
+Row Order - RG_ROW_ORDERS
+Application Accounting Definitions - XLA_AB_PRODUCT_RULES
+Application Utilities - ITEM TYPE Lookups Values
+Customer Profile Setup - CSC_PROF_TABLE_COLUMNS
+QuickCodes - FA_LOOKUP_TYPES
+Responsibilities - SECURITY_ATTRIBUTES
+Additional Organization Information - HOI2 - 001 Click - DFF
+Additional Organization Information - NAV1
+Key Flexfields Segments - FLEX
+Document - Types - Create - Type
+Instance Statuses - CP_STATUS
+Units of Measure - UOM - DFF
+Assign AutoAccounting Rules - FUNCTION
+Project - Account Derivation Rules - XLA_AB_SEG_RULES
+Shipping Execution Role Definition - ROLE_DEFINITIONS - Deliveries
+Event Phases - QP_EVENT_PHASES
+Pick Load Page Setup - TEMPLATE_BUTTONS
+Contract Party Role Lookups - FND_LOOKUP_VALUES
+Dynamic Triggers - PAY_TRIGGER_EVENTS
+Payment Type - DPT1
+Role Sources - PARTY_ROLES
+Units of Measure Conversions - STANDARD_CONVERSIONS
+Change Management - Categories - Configuration
+Rollup Groups - LEVEL
+Status Details - GMD_STATUS_NEXT
+AutoAccounting Rules - RULE
+Contract Setup - Contract Types
+Create Strategy - Collection Strategies
+Create Strategy - General Information
+Aging Buckets - AR_AGING_BUCKET_LINES
+Aging Buckets - AR_AGING_BUCKET_LINES - Translation
+Assign Approval Groups - ASSIGNMENTS
+Payment Administrator - Payment Method - General
+Define Function - FUNCTION
+Resource Role Type Lookups - FND_LOOKUP_VALUES
+Transaction Subtypes - CSI_TXN_SUB_TYPES
+Action - OKC_ACTIONS_V
+Action Types - Action Types
+Approver Groups - Approver Group
+Assignment Statuses - PST1
+Context Setup - Advanced Pricing - CON
+Define Security Rules - KEY_QF
+Organization Parameters - ATP Pick Item - Sourcing
+Organization Parameters - Costing Information
+Organization Parameters - INV_PARAM
+Organization Parameters - Inter-Org Information
+Organization Parameters - Other Accounts
+Organization Parameters - Revision Lot Serial
+Receiving - Options - Define
+Setup Workbench - Item - Attribute Groups - Generate Database View
+Shipping Execution Role Definition - ROLE_DEFINITIONS - Lines
+Status Codes - STATUS_TYPE
+Dynamic Triggers - PAY_TRIGGER_COMPONENTS
+Freight Carriers - ORG_FREIGHT
+Organization Parameters - Warehouse
+Organization Parameters - Warehouse Task Management
+Roles and Role Inheritance - Object Parameters and Select Set - Instance Set Details
+Select Accrual Accounts - MASTER
+Status and Operations - STATUSES
+Table Event Updates - TABLE
+Accounting Setups - Ledger Balancing Segment Value Assignments
+Accounting Setups - Legal Update Balancing Segment Value
+Accounts Generator Processes - PROCESS
+Advanced Pricing - Pricing Formulas - QP_PRICE_FORMULA_LINES
+E-Business Tax - Tax Zone - Geographies
+Enrollments - Roles
+Task Details - TASKS
+Tasks - TASKS
+Actions SQL Script - ACTION
+Define Information Template - POR_TEMPLATE_ATTRIBUTES
+Quote Status Setup - QUOTE_STATUS
+Setup Task Template Groups - MULTI
+Task Types - TASK_TYPES
+Advanced Setup Options - Tax Determining Factor Set
+Customer Care Lookups - FND_LOOKUP_TYPE
+Delete Items - B_DEL_GROUPS
+Organization Assignments - ASSIGNMENTS
+Project - Accounting Attribute Assignments - CONTROL
+Service Activities and Billing Types - TRANSACTION
+Service Attributes - SERVICES_GENERAL
+Service Attributes - SERVICES_MODE_LIMITS
+Service Attributes - SERVICES_RATING
+Actions Launch a Workflow - QPC_ACTIONS
+CFM - Line Operations - Line_Operation
+Category - RG_ROLE_DEFS
+Cross-Validation Rules - FLEX
+Economic Zones - COUNTRIES
+Expenditure Categories - PA_EXPCATG
+Maintain Ship Delivery Patterns - RULES_HEADER
+Processing Constraints - CONSTRAINTS - DFF
+Product Classifications - Fiscal Classification Code
+Projects Templates - PROJECT_OPTIONS
+Roles - C_ASSIGNED
+Roles - C_AVAIL
+Standard Events - B_STD_OPS
+Standard Operations - B_STD_OPS
+Standard Task Types - B_STD_OPS
+Capital Information - TASKS
+Requester Change Order - Buyer Auto-Acceptance Tolerances
+Standard Events - B_STD_OP_RES
+Standard Task Types - B_STD_OP_RES
+Supplier Change Order - Buyer Auto-Acceptance Tolerances
+Rollup Groups - KEY_QF
+Service Activities and Billing Types - BILLING
+Task and Escalation Status - TASK_STATUS
+Abstract and Forms - Form
+Collections Method Setup - Scoring Component
+Holds
+People and Roles - Roles
+Printer Type - FND_FNDPRTYP
+Contracts Setup - Contact Roles
+Default Category Sets-DEFLT_CAT_SET
+Enrollments - Create Enrollment
+Location - LOC - Translation
+Person Types - PERSON_TYPES
+Resource - ROLES
+Statuses - NEXT_ALLOW_STATUSES
+Create Negotiation Style - Document Types
+Create Strategy - Segments
+Deletion Groups - B_DEL_ERRORS
+E-Business Tax - Tax Rule
+E-Business Tax - Tax Zone Types - Details
+Manufacturing Lookups - ENG_FND_LOOKUP_TYPES
+Manufacturing Lookups - ENG_FND_LOOKUP_TYPES - Translation
+Project - Account Derivation Rule Conditions - XLA_AB_CONDITIONS
+Activity Configuration Framework Column Details - GMA_ACTCOL_WF_B
+Category - SUBCLASSES
+Content Set - CONTENT_OVERRIDES
+Content Set - CONTENT_OVERRIDES_ACCOUNT - DFF
+Document - Types - Update
+Scoring Engine - Components
+Templates - Create Template
+Context Usages - CONTEXT_USAGES
+Define Service Levels - FND_LOOKUP_VALUES
+Organization Parameters - INV_PARAM - DFF
+Project Quick Entry Setup - SETUP
+Project Templates - Quick Entry
+Requester Change Order - Purchase Requisition
+Shipping Execution Role Definition - ROLE_DEFINITIONS - Trips
+Subledger Applications - Accounting Options
+Subledger Applications - Application
+Subledger Applications - System Options
+User Types - Details
+Advanced Pricing - Pricing Formulas - QP_PRICE_FORMULAS_VL
+Advanced Pricing - Pricing Transaction Entity - Attribute Linking - PRTE
+Budget - BUDGET
+Define Custom Labels - CUSTOM_SQL_HDR
+Define Label Formats and Sets - LABEL_FORMATS
+Define Label Formats and Sets - LABEL_FORMATS_HDR
+Enterprise Asset Management Parameters - EAM_CONTROL_EVENT_V
+Material Subelements - SUB_ELEMENTS
+Post-Accounting Programs - XLA_ASSIGNMENT_DEFNS
+Post-Accounting Programs - XLA_POST_ACCT_PROGS
+Scoring Engine - Status Assignment
+Setup Workbench - Catalogs
+Transaction Source Types - MTL_TXN_SOURCE_TYPES_SYS
+WMS Rules - RULE
+Approval Groups - PO_CONTROL_GROUPS
+Billing Extensions - BILLING_EXTENSIONS
+Change Order - Auto-Approval Tolerances for Orders
+Control Values - RG_BUDGETS
+Customer Profile Setup - CSC_LOOKUPS
+Define Security Rules - KEY
+Dependent Value Set Information - SET
+Header Assignments - XLA_AB_HDR_ANALYTICAL_ASSGNS
+Pricing Transaction Entity Associations - FNAS
+Responsibilities - EXCLUDED_ITEMS
+Standard Memo Lines - AR_MEMO_LINES - Translation
+WMS Rules - RESTRICTIONS
+AutoAccounting Rules - RULE_PARAMETER
+Autoinvice Grouping Rules - Transaction Classes
+Category Sets - CATEGORY_SET
+Create Strategy - Scoring Rules
+Payment - Task Status
+Quote Status Setup - QUOTE_STATUS_TRANSITIONS
+Activity Configuration Framework - GMA_ACTDEF_WF
+Alternate Names - HXC_ALIAS_DEFINITIONS
+Approval Limits - AR_APPROVAL_USER_LIMITS
+Category Sets - CATEGORY_SET - Translation
+Collectors - AR_COLLECTORS
+Cycle Counts - CC_HEADERS_FOLDER
+Defaulting Condition Validation Templates - DEFCONDN
+Payment Administrator - Payment Method - Pre Validation Parameters
+Relationships - Create Relationship
+Suspense Accounts - SUSPENSE_ACCTS
+ABC Assignment Groups - ABC_ASSIGNMENT_GROUPS
+ABC Classes
+ABC Compiles - ABC_COMPILES
+ABC Group Class Assignment - ABC_GROUP_CLASS_ASSGN
+Autoinvice Grouping Rules
+Content Set - CONTENT_SETS
+Customer Profile Setup - CSC_PROF_MODULE_GROUPS
+Cycle Count Classes - CC_CLASSES
+Define XML Standards - ECX_STANDARDS
+Pick Load Page Setup - TEMPLATE_LPNS
+Process Configuration - GMA_PROCDEF_WF
+Project Types - PROJECT_TYPES
+Project Types - PROJECT_TYPES - Budget_Option
+Project Types - PROJECT_TYPES - Cost_Information
+Project Types - PROJECT_TYPES - Detail
+Project Types - PROJECT_TYPES - Workflow
+Resource - COMPENSATION
+Resource - MISCELLANEOUS
+Resource - RESOURCE
+Resource Search Results - RESOURCE
+Scoring Engine - General Information
+Scoring Engine - Segments
+Shipping Parameters - WSH_SHIPPING_PARAMETERS
+Supporting References - Supporting Reference Details
+Units of Measure - UOM - Translation
+WMS Strategies Rules - STRATEGY_MEMBERS
+Workflow Process Activation - GMA_PROCDEF_WF
+Workflow Process Configuration Framework - GMA_PROCDEF_WF
+XML Publisher - Templates - Configuration
+Application Rule Sets - AR_APP_RULE_DETAILS
+Departments - B_DEPARTMENTS
+E-Business Tax - Create Tax Reporting Type
+Enable Matching Attributes
+Event Phases - QP_PRICING_PHASES
+Quality Assurance Checklist - QA_CHECK_LISTS
+Repair Types - REPAIR_TYPES
+Requester Change Order - Internal Requisition
+Resource - B_DEPT_RES
+Resources - B_RESOURCES
+Resources Overhead Associations - C_RESOVH
+Resources Overhead Associations - C_RESOVH_CT
+Shipping Execution Role Definition - ROLE_DEFINITIONS - Stops
+Units of Measure Conversions - INTER_CLASS_CONVERSIONS
+Update ABC Item Assignments - HEADER_UPDATE_ASSIGNMENTS
+WMS Rules - SORT_CRITERIA
+Aging Periods - AGING_PERIOD_LINES
+AutoPost Criteria Sets - AUTOPOST
+Class Categories and Codes - PA_VALID_CATEGORIES
+Customer Profile Setup - CSC_PROF_GROUP_LEVEL
+Defaulting Condition Validation Templates - DEFELEMENT
+Pricing Transaction Entity Associations - SSCS
+Project Types - PA_VALID_CATEGORIES - Classifications
+Receipt Methods - AR_RECEIPT_METHODS
+Receivable Activities - AR_ARXSUMRT
+Supporting References - Create Supporting Reference
+Application Rule Sets - AR_APP_RULES
+Asset Ceilings - EXPENSE
+AutoPost Criteria Sets - AUTOPOST_SET
+Budget Entry Methods - METHOD
+Change Management - Statuses
+Change Management - Workflow Template - Assignees
+Currencies - FND_CURRENCIES
+Event Types - EVENT_TYPES
+Item Attribute Controls - ITEM_STATUS_ATTRIBUTES_CONTROL
+Manufacturing ECG Material Dispositions - FND_LOOKUP_VALUES
+Manufacturing ECG Material Dispositions - FND_LOOKUP_VALUES - Translation
+Payment Administrator - Payment Method - Pre Validations
+Pm_Product_Code Lookups - FND_LOOKUP_VALUES
+Pricing Transaction Entity Associations - RQTS
+Processing Constraints - ENTITY
+Project Types - DISTRIBUTION_RULES
+Project Types - PROJECT_TYPES - Billing_Information
+Receipt Sources - AR_BATCH_SOURCES
+Registration Processes
+Roles - ROLES
+Table Event Groups - PAY_EVENT_GROUPS
+Time Periods - PERIOD_TYPES
+Transmission Formats - AR_TRANSMISSION_FORMATS
+Workflow Process Configuration Framework - GMA_PROCCOL_WF_B
+Administration - Buyer Notification Subscription
+Administration - Supplier Notification Subscription
+Change Management - Categories - Codes
+Change Management - Workflow Template
+Change Management - Workflow Template - Step
+Content Zones - Add Responsibility
+Customer Profile Setup - CSC_PROF_GROUPS1
+Define Physical Inventory - FOLDER
+Independent Condition - OUTCOMES
+Inventory Lookups - FND_LOOKUP_VALUES
+Inventory Lookups - FND_LOOKUP_VALUES - Translation
+Parameter Settings - PARS_COST
+Payment Administrator - Payment Method - General - DFF
+Payment Administrator - Payment Method - User Validation Parameters
+Physical Inventories Summary - FOLDER
+QuickCodes Collection Plan Types Lookups - FND_LOOKUP_VALUES
+QuickCodes Collection Plan Types Lookups - FND_LOOKUP_VALUES - Translation
+Remittance Bank Accounts - AR_RECEIPT_METHOD_ACCOUNTS
+Transaction Reasons - TRANS_REASONS
+Work Shifts - WORKSHIFTS
+Change Order - Auto-Approval Tolerances for Agreements
+Collection Transactions - QP_TRANSACTIONS
+Job - JOBS
+Job - Map Salary Survey
+Job - Name - DFF
+Job - PO_JOBS
+Line - Type - Define
+Payments Setup - Service level Codes
+Project - Subledger Accounting Methods - XLA_AB_ACCTING_METHODS
+Projects Revenue Category Lookups - FND_LOOKUP_VALUES
+Receipt Classes - AR_RECEIPT_CLASSES
+Rows - AXES - DFF
+Setup Workbench - Item - Lifecycle Phases - Item Status Information
+Source Systems - Define Source System
+Statement Cycles - AR_STATEMENT_CYCLE_DATES
+Subledger Accounting Methods - XLA_AB_ACCTING_METHODS
+Task Priority - PRIORITY
+Territory Types - Transaction
+Time Entry Rules - DAR
+Units of Measure Classes - UOM_CLASSES
+WMS Strategies - STRATEGY
+XML Gateway Lookups - FND_LOOKUP_TYPES
+Aging Buckets - AR_AGING_BUCKETS
+Approval Period - HXC_APPROVAL_PERIOD_COMPS_V
+AutoAccounting-AUTOGL
+AutoInvoice Line Ordering Rules - RA_LINE_ORDER_BYS
+Change Order - Auto-Approval Tolerances for Releases
+Encumbrance Types - ENCUMBR_TYPES
+Gantt Sections - Gantt Sections
+Independent Condition - EXPRESSION
+Item Status Codes - ITEM_STATUS
+Item Status Codes - STATUS_ATTRIB_VALS
+Organizations - DTL_FORM
+Role Categories - Lookup Code
+Status and Operations - FND_LOOKUPS
+Units of Measure Classes - UOM_CLASSES - Translation
+Advanced Setup Options - Tax Formula
+Approval Styles - HXC_APPROVAL_COMPS_V
+Attribute Values - SECURITY_ATTR_VALUES
+Budget Types - PA_BUDGET_TYPES
+Create Dunning Plan - Select Dunning Levels
+Customer Profile Setup - CSC_PROF_GROUPS
+Define Groups - MEMBERS
+Define Information Template - POR_TEMPLATES
+Invoice Formats - PA_INVOICE_FORMAT_DETAILS
+Party Account Relation Types - CSI_IPA_RELATION_TYPES
+Payment Terms - RA_TERMS
+Payment Terms - Schedule
+Pricing Transaction Entity Associations - PTE
+Resource - GROUPS
+Service Request Statuses - STATUSES
+Service Request Types - TYPES
+Setup Task Template Groups - GROUP
+Skill Management - LEVELS
+Status Transition - JTF_STATE_RESPONSIBILITIES
+Table Values - UTB1
+Activities - CST_ACTIVITIES
+Administration - Create Negotiation Style
+Asset Keys - ASSET_KEYS
+BOM Parameters - BOM_PARAMETERS
+Calendar Type Lookups - FND_LOOKUP_VALUES
+Change Management - Categories
+Change Management - Categories - Type
+Content Zones - Content Zones
+Content Zones - Supplemental Information
+Cost Type - C_CST_TYPE
+Customer Profile Classes
+Customer Profile Classes - Profile Class
+Customer Profile Classes - Profile Class Amounts
+Define Groups - USAGES
+E-Business Tax - Create Country Defaults
+E-Business Tax - Tax Zone Types
+Inventory Lookups - FND_LOOKUP_TYPES - Translation
+Mapping Objects - TASK_TYPES
+OM System Parameters - Parameters
+Payment Administrator - Payment Method - User Validations
+Pick Load Page Setup - PAGE_TEMPLATES
+Product Classifications - Product Fiscal Classification Type
+Resource Capacity Change Reasons - FND_LOOKUP_VALUES
+Resource Capacity Change Reasons - FND_LOOKUP_VALUES - Translation
+Shipping Document Sets
+Shipping Document Sets - Documents
+Stores - Assign Content
+Stores - Sequence Stores
+Supplier - Bank Payment Factor Account Owner
+Aging Periods - AGING_PERIODS
+Approval Styles - HXC_APPROVAL_COMP_NOTIFS
+Approval Styles - HXC_APPROVAL_STYLES
+Collection Transaction - QP_COLLECTION_TRIGGERS
+Conversion Rate Types - DAILY_RATE_TYPE
+Cost Factor - Cost Factor
+Custom Sources - XLA_AB_SOURCE_PARAMS
+Customer Profile Classes - Profile Class - DFF
+Defaulting Setup - Entity Attributes - DEFOBJ
+Distribution Lists - DIST_LIST
+E-Business Tax - Status
+E-Business Tax - Tax
+E-Business Tax - Tax - Update - Available
+Geography Hierarchy - Country Structure
+Geography Hierarchy - Geography Type
+Invoice Batches - BAT_SUM_FOLDER
+Manufacturing Lookups - FND_LOOKUP_VALUES - DFF
+Manufacturing Lookups - INV_FND_LOOKUP_VALUES - DFF
+OM System Parameters - Values
+Payment Process Profiles - Usage Rules - First Party Organizations
+Payment Terms - AP_TERMS
+Payment Terms - Due
+Period Types - PERIOD_TYPES
+Project - Journal Lines Definitions - XLA_AB_AC_ASSGNS
+Rate Types - Rate Types
+Reason for Instance Split Lookups - FND_LOOKUP_VALUES
+Resource Classes - Resource Classes
+Shipping Execution Role Definition - ROLE_DEFINITIONS - Message
+Stores - Assign Content Zones
+Stores - Sequence Content
+Time Entry Rules - DFF
+Transaction Types - TAB Account
+User Types - Credentials
+XML Publisher - Administration - Font Files
+XML Publisher - Administration - Font Mappings
+XML Publisher - Administration - Font Mappings Set
+XML Publisher - Administration - Target Font Type
+Additional Organization Information - HOI2 - 002 - DFF
+Application Rule Sets - AR_APP_RULE_SETS
+Approval Period - HXC_APPROVAL_PERIOD_SETS
+AutoInvoice Line Ordering Rules - RA_LNORDRLS
+Billing Extensions - BILLING_EXTENSIONS - DFF
+Billing Type Attributes - BILLINGTYPES
+CONTACT TYPES Lookups - FND_LOOKUP_VALUES
+Change Management - Codes - Priorities
+Class Categories and Codes - PA_CLASS_CD
+Contract Groups - GROUPS
+Control Payables Periods - GL_PERIOD_STATUSES
+Converage Types - COVERAGE_TYPE
+Customer Profile Setup - CSC_COLOR_CODES
+Define Groups - GROUPS
+Document Categories - CATEGORY_ASSIGNMENTS
+Document Categories - WSH_DOC_SEQ_CTG
+Document Styles - Document Types
+Independent Condition - CONDITIONS
+Inventory Lookups - FND_LOOKUP_TYPES
+Parameter Settings - PARS_PROM
+Pick Slip Grouping Rules
+Pick Slip Grouping Rules - PICK_SLIP_RULES
+Priorities - E_ECO_PRIOR
+Project - Application Accounting Definitions - XLA_AB_PRODUCT_RULES
+Project Status Inquiry Column - SETUP_CONTROL
+Project Templates - Additional Information
+Project Templates - Classifications
+Project Templates - Structures
+Projects Templates - PROJECT_FOLDER
+Projects Templates - PROJECT_FOLDER - DFF
+Projects Templates Summary - PROJECT_FOLDER
+QuickCodes Collection Element Types Lookups - FND_LOOKUP_VALUES - Translation
+Registration Processes - Eligibility
+Relationship Plans - RSP_DEFINITION
+Repair Order Status Set-Up - FLOW_STATUSES
+Rollup Groups - LEVEL - Translation
+Service Business Process - TRANSACTIONS
+Skill Management - TYPES
+Special Information Types - SIT
+Summary Accounts - TEMPLATES
+Summary Accounts - Template Value - DFF
+Task Customer Color Setup - CUSTOM_COLORS
+Transaction Sources - RA_BATCH_SOURCES - DFF
+User Management - Roles and Role Inheritance
+ATP Data Collection - DFF
+ATP Data Collection - SET_REQUESTS
+Account Ranges - RANGES
+Accounting Calendar - GL_CALENDAR
+Accounting Setups - Intracompany Balancing Details
+Accounting Setups - Intracompany Balancing Options
+Accounting Setups - Intracompany Balancing Rules
+Accounts Generator Processes - STRUCT
+Application Utilities DEMAND CLASS Lookups - FND_LOOKUP_TYPES - Translation
+Approval Styles - HXC_DATA_APP_RULE_USAGES_V
+Asset Ceilings - CEILING_TYPE
+Asset Ceilings - COST
+Availability Type Lookups - FND_LOOKUP_VALUES
+Calendar Dates - B_CAL_DATES
+Calendar Exception Category Lookups - FND_LOOKUP_VALUES
+Calendar Exception Reason Lookups - FND_LOOKUP_VALUES
+Change Management - Codes - Reasons
+Columns - UTC1
+Cost Base Type Lookups - FND_LOOKUP_VALUES
+Create Dunning Plan - General Information
+Create Dunning Plan - Select Scoring Engine
+Currency - PROJECT_FOLDER
+Custom Sources - XLA_AB_SOURCES
+Data Groups - DATA_GROUPS
+Define Budget Organization - Display Sequence - DFF
+Define Budget Organization - ORGANIZATION
+E-Business Tax - Jurisdictions
+E-Business Tax - Party Authority
+Expense Report Templates - ITEMIZATIONS
+Expense Report Templates - PARAMET
+Expense Report Templates - PARAMET - rapidmigrate
+Financial Plan Types - Financial Plan Types
+Freight Cost Types - FREIGHT_COST_TYPES
+Independent Condition - PARAMETERS
+Intracompany Balancing Rules - Balancing Details
+Intracompany Balancing Rules - Legal Entity-Ledger-Source and Category
+Intracompany Balancing Rules - Options
+Invoice Formats - PA_INVOICE_FORMATS
+Invoice Tolerances - TOLERANCE
+Item Templates
+Legal Authority - Identification Information
+Legal Authority - Legislative Categories
+Line Workflow Assignments - ORDER_TRXN_TYPE
+Material Status Definition - MSDEF_STATUS_BLK
+Organizations - DTL_RECP
+Organizations - DTL_ROUT
+Payment Administrator - System Security Options
+Payment Process Request Template
+Payment Process Request Template - Payment Attributes
+Payment Process Request Template - Process Automation
+Payment Process Request Template - Scheduled Payment Selection Criteria
+Payment Process Request Template - Validation Failure Results
+Payment Terms - RA_TERMS - Translation
+Projects Unit Lookups - FND_LOOKUP_VALUES
+Rate Schedules - SCHEDULE
+Reasons - CHANGE_REASONS
+Resource - RECEIVABLES
+Revenue and Billing Information - PROJECT_FOLDER
+Rules associated with a given task type Lookups - FND_LOOKUP_VALUES
+Sales Credit Types - SALES_CREDIT_TYPES
+Shipping Execution Role Definition - ROLE_DEFINITIONS - General
+Skill Management - SCALES
+Skill Management - SKILLS
+Sourcing Rule - Bill of Distribution Assignments - ASSIGNMENT_SETS
+Status Transition - JTF_STATE_RULES
+Subledger Accounting Methods - COPY_METHOD
+Table Values - UTV1
+Territory Types - Territory Type
+Transaction Types - MTL_TRANSACTION_TYPES_USER
+Transaction Types - ORDER_TYPES
+Transaction Types - ORDER_TYPES - Translation
+User Types - Assign Default Roles
+Workday Calendars - B_CALENDARS
+Workday Patterns - B_WRKDAY_PAT
+Acceptance of Agreement Changes - Acceptance of Agreement Changes
+Account Ranges - RANGES - DFF
+Accounting Setups - Accounting Representations
+Accounting Setups - Add Legal Entities
+Accounting Setups - Ledger Options
+Accounting Setups - Legal Entity
+Accounting Setups - Operating Unit Assignments
+Agreement Types - PA_AGRMNT_TYPES
+Alert Details - ALR_INSTALLATION
+Application Utilities - ITEM TYPE Lookups
+Application Utilities - ITEM TYPE Lookups - Translation
+Application Utilities CRP RESOURCE GROUPS Lookups - FND_LOOKUP_TYPES - Translation
+Application Utilities DEMAND CLASS Lookups - FND_LOOKUP_TYPES
+Application Utilities SHIP_METHOD Lookups - FND_LOOKUP_TYPES
+Application Utilities SHIP_METHOD Lookups - FND_LOOKUP_TYPES - Translation
+Application Utilities SHIP_METHOD Lookups - FND_LOOKUP_VALUES
+Application Utilities-Container Types Lookups - FND_LOOKUP_TYPES - Translation
+Asset Calendars - CALENDAR_TYPES
+Asset Fiscal Years - LOOKUPS
+Assign Cross References - ITM_ASSIGN
+Assignments - Assign Sequences
+Assignments - Sequencing Context
+AutoCash Rule Sets - AR_AUTOCASH_HIERARCHIES
+AutoCash Rules - AR_AUTOCASH_RULES
+Autonumbering - K_SEQ
+Availability Type Lookups - FND_LOOKUP_TYPE
+Balance Forward Billing Cycles - CONS_BILL_CYCLE
+Book Controls - ACCOUNTING_RULES
+Book Controls - BOOK_CONTROLS
+Book Controls - CALENDAR
+Book Controls - LEDGERS
+Book Controls - NATURAL_ACCOUNTS
+Budgetary Control Group - BC_GROUP
+Budgetary Control Group - BC_RULES
+CONTACT TYPES Lookups - FND_LOOKUP_TYPES
+Calendar Exception Category Lookups - FND_LOOKUP_TYPE
+Calendar Exception Reason Lookups - FND_LOOKUP_TYPE
+Calendar Type Lookups - FND_LOOKUP_TYPE
+Carriers - CARRIERS
+Carriers - MODE_LIMITS
+Carriers - RATING_PAYMENT
+Carriers - SERVICES
+Class Categories and Codes - PA_CLASS_CATG
+Collections Methods Setup - Define Strategy Default
+Collections Questionnaire - Collections Methods
+Collections Questionnaire - Operations
+Collections Questionnaire - Transactions
+Collectors - AR_COLLECTORS - DFF
+Consolidation Sets - CONS
+Contact Role Lookups - FND_LOOKUP_TYPE
+Contract Party Role Lookups - FND_LOOKUP_TYPE
+Contract Terms Library - Section
+Cost Base Type Lookups - FND_LOOKUP_TYPES
+Cross Reference Types - XREF_TYPE
+Custom Security - PSP1
+Customer Profile Setup - CSC_PROF_CHECK_RULES
+Cycle Counts Subinventory - CC_SUBINVENTORIES
+Cycles - CYCLES
+Cycles Value - CYCLES - DFF
+Default - Approver Selection Order
+Default - Create Approval
+Define Credit Check Rules
+Define Groups - GRPROLES
+Define MassAllocations - ALLOC_BATCH
+Define Service Levels - FND_LOOKUP_TYPES
+Definition Access Sets - DEFAS_ACCESS_SET
+Distribution Sets - DIST_SET
+Distribution Sets - DIST_SET_LINES
+Document Categories - DOCUMENT_CATEGORIES
+Document Categories - DOCUMENT_CATEGORIES - Translation
+E-Business Tax - Party First Establish
+E-Business Tax - Party First Establish - Tax Reporting Codes
+E-Business Tax - Party First Legal
+E-Business Tax - Party Tax Profile Operating Unit - Main
+E-Business Tax - Regimes
+E-Business Tax - Regimes - Configuration Options
+E-Business Tax - Tax Zone - General Information
+Economic Zones - ZONES
+Exception Templates - B_EXCEP_SETS
+Expenditure Types for Cost Elements - BLOCKNAME
+Expense Report Templates - EXPENSE_REPORT
+Expenses Setup - Accounting
+Financials Options - FINANCIALS_SYSTEM_PARAMETER
+Geography Hierarchy - Manage Validations
+Global Parameters
+Global Parameters - Transportation
+Implementation Options - OPTIONS
+Instance Type Code Lookups - FND_LOOKUP_TYPES
+Inventory Accounting Periods - FIRST
+Invoicing and Accounting Rules - RA_RULES
+Invoicing and Accounting Rules - RA_RULE_SCHEDULES
+Item Relationships - RELATED_ITEMS
+Job Groups - JOB_GROUPS
+Journal Source - SOURCE - DFF
+Labor Costing Rules - PA_CMP_RULE_SETS
+Legal Entity - All Country
+Legal Entity - All Country - DFF
+Legal Entity - Denmark
+Legal Entity - Establishment
+Legal Entity - Registrations
+Line Workflow Assignments - ORDER_TRXN_DETAIL
+MPS Schedule Parameters - PS_SCHD_HDR
+Manage Customers - Account Site Contacts
+Manufacturing ECG Material Dispositions - FND_LOOKUP_TYPES
+Manufacturing ECG Material Dispositions - FND_LOOKUP_TYPES - Translation
+Miscellaneous Security - PSP1
+Movement Statistics Validation Rules - RULE_SETS_V
+Movement Statistics Validation Rules - RULE_SETS_V - Translation
+Note Types Lookups - FND_LOOKUP_TYPES
+Open Account Balances Listing Definitions
+Open Account Balances Listing Definitions - Details
+Open Account Balances Listing Definitions - Journal Source
+Operations Setup - Define Dunning Letter Set
+Operations Setup - Define General Collections Information
+Operations Setup - Set Display Preferences
+Operations Setup - Set Up Correspondence
+Organization Hierarchy - OS1
+Organization Hierarchy - OSV1
+Organization Labor Costing Rules - PA_ORG_LABOR_SCH
+Organization Security - PSP1
+Organizations - DTL_OPRN
+Organizations - GMD_PARAMETERS_HDR
+Organizations - Intercompany Organization
+Payables Options - AP_SYSTEM_PARAMETERS
+Payables System Setup - AP_PRODUCT_SETUP
+Payment Administrator - Disbursement System Options - Enterprise Level
+Payment Administrator - Disbursement System Options - Organization Level
+Payment Administrator - System Security Options - Wallet Setup
+Payroll Security - PSP1
+Position Security - PSP1
+Price List Charges Interface
+Price List Items Interface
+Price List Sets Interface
+Price Lists Interface
+Priority Rules - RULE_CRITERIA
+Priority Rules - RULE_NAME
+Process Execution Parameter - Batch Setup
+Process Execution Parameter - Batch Steps
+Process Execution Parameter - Create Batch
+Process Execution Parameter - Document Numbering
+Process Execution Parameter - Inventory Transactions
+Process Quality Parameters - GMD_QUALITY_CONFIG
+Product Classifications - Fiscal Classification Code Sub-Level
+Project Credit Type Lookups - FND_LOOKUP_TYPES
+Project Job Level Lookups - FND_LOOKUP_TYPES
+Project Types - PROJECT_TYPES - Capitalization Information
+Projects Budget Change Reason Lookups - FND_LOOKUP_TYPES
+Projects Budget Change Reason Lookups - FND_LOOKUP_VALUES
+Projects Credit Type Lookups - FND_LOOKUP_VALUES
+Projects Customer Relationship Lookups - FND_LOOKUP_TYPES
+Projects Revenue Category Lookups - FND_LOOKUP_TYPES
+Projects Service Type Lookups - FND_LOOKUP_TYPES
+Projects Service Type Lookups - FND_LOOKUP_VALUES
+Projects Unit Lookups - FND_LOOKUP_TYPES
+Prorate Conventions - CONVENTION_TYPES
+Purchasing - Options - Define
+QuickCodes Collection Element Types Lookups - FND_LOOKUP_TYPES - Translation
+QuickCodes Collection Plan Types Lookups - FND_LOOKUP_TYPES
+QuickCodes Collection Plan Types Lookups - FND_LOOKUP_TYPES - Translation
+Reason for Instance Split Lookups - FND_LOOKUP_TYPE
+Receipts From
+Receivables Lookups - QuickCodes - Types - Translation
+Release Sequence Rules
+Resource Capacity Change Reasons - FND_LOOKUP_TYPES
+Resource Down Codes - FND_LOOKUP_TYPES
+Resource Groups - FND_LOOKUP_TYPES
+Resource Role Type Lookups - FND_LOOKUP_TYPES
+Role Categories - Lookup Type
+Row Set - AXIS_SETS - DFF
+Rows - UTR1
+Rules associated with a given task type Lookups - FND_LOOKUP_TYPE
+Section Details - Section Details
+Security Profile - PSP1
+Sequences - Sequence
+Sequences - Versions
+Service Business Process - BUSINESS_PROCESSES
+Service Request Action Request Type Lookups - FND_LOOKUP_TYPES
+Service Request Problem Codes Lookups - FND_LOOKUP_TYPES
+Service Request Resolution Codes Lookups - FND_LOOKUP_TYPES
+Service Request Resolution Codes Lookups - FND_LOOKUP_VALUES
+Service System Parameters - Service System Parameters
+Shipping Execution Role Definition - ROLE_DEFINITIONS - Name
+Smart Forms - Smart Forms
+Statement Cycles - AR_STATEMENT_CYCLES
+Stores - Assign Smart Forms
+Supervisor Security - PSP1
+System Controls - SYS_CTLS
+System Options - Accounting
+System Options - Claims
+System Options - FUN_System Options
+System Options - Miscellaneous
+System Options - Miscellaneous - DFF
+System Options - Trans and Customers
+System Parameters - SYSPARAM
+System Type Lookups - FND_LOOKUP_TYPES
+Table Structure - UTB1
+Task Types - Task Type Details
+Tax Options - Ledger
+Test Methods - GMD_TEST_METHODS
+Transaction Types - Transaction Types
+Transactions Setup - Configure Transaction Processing
+UN Numbers
+User Operating Unit Preferences - Multi-Org Preferences
+Validation Templates - CONTROL
+WMS Rules - RULE_CONSISTENCIES
+Work Items Lookups - FND_LOOKUP_TYPES
+Workbench - ALLOCATION_BATCHES
+Workbench - ALLOCATION_SET
+XML Publisher - Administration - Configuration
+224 and Reconcillation Report Definitions - SF224_SF1081
+224 and Reconcillation Report Definitions - SF224_SF1081 - DFF
+ABC Assignment Groups - ABC_ASSIGNMENT_GROUPS - DFF
+ABC Compiles - ABC_COMPILES - DFF
+ATP Rules - ATP_RULES - DFF
+Absence Attendance Types - ABR
+Absence Attendance Types - ABT
+Absence Attendance Types - ABT - DFF
+Account Assignments - AXIS_CONTENTS - DFF1
+Account Assignments - AXIS_CONTENTS_COLUMN - DFF1
+Account Ranges - RANGES - DFF1
+Accounting Calendar - Assign Access
+Accounting Calendar - Assign Access - DFF
+Accounting Calendar - GL_CALENDAR - DFF
+Accounting Calendar - PERIODS - DFF
+Accounting Sequencing - Assignment
+Accounting Sequencing - Balancing Segment Values
+Accounting Sequencing - Sequence
+Accounting Sequencing - Sequence Context
+Accounting Sequencing - Sequence Context Details
+Accounting Sequencing - Versions
+Accounting Setups - Ledger Options - DFF
+Accounting Setups - Primary to Secondary Ledger Mapping
+Accounting Setups - Reporting Currencies
+Accounting Setups - Secondary Ledgers
+Action Output Variables - QC_ACTION_OUTPUTS
+Actions Concurrent Program - ACTION
+Actions Operating System Script - ACTION
+Activities - CST_ACTIVITIES - DFF
+Activities - C_ACTIVITY_COSTS
+Activities - C_ACTIVITY_COSTS - DFF
+Activities - FM_ACTV_MST
+Activity Association - ASSET_ACTIVITY
+Activity Association - Activity
+Activity Association - Activity - DFF
+Activity Association - EAM_ASSET_ACTIVITIES
+Activity Association - EAM_ASSET_ACTIVITIES - DFF
+Activity Association - Main
+Actual Costs Adjustment Codes - CM_REAS_CDS
+Additional Information - PROJECT_FOLDER
+Adjustments - ADJ_ADJUST
+Adjustments - ADJ_ADJUST - DFF
+Administer Content - Personalize
+Administer Request Sets - Generate Request Set
+Administer Request Sets - Search and Select Content
+Administration - Negotiations Configuration
+Advanced Pricing - Define Modifier - Advanced
+Advanced Pricing - Define Modifier - Coupons
+Advanced Pricing - Define Modifier - Define Details
+Advanced Pricing - Define Modifier - Define Details - DFF
+Advanced Pricing - Define Modifier - Discounts - Charges
+Advanced Pricing - Define Modifier - Exclude Item
+Advanced Pricing - Define Modifier - Exclude Item - DFF
+Advanced Pricing - Define Modifier - MODIFIER_LIST - Translation
+Advanced Pricing - Define Modifier - Main
+Advanced Pricing - Define Modifier - Main - DFF
+Advanced Pricing - Define Modifier - Modifiers Summary
+Advanced Pricing - Define Modifier - Modifiers Summary - DFF
+Advanced Pricing - Define Modifier - More Pricing Attributes
+Advanced Pricing - Define Modifier - More Pricing Attributes - DFF
+Advanced Pricing - Define Modifier - Other
+Advanced Pricing - Define Modifier - Price Breaks
+Advanced Pricing - Define Modifier - Promotion Terms
+Advanced Pricing - Define Modifier - Promotion Upgrades
+Advanced Pricing - Entity Usage
+Advanced Pricing - Header Qualifier Groups
+Advanced Pricing - Line Qualifier Groups
+Advanced Pricing - Pricing Formulas - QP_PRICE_FORMULAS_VL - DFF
+Advanced Pricing - Pricing Formulas - QP_PRICE_FORMULA_LINES - DFF
+Advanced Pricing - Qualifier - Header Level Qualifiers
+Advanced Pricing - Qualifier - Header Level Qualifiers - DFF
+Advanced Pricing - Qualifier - Line Level Qualifiers
+Advanced Pricing - Qualifier - Line Level Qualifiers - DFF
+Advanced Pricing Lookups - FND_LOOKUP_VALUES - DFF
+Advanced Setup Options - Tax Formula Compounding Details
+Agency Location Code - ALC_ADDRESS
+Agency Location Code - ALC_ADDRESS - DFF
+Agency Location Code - FV_ALC_GWA_CATEGORIES
+Agency Location Code - FV_ALC_GWA_CATEGORIES - DFF
+Agent Information India Localization - JA_IN_AGENT_INFO
+Aging Buckets - AR_AGING_BUCKET_LINES - DFF
+Aging Periods - AGING_PERIODS - DFF
+Aging Periods - AGING_PERIOD_LINES - DFF
+Agreement - PO_RELEASES
+Agreement Template - AGREEMENT
+Agreement Template - AGREEMENT - DFF
+Agreement Types - PA_AGRMNT_TYPES - DFF
+Agreements - AGREEMENT
+Agreements - AGREEMENT - DFF
+Agreements - Funding
+Agreements - Funding - DFF
+Allocation Codes - CMALCED
+Allocation Codes - GL_ALOC_MST
+Allocation Codes - GL_ALOC_MST - DFF
+Allocation Rule - ALLOCATIONS
+Allocation Rule - ALLOCATIONS - DFF
+Allocation Rule - MSC_ALLOCATION_RULES
+Allocation Rule - MSC_ALLOCATION_RULES - DFF
+Allocation Rule - TIME_PHASES
+Alternate Names - HXC_ALIAS_VALUES
+Alternate Names - HXC_ALIAS_VALUES - DFF
+Alternate Resources - CR_ARES_MST
+Alternates - B_ALT_DESIG
+Alternates - B_ALT_DESIG - DFF
+Analyst Assignments - Rules List - Parameter
+Application Instances - APPS_INSTANCES
+Application Instances - APPS_INSTANCES - DFF
+Application Instances - INSTANCE_ORGS
+Application Rule Sets - AR_APP_RULES - DFF
+Application Rule Sets - AR_APP_RULE_DETAILS - DFF
+Application Rule Sets - AR_APP_RULE_SETS - DFF
+Application Utilities - ITEM TYPE Lookups Values - DFF
+Application Utilities CRP RESOURCE GROUPS Lookups - FND_LOOKUP_VALUES - Translation
+Application Utilities DEMAND CLASS Lookups - FND_LOOKUP_VALUES
+Application Utilities DEMAND CLASS Lookups - FND_LOOKUP_VALUES - Translation
+Application Utilities PLANNING GROUP Lookups - FND_LOOKUP_TYPES
+Application Utilities PLANNING GROUP Lookups - FND_LOOKUP_VALUES
+Application Utilities PLANNING GROUP Lookups - FND_LOOKUP_VALUES - DFF
+Application Utilities SHIP_METHOD Lookups - FND_LOOKUP_VALUES - DFF
+Application Utilities SHIP_METHOD Lookups - FND_LOOKUP_VALUES - Translation
+Application Utilities-Container Types Lookups - FND_LOOKUP_VALUES - Translation
+Apply Actuals - ACTUAL
+Apply Actuals - PROVISIONAL
+Appropriation Parameters - FUND_PARAMETERS
+Appropriation Parameters - FUND_PARAMETERS - DFF
+Appropriation Year Dates - FV_FACTS_TREASURY_SYMBOLS
+Appropriation Year Dates - FV_FACTS_TREASURY_SYMBOLS - DFF
+Approval Groups - PO_CONTROL_GROUPS - DFF
+Approval Groups - PO_CONTROL_RULES - DFF
+Approval Limits - AR_APPROVAL_USER_LIMITS - DFF
+Approval Lists - APPROVAL_LIST
+Approval Lists - APPROVAL_LIST - DFF
+Approval Lists - APPROVERS
+Approval Lists - APPROVERS - DFF
+Approve Document Releases - PO_APPROVE
+Approved Supplier List - ASL_ITEMS
+Approved Supplier List - ASL_SUPPLIERS
+Approved Supplier List - ASL_SUPPLIERS - DFF
+Approver Groups - Group Members
+Area - EAM_LOCATIONS
+Asia-Pacific Localizations Lookups - FND_LOOKUP_VALUES - DFF
+Asset Attributes - Attributes
+Asset Attributes - Attributes - DFF
+Asset Fiscal Years - FISCAL_YEAR - DFF
+Asset categories - CATEGORY - DFF
+Asset categories - CATEGORY_BOOK - DFF
+Asset categories - CATEGORY_BOOK_DEF - DFF
+Assign Access
+Assign Access - DAS
+Assign Access - DAS - DFF
+Assign Access - DFF
+Assign Allocation Rule - ASSIGNMENTS
+Assign Approval Groups - ASSIGNMENTS - DFF
+Assign Approval Groups - FIND
+Assign Calendars - ENTITY_CALENDAR
+Assign Calendars - ENTITY_CALENDAR - DFF
+Assign Calendars - ENTITY_SITE_CALENDAR
+Assign Calendars - ENTITY_SITE_CALENDAR - DFF
+Assign Cost Calendars - GMF_CALENDAR_ASSIGNMENTS
+Assign Credit Usage Rules - PROFILE_AMTS
+Assign Credit Usage Rules - USAGES
+Assign Credit Usage Rules - USAGES - DFF
+Assign Cross References - ITM_ASSIGN - DFF
+Assign Resources - JTF_CALENDARS_VL
+Assign Resources - JTF_CALENDARS_VL - DFF
+Assign Resources - JTF_CAL_RESOURCE_ASSIGN_V
+Assign Resources - JTF_CAL_RESOURCE_ASSIGN_V - DFF
+Assign Security Rules - KEY - USAGES
+Assign Security Rules - USAGES
+Assign Security Rules - VSET
+Assign Security Rules - VSET - USAGES
+Assign Shifts Exceptions - JTF_CALENDARS_VL
+Assign Shifts Exceptions - JTF_CAL_EXCEPTION_ASSIGN_V
+Assign Shifts Exceptions - JTF_CAL_EXCEPTION_ASSIGN_V - DFF
+Assign Shifts Exceptions - JTF_CAL_SHIFT_ASSIGN_V
+Assign Shifts Exceptions - JTF_CAL_SHIFT_ASSIGN_V - DFF
+Assign Subinventories to Location India Localization - SUBINV_DTL
+Assign Subinventories to Location India Localization - SUBINV_HDR
+Assign Territories to Planner Groups - RESOURCE_GROUP
+Assign Territories to Planner Groups - TERRITORIES
+Assign Valuation Methods - GLVM
+Assignment Set - ASSET
+Assignments - Balancing Segment Values
+Associate Latin Tax Category with Conditions and Values - ATT_VAL
+Associate Latin Tax Category with Conditions and Values - CAT_ATT
+Associate Register Types India Localization - CNTRL_ALT_REGIONS
+Associate Register Types India Localization - JA_IN_REGISTER_DTL
+Associate Register Types India Localization - JA_IN_REGISTER_HDR
+Assosiate Staging Lanes To Dock Door - DOCK_DOOR
+Assosiate Staging Lanes To Dock Door - STAGING_LANE
+Attachment Addition Rules - RULES
+Attachment Addition Rules - RULE_ELEMENTS
+Attribute Group
+Attributes Assignment - ASSET_GROUP_DETAIL
+Auction Template - Acceptable Values
+Auction Template - Add Requirement
+Auction Template - Add Section
+Auction Template - Apply Value Set
+Auction Template - Collaboration Team
+Auction Template - Controls
+Auction Template - Header
+Auction Template - Line Defaults
+Auction Template - Line Defaults - Add Attribute List
+Auction Template - Line Defaults - Add Cost Factors List
+Auction Template - Line Defaults - Attribute
+Auction Template - Line Defaults - Attribute List Values
+Auction Template - Line Defaults - Cost Factors
+Auction Template - Line Defaults - Cost Factors List Values
+Auction Template - Manage Response Currencies
+Auction Template - Notes and Attachments
+Auction Template - Scoring Teams
+Auction Template - Select Scoring Settings
+Auction Template - Suppliers - Add Invitation List
+Auction Template - Suppliers - Add Suppliers
+Auction Template - Suppliers - Invited Suppliers
+Auction Template - Value
+Audit Audit Rules - Audit Rule Set
+Audit Audit Rules - Audit Rule Set Assignments
+Audit Receipts - Assign Receipt Rule
+Audit Receipts - Receipts Rule Set
+Audit Receipts - Receipts Rule Set Assignments
+Authorizations - AUTHORIZATIONS
+AutoAccounting Lookup Sets - LOOKUPS
+AutoAccounting Lookup Sets - LOOKUP_SET
+AutoCash Rule Sets - AR_AUTOCASH_HIERARCHIES - DFF
+AutoCash Rules - AR_AUTOCASH_RULES - DFF
+AutoInvoice Line Ordering Rules - RA_LINE_ORDER_BYS - DFF
+AutoInvoice Line Ordering Rules - RA_LNORDRLS - DFF
+AutoPost Criteria Sets - AUTOPOST - DFF
+AutoPost Criteria Sets - AUTOPOST_SET - DFF
+AutoPost Criteria Sets - Assign Access
+AutoPost Criteria Sets - Assign Access - DFF
+Autoinvice Grouping Rules - DFF
+Autoinvice Grouping Rules - Group By - DFF
+Autoinvice Grouping Rules - Transaction Classes - DFF
+Autonumbering - L_SEQ
+Availability Type Lookups - FND_LOOKUP_VALUES - DFF
+BOM Parameters - BOM_PARAMETERS - DFF
+Balance - BLT
+Balance - BLT - DFF
+Balance Attributes - PBA
+Balance Classifications - BLC
+Balance Dimensions - DFB
+Balance Feeds - BLF
+Balance Forward Billing Cycles - CONS_BILL_CYCLE - Monthly
+Balance Forward Billing Cycles - CONS_BILL_CYCLE - Weekly
+Bank Charges - AP_BANK_CHARGES
+Bank Charges - AP_BANK_CHARGE_LINES
+Bank Instruction Codes - BANK_INSTRUCTIONS
+Bank Instruction Codes - BANK_INSTRUCTIONS - DFF
+Bank Transaction Codes - CODES
+Bank Transaction Codes - CODES - DFF
+Bill of Resource Items - BOR_ITEMS
+Bill of Resource Requirements - CRP_RESOURCE_HOURS
+Bill of Resources - BOR_SETS
+Bill of Resources - BOR_SETS - DFF
+Billing Assignments - PA_BILL_ASSIGN
+Billing Profile - OKSBLPRF
+Billing Profile - OKSBLPRF - DFF
+Billing Schedules - PROJECT_FOLDER
+Billing Term Template - DISTRIBUTIONS_BLK
+Billing Term Template - DISTRIBUTIONS_BLK - DFF
+Billing Term Template - TERM_TEMPLATES_FDR_BLK
+Billing Term Template - TERM_TEMPLATES_FDR_BLK - DFF
+Block of Assets Assignment - BOA
+Block of Assets Assignment - JNA
+Bonus Depreciation Rules - BONUS_RATES
+Bonus Depreciation Rules - BONUS_RATES - DFF
+Bonus Depreciation Rules - BONUS_RULES
+Bonus Depreciation Rules - BONUS_RULES - DFF
+Book Controls - ALTERNATE_LEDGERS
+Book Controls - BOOK_CONTROLS - DFF
+Book Controls - BOOK_CONTROLS - GDF
+Book Controls - TAX_RULES
+Bucket Pattern - BUCKET_PATTERNS
+Bucket Pattern - BUCKET_PATTERNS - DFF
+Budget Entry Methods - METHOD - DFF
+Budget Levels - FV_BUDGET_LEVELS
+Budget Levels - FV_BUDGET_LEVELS - DFF
+Budget Lines - BUDGET_ITEMS
+Budget Transaction Sub Types Account - FV_BE_ACCOUNT_PAIRS
+Budget Transaction Types - FV_BE_TRANSACTION_TYPES
+Budget Transaction Types - FV_BE_TRANSACTION_TYPES - DFF
+Budget Transaction Types - FV_BE_TRX_SUB_TYPES
+Budget Transaction Types Account - FV_BE_ACCOUNT_PAIRS
+Budget Types - PA_BUDGET_TYPES - DFF
+Budgetary Calendar - CAL
+Budgetary Calendar - CAL - DFF
+Budgetary Calendar - TPE
+Budgetary Calendar - TPE - DFF
+Budgetary Control Group - BC_GROUP - DFF
+Budgetary Control Group - BC_RULES - DFF
+Budgets - BUDGET_HEADER
+Budgets - BUDGET_VERSION
+Budgets - GRADE_BUDGET_DETAIL
+Budgets - JOB_BUDGET_DETAIL
+Budgets - OPEN_BUDGET_DETAIL
+Budgets - ORGANIZATION_BUDGET_DETAIL
+Budgets - POSITION_BUDGET_DETAIL
+Budgets - VERSIONS
+Build Hierarchies - Build Entity Hierarchy
+Build Hierarchies - Parent Entity
+Build Hierarchies - Select Entities
+Building - BUILDING_BLK
+Building - BUILDING_BLK - Address - DFF
+Building - BUILDING_BLK - DFF
+Building - CONTACTS_BLK
+Building - CONTACTS_BLK - DFF
+Building - FEATURES_BLK
+Building - FEATURES_BLK - DFF
+Burden Cost Codes - IND_COST_CODES
+Burden Cost Codes - IND_COST_CODES - DFF
+Burden Percentages - GMFPBPCM
+Burden Priorities - GMFPBSCM
+Burden Schedules - IND_RATE_SCH
+Burden Schedules - IND_RATE_SCH_REV
+Burden Schedules - MODIFY_IRS_REV
+Burden Schedules - MULTIPLIERS
+Burden Structures - COST_BASE1
+Burden Structures - COST_BASE_EXP_TYPE
+Burden Structures - COST_BASE_ICC
+Burden Structures - COST_PLUS_STRUCTURE
+Business Event Type Code - FV_TAS_BETC_MAP
+Business Event Type Code - FV_TAS_BETC_MAP - DFF
+Business Event Type Code - FV_TP_TAS_BETC_MAP
+Business Event Type Code - FV_TP_TAS_BETC_MAP - DFF
+Business Rules - EXCESS_RULES
+Business Rules - FORECAST_RULES
+Business Rules - NOTIFICATION_RULES
+Business Rules - RECOMMENDATION_RULES
+Business Rules - RESCHEDULE_RULES
+Business Rules - USG_TRANSACTION_TYPES
+Business Rules - WRP_RULES
+Buyers - Define - DFF
+By Manufacturers - MTL_MANUFACTURERS
+By Manufacturers - MTL_MANUFACTURERS - DFF
+By Manufacturers - MTL_MFG_PARTS
+By Manufacturers - MTL_MFG_PARTS - DFF
+CFM - Line Operations - Line_Operation - DFF
+CFM - Production Line - PROD_LINE
+CFM - Production Line - PROD_LINE - DFF
+CFM - Tolerance Fences - TOLERANCE_FENCES
+CFM - Tolerance Fences - TOLERANCE_FENCES - DFF
+CRM Roles - JOBS
+CRM Roles - JOBS - DFF
+CRM Roles - ROLES - DFF
+Calculations - CALCULATIONS - DFF
+Calculations - CALCULATIONS_COLUMN - DFF
+Calendar - JTF_CALENDARS_VL
+Calendar - JTF_CALENDARS_VL - DFF
+Calendar Exception Category Lookups - FND_LOOKUP_VALUES - DFF
+Calendar Exception Reason Lookups - FND_LOOKUP_VALUES - DFF
+Calendar Type Lookups - FND_LOOKUP_VALUES - DFF
+Calendar-period - AP_OTHER_PERIODS
+Calendar-period - AP_OTHER_PERIODS - DFF
+Capacity Changes - B_RES_CHANGES
+Career Path Names - CPT
+Career Path Names - CPT - DFF
+Carriers - CARRIER_CLASSES
+Carriers - CARRIER_CONTACTS
+Carriers - CARRIER_CONTACT_INFO
+Carriers - CARRIER_SITECONTACT_INFO
+Carriers - CARRIER_SITES_MAIN
+Carriers - CARRIER_SITE_CONTACTS
+Carriers - CARRIER_SITE_DETAILS
+Carriers - CARRIER_SITE_TRANSPORTATION
+Carriers - SERVICES - DFF
+Carriers - VEHICLE_TYPES
+Category - RG_ROLE_DEFS - DFF
+Category - SUBCLASS_RESP
+Category Accounts Summary - MTL_CAT_ACCTS
+Category Codes - CATEGORY - Translation
+Category Hierarchy - Category Hierarchy
+Category Hierarchy - Insert Existing Child Category
+Category Sets - ITEM_CATEGORY_PEOPLE
+Change Management - Categories - Attribute Groups
+Change Management - Categories - Pages
+Change Management - Categories - Pages - Attribute Group
+Change Management - Categories - Type - Subject
+Change Management - Codes - Classifications
+Change Management - Header Attributes - Business Entities
+Change Management - Header Attributes - Create Attribute
+Change Management - Header Attributes - Create Attribute Group
+Change Management - Header Attributes - Generate Database View
+Change Management - Line Attributes - Business Entities
+Change Management - Line Attributes - Create Attribute
+Change Management - Line Attributes - Create Attribute Group
+Change Management - Line Attributes - Generate Database View
+Change Types - E_CHG_TYP_PRCS
+Change Types - E_CHG_TYP_PRCS - DFF
+Change Types - E_ECO_TYPES
+Change Types - E_ECO_TYPES - DFF
+Change Types - E_ECO_TYPES - Translation
+Chart of Accounts Mapping - CHILD_RANGES - DFF
+Chart of Accounts Mapping - DAS
+Chart of Accounts Mapping - FLEXFIELD_MAP
+Chart of Accounts Mapping - FLEXFIELD_MAP - DFF
+Chart of Accounts Mapping - FLEXFIELD_MAP - DFF - rapidmigrate
+Chart of Accounts Mapping - MAPPING
+Chart of Accounts Mapping - SEGMENT_ACTIONS
+Chart of Accounts Mapping - SEGMENT_RULES
+Cities - REC_CITIES1
+Cities - REC_CITIES1 - DFF
+City Taxes Collection Calendar - REC_CITIES
+City Taxes Collection Calendar - Tax Period
+City Taxes Collection Calendar - Tax Period - DFF
+Claim Terms Definition - RGTA
+Claim Terms Definition - RGTM
+Class Categories and Codes - PA_CLASS_CATG - DFF
+Class Categories and Codes - PA_CLASS_CD - DFF
+Classification - Pages
+Collection Documents - Form Personalizations - Actions
+Collection Documents - Form Personalizations - Condition
+Collection Documents - Form Personalizations - FND_FORM_CUSTOM
+Collection Elements - Q_CHARS - DFF
+Collection Plans - QP_CHARS - DFF
+Collection Plans - Q_PLANS - DFF
+Column Set - AXES - DFF
+Column Set - AXIS_SETS - DFF
+Commodities - Categories
+Commodities - Commodity
+Commodities - Person
+Communication Templates - REPORT_TEMPLATES
+Communication Templates - TEMPLATE_SET
+Company Types - REC_BUSINESS_VENDORS
+Company Types - REC_BUSINESS_VENDORS - DFF
+Competence Requirements - CEL
+Competence Requirements - CEL - DFF
+Competence Requirements - REQUIREMENT
+Competence Types - COMP_USAGE
+Competence Types - COMP_USAGE - DFF
+Competencies - CMP
+Competencies - CMP - DFF
+Competencies - CMP - Name - DFF
+Competencies - LVL
+Competencies - LVL - DFF
+Component Groups - CM_CMPT_GRP
+Components - B_DEL_SUB_ENT
+Concurrent Program - ACTION
+Concurrent Program Executable - PARAMS
+Concurrent Program Session Control - CONC_PROG
+Consolidation - CONSOLIDATION - Assign Access
+Consolidation - Chart of Accounts Mapping - CHILD_RANGES
+Consolidation - Chart of Accounts Mapping - CHILD_RANGES - DFF
+Consolidation - Chart of Accounts Mapping - FLEXFIELD_MAP
+Consolidation - Chart of Accounts Mapping - FLEXFIELD_MAP - DFF
+Consolidation - Chart of Accounts Mapping - MAPPING
+Consolidation - Chart of Accounts Mapping - SEGMENT_ACTIONS
+Consolidation - Chart of Accounts Mapping - SEGMENT_RULES
+Consolidation Definition - CONSOLIDATION
+Consolidation Set - CONSOLIDATION_SET
+Consolidation Set - SET_ASSIGN
+Consumption Set Up - CONSGN_VMI_CONSUMP
+Contact Role Lookups - FND_LOOKUP_VALUES - DFF
+Container-Item Relationships - CONTAINER_LOAD
+Container-Item Relationships - DFF
+Content Set - CONTENT_OVERRIDES - DFF
+Content Set - CONTENT_SETS - DFF
+Content Zones - Add Operating Units
+Content Zones - Add Suppliers
+Context - Operating Units Selection
+Contract Expert - Add Questions
+Contract Expert - Clauses
+Contract Expert - Conditions
+Contract Expert - Create Constant
+Contract Expert - Questions
+Contract Expert - Rules
+Contract Expert - Template
+Contract Groups - GROUPS - DFF
+Contract Party Role Lookups - FND_LOOKUP_VALUES - DFF
+Contract Templates - Deliverable
+Contract Templates - Deliverable - Attachments
+Contract Terms Library - Contract Templates
+Contract Terms Library - Create Clause
+Contract Terms Library - Document Types
+Contract Terms Library - Folders
+Contract Terms Library - Numbering Schemes
+Contract Terms Library - Scheme Details
+Control Billing by Top Task - PA_TASKS
+Control Item Types - Control Item Creation
+Control Item Types - Control Item Type
+Control Item Types - Impacts
+Control Item Types - Project Types
+Control Values - RG_CONSTANT_PERIODS
+Control Values - RG_CURRENCIES
+Converage Types - COVERAGE_TYPE - DFF
+Conversion Rate Types - DAILY_RATE_TYPE - DFF
+Cost Analysis Codes - CM_ALYS_MST
+Cost Bases - COST_BASE
+Cost Calendars - CM_CLDR_DTL
+Cost Calendars - CM_CLDR_HDR
+Cost Component Classes - CM_CMPT_MST
+Cost Factor List - Cost Factor
+Cost Factor List - Cost Factor List
+Cost Groups - CST_CG_WIP_ACCT_CLASSES
+Cost Groups - CST_COST_GROUPS - DFF
+Cost Type - C_CST_TYPE - DFF
+Cost Types - CM_MTHD_MST
+Create Clause - Add Variables
+Create Customer Association - Enter Customer Information
+Create Customer Association - Select Trading Organization
+Create Customer Association - Select Trading Partners
+Create Supplier Associations - Enter Supplier Information
+Create Supplier Associations - Select Trading Organization
+Create Supplier Associations - Select Trading Partners
+Credit Card Programs - AP_CARD_PROGRAMS
+Credit Card Programs - AP_CARD_PROGRAMS - DFF
+Credit Cards - CARDS
+Credit Cards - CARDS - DFF
+Credit Cards Use Policy - Credit Card Transaction Submission
+Credit Cards Use Policy - Credit Card Usage
+Credit Profiles - PROFILES
+Credit Profiles - PROF_AMTS
+Cross Reference Types - XREF_TYPE - DFF
+Crossdock Criteria - CROSSDOCK_CRITERIA
+Currencies - FND_CURRENCIES - DFF
+Currency - PO_CURRENCY
+Customer Care Lookups - FND_LOOKUP_VALUES - DFF
+Customer Item Commodity Codes - COMMODITY_CODES
+Customer Item Commodity Codes - COMMODITY_CODES - DFF
+Customer Item Cross References - CUSTOMER_ITEM_XREF
+Customer Item Cross References - CUSTOMER_ITEM_XREF - DFF
+Customer Items Defaults - CITEM_DEFAULTS
+Customer Items Summary - CITEM_MAIN
+Customer Items Summary - CITEM_MAIN - DFF
+Customer Profile Classes - Profile Class - GDF
+Customer Profile Classes - Profile Class Amounts - DFF
+Customer Tax Information India Localization - JA_IN_CUSTOMER_ADDRESSES
+Customers Merge - MERGE_DETAIL
+Customers Merge - MERGE_DETAIL - DFF
+Customers Merge - MERGE_HEAD
+Customers Merge - MERGE_HEAD - DFF
+Customers Online - General Classifications
+Cycle Counts - CC_HEADERS_FOLDER - DFF
+Cycles - CYCLES - DFF
+Daily Rates - DAILY_RATES - DFF
+Data Access Set - ACCESS_DETAIL
+Data Access Set - ACCESS_DETAIL - DFF
+Data Access Set - ACCESS_SET
+Data Access Set - ACCESS_SET - DFF
+Default WIP Accounting Classes for Categories - WIP_DEF_CAT_ACC_CLASSES
+Defaulting Condition Validation Templates - DEFELEMENT - DFF
+Define Appropriation Parameters - FUND_PARAMETERS
+Define Appropriation Parameters - FUND_PARAMETERS - DFF
+Define Appropriation Parameters - TREASURY_SYMBOLS
+Define Appropriation Parameters - TREASURY_SYMBOLS - DFF
+Define Asset Number - ASSET_NUMBERS
+Define Asset Number - ASSET_NUMBERS - DFF
+Define Asset Number - Location
+Define Asset Number - Main
+Define Asset Number - Others
+Define Budget Accounts - FV_FACTS_BUDGET_ACCOUNTS
+Define Budget Accounts - FV_FACTS_BUDGET_ACCOUNTS - DFF
+Define Budget Accounts - FV_FACTS_BUD_FED_ACCTS
+Define Budget Accounts - FV_FACTS_BUD_FED_ACCTS - DFF
+Define Budget Distributions - FV_BUDGET_DISTRIBUTION_DTL
+Define Budget Distributions - FV_BUDGET_DISTRIBUTION_DTL - DFF
+Define Budget Distributions - FV_BUDGET_DISTRIBUTION_HDR
+Define Budget Distributions - FV_BUDGET_DISTRIBUTION_HDR - DFF
+Define Budget Formula - Assign Access - DAS
+Define Budget Formula - Assign Access - DAS - DFF
+Define Budget Formula - REC_BATCH
+Define Budget Formula - REC_BATCH - DFF
+Define Budget Formula - REC_ENTRY
+Define Budget Formula - REC_ENTRY - DFF
+Define Budget Organization - ORGANIZATION - DFF
+Define Budget Users - FV_BUDGET_USER_DTL
+Define Budget Users - FV_BUDGET_USER_HDR
+Define Budget Users - FV_BUDGET_USER_HDR - DFF
+Define Business Type Even Codes - FV_BETC_CODES
+Define Business Type Even Codes - FV_BETC_CODES - DFF
+Define Calculation Rules - CSP_LOOP_CALC_RULES
+Define Credit Check Rules - DFF
+Define Credit Usage Rules - USAGE_RULES
+Define Credit Usage Rules - USAGE_RULES-DFF
+Define Credit Usage Rules - USAGE_RULESETS
+Define Devices - DEVICES
+Define Devices - DEVICES - DFF
+Define Federal Options - FV_OPERATING_UNITS_ALL
+Define Federal System Parameters - FV_SYSTEM_PARAMETERS
+Define Financial Report - RG_REPORTS - DFF
+Define Groups - CHILDREN
+Define Groups - CHILDREN - DFF
+Define Groups - GROUPS - DFF
+Define Groups - GRPROLES - DFF
+Define Groups - MEMBERS - DFF
+Define Groups - RELATIONS
+Define Groups - RELATIONS - DFF
+Define Groups - USAGES - DFF
+Define Information Template - POR_TEMPLATES - Translation
+Define Information Template - POR_TEMPLATE_ATTRIBUTES - Translation
+Define Label Field Variables - LABEL_FIELD_VARS - DFF
+Define Label Formats and Sets - LABEL_FORMATS - DFF
+Define Label Sets - LABEL_SET_FORMATS
+Define MassAllocations - Assign Access - DAS
+Define MassAllocations - Assign Access - DAS - DFF
+Define Other Authorizations Codes - FVFCDRT7_BLK
+Define Other Authorizations Codes - FVFCDRT7_BLK - DFF
+Define Other Authorizations Codes - USSGL_ACCOUNTS_BLK
+Define Other Authorizations Codes - USSGL_ACCOUNTS_BLK - DFF
+Define Parent Child Collection Plan Relationship - Criteria Setup
+Define Parent Child Collection Plan Relationship - Element Relationships
+Define Parent Child Collection Plan Relationship - Plan Relationship
+Define Parts Loop - CSP_PARTS_LOOPS
+Define Physical Inventory - FOLDER - DFF
+Define Physical Inventory - FOLDER_SUBINVENTORIES
+Define Printer IP - WMS_PRINTER_IP_DEF
+Define Recurring Journal Formula - REC_BATCH
+Define Recurring Journal Formula - REC_BATCH - DFF
+Define Recurring Journal Formula - REC_ENTRY
+Define Recurring Journal Formula - REC_ENTRY - DFF
+Define Security Rules - KEY_LINES
+Define Security Rules - KEY_RULES
+Define Security Rules - LINES
+Define Security Rules - RULES
+Define Security Rules - VSET_LINES
+Define Security Rules - VSET_RULES
+Define Security Rules - VSET_RULES - Translation
+Define Service Levels - FND_LOOKUP_VALUES - DFF
+Define Shifts - JTF_CAL_SHIFTS_VL
+Define Shifts - JTF_CAL_SHIFT_CONSTRUCTS_V
+Define Shifts - JTF_CAL_SHIFT_CONSTRUCTS_V - DFF
+Define Shipping Exceptions - EXCEPTION_DEFINITION - DFF
+Define Trading Partners - DFF
+Define Trading Partners - Details - DFF
+Define Trading Partners - ECE_TP_DETAILS
+Define Trading Partners - ECE_TP_HEADERS
+Define US SGL Accounts - Cancellations
+Define US SGL Accounts - Cash Position
+Define US SGL Accounts - FMS Form 224 Validation
+Define US SGL Accounts - Footnote Explanations
+Define US SGL Accounts - Prior Year Adjustments
+Define US SGL Accounts - SF133 Outlays
+Define US SGL Accounts - Status of Resources
+Define US SGL Accounts - Total Resources
+Define US SGL Accounts - Total Resources - DFF
+Define US SGL Accounts - Year End Closing
+Define User Groups - Q_USER_GROUP
+Define User Groups - Q_USER_GROUP_HEAD
+Definition Access Set Assignments - DEFINITION_ACCESS_SET
+Definition Access Set Assignments - DEFINITION_ACCESS_SET - DFF
+Definition Access Set Assignments - RESPONSIBILITY
+Definition Access Sets - DEFAS_ACCESS_DETAIL
+Definition Access Sets - DEFAS_ACCESS_DETAIL - DFF
+Definition Access Sets - DEFAS_ACCESS_SET - DFF
+Deletion Groups - B_DEL_ENTITIES
+Deletion Groups - B_DEL_GROUPS
+Deliverable Types - Deliverable Action
+Deliverable Types - Deliverable Type
+Department - Overhead Rates - C_DEPOVH
+Department - Overhead Rates - C_DEPOVH - DFF
+Department - Overhead Rates - C_DEPOVH_CT
+Department Classes - B_DEPT_CLASS
+Department Classes - B_DEPT_CLASS - DFF
+Department Subinventories - DEPT_BLK
+Department Subinventories - ZONES_BLK
+Department Subinventories - ZONES_BLK - DFF
+Departments - B_DEPARTMENTS - DFF
+Depreciation Methods - DEPRN_METHODS - DFF
+Depreciation Rates - FLAT_RATES - DFF
+Distribution - Destination
+Distribution - Destination - DFF
+Distribution - More
+Distribution - Project
+Distribution Sets - AR_DISTRIBUTION_SETS
+Distribution Sets - AR_DISTRIBUTION_SET_LINES
+Distribution Sets - DIST_SET - DFF
+Distribution Sets - DIST_SET_LINES - DFF
+Distribution Sets - FA_DISTRIBUTION_DEFAULTS
+Distribution Sets - FA_DISTRIBUTION_SETS
+Distributions - D_SUM_FOLDER
+Distributions - D_SUM_FOLDER - DFF
+Distributions - PO_DISTRIBUTIONS
+Distributions - PO_DISTRIBUTIONS - DFF
+Document Categories - WSH_DOC_SEQ_CTG - DFF
+Document Sequences - SEQUENCES - DFF
+Document Sequencing Setup - JAI_RGM_DOC_SEQ_DTLS
+Document Sequencing Setup - JAI_RGM_DOC_SEQ_HDRS
+Document Styles
+Document Styles - Commodities
+E-Business Tax - Create Application Tax Options
+E-Business Tax - Create Configuration Owner Tax Options
+E-Business Tax - Jurisdictions - Tax Accounts
+E-Business Tax - Party First Establish - Classifications
+E-Business Tax - Party First Establish - Update Account
+E-Business Tax - Party Tax Profile Operating Unit - Configuration Options
+E-Business Tax - Party Tax Profile Operating Unit - Tax Reporting Codes
+E-Business Tax - Regimes - Service Subscriptions
+E-Business Tax - Reporting Code
+E-Business Tax - Tax - Statuses - Reporting Codes
+E-Business Tax - Tax Account
+E-Business Tax - Tax Rule - Guided Rule Entry - Additional Factors
+E-Business Tax - Tax Rule - Guided Rule Entry - Document Classification
+E-Business Tax - Tax Rule - Guided Rule Entry - Intended Use
+E-Business Tax - Tax Rule - Guided Rule Entry - Non-Inventory
+E-Business Tax - Tax Rule - Guided Rule Entry - Transaction Business
+ECO Autonumbering - E_AUTO_NUM_ECN_O
+ECO Autonumbering - E_AUTO_NUM_ECN_O_ALL
+ECO Autonumbering - E_AUTO_NUM_ECN_U
+ELement Time Information - AEI
+ELement Time Information - AEI - DFF
+Earning Group - EGT1
+Earning Group - ERG2
+Economic Zones - ZONES-Translation
+Element Link - Costing
+Element Link - Costing - Balancing - DFF
+Element Link - Costing - Costing - DFF
+Element Link - LINK
+Element Link - LINK - Group - DFF
+Element Link - Miscellaneous - DFF
+Element Link - Qualifying Conditions
+Element and Distribution Set - ELS
+Element and Distribution Set - ESM
+Elimination Accounts - ELIMINATION_ACCOUNTS_MAP - DFF
+Elimination Accounts - ELIMINATION_JOURNALS - DFF
+Elimination Set - Assign Access - DAS - DFF
+Elimination Set - ELIMINATION_SET - DFF
+Employee Signing Limits - EMPLOYEE_SIGNING_LIMIT
+Employees - B_RES_EMPLOYEES
+Enter Quality Results - Q_RES_HEAD
+Enterprise Asset Management Parameters - WIP_EAM_PARAMETERS_V
+Equipment Setup - Equipment
+Equipment Types - B_RES_EQUIPMENTS
+Event Fiscal Policies - GL_EVNT_PLC
+Event Phases - QP_EVENT_PHASES - DFF
+Event Phases - QP_PRICING_PHASES - DFF
+Event Types - EVENT_TYPES - DFF
+Exception Templates - B_EXCEP_DATES
+Exception Templates - B_EXCEP_DATES - DFF
+Exception Templates - B_EXCEP_SETS - DFF
+Exceptions - B_CAL_EXCEPT
+Exceptions - B_CAL_EXCEPT - DFF
+Exceptions - B_SHIFT_EXCEPT
+Exceptions - B_SHIFT_EXCEPT - DFF
+Exceptions - JTF_CAL_EXCEPTIONS_VL
+Exceptions - JTF_CAL_EXCEPTIONS_VL - DFF
+Expenditure Categories - PA_EXPCATG - DFF
+Expenditure Types - OUTPUT_TAX_CODE
+Expenditure Types - PA_EXPEND_TYP_SYS_LINKS_V - DFF
+Expense Account Rules - Create Expense Account Rules
+Expense Justification Code Lookups - FND_LOOKUP_TYPES
+Expense Justification Code Lookups - FND_LOOKUP_VALUES
+Expense Justification Code Lookups - FND_LOOKUP_VALUES - DFF
+Expense Report Templates - CARD_EXPENSE_TYPES
+Expense Reports - Accounting
+Expense Reports - Accounting - DFF
+Expense Reports - Adjustments
+Expense Reports - Currency
+Expense Reports - EMPLOYEE
+Expense Reports - EMPLOYEE - DFF
+Expense Reports - Expense Audit
+Expense Reports - Merchant
+Expense Reports - Receipt
+Expenses Audit - Auditor Setup
+Expenses Setup - Accounting - Chart of Accounts
+Expenses Setup - Accounting - Ledger Exceptions
+Extensions - Associations
+Extensions - Attribute Groups
+Extensions - Attribute Groups - Attributes
+Extensions - Attribute Groups - Generate Database View
+Extensions - Pages
+Extensions - Pages - Attribute Groups
+FACTS Attributes - FV_FACTS_ATTRIBUTES
+FACTS Attributes - FV_FACTS_ATTRIBUTES - DFF
+FMS Form 1219 1220 Transaction Correction - FV_SF1219_TEMP
+FMS Form Report Definitions - FV_SF1219_DEFINITIONS_ACCTS
+Federal Account Symbols - FV_FACTS_FEDERAL_ACCOUNTS
+Federal Account Symbols - FV_FACTS_FEDERAL_ACCOUNTS - DFF
+Federal Account Symbols Parameters - TREASURY_SYMBOLS
+Federal Account Symbols Parameters - TREASURY_SYMBOLS - DFF
+Federal Financial Options - FV_PYA_FISCALYEAR_MAP
+Federal Financial Options - FV_PYA_FISCALYEAR_MAP - DFF
+Federal Financial Options - FV_PYA_FISCALYEAR_SEGMENT
+Federal Financial Options - FV_PYA_FISCALYEAR_SEGMENT - DFF
+Federal Financials Lookups - FND_LOOKUP_TYPES - Values - DFF
+Financial Plan Types - Change Documents
+Financial Statements Report Definitions - FV_REPORT_TYPE
+Financials Common Modules Lookups - FND_LOOKUP_VALUES - DFF
+Find Budgets - FIND_BUDGET
+Find Key Flexfield Segment - KEY
+Find Preventive Maintenance Schedules - QUERY_FIND_BLK
+Find Transit Times - FIND_LOCATIONS
+Fiscal Classification - REC_FISCAL_CLASSIFICATIONS
+Fiscal Classification - REC_FISCAL_CLASSIFICATIONS - DFF
+Fiscal Classification - REC_FISCAL_CLASSIF_DETAILS
+Fiscal Classifications - DFF
+Fiscal Classifications - RSFC
+Fiscal Information About Address of Customer - REC_FISCAL_ENTITIES
+Fiscal Information About Address of Customer - REC_FISCAL_ENTITIES - DFF
+Fiscal Information About Address of Supplier - Details
+Fiscal Information About Address of Supplier - Details - DFF
+Fiscal Information About Address of Supplier - FISCAL_ENTITIES
+Fiscal Information About Address of Supplier - Oracle Receivables
+Fiscal Informations About Address of Location - FISCAL_ENTITIES
+Fiscal Informations About Address of Location - FISCAL_ENTITIES - DFF
+Fiscal Policies - GL_PLCY_MST
+Fiscal Utilization - REC_ITEM_UTILIZATIONS
+Fiscal Utilization - REC_ITEM_UTILIZATIONS - DFF
+Fleet Maintenance - Effectivities
+Fleet Maintenance - Maintenance Reqiurement
+Fleet Maintenance - Relationships
+Fleet Maintenance - Routes
+Floor - FLOOR_BLK
+Floor - FLOOR_BLK - DFF
+Forcast Items - FOLDER
+Forecast Consumptions - FORECAST_CONSUMPTIONS
+Forecast Entries - FORECAST_DATES
+Forecast Rules - FORECAST_RULES
+Forecast Rules - INDICES
+Forecast Sets - FORECASTS
+Forecast Sets - FORECASTS - DFF
+Forecast Sets - FORECAST_SETS
+Forecast Sets - FORECAST_SETS - DFF
+Forecast Sets - INV_FORECASTS
+Forecast Sets - INV_FORECASTS - DFF
+Forecast Sets - INV_FORECAST_SETS
+Forecast Sets - INV_FORECAST_SETS - DFF
+Formula Results Rules - ELEMENT_TYPE
+Formula Results Rules - RESULT_RULES
+Formula Results Rules - STATUS_PROCESSING_RULES
+Formular Classes - FM_FORM_CLS
+Freight Cost Types - FREIGHT_COST_TYPES - DFF
+Freight Information - REC_STATE_RELATION_SHIP_VIAS
+Freight Information - REC_STATE_RELATION_SHIP_VIAS - DFF
+Freight Informations - CLL_F189_STATE_SHIP_VIAS
+Freight Informations - DFF
+Fund Projects - FUNDINGS
+Fund Projects - FUNDINGS - DFF
+Funding History - FUNDING_HISTORY
+Funding Summary - FUNDING_SUMMARY
+Funds Availability Reports Definitions - FV_FUNDS_AVAIL_ACCT_RANGES
+Funds Availability Reports Definitions - FV_FUNDS_AVAIL_REP_DEF
+Funds Transfer Error Handling - AR_CC_ERROR_MAPPING
+GL Accounts - GLXACCMB
+GL Map - PAY
+GL Map - PRF
+General Locations - City Locations
+General Locations - Country Locations
+General Locations - Undefined Locations
+General Options - Approval Notes Languages
+General Options - Future Expenses
+Generic Resource Parameters - GMP_RSRC_PROCESS_PARAMETERS
+Global Contracts Defaults - GLOBAL_SET
+Global Contracts Defaults - ORGNS
+Global Contracts Defaults - PARTIES
+Global Organization Hierarchy - OS1
+Global Organization Hierarchy - OS1 - DFF
+Global Organization Hierarchy - OSE1
+Global Organization Hierarchy - OSV1
+Global Organization Hierarchy - OU1
+Global Organization Security - PSO
+Global Parameters - DFF
+Global Security Profile - Custom Security
+Global Security Profile - Miscellaneous Security
+Global Security Profile - PSP1
+Global Security Profile - Static Lists
+Global Security Profile - Supervisor Security
+Global Values - GLB
+Grade Rate - GRD1
+Grade Rate - RTE1
+Grade Rate - RTE1 - DFF
+Grade Scale - GRS
+Grade Scale - SPS
+Grade Scale - SPS - DFF
+Grades - Further Information - DFF
+Grades - GRD1
+Grades - GRD1 - DFF
+Grades - Name - DFF
+Grant Privileges - Q_GRANT_PRIVILEGES
+Hierarchy Setup - Header Levels
+Hierarchy Setup - Hierarchies
+Hierarchy Setup - Levels
+Hierarchy Setup - Move Entities
+Histogram - CRITERIA
+Histogram - PARETO
+Historical Rates - CURRENCY
+Historical Rates - HIST_RATE
+Historical Rates - HIST_RATE - DFF
+Holds - Authorizations
+Holds - Authorizations - DFF
+Holds - DFF
+Holiday Calendar - HCL3
+Holiday Calendar - HDY2
+Holiday-Non-Working Dates - FV_HOLIDAY_DATES
+Holiday-Non-Working Dates - FV_HOLIDAY_DATES - DFF
+Hub Definitions - ECX_HUBS
+Hub Definitions - ECX_HUB_USERS
+Independent Condition - CONDITIONS - DFF
+Independent Condition - FUNCTION_PARAMETERS
+Independent Condition - OKCEXEVT_FUNCTION
+Index History - HISTORY_HEADERS_BLK
+Index History - HISTORY_HEADERS_BLK - DFF
+Index History - HISTORY_LINES_FDR_BLK
+Initial Balance Feed - BIC
+Input Values - INPUT_VALUES
+Install Base Lookups - FND_LOOKUP_VALUES - DFF
+Installed Base - Install Parameters
+Instance Statuses - CP_STATUS - DFF
+Instance Type Code Lookups - FND_LOOKUP_VALUES
+Instance Type Code Lookups - FND_LOOKUP_VALUES - DFF
+Instances - B_DEPT_RES_INS_B
+Inter Org Shipping Networks - SHIP_METHOD
+Inter Org Shipping Networks - SHIP_METHOD - DFF
+Intercompany Accounts - Payables Accounts
+Intercompany Accounts - Receivables Accounts
+Intercompany Accounts - Relationships
+Intercompany Relations - INVSDICR
+Intercompany Relations - INVSDICR - DFF
+Intercompany Transaction Flows - TRANSACTION_FLOW_HEADER
+Intercompany Transaction Flows - TRANSACTION_FLOW_HEADER - DFF
+Intercompany Transaction Flows - TRANSACTION_FLOW_LINES
+Intercompany Transaction Flows - TRANSACTION_FLOW_LINES - DFF
+Interstate ICMS - REC_STATE_RELATIONS1
+Interstate ICMS - REC_STATE_RELATIONS1 - DFF
+Invalid Response Actions - INVALID_RESPONSE
+Inventory Lookups - FND_LOOKUP_VALUES - DFF
+Inventory Picking Rules - MTL_INV_PICKING_RULES
+Invitation List - Add Suppliers
+Invitation List - Invitation List
+Invitation List - Participants
+Invite Supplier User - User Access
+Invite Supplier User - User Information
+Invoice Types - Asset Accounts
+Invoice Types - DFF
+Invoice Types - Fed Withholding Taxes
+Invoice Types - Interfaces
+Invoice Types - Liability Accounts
+Invoice Types - Properties
+Invoice Types - REC_INVOICE_TYPES
+Invoice Types - Taxes
+Invoice Types of Reversion - RRI
+Invoice Types of Reversion - RRI - DFF
+Invoicing and Accounting Rules - RA_RULES - DFF
+Invoicing and Accounting Rules - RA_RULE_SCHEDULES - DFF
+Item Attributes Mass Maintenance - MSC_ITEM_MAINTENANCE
+Item Attributes Mass Maintenance - MSC_ITEM_SIMULATION_SETS
+Item Catalog - Trade Compliance
+Item Catalog - Trade Compliance Org
+Item Catalog Category
+Item Catalog Groups - ICG_ALIASES
+Item Catalog Groups - ICG_CATEGORIES
+Item Catalog Groups - ICG_DESC_ELEMS
+Item Catalog Groups - ITEM_CATALOG_GROUP
+Item Catalog Groups - ITEM_CATALOG_GROUP - DFF
+Item Catalog Groups - ITEM_CATALOG_GROUP - Translation
+Item Category List India Localization - CAT_DTL
+Item Category List India Localization - CAT_HDR
+Item Relationships - RELATED_ITEMS - DFF
+Item Status Codes - ITEM_STATUS - DFF
+Item Template Attribute Registration - CTRLBLK
+Item Template Attribute Registration - ITMTMPATT
+Item Templates - DFF
+Itemizations - PARAMET
+Job - DFF
+Job - EVALS
+Job - EVALS - DFF
+Job - Further Information - DFF
+Job - GRADES
+Job - GRADES - DFF
+Job - PO_Further Information - DFF
+Job - PO_JOBS - DFF
+Job - Requirement
+Job - Requirement - DFF
+Job - Work Preference
+Job - Work Preference - DFF
+Journal Authorization Limits - AUTH_LIMITS
+Journal Authorization Limits - AUTH_LIMITS - DFF
+Journal Categories - CATEGORY - DFF
+Journal Entry Line - REC_LINE
+Journal Entry Line - REC_LINE - DFF
+Journal Entry Line - REC_RULE
+Journal Entry Line - REC_RULE - DFF
+Journal Entry Lines - REC_LINE
+Journal Entry Lines - REC_LINE - DFF
+Journal Entry Lines - REC_RULE
+Journal Entry Lines - REC_RULE - DFF
+Journal Reversal Criteria - Assign Access
+Journal Reversal Criteria - Assign Access - DFF
+Journal Reversal Criteria - CRITERIA
+Journal Reversal Criteria - CRITERIA - DFF
+Journal Reversal Criteria - CRITERIA_SETS
+Journal Reversal Criteria - CRITERIA_SETS - DFF
+Jurisdiction - Legal Functions
+Kanban Names - KANBAN_DESIGNATORS
+Key Members - KEY_MEMBERS
+LCM - Options
+Labor Cost Multipliers - PA_LABOR_CSTM
+Labor Costing Overrides - EMPLOYEE
+Labor Costing Overrides - EMPLOYEE_COST_RATES
+Labor Costing Overrides - EMPLOYEE_COST_RATES - DFF
+Labor Costing Rules - PA_CMP_RULE_SETS - DFF
+Labor Costing Rules - PA_COMP_OT_EXP_TYPES
+Labor Justification Code Lookups - FND_LOOKUP_TYPES
+Labor Justification Code Lookups - FND_LOOKUP_VALUES
+Labor Justification Code Lookups - FND_LOOKUP_VALUES - DFF
+Land - BUILDING_BLK
+Land - BUILDING_BLK - Address - DFF
+Land - BUILDING_BLK - DFF
+Land - CONTACTS_BLK
+Land - CONTACTS_BLK - DFF
+Land - FEATURES_BLK
+Land - FEATURES_BLK - DFF
+Last Service Information - LSI_ASSET_ACTIVITY
+Latin Fiscal Classifications - FSC_CLS
+Latin Fiscal Classifications - FSC_LKP
+Latin Locations - TAX_LOCATIONS
+Latin Tax Categories - TAX_CATEGORIES
+Latin Tax Condition Classes - ATTRIBUTE_CLASS
+Latin Tax Condition Classes - CLASS_ATTRIBUTE
+Latin Tax Exceptions By Fiscal Classification - TAX_EXCEPTIONS
+Latin Tax Groups - AR_VAT_TAX
+Latin Tax Groups - TAX_GROUPS
+Ledger Set - LEDGER_ASSIGNMENT
+Ledger Set - LEDGER_ASSIGNMENT - DFF
+Ledger Set - LEDGER_SETS
+Ledger Set - LEDGER_SETS - DFF
+Legal Entity - Argentina
+Legal Entity - Australia
+Legal Entity - Austria
+Legal Entity - Barbados
+Legal Entity - Belgium
+Legal Entity - Bermuda
+Legal Entity - Brazil
+Legal Entity - Bulgaria
+Legal Entity - Canada
+Legal Entity - Cayman Islands
+Legal Entity - Chile
+Legal Entity - China
+Legal Entity - Colombia
+Legal Entity - Contact Information - Addresses
+Legal Entity - Contact Information - Addresses - Purposes
+Legal Entity - Contact Information - Addresses - Purposes - United States
+Legal Entity - Contact Information - Addresses - United States
+Legal Entity - Contact Information - Contacts
+Legal Entity - Contact Information - Contacts - Legal Rule
+Legal Entity - Costa Rica
+Legal Entity - Croatia
+Legal Entity - Czech Republic
+Legal Entity - Dominican Republic
+Legal Entity - Finland
+Legal Entity - France
+Legal Entity - Germany
+Legal Entity - Gibraltar
+Legal Entity - Greece
+Legal Entity - Guatemala
+Legal Entity - Hong Kong
+Legal Entity - Hungary
+Legal Entity - India
+Legal Entity - Indonesia
+Legal Entity - Ireland
+Legal Entity - Israel
+Legal Entity - Italy
+Legal Entity - Japan
+Legal Entity - Korea Republic of
+Legal Entity - Latvia
+Legal Entity - Legal Functions
+Legal Entity - Luxembourg
+Legal Entity - Malaysia
+Legal Entity - Malta
+Legal Entity - Mauritius
+Legal Entity - Mexico
+Legal Entity - Morocco
+Legal Entity - Netherlands
+Legal Entity - Netherlands Antilles
+Legal Entity - New Zealand
+Legal Entity - Norway
+Legal Entity - Panama
+Legal Entity - Peru
+Legal Entity - Philippines
+Legal Entity - Poland
+Legal Entity - Portugal
+Legal Entity - Puerto Rico
+Legal Entity - Registrations - DFF
+Legal Entity - Romania
+Legal Entity - Russian Federation
+Legal Entity - Saudi Arabia
+Legal Entity - Serbia and Montenegro
+Legal Entity - Setup Addresses - China
+Legal Entity - Setup Addresses - France
+Legal Entity - Setup Addresses - Ireland
+Legal Entity - Setup Addresses - Italy
+Legal Entity - Setup Addresses - Netherlands
+Legal Entity - Setup Addresses - Spain
+Legal Entity - Setup Addresses - United Kingdom
+Legal Entity - Singapore
+Legal Entity - Slovakia
+Legal Entity - Slovenia
+Legal Entity - South Africa
+Legal Entity - Spain
+Legal Entity - Sweden
+Legal Entity - Switzerland
+Legal Entity - Taiwan
+Legal Entity - Thailand
+Legal Entity - Turkey
+Legal Entity - Ukraine
+Legal Entity - United Arab Emirates
+Legal Entity - United Kingdom
+Legal Entity - United States
+Legal Entity - Venezuela
+Legal Entity - Virgin Islands British
+Legal Messages - Locations - LEGAL_MSG
+Legal Messages - Tax Gruop - LEGAL_MSG
+Lifecycles - Change Policy
+Lifecycles - Lifecycle Associations
+Lifecycles - Lifecycle Details
+Lifecycles - Lifecycle Phases
+Line - Type - Define - DFF
+Lines Assignment -  FV_SF1219_MANUAL_LINES
+Location - LOC - GDF
+Location Address - LOCATION_ADDRESS
+Locations - LOCATIONS - DFF
+LockBoxes - AR_LOCKBOXES
+LockBoxes - AR_LOCKBOXES - DFF
+MPS Schedule Parameters - ORG_FORECAST
+MPS Schedule Parameters - PS_SCHD_DTL
+MPS Source List
+MPS Source List - Detail
+MRP Names - MRP_DESIGNATORS
+MRP Names - MRP_DESIGNATORS - DFF
+MRP Names - MRP_PLANS
+MRP Names - MRP_SUB_INVENTORY
+MRP Names - SCP_MRP_DESIGNATORS
+MRP Names - SCP_MRP_DESIGNATORS - DFF
+MRP Names - SCP_MRP_PLANS
+MRP Planner Workbench - MRP_OPTIONS
+MVA Rates - RS
+Maintain Actions - MTL_ACTIONS
+Maintain Actions - MTL_ACTIONS - DFF
+Maintain Grades - MTL_GRADES
+Maintain Grades - MTL_GRADES - DFF
+Maintenance Bills of Materials - B_BILL_OF_MATLS
+Maintenance Bills of Materials - B_INV_COMPS
+Make to Order Rule - ASSIGNMENTS
+Make to Order Rule - GME_RULE
+Manage Customers - Account Contact Points
+Manage Customers - Account Contact Responsibilities
+Manage Customers - Account Contacts
+Manage Customers - Account Site Contact Points
+Manage Customers - Account Site Contact Responsibilities
+Manufacturing ECG Material Dispositions - FND_LOOKUP_VALUES - DFF
+Manufacturing Lookups - BOM_FND_LOOKUP_VALUES - DFF
+Manufacturing Lookups - WMS_FND_LOOKUP_VALUES - DFF
+Map Career Path - CPE
+Map Career Path - CTRL
+Map Time Units - TIMECODE_UNIT
+Mapping Objects - Note Type Mapping - DFF
+Mapping Objects - PRIORITY
+Mapping Objects - PRIORITY - DFF
+Mapping Objects - TASK_TYPES - DFF
+Mapping Objects - Task Notes References - DFF
+Mapping Sets - XLA_AB_MAPPING_SETS
+Mapping Sets - XLA_AB_MAPPING_SET_VALUES
+Master Demand Schdule Entities - ENTRIES
+Master Demand Schdule Reliefs - RELIEFS
+Master Demand Schedule Items - ITEMS_FOLDER
+Master Demand Schedule Source List - LOAD_SOURCE_ENTRIES
+Master Demand Schedule Source List - LOAD_SOURCE_LISTS
+Master Demand Schedules - NAMES_FOLDER
+Master Demand Schedules - NAMES_FOLDER - DFF
+Master Production Schedules - NAMES_FOLDER
+Master Production Schedules - NAMES_FOLDER - DFF
+Master Production Schedules - SCP_NAMES_FOLDER
+Master Production Schedules - SCP_NAMES_FOLDER - DFF
+Master Production Schedules Entries - ENTRIES
+Master Production Schedules Items - ITEMS_FOLDER
+Master Production Schedules Reliefs - RELIEFS
+Matching Attributes - OPTIONAL_ATTRIB_CUST
+Material Justification Code Lookups - FND_LOOKUP_TYPES
+Material Justification Code Lookups - FND_LOOKUP_VALUES
+Material Justification Code Lookups - FND_LOOKUP_VALUES - DFF
+Material Overhead Absorption Rules - MOH_RULES
+Material Overhead Defaults - C_ITM_OVHD_DEFS
+Material Overhead Defaults - C_ITM_OVHD_DEFS - DFF
+Material Overhead Defaults - DEFAULT_TYPE
+Material Requirements - ATP
+Material Requirements - Comment
+Material Requirements - Main
+Material Requirements - Main - DFF
+Material Requirements - Quantities
+Material Requirements - Supply
+Material Status Definition - Transactions - MSDEF_STATUS_TRX_BLK
+Member Roles - MEMROLES
+Member Roles - MEMROLES - DFF
+Merge Batch - BATCH
+Merge Batch - FROM_ORGPRO
+Merge Batch - FROM_PERPRO
+Merge Batch - MERGE_PARTIES
+Merge Batch - ORG_CONTACTS
+Merge Batch - PARTY_RELN_DETAILS
+Merge Batch - PARTY_SITE_DETAILS
+Meter - METERS
+Meter - METERS - DFF
+Meter - METERS - Detail
+Meter Association - ASSET_ENTITY
+Meter Association - ASSET_METERS
+Meter Setup - Meters
+Movement Statistics Validation Rules - RULE_UOM
+Multi-Currency Conversion - LIST_CURRENCY
+Multi-Currency Conversion - LIST_CURRENCY - DFF
+Multi-Currency Conversion - QP_CURRENCY_DETAILS
+Multi-Currency Conversion - QP_CURRENCY_DETAILS - DFF
+Multiperiod Accounting Assignment - XLA_MPA_HEADER_AC_ASSGNS
+Municipal Service Types - REC_CITY_SERVICE_TYPE_RELS
+Negotiation Terms and Conditions
+Negotiations Configuration - Supplier Discovery
+No Response Actions - NO_RESPONSE
+Non-Labor Expenditure Cost Rates - COST_RATES
+Non-Labor Resources - ORG
+Non-Labor Resources - ORG - DFF
+Non-Labor Resources - RESOURCE
+Non-Labor Resources - RESOURCE - DFF
+Note Types Lookups - FND_LOOKUP_VALUES - DFF
+OM Approvals - OE_APPROVER_LISTS
+OM Approvals - OE_APPROVER_LISTS - DFF
+OM Approvals - OE_APPROVER_LIST_MEMBERS
+OM Approvals - OE_APPROVER_LIST_MEMBERS - DFF
+OM System Parameters - Parameters - DFF
+Office - OFFICE_BLK
+Office - OFFICE_BLK - DFF
+Opening Balance of Block India Localization -  JA_IN_BLOCK_OF_ASSETS
+Operating System Script - ACTION
+Operating System Script-Output Variables - QPC_ACTION_OUTPUTS
+Operation Fiscal Code - REC_FISCAL_OPERATIONS
+Operation Fiscal Code - REC_FISCAL_OPERATIONS - DFF
+Operation Fiscal Codes - CFO
+Operations Setup - Define Operating Unit Collections Level
+Option Specific Sources List - BOM_CTO_OSS_COMPONENTS
+Option Specific Sources List - BOM_CTO_OSS_ORGS_LIST
+Option Specific Sources List - BOM_CTO_OSS_ORGS_LIST - DFF
+Order Capture Lookups - FND_LOOKUP_VALUES - DFF
+Order Management Lookups - FND_LOOKUP_VALUES - DFF
+Org Item - Category Assignment
+Organization Access - ORG_ACCESS
+Organization Assignment - Q_ORG_ASSIGN
+Organization Assignments - ASSIGNMENTS - DFF
+Organization Assignments - ORG_CARRIER_SITES
+Organization Encryption - Supplier Registration
+Organization Hierarchy - OS1 - DFF
+Organization Parameters - Allowed Modifications
+Organization Parameters - Assets
+Organization Parameters - COFINS Recovering
+Organization Parameters - Currencies
+Organization Parameters - DFF
+Organization Parameters - Federal Withholding Tax
+Organization Parameters - Numbering
+Organization Parameters - PIS Recovering
+Organization Parameters - REC_PARAM
+Organization Parameters - SISCOMEX
+Organization Parameters - Tolerances
+Organization Security - Assign Organizations to Responsibilities
+Organization Security - PSO
+Organization Tax Information India Localization - Accounting Info
+Organization Tax Information India Localization - JA_IN_FIN_YEAR_INFO
+Organization Tax Information India Localization - JA_IN_HR_ORGANIZATION_UNITS
+Organization Tax Information India Localization - Preferences
+Organization Tax Information India Localization - Tax Info
+Organization Tax Information India Localization - Trading Info
+Organizations - DTL_LAB
+Organizations - DTL_SUB
+Overhead Rates - C_DEPOVH
+Overhead Rates - C_DEPOVH_CT
+Overheads - C_OVERHEAD
+Overheads - C_OVERHEAD - DFF
+Parameter Sets - GMP_PROCESS_PARAMETER_SET_B
+Parameter Sets - GMP_PROCESS_SET_PARAMETERS
+Parcel - FLOOR_BLK
+Parcel - FLOOR_BLK - DFF
+Pareto Chart
+Pareto Chart - Criteria
+Pay Scale - Further Parent Spin - DFF
+Pay Scale - Further Spinal Point - DFF
+Pay Scale - PSP
+Pay Scale - PSP - DFF
+Pay Scale - SPO
+Payables Options - AP_SYSTEM_PARAMETERS - GDF
+Payment - Additional Payment Information
+Payment - Payment Types
+Payment Administrator - Defaulting Rules - Cash Management
+Payment Administrator - Defaulting Rules - Cash Management - Legal Entity
+Payment Administrator - Defaulting Rules - Cash Management - Organization
+Payment Administrator - Defaulting Rules - Cash Management - Others
+Payment Administrator - Defaulting Rules - Cash Management - Payment Processing
+Payment Administrator - Defaulting Rules - Loans
+Payment Administrator - Defaulting Rules - Loans - Legal Entity
+Payment Administrator - Defaulting Rules - Loans - Organization
+Payment Administrator - Defaulting Rules - Loans - Others
+Payment Administrator - Defaulting Rules - Loans - Payment Processing
+Payment Administrator - Defaulting Rules - Payables
+Payment Administrator - Defaulting Rules - Payables - Legal Entity
+Payment Administrator - Defaulting Rules - Payables - Organization
+Payment Administrator - Defaulting Rules - Payables - Others
+Payment Administrator - Defaulting Rules - Payables - Payment Processing
+Payment Administrator - Defaulting Rules - Receivables
+Payment Administrator - Defaulting Rules - Receivables - Legal Entity
+Payment Administrator - Defaulting Rules - Receivables - Organization
+Payment Administrator - Defaulting Rules - Receivables - Others
+Payment Administrator - Defaulting Rules - Receivables - Payment Processing
+Payment Administrator - Defaulting Rules - Student System
+Payment Administrator - Defaulting Rules - Student System - Legal Entity
+Payment Administrator - Defaulting Rules - Student System - Organization
+Payment Administrator - Defaulting Rules - Student System - Others
+Payment Administrator - Defaulting Rules - Student System - Payment Processing
+Payment Administrator - Personalize Structure - Image
+Payment Administrator - Transmission Configurations
+Payment Administrator - Transmission Configurations - Parameters
+Payment Instructions - Personalize Structure - Image
+Payment Interest Rates - INTEREST_PERIODS
+Payment Process Profiles - Additional Information
+Payment Process Profiles - Periodic Sequences in Format
+Payment Process Profiles - Sequence Settings
+Payment Process Request Template - Additional Information - DFF
+Payment Process Request Template - Scheduled Payment Selection Criteria - Legal Entities
+Payment Process Request Template - Scheduled Payment Selection Criteria - Operating Units
+Payment Process Request Template - Scheduled Payment Selection Criteria - Pay Groups
+Payment Process Request Template - Scheduled Payment Selection Criteria - Payment Currencies
+Payment Template - General Details
+Payment Template - Payment Details
+Payment Term Template - DISTRIBUTIONS_BLK
+Payment Term Template - DISTRIBUTIONS_BLK - DFF
+Payment Term Template - TERM_TEMPLATES_FDR_BLK
+Payment Term Template - TERM_TEMPLATES_FDR_BLK - DFF
+Payment Terms - AP_TERMS - DFF
+Payment Terms - AP_TERMS - Translation
+Payment Terms - Discounts
+Payment Terms - Discounts - DFF
+Payment Terms - Due - DFF
+Payment Terms - First Discount
+Payment Terms - RA_TERMS - DFF
+Payment Terms - Schedule - DFF
+Payment Terms - Second Discount
+Payment Terms - Third Discount
+Payment Terms Types - FV_TERMS_TYPES
+Payment Terms Types - FV_TERMS_TYPES - DFF
+Payments - Personalize Structure - Column
+Payments - Personalize Structure - Image
+Payments - Personalize Structure - Sortable Header
+Payroll Security - PSP2-Payroll
+Percent Complete - PC_TASK
+Percentage Burden Codes - GMFPBCDM
+Period Status - GMF_PERIOD_STATUSES
+Period Types - PERIOD_TYPES - DFF
+Period wise depreciation information India Localization - JA_IN_PERIOD_RATES
+Period wise depreciation information India Localization - SEARCH
+Pick Slip Grouping Rules - DFF
+Plan Options - Aggregation
+Plan Options - Constraints
+Plan Options - Decision Rules
+Plan Options - MRP_DEMAND_SCHEDULES
+Plan Options - MRP_PLANS
+Plan Options - MRP_PLANS_ASCP
+Plan Options - MRP_PLAN_ORGS
+Plan Options - MRP_SUPPLY_SCHEDULES
+Plan Options - Optimization
+Plan Options - Organizations
+Plan Options - SCP_MRP_PLANS
+Plan Organizations - MRP_SUPPLY_SCHEDULES
+Plan Organizations - SCP_MPS_MRP_DEMAND_SCHEDULES
+Plan Organizations - SCP_MPS_MRP_PLAN_ORGS
+Plan Organizations - SCP_MPS_MRP_SUPPLY_SCHEDULES
+Plan Organizations - SCP_MRP_DEMAND_SCHEDULES
+Plan Organizations - SCP_MRP_PLAN_ORGS
+Planners
+Planners - PLANNERS - DFF
+Planning Exception Sets - EXCEPTION_SETS
+Planning Exception Sets - EXCEPTION_SETS - DFF
+Planning Manager - CONTROL
+Planning Parameters - ASCP_PARAMETERS
+Planning Parameters - PARAMETERS
+Planning Parameters - SCP_PARAMETERS
+Planning Resource Lists - Add Resource Formats
+Planning Resource Lists - Planning Attributes
+Planning Resource Lists - Planning Resource List
+Pm_Product_Code Lookups - FND_LOOKUP_VALUES - DFF
+Policy Exchange Rates - Define Exchange Rate Behavior
+Policy Expense Fields - Accommodations
+Policy Expense Fields - Airfare
+Policy Expense Fields - Car Rental
+Policy Expense Fields - Expense Type - Expense Type Data Rule
+Policy Expense Fields - Meals
+Policy Expense Fields - Mileage
+Policy Management - Analyst Assignments - Credit Analyst
+Policy Management - Analyst Assignments - Parameters
+Policy Management - Analyst Assignments - Rules List
+Policy Management - Analyst Assignments - Test Cases
+Policy Management - Analyst Assignments - Test Cases - Result
+Policy Management - Assign Ranges and Scores
+Policy Management - Define Additional Items
+Policy Management - Define Checklist Attributes
+Policy Management - Define Scoring Model
+Policy Management - Select Aging Data Points
+Policy Management - Select Credit Data Points
+Policy Management - Select DNB Data Points
+Policy Management - Select Data Points
+Policy Management - Select Invoices and Payments Data Points
+Policy Management - Select Reference Data Points
+Policy Management - System Options
+Policy Schedules - Accomodations - General Information
+Policy Schedules - Accomodations - Locations
+Policy Schedules - Accomodations - Multiple Reimbursement Currencies
+Policy Schedules - Accomodations - Optional Rules
+Policy Schedules - Accomodations - Periods and Rates
+Policy Schedules - Accomodations - Periods and Rates - Details
+Policy Schedules - Accomodations - Roles
+Policy Schedules - Accomodations - Single Reimbursement Currency
+Policy Schedules - Accomodations - Tolerance Limits
+Policy Schedules - Airfare - General Information
+Policy Schedules - Airfare - General Information - Schedule Roles
+Policy Schedules - Airfare - Periods and Rates
+Policy Schedules - Airfare - Periods and Rates - Schedule Details
+Policy Schedules - Car Rental - General Information
+Policy Schedules - Car Rental - Locations
+Policy Schedules - Car Rental - Multiple Reimbursement Currencies
+Policy Schedules - Car Rental - Optional Rules
+Policy Schedules - Car Rental - Periods and Rates
+Policy Schedules - Car Rental - Periods and Rates - Details
+Policy Schedules - Car Rental - Roles
+Policy Schedules - Car Rental - Single Reimbursement Currency
+Policy Schedules - Car Rental - Tolerance Limits
+Policy Schedules - Meals - General Information
+Policy Schedules - Meals - Locations
+Policy Schedules - Meals - Multiple Reimbursement Currencies
+Policy Schedules - Meals - Optional Rules
+Policy Schedules - Meals - Periods and Rates
+Policy Schedules - Meals - Roles
+Policy Schedules - Meals - Schedule Details
+Policy Schedules - Mileage - Distance Thresholds and Passengers
+Policy Schedules - Mileage - Fuel Type
+Policy Schedules - Mileage - General Information
+Policy Schedules - Mileage - Multiple Reimbursement Currencies
+Policy Schedules - Mileage - Optional Rules
+Policy Schedules - Mileage - Periods and Rates
+Policy Schedules - Mileage - Periods and Rates - Details
+Policy Schedules - Mileage - Roles
+Policy Schedules - Mileage - Select Roles
+Policy Schedules - Mileage - Single Reimbursement Currency
+Policy Schedules - Mileage - Vehicle Category
+Policy Schedules - Mileage - Vehicle Type
+Policy Schedules - Miscellaneous - General Information
+Policy Schedules - Miscellaneous - Locations
+Policy Schedules - Miscellaneous - Multiple Reimbursement Currencies
+Policy Schedules - Miscellaneous - Optional Rules
+Policy Schedules - Miscellaneous - Periods and Rates
+Policy Schedules - Miscellaneous - Periods and Rates - Details
+Policy Schedules - Miscellaneous - Roles
+Policy Schedules - Miscellaneous - Single Reimbursement Currency
+Policy Schedules - Miscellaneous - Tolerance Limits
+Policy Schedules - Per Diem - Allowance
+Policy Schedules - Per Diem - Daily Thresholds
+Policy Schedules - Per Diem - First Period Rates
+Policy Schedules - Per Diem - General Information
+Policy Schedules - Per Diem - Last Period Rates
+Policy Schedules - Per Diem - Locations
+Policy Schedules - Per Diem - Meal Type Time Restriction
+Policy Schedules - Per Diem - Multiple Reimbursement Currencies
+Policy Schedules - Per Diem - Night Rate Allowances
+Policy Schedules - Per Diem - Night Rate Eligibility Rules
+Policy Schedules - Per Diem - Optional Rules
+Policy Schedules - Per Diem - Periods and Rates
+Policy Schedules - Per Diem - Roles
+Policy Schedules - Per Diem - Same Day Rates
+Policy Schedules - Per Diem - Standard Rates
+Policy Schedules - Per Diem - Time Thresholds for First Period Rates
+Policy Schedules - Per Diem - Time Thresholds for Last Period Rates
+Policy Schedules - Per Diem - Time Thresholds for Same Day Rates
+Policy Schedules - Per Diem - Time Thresholds for Standard Rates
+Position - Additional Detail
+Position - Budgets
+Position - Hiring Information
+Position - Name - DFF
+Position - POSITIONS
+Position - POSITIONS - DFF
+Position - PST1
+Position - Work Terms
+Position Evaluation - JEV1
+Position Hierarchy
+Position Hierarchy - DFF
+Position Hierarchy - Position
+Position Hierarchy - Subordinates
+Position Hierarchy - Version
+Position Reporting To - PSE1
+Preclosing Amounts - PRECLOSINGAMOUNTS
+Preferences - Allocated ATP
+Preferences - Capacity Plan
+Preferences - Gantt
+Preferences - MRP_OPTIONS_ASCP
+Preferences - Material Plan
+Preferences - Other
+Preferences - Supplier Plan
+Preferences - Transportation Plan
+Premium Eligibility Policy - PEP
+Premium Eligibility Policy - PER1
+Premium Eligibility Policy - PPR
+Preventive Maintenance Schedule Definition - DAY_INTERVAL
+Preventive Maintenance Schedule Definition - PM_ENTITY
+Preventive Maintenance Schedule Definition - PM_ENTITY - DFF
+Preventive Maintenance Schedule Definition - Runtime Rules
+Price Breaks - PO_SHIPMENTS
+Price Breaks - PO_SHIPMENTS - DFF
+Price Indexes - FA_PRICE_INDEXES
+Price Indexes - FA_PRICE_INDEXES - DFF
+Price Indexes - FA_PRICE_INDEX_VALUES
+Price Indexes - FA_PRICE_INDEX_VALUES - DFF
+Pricing - Pricing
+Pricing Agreements - AGREEMENTS
+Pricing Agreements - AGREEMENTS - DFF
+Pricing Formulas - Factors - QP_LIST_LINES
+Pricing Formulas - Factors - QP_PRICING_ATTRIBUTES
+Primary to Secondary Ledger Mapping - Journal Source and Category Conversion
+Priorities - E_ECO_PRIOR - DFF
+Priority Rules - RULE_NAME - DFF
+Privileges - Express Create Privilege
+Probability Lists - PROBABILITY_LISTS
+Probability Lists - PROBABILITY_LISTS - DFF
+Probability Lists - PROBABILITY_MEMBERS
+Probability Lists - PROBABILITY_MEMBERS - DFF
+Process Configuration - GMA_PROCDATA_WF
+Process Definitions - PROCESS_DEFS - DFF
+Process Loss - FM_ROUT_CLS
+Process Loss - GMD_PROCESS_LOSS
+Process Operation Classes - FM_OPRN_CLS
+Process Parameters - GMP_PROCESS_PARAMETERS_B
+Process Parameters - GMP_PROCESS_PARAMETER_VALUES_B
+Process Routing Classes - GMD_ROUT_CLS
+Processing Constraints - CONSTRAINT_RESPS
+Processing Rules At Address Item Level - CUM Management
+Processing Rules At Address Item Level - Demand Fences
+Processing Rules At Address Item Level - Demand Management
+Processing Rules At Address Item Level - General
+Processing Rules At Address Item Level - Order Management
+Processing Rules At Address Level - CUM Management
+Processing Rules At Address Level - Demand Fences
+Processing Rules At Address Level - Demand Management
+Processing Rules At Address Level - General
+Processing Rules At Address Level - Order Management
+Processing Rules At Customer Item Level - CUM Management
+Processing Rules At Customer Item Level - Demand Fences
+Processing Rules At Customer Item Level - Demand Management
+Processing Rules At Customer Item Level - General
+Processing Rules At Customer Item Level - Order Management
+Product Classifications - Associated Tax Regimes
+Product Classifications - Multi Associated Tax Regimes
+Product Classifications - Multi Fiscal Classification Type
+Product Classifications - Multi Product Fiscal Classification Type
+Product Classifications - Tax Reporting Codes
+Product Classifications - Tax Reporting Codes Sub-Level
+Production Line - PROD_LINE
+Production Line - PROD_LINE - DFF
+Production Schedule Name - MRP_DESIGNATORS
+Production Schedule Options - MRP_DEMAND_SCHEDULES
+Production Schedule Options - MRP_PLANS
+Production Schedule Options - MSC_BIZ_GROUP_RESOURCES
+Production Schedule Options - MSC_ITEM_CATEGORIES_PS
+Production Schedule Options - MSC_RES_BIZ_OBJECTIVES
+Production Schedule Options - MSC_WRK_BD_STRUCTURE
+Products and Services Setup - Segments
+Project - Attribute Contexts
+Project - Attribute Contexts - Add Attribute Groups
+Project - Attribute Contexts - Add Page Regions
+Project - Attribute Contexts - Attribute Groups
+Project - Attribute Contexts - Create Action
+Project - Attribute Group Details
+Project - Attribute Group Details - Attribute
+Project - Attribute Group Details - Maintain Unique Key
+Project - Business Entities
+Project - Custom Sources - XLA_AB_SOURCES
+Project - Custom Sources - XLA_AB_SOURCE_PARAMS
+Project - EVENTS
+Project - Header Assignments - XLA_AB_HDR_ANALYTICAL_ASSGNS
+Project - Header Assignments - XLA_AB_PROD_HDR_DESC
+Project - Journal Entry Description Conditions - XLA_AB_CONDITIONS
+Project - Journal Entry Description Details - XLA_AB_DESC_DETAILS
+Project - Journal Entry Descriptions - XLA_AB_DESCRIPTIONS
+Project - Journal Entry Descriptions - XLA_AB_DESC_PRIORITIES
+Project - Mapping Sets - XLA_AB_MAPPING_SETS
+Project - Mapping Sets - XLA_AB_MAPPING_SET_VALUES
+Project - Multiperiod Accounting Assignment - XLA_MPA_HEADER_AC_ASSGNS
+Project Classifications - CLASS
+Project Classifications - CLASS - DFF
+Project Customers - CONTACTS
+Project Customers - PROJ_CUST
+Project Information - DIST_SET_LINES
+Project Job Level Lookups - FND_LOOKUP_VALUES
+Project Job Level Lookups - FND_LOOKUP_VALUES - DFF
+Project Manufacturing Parameters - PARAM
+Project Multinational - PROJECT_FOLDER
+Project Parameters - MAIN
+Project Parameters - PROJECT
+Project Templates - Currency Settings
+Project Templates - Plan Settings
+Project Templates - Rate Schedules
+Project Templates - Resource Breakdown Structures
+Project Templates - Template Information
+Project Templates - Work Breakdown Structure
+Project Templates - Work Breakdown Structure - Dependency
+Project Templates - Workplan Currency Settings
+Project Templates - Workplan Plan Settings
+Project Templates - Workplan Progress
+Project Templates - Workplan Project Functional Currency
+Project Templates - Workplan Rate Schedules
+Project Templates - Workplan Structure Information
+Project Transfer - MTL_TRX_LINE
+Project Transfer - MTL_TRX_LINE - DFF
+Project Types - BILLING_EXTENSIONS
+Project Types - BILLING_EXTENSIONS - DFF
+Project Types - PROJECT_TYPES - DFF
+Projects Budget Change Reason Lookups - FND_LOOKUP_VALUES - DFF
+Projects Customer Relationship Lookups - FND_LOOKUP_VALUES
+Projects Templates - Additional Information - PROJECT_FOLDER
+Property - PROPERTY_FDR_BLK
+Property - PROPERTY_FDR_BLK - DFF
+Property Manager Lookups - FND_LOOKUP_VALUES - DFF
+Prorate Conventions - CONVENTION_TYPES - DFF
+Provider and Receiver Controls - IC_RECEIVER_SETUP
+Provider and Receiver Controls - OU_DEFAULTS
+Provider and Receiver Controls - PROVIDER_CONTROLS
+Purchasing - Options - Additional Information - DFF
+Purge Treasury Symbols - FUND_PARAMETERS
+Purge Treasury Symbols - FUND_PARAMETERS - DFF
+Purge Treasury Symbols - TREASURY_SYMBOLS
+Purge Treasury Symbols - TREASURY_SYMBOLS - DFF
+Purge Treasury Symbols - TREASURY_SYMBOLS_QF
+Qualification Types - QUALIFICATION
+Qualification Types - QUALIFICATION - DFF
+Qualifier Group - QUALIFIERS
+Qualifier Group - QUALIFIERS - DFF
+Qualifier Group - QUALIFIER_RULE
+Qualifier Group - QUALIFIER_RULE - DFF
+Quality Actions - QC_ACTIONS
+Quality Actions - QC_ACTION_TRIGGERS
+Quality Assurance Checklist - QA_CHECK_LISTS - DFF
+Quality Assurance Checklist - QA_LIST_PROCESSES - DFF
+Quality Assurance Checklist - QA_PROCESS_PARMS
+Quality Assurance Checklist - QA_PROCESS_PARMS - DFF
+Quality Inspection Codes - Create
+Quality Results ReportWriter
+Quality Results ReportWriter - Criteria
+Quality Results ReportWriter - Reported Columns
+RFI Template - Acceptable Values
+RFI Template - Add Requirement
+RFI Template - Add Section
+RFI Template - Apply Value Set
+RFI Template - Collaboration Team
+RFI Template - Controls
+RFI Template - Evaluation Teams
+RFI Template - Evaluation Teams - Members
+RFI Template - Header
+RFI Template - Line Defaults
+RFI Template - Line Defaults - Add Attribute List
+RFI Template - Line Defaults - Attribute
+RFI Template - Manage Response Currencies
+RFI Template - Mapping - Requirement Section
+RFI Template - Mapping - Requirement Section Score
+RFI Template - Notes and Attachments
+RFI Template - Scoring Section Assignments
+RFI Template - Scoring Teams
+RFI Template - Scoring Teams - Members
+RFI Template - Select Scoring Settings
+RFI Template - Suppliers
+RFI Template - Suppliers - Add Invitation List
+RFI Template - Suppliers - Add Suppliers
+RFQ Template - Add Requirement - Acceptable Values
+RFQ Template - Attribute
+RFQ Template - Collaboration Team
+RFQ Template - Controls
+RFQ Template - Cost Factors
+RFQ Template - Evaluation Teams
+RFQ Template - Evaluation Teams - Members
+RFQ Template - Header
+RFQ Template - Line Defaults
+RFQ Template - Manage Response Currencies
+RFQ Template - Mapping - Header
+RFQ Template - Mapping - Requirement Section
+RFQ Template - Mapping - Requirement Section Score
+RFQ Template - Notes and Attachments
+RFQ Template - Requirements - Add Requirement
+RFQ Template - Requirements - Add Section
+RFQ Template - Requirements - Select Scoring Settings
+RFQ Template - Select Scoring Settings - Members
+RFQ Template - Select Scoring Settings - Scoring Teams
+RFQ Template - Select Scoring Settings - Section Assignments
+RFQ Template - Suppliers
+RFQ Template - Suppliers - Add Invitation List
+RFQ Template - Suppliers - Add Suppliers
+Rate Schedules - EMPLOYEE
+Rate Schedules - JOB
+Rate Schedules - NL_RESOURCE
+Rate Schedules - RESOURCE_CLASS
+Rate Schedules - SCHEDULE - DFF
+Rate Types - Cross Rates Rule
+Rates - INTEREST_SET
+Rating Scales - LVL
+Rating Scales - LVL - DFF
+Rating Scales - RSC
+Rating Scales - RSC - DFF
+Reason for Instance Split Lookups - FND_LOOKUP_VALUES - DFF
+Receipt Classes - AR_RECEIPT_CLASSES - DFF
+Receipt Classes - AR_RECEIPT_CLASSES - GDF
+Receipt Classes - Bill Receivable Remittance
+Receipt Header - HEADER
+Receipt Methods - AR_RECEIPT_METHODS - DFF
+Receipt Sources - AR_BATCH_SOURCES - DFF
+Receipts From - DFF
+Receivable Activities - AR_ARXSUMRT - DFF
+Receivable Types - FV_RECEIVABLE_TYPES
+Receivable Types - FV_REC_CUST_TRX_TYPES
+Receivable Types - FV_REC_CUST_TRX_TYPES - DFF
+Receivables Assignments - Assign Transaction Types
+Receivables DEMAND CLASS Lookups - FND_LOOKUP_VALUES - Translation
+Receiving Control - PO_SHIPMENTS
+Receiving Controls - PO_SHIPMENTS
+Reference Fields - FIELD
+Register - ORACLE_USERID
+Reimbursable Activity Report Definitions - FV_REIMB_DEFINITIONS_LINES
+Reimbursable Activity Report Definitions - FV_REIMB_DEF_ACCT_ASSIGN
+Relationships - Add Rules
+Release Management Processing Rules - ADDR_HEADER
+Release Management Processing Rules - AITEM_HEADER
+Release Management Processing Rules - CITEM_HEADER
+Release Management Processing Rules - SUMMARY_HEADER
+Release Management Processing Rules Details - CUM Management
+Release Management Processing Rules Details - Demand Fences
+Release Management Processing Rules Details - Demand Management
+Release Management Processing Rules Details - General
+Release Management Processing Rules Details - Order Management
+Release Rules - RELEASE - DFF
+Release Sequence Rules - DFF
+Releases - Item
+Releases - More
+Releases - PO_RELEASES
+Releases - PO_RELEASES - DFF
+Releases - Shipments
+Releases - Shipments - DFF
+Releases - Status
+Remit -To Addresses - Brazilian Style
+Remit -To Addresses - Brazilian Style - Globalization - DFF
+Remit -To Addresses - Default Address Style
+Remit -To Addresses - Default Address Style - DFF
+Remit -To Addresses - Japanese Style
+Remit -To Addresses - Northern Europe Style
+Remit -To Addresses - South America Style
+Remit -To Addresses - Southern Europe Style
+Remit -To Addresses - UK-Africa-Australasia Style
+Remit -To Addresses - United States Style
+Remit -To Addresses - United States Style - DFF
+Remit -To Addresses - United States Style - Site - DFF
+Remittance Bank Accounts - AR_RECEIPT_METHOD_ACCOUNTS - DFF
+Remittance Bank Accounts - Bills Receivable
+Remittances - AR_BATCHES_SUM
+Repair Order Status Transition - ALLOW_RESPS
+Repair Order Status Transition - MILESTONES
+Repair Types - EXPENSE
+Repair Types - LABOR
+Repair Types - MATERIAL
+Report Line Calculations - FV_CFS_REP_LINE_CALC
+Report Line Details - FV_CFS_REP_LINE_DTL
+Reporting Codes - FV_FACTS_PRC_HDR
+Reporting Codes - FV_FACTS_PRC_HDR - DFF
+Reporting Codes - PROGRAM_VALUE
+Reporting Codes - PROGRAM_VALUE - DFF
+Reporting Currencies - Journal Source and Category Conversion
+Reporting Currencies - PN_CURRENCIES_BLK
+Reporting Entities - ENTITY_LINE
+Reporting Entities - REP_ENTITY
+Requisition Template - TEMPLATE_HEADER
+Requisition Template - TEMPLATE_HEADER - DFF
+Requisition Template - TEMPLATE_LINES
+Requisition Template - TEMPLATE_LINES - DFF
+Resource - AR_TERRITORIES
+Resource - AR_TERRITORIES - DFF
+Resource - B_DEPT_RES - DFF
+Resource - CALL_CENTER
+Resource - CALL_CENTER - DFF
+Resource - EMAIL_CENTER
+Resource - EMAIL_CENTER - DFF
+Resource - GMBR_ROLES
+Resource - GMBR_ROLES - DFF
+Resource - GROUPS - DFF
+Resource - INTERACTION CENTER
+Resource - RECEIVABLES - DFF
+Resource - RESOURCE - DFF
+Resource - ROLES - DFF
+Resource - SERVICE
+Resource - TEAMS
+Resource - TEAMS - DFF
+Resource - TMBR_ROLES
+Resource - TMBR_ROLES - DFF
+Resource Addresses and Subinventories - ADDRESSES
+Resource Addresses and Subinventories - ADDRESSES - DFF
+Resource Addresses and Subinventories - Address Details - DFF
+Resource Addresses and Subinventories - RESOURCES
+Resource Addresses and Subinventories - SUBINVENTORIES
+Resource Breakdown Structures - Resource Breakdown Structures
+Resource Breakdown Structures - Update Child Elements
+Resource Breakdown Structures - Update Working Version
+Resource Breakdown Structures - Version Elements
+Resource Capacity Change Reasons - FND_LOOKUP_VALUES - DFF
+Resource Down Codes - FND_LOOKUP_VALUES
+Resource Down Codes - FND_LOOKUP_VALUES - DFF
+Resource Groups - FND_LOOKUP_VALUES
+Resource Groups - FND_LOOKUP_VALUES - DFF
+Resource Information - CR_RSRC_DTL
+Resource Information - SUB_ELEMENTS - DFF
+Resource List Assignments - LIST_USES
+Resource Lists - CHILD_RESOURCES
+Resource Lists - PARENT_RESOURCES
+Resource Lists - RESOURCE_LISTS
+Resource Overhead Associations - C_DEPOVH
+Resource Overhead Associations - C_DEPOVH_CT
+Resource Parameters - MSC_RESOURCE_PARAMETERS
+Resource Requirements - RSC_REQS
+Resource Role Type Lookups - FND_LOOKUP_VALUES - DFF
+Resource Setup - Resource
+Resource costs - C_RESOURCE_COSTS
+Resources - B_RESOURCES - DFF
+Resources - Equipment Relationships - B_RESOURCES
+Resources - Equipment Relationships - B_RES_EQUIPMENTS
+Response Sets - RESPONSE
+Response Variables - RESPONSE_VARIABLE
+Responsibility - Supported Responsibilities
+Responsibility Mapping - Mapped Service Request Types
+Responsibility Mapping - Service Responsibility Setup
+Retropay Set - RETROPAY_RULES
+Retropay Set - RETROPAY_SET
+Reusable Attribute Lists - Attribute
+Reusable Attribute Lists - Enter Scoring Criteria
+Reusable Attribute Lists - Line Attribute List
+Reusable Requirement Lists - Acceptable Values
+Reusable Requirement Lists - Add Requirement
+Reusable Requirement Lists - Add Section
+Reusable Requirement Lists - Apply Value Set
+Reusable Requirement Lists - Requirement List
+Reusable Requirement Lists - Value
+Revaluation - Assign Access - DAS - DFF
+Revaluation - OPTIONS
+Revaluation - OPTIONS - DFF
+Revaluation Ranges - RANGE
+Revaluation Ranges - RANGE - Accounting Flexfield
+Revaluation Ranges - RANGE - Accounting Flexfield - rapidmigrate
+Revaluation Ranges - RANGE - DFF
+Role Lists - ROLELIST
+Role Lists - ROLELIST - DFF
+Roles - ROLES - DFF
+Roles - ROLE_JOB_BG_CBGA
+Roles - ROLE_JOB_BG_SBGA
+Roles - ROLE_STATUS_MENU
+Rollup Source Organizations - CMWHSED2
+Rollup Source Organizations - CM_WHSE_SRC
+Rotation Plan - RSC4
+Rotation Plan - RTP3
+Routes - Route Information
+Row Order - RG_FLEXFIELD_DISPLAYS - DFF
+Row Order - RG_ROW_ORDERS - DFF
+Rules Workbench - STG_SELECTION_FOLDER
+Rules associated with a given task type Lookups - FND_LOOKUP_VALUES - DFF
+SF133 Report Definitions - FV_SF133_DEFINITIONS_ACCTS
+SF133 Report Definitions - FV_SF133_DEFINITIONS_LINES
+SQL Script - ACTION
+Salary Basis - PAYBAS
+Salary Basis - PAYBAS - DFF
+Sales Credit Types - SALES_CREDIT_TYPES - DFF
+Sales Foundation Lookups - FND_LOOKUP_VALUES - DFF
+Sampling Association to criteria - SP_RCV_ASSOCIATION
+Sampling Plan - GMD_SAMPLING_PLANS
+Sampling Plan - GMD_SAMPLING_PLANS - DFF
+Scale Rate - RTE1
+Scale Rate - RTE1 - DFF
+Scale Rate - SPR1
+Schedule Groups - W_SCHEDULE_GROUPS
+Schedule Groups - W_SCHEDULE_GROUPS - DFF
+Section - OFFICE_BLK
+Section - OFFICE_BLK - DFF
+Sections - Section Assignment
+Security - Intercompany Organization Assignments
+Select Invoices - ADJ_INV_PAY
+Select Invoices - ADJ_INV_PAY - DFF
+Send Electronic Mail - ACTION
+Sequence - Q_CHARS
+Sequence Assignments - ASSIGNMENTS - DFF
+Sequence Attributes - Attribute Group
+Sequence Attributes - Attribute Group Details
+Service Activities and Billing Types - BILLING - DFF
+Service Activities and Billing Types - OMTYPES
+Service Activities and Billing Types - TRANSACTION - DFF
+Service Attributes - SERVICES_GENERAL - DFF
+Service Business Process - BUSINESS_PROCESSES - DFF
+Service Business Process - TRANSACTIONS - DFF
+Service Lookups - FND_LOOKUP_VALUES - DFF
+Service Request Action Request Type Lookups - FND_LOOKUP_VALUES
+Service Request Action Request Type Lookups - FND_LOOKUP_VALUES - DFF
+Service Request Problem Codes Lookups - FND_LOOKUP_VALUES
+Service Request Problem Codes Lookups - FND_LOOKUP_VALUES - DFF
+Service Request Resolution Codes Lookups - FND_LOOKUP_VALUES - DFF
+Service Request Severities - SEVERITY
+Service Request Severities - SEVERITY - DFF
+Service Request Statuses - STATUSES - DFF
+Service Request Types - TYPES - DFF
+Service Request Urgencies - CSXSEDIU
+Service Request Urgencies - CSXSEDIU - DFF
+Service Types - REC_SERVICE_TYPES
+Setup SPM Notification Subscription - Find Receivers
+Setup SPM Notification Subscription - Select Event Types
+Setup Task Template Groups - GROUP - DFF
+Setup Task Template Groups - MULTI - DFF
+Setup Types - B_SETUP_TYPES
+Setup Workbench - Catalogs - Category Mapping
+Setup Workbench - Catalogs - Category Mapping - Mappings
+Setup Workbench - Item - Lifecycle Phases
+Setup Workbench - Item - Match Rules
+Setup Workbench - Item - Match Rules - Match Criteria
+Setup Workbench - Item Catalog Category - Add Criteria
+Setup Workbench - Item Catalog Category - Attachment Categories
+Setup Workbench - Item Catalog Category - Attribute Criteria
+Setup Workbench - Item Catalog Category - Attribute Groups
+Setup Workbench - Item Catalog Category - DFF
+Setup Workbench - Item Catalog Category - Description Generation
+Setup Workbench - Item Catalog Category - Display Format
+Setup Workbench - Item Catalog Category - Display Format - Display Sections
+Setup Workbench - Item Catalog Category - Display Format - Sort Order
+Setup Workbench - Item Catalog Category - Display Format - View Columns
+Setup Workbench - Item Catalog Category - Import Formats
+Setup Workbench - Item Catalog Category - Import Formats - View Columns
+Setup Workbench - Item Catalog Category - Item Pages
+Setup Workbench - Item Catalog Category - Item Pages - Attribute Groups
+Setup Workbench - Item Catalog Category - Lifecycles
+Setup Workbench - Item Catalog Category - Mappings for Function
+Setup Workbench - Item Catalog Category - Number Generation
+Setup Workbench - Item Catalog Category - Search Criteria
+Setup Workbench - Item Catalog Category - Template - Attribute Values
+Setup Workbench - Item Catalog Category - Template - Set of Value - Attribute Values
+Setup Workbench - Item Catalog Category - Template - Set of Values
+Setup Workbench - Item Catalog Category - Templates
+Shift - SHT
+Shift Calendar Dates - B_SHIFT_DATES
+Shift Times - B_SHIFT_TIMES
+Shift Times - B_SHIFT_TIMES - DFF
+Shift Workday Patterns - B_SHIFT_WRKDAY
+Shift Workday Patterns - B_SHIFT_WRKDAY - rapidmigrate
+Shifts - B_CAL_SHIFTS
+Shifts - B_CAL_SHIFTS - DFF
+Shifts - B_RES_SHIFTS
+Shifts - B_RES_SHIFTS - DFF
+Ship Confirm Rules - SHIP_CONFIRM
+Shipment Line Types - Shipment Line Types
+Shipment Tracking - Define Parameters
+Shipment Tracking - General Information
+Shipment Tracking - General Information - Organizations
+Shipment Transit Times - DFF
+Shipment Transit Times - LOCATIONS
+Shipment Transit Times - SHIP_METHOD
+Shipment Types - Party Types Allowed
+Shipment Types - Party Usages Allowed
+Shipment Types - Shipment Line Types Allowed
+Shipment Types - Shipment Types
+Shipment Types - Source Types Allowed
+Shipments - PO_SHIPMENTS
+Shipments - PO_SHIPMENTS - DFF
+Shipments - PO_SHIPMENTS - ORIGINAL
+Shipping - Shipping Methods
+Shipping Document Sets - DFF
+Shipping Document Sets - Documents - DFF
+Shipping Execution Lookups - FND_LOOKUP_VALUES - DFF
+Shipping Network - INTER_PARA - DFF
+Shop Floor Statuses - SHOP_FLOOR_STATUS_CODES
+Shop Floor Statuses - SHOP_FLOOR_STATUS_CODES - DFF
+Shortage Parameters - SHORTAGE_PARAMETER
+Shorthand Aliase - ALIASES - DFF
+Shorthand Aliase - STRUCT - Translation
+Simulation Sets - SIMULATION_SETS
+Site Detail - Site Detail
+Site Setup - Site
+Site Sustainability Aspect - Cost and Emission Factor - Emission Factor
+Site Sustainability Aspect - Cost and Emission Factor - Source
+Skip Lot Process Setup
+Skip Lot association to criteria - SL_RCV_ASSOCIATION
+Skip lot Sampling Criteria Setup - RCV_CRITERIA
+Skipping Parameters - Collection Plans
+Skipping Parameters - Parameters
+Smart Forms - Assign Information Templates
+Source and Target Variable Overhead Components - GMFPBASM
+Sourcing Rule - BOD Assignments - ASSIGNMENTS
+Sourcing Rule - BOD Assignments - ASSIGNMENT_SETS
+Sourcing Rule - Bill of Distribution Assignments - ASSIGNMENTS - DFF
+Sourcing Rule - Bill of Distribution Assignments - ASSIGNMENT_SETS - DFF
+Sourcing Rules - ASCP_MRP_SOURCING_RULES
+Sourcing Rules - ASCP_RECEIVING
+Sourcing Rules - ASCP_SHIPPING
+Special Calendar - AP_OTHER_PERIOD_TYPES
+Special Calendar - AP_OTHER_PERIOD_TYPES - DFF
+Specification Elements - Q_SPEC_CHARS
+Specification Limits - Q_CHARS
+Specifications - Q_SPECS
+Standard Coverage - BUS_PROCESSES
+Standard Coverage - BUS_PROCESSES - DFF
+Standard Coverage - Billing Types
+Standard Coverage - Billing Types - DFF
+Standard Coverage - COVERAGE
+Standard Coverage - COVERAGE - DFF
+Standard Coverage - Coverage Times
+Standard Coverage - Coverage Times - Detail
+Standard Coverage - Reaction Times
+Standard Coverage - Reaction Times - DFF
+Standard Coverage - Resolution Times
+Standard Coverage - Resources
+Standard Line Operations - B_STD_OPS
+Standard Memo Lines - AR_MEMO_LINES - DFF
+Standard Messages - AR_STANDARD_TEXT
+Standard Messages - AR_STANDARD_TEXT - Translation
+Standard Operations - B_STD_OPS - DFF
+Standard Processes - B_STD_OPS
+Standard Task Types - B_STD_OPS - DFF
+Standard Task Types - B_STD_OP_RES - DFF
+States - CLL_F189_STATES
+States - DFF
+Static Lists - SEU
+Statistical Units Of Measure - STAT_ACCOUNT
+Status Codes - STATUS_TYPE - DFF
+Statuses - PROJECT_STATUSES - DFF
+Stock Locators - LOC - DFF
+Subinventory Netting - ASCP_SUB_INVENTORY
+Subinventory Netting - MRP_SUB_INVENTORY
+Subinventory Netting - SCP_MPS_MRP_SUB_INVENTORY
+Subinventory Netting - SCP_MRP_SUB_INVENTORY
+Subinventory Transfer - MTL_TRX_LINE - DFF
+Subledger Applications - System Event Class Options
+Summary Accounts - TEMPLATES - DFF
+Supplier - Add Products and Services
+Supplier - Address Book - Manage Site - GDF
+Supplier - Address Book - Personalization Structure - Button
+Supplier - Business Classification
+Supplier - Contact Directory - Responsibilities
+Supplier - Organization - Global Details - GDF
+Supplier - Products and Services
+Supplier - Relationship
+Supplier - Site - Tax and Reporting - Tax Reporting Codes
+Supplier - Tax Registrations - Reporting Codes
+Supplier - Tax and Reporting - Tax Reporting Codes
+Supplier Management - Administration - Attribute Groups
+Supplier Management - Attribute Groups - Attributes
+Supplier Management - Attribute Groups - Business Entities
+Supplier Management - Attribute Pages - Attribute Groups
+Supplier Management - Common - Attribute Groups
+Supplier Management - Common - Attribute Groups - Actions
+Supplier Management - Common - Attribute Pages
+Supplier Scheduling Options - SCHEDULING_OPTIONS
+Supplier TDS Information - JA_IN_VENDOR_TDS_INFO_HDR
+Supplier TDS Information - TDS_SECTION
+Supplier Tax Information India Localization - JA_IN_PO_VENDOR_SITES
+Supplier User Profile Management - Responsibilities
+Supplier User Profile Management - Site Restrictions
+Supply Chain Plan Names - MRP_DESIGNATORS
+Supply Chain Plan Names - MRP_DESIGNATORS - DFF
+Suspense Accounts - SUSPENSE_ACCTS - DFF
+Sustainability Aspect Setup - Emission
+Sustainability Aspect Setup - Sustainability Aspect
+Sustainability Aspect Setup - Usage Category
+System Options - Miscellaneous - GDF
+System Options - System Options
+System Type Lookups - FND_LOOKUP_VALUES
+System Type Lookups - FND_LOOKUP_VALUES - DFF
+TAS BETC Mapping - FV_TREASURY_SYMBOLS - DFF
+TDS Period India Localization - SEARCH
+TDS Period India Localization - TDS
+Task Budgets - TASK_BUDGETS
+Task Details - TASKS - DFF
+Task Multinational Setup - PROJECT_FOLDER
+Task Priority - PRIORITY - DFF
+Task Template Mapping - Create Task Template Mapping
+Task Types - TASK_TYPES - DFF
+Task and Escalation Status - TASK_STATUS - DFF
+Tax Accounting - AR_VAT_TAX
+Tax Authorities - REC_TAX_SITES
+Tax Authorities - REC_TAX_SITES - DFF
+Tax Category India Localization - CAT_CLASS
+Tax Category India Localization - CAT_LINES
+Tax Codes and Rates - Control
+Tax Codes and Rates - Effective
+Tax Codes and Rates - More
+Tax Codes and Rates - More - DFF
+Tax Codes and Rates - More - Globalization - DFF
+Tax Codes and Rates - Rates
+Tax Definition India Localization - TAX
+Tax Options - Account Tax Rates
+Tax Options - TAX_OPTIONS
+Tax Options - TAX_OPTIONS - DFF
+Tax Options - Tax Classification Code Defaults
+Tax Rules - TX_RULES
+Taxes Collection Calendar - REC_CALENDAR_TAXES
+Taxes Collection Calendar - REC_CALENDAR_TAXES - DFF
+Template Assignment - CTRLBLK_ASSGN
+Template Assignment - TEMPITM
+Terms and Conditions - PO_HEADERS
+Territories - Additional Matching Attributes
+Territories - Assign Resources - Service
+Territories - Enter Details
+Territories - Geographies
+Territories - Geographies - Attribute Values
+Territories - RA_TERRITORIES
+Territories - RA_TERRITORIES - DFF
+Territory Administration - Additional Matching Attributes
+Territory Administration - Additional Matching Attributes - Attribute Values
+Territory Administration - Assign Resources
+Territory Administration - Define Geography
+Territory Administration - Define Geography - Attribute Values
+Territory Administration - Enter Details
+Territory Types - Attribute
+Test Classes - GMD_TEST_CLASSES
+Test Classes - GMD_TEST_CLASSES - DFF
+Test Methods - GMD_TEST_METHODS - DFF
+Test Units - GMD_UNITS
+Test Units - GMD_UNITS - DFF
+Tests - GMD_QC_TESTS
+Tests - GMD_QC_TESTS - DFF
+Tests - GMD_QC_TEST_VALUES
+Tests - GMD_QC_TEST_VALUES - DFF
+Text Tokens - SY_TEXT_TKN
+Third Party Assignments - FV_TPP_ASSIGNMENTS
+Third Party Assignments - FV_TPP_ASSIGNMENTS - DFF
+Time Periods - PERIOD_TYPES - DFF
+Time and Material Labor Schedule - TMLABOR_BUSINESS_PROCESS
+Time and Material Labor Schedule - TMLABOR_DETAILS
+Timekeeper Group - TKG
+Timekeeper Group - TKGQC
+Tolerance Fences - TOLERANCE_FENCES
+Tolerance Fences - TOLERANCE_FENCES - DFF
+Trading Partner Setup - CODE_CATEGORY
+Trading Partner Setup - CODE_CONVERSION
+Trading Partner Setup - ECX_TP_DETAILS
+Trading Partner Setup - ECX_TP_HEADERS
+Trading Partner Setup - ECX_TP_USERS
+Trading Partner TAS BETC Mapping - FV_TP_TREASURY_SYMBOLS - DFF
+Trading Partners Groups - ECE_TP_GROUP
+Transaction Business Categories - Associated Fiscal Classification Codes - Multi Level
+Transaction Business Categories - Associated Fiscal Classification Codes - Single Level
+Transaction Calendars - DAYS
+Transaction Calendars - DAYS - DFF
+Transaction Calendars - GL_CALENDAR
+Transaction Calendars - GL_CALENDAR - DFF
+Transaction Category Mapping - FV_SLA_MAP_DTL
+Transaction Category Mapping - FV_SLA_MAP_DTL - DFF
+Transaction Category Mapping - FV_SLA_MAP_HDR
+Transaction Codes - ACCOUNT
+Transaction Codes - ACCOUNT - DFF
+Transaction Codes - TRANSACTION
+Transaction Codes - TRANSACTION - DFF
+Transaction Controls - TXN_CONTROLS
+Transaction Controls - TXN_CONTROLS_OPTION
+Transaction Fiscal Classifications - Associated Tax Regimes
+Transaction Fiscal Classifications - Create Tax Reporting Codes
+Transaction Fiscal Classifications - Create Transaction Fiscal Classification Type
+Transaction Fiscal Classifications - Fiscal Classification Codes
+Transaction Fiscal Classifications - Multi Associated Tax Regimes
+Transaction Fiscal Classifications - Multi Create Transaction Fiscal Classification Type
+Transaction Fiscal Classifications - Multi Fiscal Classification Codes
+Transaction Fiscal Classifications - Multi Fiscal Classification Codes - Sub-Level
+Transaction Fiscal Classifications - Multi Fiscal Classification Types
+Transaction Fiscal Classifications - Sub-Level - Tax Reporting Codes
+Transaction Fiscal Classifications - Tax Reporting Type Code
+Transaction Fiscal Classifications - Update Tax Reporting Codes
+Transaction Reasons - TRANS_REASONS - DFF
+Transaction Source Types - MTL_TXN_SOURCE_TYPES_SYS - DFF
+Transaction Source Types - MTL_TXN_SOURCE_TYPES_USER
+Transaction Source Types - MTL_TXN_SOURCE_TYPES_USER - DFF
+Transaction Sources - RA_BATCH_SOURCES - GDF
+Transaction Sources - TRX_SOURCE - DFF
+Transaction Types - MTL_TRANSACTION_TYPES_SYS - DFF
+Transaction Types - MTL_TRANSACTION_TYPES_USER - DFF
+Transaction Types - ORDER_TYPES - DFF
+Transaction Types - RA_CUST_TRX_TYPES - GDF
+Transaction Types - TAB Bills Receivable
+Transaction Types - TAB Deposit
+Transfer Price Rules - RULE
+Transfer Price Rules - RULE - DFF
+Transfer Price Schedules - SCHEDULE
+Transfer Price Schedules - SCHEDULE - DFF
+Transfer Price Schedules - SCHEDULE_LINES
+Transfer Price Schedules - SCHEDULE_LINES - DFF
+Transit Times - LOCATIONS
+Transit Times - SHIP_METHOD
+Transit Times - SHIP_METHOD - DFF
+Transmission Formats - AR_TRANSMISSION_FORMATS - DFF
+Transmission Formats - AR_TRANS_RECORD_FORMATS - DFF
+Treasury Account Codes - FV_FUND_GROUPS
+Treasury Account Codes - FV_FUND_GROUPS - DFF
+Treasury Account Symbols - FV_FACTS_FEDERAL_ACCOUNTS - DFF
+Treasury Account Symbols - FV_FACTS_TREASURY_SYMBOLS - DFF
+Tributary Situation Code - REC_TRIBUTARY_SITUATION
+Tributary Situation Code - REC_TRIBUTARY_SITUATION - DFF
+Units of Measure Classes - UOM_CLASSES - DFF
+Update Work Item - Add Skills
+Update Work Item - Setup Correspondence
+User Access Levels - AUTH_TYPES
+User Access Levels - PTY
+User Access Levels - USERS
+User Defined Entities - Attributes
+User Defined Entities - Attributes Group
+User Defined Entity Setup - Entity
+User Defined Transaction Classifications - Update Tax Reporting Codes
+User Maintenance - Detail
+Users - Assign Roles
+Users - Register Business Contact
+Users - Update User
+Utilization Category - PA_UTIL_CATEGORIES_V
+Utilization-CFO - REC_UTILIZATION_CFO2
+Utilization-CFO - REC_UTILIZATION_CFO2 - DFF
+Valid Grades - VG1
+Valid Grades - VG1 - DFF
+Valid Responses - VALID_RESPONSE_ACTION
+Validation Rules Entry - REC_INVOICE_TYPES
+Validation Rules Entry - REC_VRULES_CFO
+Validation Rules Entry - REC_VRULES_CST_COFINS
+Validation Rules Entry - REC_VRULES_CST_ICMS
+Validation Rules Entry - REC_VRULES_CST_IPI
+Validation Rules Entry - REC_VRULES_CST_PIS
+Validation Rules Entry - REC_VRULES_FISCAL_DOC
+Validation Rules Entry - REC_VRULES_FISCAL_UTIL
+Validation Rules Entry - REC_VRULES_INVOICE_SERIES
+Validation Templates - VALIDATION_TMPLT_COLS - VALUE STRING - DFF
+Values - QC_VALUES - DFF
+WIP Accounting Classes - WIP_ACCOUNTING_CLASSES
+WIP Accounting Classes - WIP_ACCOUNTING_CLASSES - DFF
+WMS Rules - DFF
+WMS Strategies - DFF
+WMS Strategies Rules - DFF
+Withholding Tax Details - AP_AWT_TAX_RATES
+Withholding Tax Details - AP_TAX_CODES
+Withholding Tax Details - AP_TAX_CODES - DFF
+Withholding Tax Details - Form Personalizations - Action
+Withholding Tax Details - Form Personalizations - Condition
+Withholding Tax Details - Form Personalizations - FND_FORM_CUSTOM
+Withholding Tax Groups - AP_AWT_GROUPS
+Withholding Tax Groups - AP_AWT_GROUP_TAXES
+Withholding Tax Types - AWT_TYPES
+Work Items Lookups - FND_LOOKUP_VALUES
+Work Items Lookups - FND_LOOKUP_VALUES - DFF
+Work Plan - TWS1
+Work Types - WORK_TYPES - Description Dates
+Work Types - WORK_TYPES - Utilization
+Work in Process Parameters - W_PARAMETERS
+Work in Process Parameters - W_PARAMETERS - DFF
+Workbench - ALLOCATION_BATCHES - Assign Access
+Workbench - ALLOCATION_BATCHES - Assign Access - DFF
+Workbench - ALLOCATION_BATCHES - DFF
+Workbench - ALLOCATION_SET - DFF
+Workday Calendars - B_CALENDARS - DFF
+XML Gateway Lookups - FND_LOOKUP_VALUES - DFF
+XML Publisher - Administration - Currencies
+XML Publisher - Administration - Currencies - Format
+XML Publisher - Data Definitions - Configuration
+Year End Closing - FV_YE_GROUPS
+Year End Closing - FV_YE_GROUPS - DFF
+Year End Closing - FV_YE_GROUP_SEQUENCES
+Year End Closing - FV_YE_GROUP_SEQUENCES - DFF
+Year End Closing - FV_YE_SEQUENCE_ACCOUNTS
+Year End Closing - FV_YE_SEQUENCE_ACCOUNTS - DFF
+e-Commerce Gateway Lookups - FND_LOOKUP_VALUES - DFF
+iAssets Rules - Create New Rule

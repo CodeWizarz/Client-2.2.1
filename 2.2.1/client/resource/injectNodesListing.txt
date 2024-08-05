@@ -1,0 +1,14 @@
+# This file lists all the nodes that should be register with the server
+#
+# Line Format:
+#   displayname=hostname,vncport,vncpassword,websockifyport,sshuser,sshpassword
+#
+#	IMPORTANT: MAKE SURE THE displayname HAS NO BLANK SPACE
+#
+# Example:
+#   RapidClient03.rapidesuite.com:5901=RapidClient03.rapidesuite.com,5901,dbasupport,6081,res01,dbasupport
+# 	RapidClient03.rapidesuite.com:5902=RapidClient03.rapidesuite.com,5902,dbasupport,6082,res02,dbasupport
+#	RapidClient03.rapidesuite.com:5903=RapidClient03.rapidesuite.com,5903,dbasupport,6083,res03,dbasupport
+#	RapidClient03.rapidesuite.com:5904=RapidClient03.rapidesuite.com,5904,dbasupport,6084,res04,dbasupport
+#
+# Note:  The order these appear in the HTML output is the order listed in this file.

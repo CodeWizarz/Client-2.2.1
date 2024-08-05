@@ -1,0 +1,923 @@
+<?xml version="1.0"?>
+<!--
+  ========================================================================
+    $Revision: 79121 $:
+    $Author: warangkana.yoomieng $:       
+    $Date: 2022-08-02 16:43:43 +0700 (Tue, 02 Aug 2022) $:
+    $HeadURL: https://svn03.rapid4cloud.com/svn/a/dev/rapidesuite/programs/2.2.1/client/build.xml $:   
+    $Id: build.xml 79121 2022-08-02 09:43:43Z warangkana.yoomieng $:    
+  =============================================================================         
+-->
+<project name="Rapid Client" default="buildDeploy" >   
+
+    <property file="build.properties"/>
+    <property file="build.properties_defaults"/>
+  
+    <target name="init">
+		<available file="${core.lib.jar}" property="core.lib.present"/>	
+		<antcall target="build.core.lib" />
+		<available file="${configurator.lib.jar}" property="configurator.lib.present"/>	
+		<antcall target="build.configurator.lib" />
+    </target>        
+	
+	<target name="build.configurator.lib" unless="configurator.lib.present">
+		<ant antfile="../configurator/build.xml" target="sclib" inheritrefs="false" inheritAll="false"/>
+	</target> 	
+  	<target name="clean.configurator">
+		<ant antfile="../configurator/build.xml" target="clean" inheritrefs="false" inheritAll="false"/>
+	</target> 	
+  
+	<target name="build.core.lib" unless="core.lib.present">
+		<ant antfile="../core/build.xml" target="jar" inheritrefs="false" inheritAll="false"/>
+	</target> 	
+  	<target name="clean.core">
+		<ant antfile="../core/build.xml" target="clean" inheritrefs="false" inheritAll="false"/>
+	</target> 	
+    <!--
+	   copy 11. \\fileserver\SWIFTSUITE\trunk\SWIFTREVERSE\ant\ant-contrib-1.0b3.jar to ANT \lib folder.
+      -->
+    <taskdef resource="net/sf/antcontrib/antlib.xml" /> 
+
+	<path id="lib.path">
+        <fileset dir="${deploy.dir}">
+            <include name="**/*.jar"/>
+        </fileset>
+    </path>
+	
+    <path id="build.path">
+        <pathelement location="${src.dir}"/>
+        <pathelement location="${classes.dir}"/>
+        <fileset dir="${lib.dir}">
+            <include name="**/*.jar"/>
+        </fileset>
+    	<pathelement location="${springframework.core.lib.jar}"/>
+    	<pathelement location="${opencsv.lib.jar}"/>
+		<pathelement location="${commons.io.lib.jar}"/>		
+		<pathelement location="${commons.lang.lib.jar}"/>		
+		<pathelement location="${xmlbean.lib.jar}"/>		
+		<fileset file="${apache.commons.codec.lib.jar}"/>
+		<pathelement location="${configurator.lib.jar}"/>
+		<pathelement location="${core.lib.jar}"/>
+		<pathelement location="${poi.lib.jar1}"/>
+		<pathelement location="${poi.lib.jar2}"/>
+		<pathelement location="${poi.lib.jar3}"/>
+    	<pathelement location="${dom4j.lib.jar}"/>
+		
+    </path>
+	
+	<path id="jodconverter.build.path">
+        <fileset dir="${jodconverter.lib.dir}">
+            <include name="**/*.jar"/>
+        </fileset>
+    </path>
+
+    <path id="runtime.path">
+        <pathelement location="${jar.path}"/>
+        <path refid = "build.path"/>
+    </path>
+
+    <target name="jar" depends="find_revision,cleanClasses,compile">
+        <mkdir dir="${deploy.dir}"/>
+		<mkdir dir="${deploy.dir}/build.info"/>		
+        <mkdir dir="${classes.dir}/images"/>
+        <copy todir="${classes.dir}/images">
+            <fileset dir="${images.dir}"/>
+        </copy>
+		<copy todir="${classes.dir}">
+			<fileset  dir="${resource.dir}/" >
+            	<include name="version.txt"/>
+        	</fileset>
+        </copy>
+
+        <jar jarfile="${jar.path}">
+            <fileset dir="${classes.dir}" />
+        </jar>
+    </target>
+	
+	<target name="jarNoClean" depends="compile">
+        <mkdir dir="${deploy.dir}"/>
+		<mkdir dir="${deploy.dir}/build.info"/>		
+        <mkdir dir="${classes.dir}/images"/>
+        <copy todir="${classes.dir}/images">
+            <fileset dir="${images.dir}"/>
+        </copy>
+		<copy todir="${classes.dir}">
+			<fileset  dir="${resource.dir}/" >
+            	<include name="version.txt"/>
+        	</fileset>
+        </copy>
+
+        <jar jarfile="${jar.path}">
+            <fileset dir="${classes.dir}" />
+        </jar>
+    </target>
+
+    <target name="compile" depends="init,compileXMLSchemasToJavaClasses">
+        <mkdir dir="${classes.dir}"/>
+        <javac srcdir="${src.dir}"
+			destdir="${classes.dir}"
+			source="1.7"
+			target="1.7"
+			deprecation="on"
+			debug="on"
+			classpathref="build.path"
+		>
+        </javac>
+    </target>
+	
+	<target name="compileXMLSchemasToJavaClasses" >
+        <taskdef name="xmlbean" classname="org.apache.xmlbeans.impl.tool.XMLBean" classpath="${xmlbean.lib.jar}"/>
+        <xmlbean srcgendir="${xmlbeans.temp.dir}"
+                 classgendir="${classes.dir}"
+                 classpathref="build.path"
+                 failonerror="true"
+                 javasource="1.7">
+            <fileset dir="${resource.dir}">
+                <include name="*.xsd"/>
+            </fileset>
+        </xmlbean>
+    </target>
+
+    <target name="cleanClasses">
+        <delete failonerror="false" dir="${classes.dir}"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${deploy.dir}"/>
+        <delete dir="${classes.dir}"/>
+		<delete dir="${basedir}/depcache"/>		
+		<delete dir="${xmlbeans.temp.dir}"/>		
+		<delete dir="${temp.dir}"/>		
+        <delete file="${resource.dir}/version.txt"/>
+    </target>
+
+    <target name="deploy">	
+        <copy file="${configurator.lib.jar}" todir="${deploy.dir}/lib"/>
+		<copy file="${core.lib.jar}" todir="${deploy.dir}/lib"/>
+    	<copy file="${springframework.core.lib.jar}" todir="${deploy.dir}/lib"/>
+    	<copy file="${opencsv.lib.jar}" todir="${deploy.dir}/lib"/> 
+		<copy file="${commons.io.lib.jar}" todir="${deploy.dir}/lib"/> 
+		<copy file="${xmlbean.lib.jar}" todir="${deploy.dir}/lib"/> 
+		<copy file="${poi.lib.jar1}" todir="${deploy.dir}/lib"/> 
+		<copy file="${poi.lib.jar2}" todir="${deploy.dir}/lib"/> 
+		<copy file="${poi.lib.jar3}" todir="${deploy.dir}/lib"/> 
+		<copy file="${apache.commons.codec.lib.jar}" todir="${deploy.dir}/lib"/> 
+    	<copy file="${dom4j.lib.jar}" todir="${deploy.dir}/lib"/> 
+		
+        <copy todir="${deploy.dir}/lib">
+            <fileset dir="${lib.dir}">
+                <include name="**/*.jar"/>
+				<exclude name="**/oracle.oats*.jar"/>
+            </fileset>
+        </copy>
+    	
+        <copy todir="${deploy.dir}/misc">
+            <fileset dir="${misc.dir}">
+                <include name="**/*"/>
+            </fileset>
+        </copy>   	
+    	
+		<!-- Intentionally set to 1.6 as it may be using a 1.6 applet/browser VM -->
+        <javac srcdir="${src.dir}"
+			destdir="${deploy.dir}/misc"
+			source="1.6" 
+			target="1.6"
+        	includeAntRuntime="false"
+		>
+        	<include name="com/rapidesuite/build/utils/JavaVersionRetriever.java" />
+        </javac>
+
+ 		<copy todir="${deploy.dir}">
+            <fileset dir="${resource.dir}">
+                <include name="*.bat"/>
+            	<include name="*.sh"/>
+            	<include name="*.py"/>
+                <include name="**/*.properties"/>
+            	<include name="**/*.html"/>
+                <include name="**/*.xml"/>
+                <include name="*.pdf"/>
+				<include name="injectNodesListing.txt"/>
+				<exclude name="svn-patch.bat"/>
+				<exclude name="apigrid.bat"/>
+				<exclude name="htmlparser.bat"/>
+				<include name="snapshot64.batx"/>
+				<include name="instructions.txt"/>
+            </fileset>
+        </copy>
+		<fixcrlf srcdir="${deploy.dir}" includes="**/*.sh" eol="lf" eof="remove" />
+		<fixcrlf srcdir="${deploy.dir}" includes="**/*.py" eol="lf" eof="remove" />
+		
+		<mkdir dir="${deploy.dir}/environmentTemplates"/>
+		<copy todir="${deploy.dir}/environmentTemplates">
+            <fileset dir="${resource.dir}/environmentTemplates">
+                <include name="*"/>
+            </fileset>
+        </copy>		
+        <copy todir="${deploy.dir}/xul">
+            <fileset dir="${resource.dir}/xul">
+                <include name="*"/>
+            </fileset>
+        </copy>
+		<copy todir="${deploy.dir}/fusion">
+            <fileset dir="${resource.dir}/fusion">
+                <include name="*"/>
+            </fileset>
+        </copy>
+
+		<mkdir dir="${deploy.dir}/nodes"/>
+		
+		<echo>Make sure that an unpacked JVM is present in the folder ${embeddedJRE32.dir} and ${embeddedJRE64.dir}</echo>
+        <copy todir="${deploy.dir}/jre32">
+            <fileset dir="${embeddedJRE32.dir}">
+                <include name="**/*"/>
+            </fileset>
+        </copy>
+        <copy todir="${deploy.dir}/jre64">
+            <fileset dir="${embeddedJRE64.dir}">
+                <include name="**/*"/>
+            </fileset>
+        </copy>
+    
+    	<chmod dir="${deploy.dir}/" perm="ug+x" includes="**/*.sh"/>
+    	<chmod dir="${deploy.dir}/" perm="ug+x" includes="**/*.py"/>
+    </target>
+
+    <target name="buildDeploy" depends="clean,find_revision,jar,deploy,deployPanopticon">
+    </target>
+
+	<target name="7zipDeployFolder" >
+		<delete failonerror="true" file="${deploy.dir}/deploy.7z"/>
+		<exec executable="${7zip.exe}" failonerror="true">
+			<arg value="a" />
+			<arg value="-t7z" />
+			<arg value="-r" />
+			<arg value="${deploy.dir}/deploy.7z" />
+			<arg value="${basedir}/deploy/*" />
+		</exec>
+    </target>
+
+	<target name="dummy7ZIP" >
+		<mkdir dir="${deploy.dir}/dummy"/>
+		<exec executable="${7zip.exe}" failonerror="true">
+			<arg value="a" />
+			<arg value="-t7z" />
+			<arg value="-r" />
+			<arg value="${deploy.dir}/dummy.7z" />
+			<arg value="${basedir}/deploy/dummy/*" />
+		</exec>
+		<delete failonerror="true" dir="${deploy.dir}/dummy"/>
+    </target>
+
+	<target name="executable" depends="dummy7ZIP">
+        <echo>Make sure that the file: "7ZSD_All.sfx" is present in the folder: ${7zsfx.dir}</echo>
+		<echo>build.exe</echo>
+        <concat destfile="${deploy.dir}/build.exe" binary="yes">
+			<fileset file="${7zsfx.dir}/7ZSD_All.sfx" />
+			<fileset file="${resource.dir}/7zsfx/build-executable-config.tag" />
+			<fileset file="${deploy.dir}/dummy.7z" />
+		</concat>
+		<echo>reverse.exe</echo>
+        <concat destfile="${deploy.dir}/reverse.exe" binary="yes">
+			<fileset file="${7zsfx.dir}/7ZSD_All.sfx" />
+			<fileset file="${resource.dir}/7zsfx/reverse-executable-config.tag" />
+			<fileset file="${deploy.dir}/dummy.7z" />
+		</concat>
+		<delete failonerror="true" file="${deploy.dir}/dummy.7z"/>	
+    </target>
+
+	<target name="installer" depends="find_revision" >
+		<mkdir dir="${deploy.dir}/ico"/>
+		<copy todir="${deploy.dir}/ico">
+            <fileset dir="${resource.dir}/7zsfx">
+                <include name="*.ico"/>
+            </fileset>
+        </copy>
+
+		<antcall target="executable" />
+		<antcall target="7zipDeployFolder" />
+		
+		<!--
+		NOTE: The original file 7ZSD_All.sfx needs to be recompiled otherwise a popup "Are you sure the app installed
+		correctly...?" on Windows 7 will appear.
+			steps: - rename the 7ZSD_All.sfx file to 7ZSD_All.exe
+				   - open it with a resource editor, example: "resource tuner"
+				   - edit the Manifest file:
+				   and add the following after the trustinfo tag:
+				   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+					<application>
+					<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
+					<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/>
+					</application>
+					</compatibility>
+				   - save to the file and rename it to 7ZSD_All.sfx
+		-->
+        <echo>Make sure that the file: "7ZSD_All.sfx" is present in the folder: ${7zsfx.dir}</echo>
+		
+		<property name="file.name" value="rapidclient-${release.name}.${workingCopy.revision}-installer.exe"/>
+		
+        <concat destfile="${deploy.dir}/${file.name}" binary="yes">
+			<fileset file="${7zsfx.dir}/7ZSD_All.sfx" />
+			<fileset file="${resource.dir}/7zsfx/installer-config.tag" />
+			<fileset file="${deploy.dir}/deploy.7z" />
+		</concat>
+
+		<delete failonerror="true" file="${deploy.dir}/deploy.7z"/>
+		<delete>
+			<fileset dir="${deploy.dir}">
+				<include name="*.exe"/>
+				<exclude name="${file.name}"/>
+			</fileset>
+		</delete>		
+		<delete failonerror="true" dir="${deploy.dir}/ico"/>		
+    </target>
+
+	<target name="no-installer" depends="find_revision" >
+		<property name="file.name" value="rapidclient-${release.name}.${workingCopy.revision}-no-installer.zip"/>
+        <zip destfile="${deploy.dir}/${file.name}" basedir="${deploy.dir}" 
+			excludes="rapidclient-${release.name}.${workingCopy.revision}-installer.exe"
+		/>
+		<move file="${deploy.dir}/${file.name}" tofile="${distribution.dir}/${release.name}.${workingCopy.revision}/${file.name}"/>
+    </target>
+
+    <target name="cleanDist">
+        <delete failonerror="true" dir="${distribution.dir}"/>
+    </target>
+    
+	<target name="dist" depends="clean.core,clean.configurator,buildDeploy" >	
+	
+		<antcall target="rapidSnapshot-generic" />
+		<antcall target="rapidSnapshot-post-docs" />
+	
+		<antcall target="no-installer" />
+		
+		<mkdir dir="${deploy.dir}/docs"/>
+		<copy todir="${deploy.dir}/docs">
+            <fileset dir="${docs.dir}">
+                <include name="**/*.odt"/>
+            </fileset>
+        </copy>
+		<antcall target="convertODTToPDF"/> 
+		<mkdir dir="${distribution.dir}/${release.name}.${workingCopy.revision}"/>
+		<mkdir dir="${distribution.dir}/${release.name}.${workingCopy.revision}/docs"/>
+		<copy todir="${distribution.dir}/${release.name}.${workingCopy.revision}/docs">
+            <fileset dir="${deploy.dir}/docs">
+                <include name="**/*.pdf"/>
+            </fileset>
+        </copy>
+		
+		<delete dir="${deploy.dir}/control"/>
+		<delete dir="${deploy.dir}/jre32"/>	
+		<delete dir="${deploy.dir}/jre64"/>
+		<delete dir="${deploy.dir}/xul"/>
+		<delete dir="${deploy.dir}/misc"/>			
+		<delete dir="${deploy.dir}/environmentTemplates"/>
+		<delete dir="${deploy.dir}/html"/>
+		
+		<delete dir="${deploy.dir}/build.info"/>	
+		<delete dir="${deploy.dir}/fusion"/>			
+		<delete dir="${deploy.dir}/nodes"/>	
+		<delete>
+			<fileset dir="${deploy.dir}">
+				<include name="*.swiftreverse"/>
+				<include name="*.wsdl"/>
+                <include name="*.xml"/>
+				<include name="*.sh"/>
+				<include name="*.bat"/>
+				<include name="*.py"/>
+				<include name="*.jar"/>
+				<include name="*.html"/>
+				<include name="*.txt"/>
+				<include name="*.properties"/>
+				<exclude name="engine.properties"/>
+				<exclude name="snapshot-kb-matrix.xml"/>
+				<exclude name="replacements.properties"/>
+			</fileset>
+		</delete>		
+		 		
+		<antcall target="rapidSnapshot-distro" />
+		
+		<delete dir="${deploy.dir}/lib"/>	
+		<delete>
+			<fileset dir="${deploy.dir}">
+				<include name="*.properties"/>
+				<include name="*.xml"/>
+				<include name="*.bat"/>
+				<include name="*.sql"/>
+				<include name="*.url"/>
+				<include name="*build.info"/>
+				<include name="README"/>
+			</fileset>
+		</delete>
+		<delete dir="${deploy.dir}/sessions"/>
+    </target>
+	
+	<!--
+		copy ant-contrib-1.0b3.jar to your ANT /lib folder.
+	-->
+	<taskdef resource="net/sf/antcontrib/antlib.xml" /> 
+	
+	<!-- 
+		Create a jodconverterlib/ folder and copy all the jar from JodConverter. 
+	-->
+	<target name="convertODTToPDF" >
+		<for param="file">
+			<path>
+				<fileset dir="${deploy.dir}/docs" includes="**/*.odt"/>
+			</path>
+			<sequential>
+				<echo>converting file:  @{file}</echo>
+				<java classname="com.artofsolving.jodconverter.cli.ConvertDocument" classpathref="jodconverter.build.path">
+					<arg line="-f pdf &quot;@{file}&quot; "/>
+				</java>
+			</sequential>
+		</for>
+		<delete>
+			<fileset dir="${deploy.dir}/docs" includes="**/*.odt"/>
+		</delete>		
+	</target>
+
+    <target name="updateVersionFile" >
+		<exec executable="svn" output = "${resource.dir}/version.txt">
+            <arg line="--xml info"/>
+        </exec>
+    </target>
+	
+	
+	<target name="find_revision" >
+		<exec executable="svn" outputproperty="workingCopy.revision"> 
+			<arg line="info ."/>
+			<redirector>
+				<outputfilterchain>
+					<linecontainsregexp>
+						<regexp pattern='^Last Changed Rev' />
+					</linecontainsregexp>
+					<tokenfilter>
+						<replaceregex pattern='[\D]+([\d]+)' replace="\1" />
+					</tokenfilter>
+				</outputfilterchain>
+			</redirector>
+		</exec>
+		<echo>Working copy revision found: ${workingCopy.revision}</echo>
+		<echo file="${resource.dir}/version.txt" append="false">${release.name}.${workingCopy.revision}</echo> 
+	</target>
+
+	<!--
+		RUN THIS AND ADD THE JAR FILE TO THE PROJECT BUILD PATH PROPERTIES IN ECLIPSE TO RESOLVE DEPENDENCIES
+		ALSO MAKE SURE TO RUN 'ANT JAR' FIRST.
+	-->
+	 <target name="jarXML" >
+        <jar jarfile="${basedir}/rapidClientXML.jar">
+			<fileset  dir="${classes.dir}/" >
+            	<include name="noNamespace/*.*"/>
+				<include name="com/rapidesuite/client/ebsVersionConversion/*.*"/>
+				<include name="com/rapidesuite/client/fusionNavigation0000/*.*"/>
+				<include name="com/rapidesuite/client/dataConversion0000/*.*"/>
+				<include name="com/rapidesuite/client/dataConversionShared0000/*.*"/>
+				<include name="com/rapidesuite/client/snapshotMetadata0000/*.*"/>
+        	</fileset>
+        </jar>
+    </target>
+	
+	<target name="run" depends="jar" >
+		<java classname="com.rapidesuite.selenium.SeleniumEngine" classpathref="lib.path">
+		</java>
+	</target>
+	
+	<target name="runNoClean" depends="jarNoClean" >
+		<java classname="com.rapidesuite.selenium.SeleniumEngine" classpathref="lib.path">
+		</java>
+	</target>
+	
+	<target name="deployPanopticon" depends="compile">
+		<mkdir dir="${deploy.dir}"/>
+		<jar jarfile="${deploy.dir}/${panopticon.jar.name}">
+			<fileset dir="${classes.dir}" />
+		</jar>
+		<copy todir="${deploy.dir}">
+			<fileset dir="${resource.dir}">
+				<include name="**/*.properties"/>
+			</fileset>
+		</copy>
+		<copy todir="${deploy.dir}/${panopticon.htmldir.name}">
+            <fileset dir="${resource.dir}/${panopticon.htmldir.name}">
+                <include name="*"/>
+            </fileset>
+        </copy>
+		<copy todir="${deploy.dir}/${reverse.template.sessions.dir.name}">
+            <fileset dir="${resource.dir}/${reverse.template.sessions.dir.name}">
+                <include name="*"/>
+            </fileset>
+        </copy>
+	</target>
+	
+	<!--
+	############################
+			RAPIDSNAPSHOT
+	############################
+	-->
+	
+	<target name="rapidSnapshot-distro" >
+		<delete dir="${deploy.dir}/docs"/>
+		<delete dir="${deploy.dir}/lib/adf"/>
+		<antcall target="find_revision" />
+		<antcall target="jar" />
+		<antcall target="rapidSnapshot-post" />
+		<antcall target="rapidSnapshot-windows64bits" />
+		<antcall target="rapidSnapshot-windows32bits" />
+		<antcall target="rapidSnapshot-macosx" />
+    </target>	
+	
+	<target name="rapidSnapshot-distro-single" depends="clean.core,clean.configurator" > <!-- to run for testing -->
+		<antcall target="clean" />
+		<antcall target="find_revision" />
+		<antcall target="jar" />
+		<antcall target="rapidSnapshot-post" />
+		<antcall target="rapidSnapshot-generic" />
+		<antcall target="rapidSnapshot-windows64bits" />
+		<antcall target="rapidSnapshot-windows32bits" />
+		<antcall target="rapidSnapshot-macosx" />
+    </target>	
+	
+	<target name="rapidSnapshot-windows64bits" >
+		<antcall target="rapidSnapshot-JRE-Windows64bits-Copy" />
+		<antcall target="rapidSnapshot-windows64bits-exe" />
+		<delete failonerror="true" dir="${deploy.dir}/jre64"/>
+    </target>
+	
+	<target name="rapidSnapshot-windows32bits" >
+		<antcall target="rapidSnapshot-JRE-Windows32bits-Copy" />
+		<antcall target="rapidSnapshot-windows32bits-exe" />
+		<delete failonerror="true" dir="${deploy.dir}/jre32"/>
+    </target>
+	
+	<target name="rapidSnapshot-JRE-Windows64bits-Copy" >
+		<copy todir="${deploy.dir}/jre64">
+            <fileset dir="${embeddedJRE64.dir}">
+                <include name="**/*"/>
+            </fileset>
+        </copy>	
+    </target>
+	
+	<target name="rapidSnapshot-JRE-Windows32bits-Copy" >
+		<copy todir="${deploy.dir}/jre32">
+            <fileset dir="${embeddedJRE32.dir}">
+                <include name="**/*"/>
+            </fileset>
+        </copy>	
+    </target>
+	
+	<target name="rapidSnapshot-JRE-Mac-Copy" >
+		 <copy todir="${deploy.dir}/jreMacosx">
+            <fileset dir="${embeddedJREMac.dir}">
+                <include name="**/*"/>
+            </fileset>
+        </copy>
+    </target>
+	
+	<target name="rapidSnapshot-macosx" >	
+ 		<copy todir="${deploy.dir}">
+            <fileset dir="${resource.dir}">
+            	<include name="snapshot.command"/>
+				<include name="README"/>
+            </fileset>
+        </copy>
+		<antcall target="rapidSnapshot-JRE-Mac-Copy" />
+    	<chmod dir="${deploy.dir}/" perm="ug+x" includes="snapshot.command"/>
+		<property name="file.name" value="rapidsnapshot-${release.name}.${workingCopy.revision}-macosx.zip"/>
+        <zip destfile="${deploy.dir}/${file.name}" basedir="${deploy.dir}" />
+		<move file="${deploy.dir}/${file.name}" tofile="${distribution.dir}/${release.name}.${workingCopy.revision}/${file.name}"/>
+    </target>
+	
+	<target name="rapidSnapshot-windows64bits-zip" >	
+ 		<copy todir="${deploy.dir}">
+            <fileset dir="${resource.dir}">
+            	<include name="snapshot64.bat"/>
+				<include name="store.bat"/>
+            </fileset>
+        </copy>
+		<property name="zip.file.name" value="rapidsnapshot-${release.name}.${workingCopy.revision}-windows-64bits.zip"/>
+        <zip destfile="${deploy.dir}/${zip.file.name}" basedir="${deploy.dir}" />
+		<move file="${deploy.dir}/${zip.file.name}" tofile="${distribution.dir}/${release.name}.${workingCopy.revision}/${zip.file.name}"/>
+		<delete failonerror="true" file="${deploy.dir}/snapshot64.bat"/>	
+		<delete failonerror="true" file="${deploy.dir}/store.bat"/>
+    </target>
+
+	<target name="rapidSnapshot-windows32bits-zip" >	
+ 		<copy todir="${deploy.dir}">
+            <fileset dir="${resource.dir}">
+            	<include name="snapshot32.bat"/>
+				<include name="store.bat"/>
+            </fileset>
+        </copy>
+		<property name="zip.file.name" value="rapidsnapshot-${release.name}.${workingCopy.revision}-windows-32bits.zip"/>
+        <zip destfile="${deploy.dir}/${zip.file.name}" basedir="${deploy.dir}" />
+		<move file="${deploy.dir}/${zip.file.name}" tofile="${distribution.dir}/${release.name}.${workingCopy.revision}/${zip.file.name}"/>
+		<delete failonerror="true" file="${deploy.dir}/snapshot32.bat"/>	
+		<delete failonerror="true" file="${deploy.dir}/store.bat"/>
+    </target>
+	
+	<target name="rapidSnapshot-windows64bits-exe" >
+		<mkdir dir="${deploy.dir}/ico"/>
+		<copy todir="${deploy.dir}/ico">
+            <fileset dir="${resource.dir}/7zsfx">
+                <include name="snapshot.ico"/>
+				<include name="website.ico"/>
+            </fileset>
+        </copy>
+		<copy todir="${deploy.dir}">
+            <fileset dir="${resource.dir}">
+                <include name="snapshot64.bat"/>
+				<include name="snapshot_classpath_setting.bat"/>
+				<include name="argument.xml"/>
+				<include name="instructions.txt"/>
+				<include name="snapshot64.batx"/>
+            </fileset>
+        </copy>
+		<antcall target="rapidSnapshot-executable64" />
+		<antcall target="7zipDeployFolder" />
+        <echo>Make sure that the file: "7ZSD_All.sfx" is present in the folder: ${7zsfx.dir}</echo>
+		<property name="exe.file.name" value="rapidsnapshot-${release.name}.${workingCopy.revision}-windows-64bits.exe"/>
+        <concat destfile="${deploy.dir}/${exe.file.name}" binary="yes">
+			<fileset file="${7zsfx.dir}/7ZSD_All.sfx" />
+			<fileset file="${resource.dir}/7zsfx/snapshot-installer-config.tag" />
+			<fileset file="${deploy.dir}/deploy.7z" />
+		</concat>
+		<move file="${deploy.dir}/${exe.file.name}" tofile="${distribution.dir}/${release.name}.${workingCopy.revision}/${exe.file.name}"/>
+		<delete failonerror="true" file="${deploy.dir}/deploy.7z"/>	
+		<delete failonerror="true" dir="${deploy.dir}/ico"/>
+		<delete>
+			<fileset dir="${deploy.dir}" includes="*.exe"/>
+		</delete>
+    </target>
+	
+	<target name="rapidSnapshot-windows32bits-exe" >
+		<mkdir dir="${deploy.dir}/ico"/>
+		<copy todir="${deploy.dir}/ico">
+            <fileset dir="${resource.dir}/7zsfx">
+                <include name="snapshot.ico"/>
+				<include name="website.ico"/>
+            </fileset>
+        </copy>
+		<antcall target="rapidSnapshot-executable32" />
+		<antcall target="7zipDeployFolder" />
+        <echo>Make sure that the file: "7ZSD_All.sfx" is present in the folder: ${7zsfx.dir}</echo>
+		<property name="exe.file.name" value="rapidsnapshot-${release.name}.${workingCopy.revision}-windows-32bits.exe"/>
+        <concat destfile="${deploy.dir}/${exe.file.name}" binary="yes">
+			<fileset file="${7zsfx.dir}/7ZSD_All.sfx" />
+			<fileset file="${resource.dir}/7zsfx/snapshot-installer-config.tag" />
+			<fileset file="${deploy.dir}/deploy.7z" />
+		</concat>
+		<move file="${deploy.dir}/${exe.file.name}" tofile="${distribution.dir}/${release.name}.${workingCopy.revision}/${exe.file.name}"/>
+		<delete failonerror="true" file="${deploy.dir}/deploy.7z"/>	
+		<delete failonerror="true" dir="${deploy.dir}/ico"/>
+		<delete>
+			<fileset dir="${deploy.dir}" includes="*.exe"/>
+		</delete>
+    </target>
+	
+	<target name="rapidSnapshot-executable64" depends="dummy7ZIP">
+        <concat destfile="${deploy.dir}/snapshot.exe" binary="yes">
+			<fileset file="${7zsfx.dir}/7ZSD_All.sfx" />
+			<fileset file="${resource.dir}/7zsfx/snapshot-executable-config64.tag" />
+			<fileset file="${deploy.dir}/dummy.7z" />
+		</concat>
+		<delete failonerror="true" file="${deploy.dir}/dummy.7z"/>	
+    </target>
+	
+	<target name="rapidSnapshot-executable32" depends="dummy7ZIP">
+        <concat destfile="${deploy.dir}/snapshot.exe" binary="yes">
+			<fileset file="${7zsfx.dir}/7ZSD_All.sfx" />
+			<fileset file="${resource.dir}/7zsfx/snapshot-executable-config32.tag" />
+			<fileset file="${deploy.dir}/dummy.7z" />
+		</concat>
+		<delete failonerror="true" file="${deploy.dir}/dummy.7z"/>	
+    </target>
+		
+	<target name="rapidSnapshot-generic" >	
+		<copy file="${configurator.lib.jar}" todir="${deploy.dir}/lib"/>
+		<copy file="${core.lib.jar}" todir="${deploy.dir}/lib"/>
+    	<copy file="${springframework.core.lib.jar}" todir="${deploy.dir}/lib"/>
+    	<copy file="${opencsv.lib.jar}" todir="${deploy.dir}/lib"/> 
+		<copy file="${commons.io.lib.jar}" todir="${deploy.dir}/lib"/> 
+		<copy file="${xmlbean.lib.jar}" todir="${deploy.dir}/lib"/> 
+		<copy file="${poi.lib.jar1}" todir="${deploy.dir}/lib"/> 
+		<copy file="${poi.lib.jar2}" todir="${deploy.dir}/lib"/> 
+		<copy file="${poi.lib.jar3}" todir="${deploy.dir}/lib"/> 
+		<copy file="${apache.commons.codec.lib.jar}" todir="${deploy.dir}/lib"/> 
+    	<copy file="${dom4j.lib.jar}" todir="${deploy.dir}/lib"/> 
+        <copy todir="${deploy.dir}/lib">
+            <fileset dir="${lib.dir}">
+                <include name="**/*.jar"/>
+				<exclude name="adf/*.jar"/>
+            </fileset>
+        </copy>
+		<antcall target="rapidSnapshot-encrypt-initscript" />
+    	<copy todir="${deploy.dir}">
+            <fileset dir="${resource.dir}">
+                <include name="engine.properties"/>
+				<include name="snapshot-kb-matrix.xml"/>
+				<include name="replacements.properties"/>
+				<include name="site.url"/>
+            </fileset>
+        </copy>
+		
+		<antcall target="rapidSnapshot-packages" />
+    </target>
+	
+	<target name="rapidSnapshot-post" >	
+		<antcall target="rapidSnapshot-post-docs" />
+		<delete dir="${deploy.dir}/build.info"/>
+    </target>
+	
+	<target name="rapidSnapshot-post-docs" >	
+		<mkdir dir="${deploy.dir}/docs/rapidsnapshot"/>
+		<copy todir="${deploy.dir}/docs/rapidsnapshot">
+            <fileset dir="${docs.dir}/rapidsnapshot">
+                <include name="*.odt"/>
+            </fileset>
+        </copy>
+		<!-- if error: 
+		[java] ERROR: connection failed. Please make sure OpenOffice.org is running and listening on port 8100.
+		[java] Java Result: 1
+			SOLUTION: SERVER NOT STARTED:
+			"C:\Program Files (x86)\OpenOffice.org 3\program\soffice.exe" -nologo -nofirststartwizard -headless -norestore -invisible "-accept=socket,host=localhost,port=8100,tcpNoDelay=1;urp;"
+		-->
+		<for param="file">
+			<path>
+				<fileset dir="${deploy.dir}/docs/rapidsnapshot" includes="**/*.odt"/>
+			</path>
+			<sequential>
+				<echo>converting file:  @{file}</echo>
+				<java classname="com.artofsolving.jodconverter.cli.ConvertDocument" classpathref="jodconverter.build.path">
+					<arg line="-f pdf &quot;@{file}&quot; "/>
+				</java>
+			</sequential>
+		</for>
+		<delete>
+			<fileset dir="${deploy.dir}/docs/rapidsnapshot" includes="*.odt"/>
+		</delete>		
+    </target>
+		
+	<target name="rapidSnapshot-encrypt-initscript" >
+		<java classname="com.rapidesuite.client.common.util.FileEncryptionUtils" failonerror="true" classpathref="lib.path" >
+           <arg value="encrypt" />
+           <arg value="${resource.dir}/snapshot.sql" />
+           <arg value="${deploy.dir}/snapshot.sql" />
+           <arg value="sql" />
+		</java>
+    </target>
+	
+	<!--
+		STEPS:
+		Total 45 mins on windows notebook
+		1.	CHECKOUT THE FULL KB FROM SVN ( ~15 mins on notebook for each release)
+		2.	CREATE THE KB ZIP FILE. ( ~4 mins on notebook for each release)
+		3.  REMOVE/ KEEP FILES WE NEED FROM THE CHECKOUT FOR RAPIDSNAPSHOT
+	-->
+	<target name="rapidSnapshot-packages" >	
+		<mkdir dir="${deploy.dir}/snapshot-packages"/>
+			
+		<!-- STEP 1 -->
+		<property name="oracle-12.1.3" value="12.1.3"/>
+		<delete dir="${deploy.dir}/snapshot-packages/${oracle-12.1.3}"/>
+		<echo file="${deploy.dir}/snapshot-packages/${oracle-12.1.3}/kbVersion.txt" append="false">${snapshot.svn.kb.version.12.1.3}</echo>
+		<mkdir dir="${deploy.dir}/snapshot-packages/${oracle-12.1.3}/svn"/>
+		<exec executable="${svn.binary}">
+			<arg value="co" />
+			<arg value="${snapshot.svn.kb.url.12.1.3}" />
+			<arg value="${deploy.dir}/snapshot-packages/${oracle-12.1.3}/svn/" />
+		</exec>
+		
+		<property name="oracle-12.2.4" value="12.2.4"/>
+		<delete dir="${deploy.dir}/snapshot-packages/${oracle-12.2.4}"/>
+		<echo file="${deploy.dir}/snapshot-packages/${oracle-12.2.4}/kbVersion.txt" append="false">${snapshot.svn.kb.version.12.2.4}</echo>		
+		<mkdir dir="${deploy.dir}/snapshot-packages/${oracle-12.2.4}/svn"/>
+		<exec executable="${svn.binary}">
+			<arg value="co" />
+			<arg value="${snapshot.svn.kb.url.12.2.4}" />
+			<arg value="${deploy.dir}/snapshot-packages/${oracle-12.2.4}/svn/" />
+		</exec>
+				
+		<property name="oracle-12.2.5" value="12.2.5"/>
+		<delete dir="${deploy.dir}/snapshot-packages/${oracle-12.2.5}"/>
+		<echo file="${deploy.dir}/snapshot-packages/${oracle-12.2.5}/kbVersion.txt" append="false">${snapshot.svn.kb.version.12.2.5}</echo>
+		<mkdir dir="${deploy.dir}/snapshot-packages/${oracle-12.2.5}/svn"/>
+		<exec executable="${svn.binary}">
+			<arg value="co" />
+			<arg value="${snapshot.svn.kb.url.12.2.5}" />
+			<arg value="${deploy.dir}/snapshot-packages/${oracle-12.2.5}/svn/" />
+		</exec>
+		
+		<property name="oracle-12.2.6" value="12.2.6"/>
+		<delete dir="${deploy.dir}/snapshot-packages/${oracle-12.2.6}"/>
+		<echo file="${deploy.dir}/snapshot-packages/${oracle-12.2.6}/kbVersion.txt" append="false">${snapshot.svn.kb.version.12.2.6}</echo>
+		<mkdir dir="${deploy.dir}/snapshot-packages/${oracle-12.2.6}/svn"/>
+		<exec executable="${svn.binary}">
+			<arg value="co" />
+			<arg value="${snapshot.svn.kb.url.12.2.6}" />
+			<arg value="${deploy.dir}/snapshot-packages/${oracle-12.2.6}/svn/" />
+		</exec>
+		
+		<property name="oracle-12.2.7" value="12.2.7"/>
+		<delete dir="${deploy.dir}/snapshot-packages/${oracle-12.2.7}"/>
+		<echo file="${deploy.dir}/snapshot-packages/${oracle-12.2.7}/kbVersion.txt" append="false">${snapshot.svn.kb.version.12.2.7}</echo>
+		<mkdir dir="${deploy.dir}/snapshot-packages/${oracle-12.2.7}/svn"/>
+		<exec executable="${svn.binary}">
+			<arg value="co" />
+			<arg value="${snapshot.svn.kb.url.12.2.7}" />
+			<arg value="${deploy.dir}/snapshot-packages/${oracle-12.2.7}/svn/" />
+		</exec>
+
+		<property name="oracle-12.2.8" value="12.2.8"/>
+		<delete dir="${deploy.dir}/snapshot-packages/${oracle-12.2.8}"/>
+		<echo file="${deploy.dir}/snapshot-packages/${oracle-12.2.8}/kbVersion.txt" append="false">${snapshot.svn.kb.version.12.2.8}</echo>
+		<mkdir dir="${deploy.dir}/snapshot-packages/${oracle-12.2.8}/svn"/>
+		<exec executable="${svn.binary}">
+			<arg value="co" />
+			<arg value="${snapshot.svn.kb.url.12.2.8}" />
+			<arg value="${deploy.dir}/snapshot-packages/${oracle-12.2.8}/svn/" />
+		</exec>
+		
+		<property name="oracle-12.2.9" value="12.2.9"/>  
+		<delete dir="${deploy.dir}/snapshot-packages/${oracle-12.2.9}"/>
+		<echo file="${deploy.dir}/snapshot-packages/${oracle-12.2.9}/kbVersion.txt" append="false">${snapshot.svn.kb.version.12.2.9}</echo>
+		<mkdir dir="${deploy.dir}/snapshot-packages/${oracle-12.2.9}/svn"/>
+		<exec executable="${svn.binary}">
+			<arg value="co" />
+			<arg value="${snapshot.svn.kb.url.12.2.9}" />
+			<arg value="${deploy.dir}/snapshot-packages/${oracle-12.2.9}/svn/" />
+		</exec>
+		
+		<property name="oracle-12.2.10" value="12.2.10"/>  
+		<delete dir="${deploy.dir}/snapshot-packages/${oracle-12.2.10}"/>
+		<echo file="${deploy.dir}/snapshot-packages/${oracle-12.2.10}/kbVersion.txt" append="false">${snapshot.svn.kb.version.12.2.10}</echo>
+		<mkdir dir="${deploy.dir}/snapshot-packages/${oracle-12.2.10}/svn"/>
+		<exec executable="${svn.binary}">
+			<arg value="co" />
+			<arg value="${snapshot.svn.kb.url.12.2.10}" />
+			<arg value="${deploy.dir}/snapshot-packages/${oracle-12.2.10}/svn/" />
+		</exec>
+		
+		<foreach list="${oracle-12.1.3},${oracle-12.2.4},${oracle-12.2.5},${oracle-12.2.6},${oracle-12.2.7},${oracle-12.2.8},${oracle-12.2.9},${oracle-12.2.10}" param="oracleRelease" target="rapidSnapshot-packages-generation"/>	
+		
+    </target>
+
+	<target name="rapidSnapshot-packages-generation" >
+		<!-- STEP 2 -->
+		<!-- to make it work if running this from Widnows for testing -->
+		<echo file="${deploy.dir}/snapshot-packages/${oracleRelease}/svn/build.properties" append="false">
+windows.path.to.7z.binary=${7zip.exe}
+windows.path.to.svn.binary=${svn.binary}
+		</echo>
+		
+		<ant antfile="${deploy.dir}/snapshot-packages/${oracleRelease}/svn/build.xml" target="zip" inheritAll="false" />
+			
+		<!-- STEP 3 -->
+		<!-- copying the KB zip to the correct folder for RapidSnapshot -->
+		<copy todir="${deploy.dir}/snapshot-packages/${oracleRelease}">
+            <fileset dir="${deploy.dir}/snapshot-packages/${oracleRelease}/svn/${snapshot.kb.output.folder.name}">
+                <include name="**/*.7z"/>
+            </fileset>
+        </copy>
+		<move file="${deploy.dir}/snapshot-packages/${oracleRelease}/svn/snapshot_sql/inventoriesFormInfo.xml" tofile="${deploy.dir}/snapshot-packages/${oracleRelease}/inventoriesFormInfo.xml"/>
+		<move file="${deploy.dir}/snapshot-packages/${oracleRelease}/svn/snapshot_sql/respToApplicationMapping.xml" tofile="${deploy.dir}/snapshot-packages/${oracleRelease}/respToApplicationMapping.xml"/>
+		<move file="${deploy.dir}/snapshot-packages/${oracleRelease}/svn/knowledgebase/swiftconfig-navigator.xml" tofile="${deploy.dir}/snapshot-packages/${oracleRelease}/swiftconfig-navigator.xml"/>
+		<java classname="com.rapidesuite.client.common.util.FileEncryptionUtils" failonerror="true" classpathref="lib.path" >
+           <arg value="encrypt" />
+           <arg value="${deploy.dir}/snapshot-packages/${oracleRelease}/svn/snapshot_sql" />
+           <arg value="${deploy.dir}/snapshot-packages/${oracleRelease}/snapshot_sql" />
+           <arg value="sql" />
+		</java>
+		<java classname="com.rapidesuite.snapshot.model.FoldersFlattener" failonerror="true" classpathref="lib.path" >
+           <arg value="${deploy.dir}/snapshot-packages/${oracleRelease}/svn/knowledgebase/inventory" />
+           <arg value="${deploy.dir}/snapshot-packages/${oracleRelease}/svn/knowledgebase/inventory_flat" />
+		</java>
+		<java classname="com.rapidesuite.client.common.util.FileEncryptionUtils" failonerror="true" classpathref="lib.path" >
+           <arg value="encrypt" />
+           <arg value="${deploy.dir}/snapshot-packages/${oracleRelease}/svn/knowledgebase/inventory_flat" />
+           <arg value="${deploy.dir}/snapshot-packages/${oracleRelease}/inventories" />
+           <arg value="xml" />
+		</java>
+		
+		<delete dir="${deploy.dir}/snapshot-packages/${oracleRelease}/svn"/>
+    </target>
+			
+	<taskdef resource="proguard/ant/task.properties" classpath="lib/proguard.jar" />
+	
+	<target name="rapidSnapshot-obfuscate" >
+		<copy  file="${deploy.dir}/rapidclient.jar" tofile="${deploy.dir}/rapidclient-non-obf.jar"/>
+		<proguard>
+		-libraryjars ${embeddedJRE64.dir}/lib/rt.jar${path.separator}${embeddedJRE64.dir}/lib/jce.jar${path.separator}${lib.dir}/bcpkix-jdk15on-147.jar${path.separator}${lib.dir}/bcprov-ext-jdk15on-147.jar${path.separator}${lib.dir}/bcprov-jdk15on-147.jar${path.separator}${lib.dir}/openswing-clientos-2.4.7-customized.jar${path.separator}${lib.dir}/openswing-commonos-2.4.7.jar${path.separator}${lib.dir}/commons-fileupload-1.3.jar${path.separator}${lib.dir}/commons-net-3.3.jar${path.separator}${lib.dir}/javassist.jar${path.separator}${lib.dir}/javax.servlet-3.0.jar${path.separator}${lib.dir}/jna-3.5.1.jar${path.separator}${lib.dir}/ojdbc6_11.2.0.2.0_JDK1.6.jar${path.separator}${basedir}/../core/lib/opencsv-2.3.jar${path.separator}${lib.dir}/platform-3.5.1.jar${path.separator}${basedir}/../core/lib/poi-3.10-FINAL-20140208.jar${path.separator}${basedir}/../core/lib/poi-ooxml-3.10-FINAL-20140208.jar${path.separator}${basedir}/../core/lib/poi-ooxml-schemas-3.10-FINAL-20140208.jar${path.separator}${lib.dir}/sevenzipjbinding-AllWindows.jar${path.separator}${lib.dir}/sevenzipjbinding.jar${path.separator}${lib.dir}/slf4j-api-1.7.6.jar${path.separator}${basedir}/../core/lib/spring-core-3.2.3.RELEASE.jar${path.separator}${lib.dir}/sshj-0.9.1-SNAPSHOT.RES01.jar${path.separator}${basedir}/../configurator/deploy/configurator.jar${path.separator}${lib.dir}/swingx-all-1.6.4.jar${path.separator}${basedir}/../core/lib/xbean.jar${path.separator}${basedir}/../configurator/public_html/WEB-INF/lib/commons-codec-1.6.jar${path.separator}${basedir}/../configurator/public_html/WEB-INF/lib/dom4j-1.6.1.jar${path.separator}${basedir}/../core/deploy/rapidcore.jar${path.separator}${lib.dir}/slf4j-log4j12-1.7.6.jar${path.separator}${lib.dir}/log4j-1.2.17.jar${path.separator}${lib.dir}/xercesImpl-2.6.2.jar${path.separator}${lib.dir}/selenium-2.45.0/selenium-java-2.45.0.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/apache-mime4j-0.6.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/bsh-1.3.0.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/cglib-nodep-2.1_3.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/commons-codec-1.9.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/commons-collections-3.2.1.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/commons-exec-1.1.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/commons-io-2.4.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/commons-jxpath-1.3.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/commons-lang3-3.3.2.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/commons-logging-1.1.3.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/cssparser-0.9.14.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/gson-2.3.1.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/guava-18.0.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/hamcrest-core-1.3.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/hamcrest-library-1.3.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/htmlunit-2.15.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/htmlunit-core-js-2.15.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/httpclient-4.3.6.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/httpcore-4.3.3.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/httpmime-4.3.6.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/ini4j-0.5.2.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/jcommander-1.29.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/jetty-websocket-8.1.8.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/jna-3.4.0.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/jna-platform-3.4.0.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/junit-dep-4.11.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/nekohtml-1.9.21.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/netty-3.5.7.Final.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/operadriver-1.5.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/phantomjsdriver-1.2.1.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/protobuf-java-2.4.1.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/sac-1.3.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/serializer-2.7.1.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/testng-6.8.5.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/xalan-2.7.1.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/xercesImpl-2.11.0.jar${path.separator}${lib.dir}/selenium-2.45.0/libs/xml-apis-1.4.01.jar${path.separator}${lib.dir}/selenium-server-standalone-2.46.0.jar${path.separator}${lib.dir}/org.json-20120521.jar${path.separator}${lib.dir}/adf/com.oracle.webservices.fmw.client_12.1.3.jar${path.separator}${lib.dir}/adf/adfbcsvc-share.jar${path.separator}${lib.dir}/glazedlists_java15-1.9.1.jar${path.separator}${lib.dir}/balloontip-1.2.4.1.jar
+		-injars     "${deploy.dir}/rapidclient-non-obf.jar"
+		-outjars    "${deploy.dir}/rapidclient.jar"
+		-ignorewarnings
+		-dontwarn
+		-dontnote
+		-keep public class com.rapidesuite.snapshot.SnapshotMain {
+			public static void main(java.lang.String[]);
+		}
+		</proguard>
+		<delete failonerror="true" file="${deploy.dir}/rapidclient-non-obf.jar"/>
+	</target>
+	
+</project>

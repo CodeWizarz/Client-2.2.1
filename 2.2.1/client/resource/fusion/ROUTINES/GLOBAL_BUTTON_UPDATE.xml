@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<navigation xmlns="http://navigation0005.configurator.erapidsuite.com" xmlns:xsd="http://xsdutility.configurator.erapidsuite.com">
+	<name>SAMPLE</name>
+	<svn>
+		<xsd:revision>$Revision: $:</xsd:revision>
+		<xsd:author>$Author: $:</xsd:author>
+		<xsd:date>$Date: $:</xsd:date>
+		<xsd:headURL>$HeadURL: $:</xsd:headURL>
+		<xsd:id>$Id:  $:</xsd:id>
+	</svn>
+	<description/>
+	<type>FUSION</type>
+	<engine_type>SELENIUM</engine_type>
+	<modules/>
+	<mapper_use_type>UNDEFINED</mapper_use_type>
+	<validate_parent_child_relationships_for_mapped_data>true</validate_parent_child_relationships_for_mapped_data>
+	<fusionNavigation hasScope="true" taskName="n/a" isBatchingAllowed="true" applicationKey="APPLICATION_HOME_PAGE">
+
+		<block name="GLOBAL_UPDATE">
+			<IfThenElse>
+				<if>
+					<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">//a[text()='Actions']</findElement>
+				</if>
+				<then>
+					<findElement isSkipCheckDomError="true" by="xpath">//a[text()='Actions']</findElement>
+					<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>  
+					<findElement isSkipCheckDomError="true" by="xpath">//table[@style='position: relative;']//td[text()='Edit']</findElement>
+					<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>     					
+				</then>
+				<else>
+					<IfThenElse>
+						<if>
+							<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">//a[text()='Actions']/../../../../../../../../../../../..</findElement>
+						</if>
+						<then>
+							<findElement isSkipCheckDomError="true" by="xpath">//a[text()='Actions']/../../../../../../../../../../../..</findElement>
+							<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>  
+							<findElement isSkipCheckDomError="true" by="xpath">//table[@style='position: relative;']//a[text()='Actions']</findElement>
+							<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>														
+							<findElement isSkipCheckDomError="true" by="xpath">//table[@style='position: relative;']//td[text()='Edit']</findElement>
+							<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>				
+						</then>
+						<else>
+							<IfThenElse>
+								<if>
+									<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">//span[normalize-space(text())='Edit']</findElement>
+								</if>
+								<then>
+									<findElement isSkipCheckDomError="true" by="xpath">//span[normalize-space(text())='Edit']</findElement>
+									<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>   					
+								</then>
+								<else>
+									<IfThenElse>
+										<if>
+											<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">//span[normalize-space(text())='Edit']/../../../../../../../../../../../..</findElement>
+										</if>
+										<then>
+											<findElement isSkipCheckDomError="true" by="xpath">//span[normalize-space(text())='Edit']/../../../../../../../../../../../..</findElement>
+											<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>  
+											<findElement isSkipCheckDomError="true" by="xpath">//table[@style='position: relative;']//span[normalize-space(text())='Edit']</findElement>
+											<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>						
+										</then>
+										<else>
+											<IfThenElse>
+												<if>
+													<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">//a/img[@title='Edit']</findElement>
+												</if>
+												<then>
+													<findElement isSkipCheckDomError="true" by="xpath">//a/img[@title='Edit']</findElement>
+													<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>   					
+												</then>
+												<else>
+													<IfThenElse>
+														<if>
+															<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">//a/img[@title='Edit']/../../../../../../../..</findElement>
+														</if>
+														<then>
+															<findElement isSkipCheckDomError="true" by="xpath">//a/img[@title='Edit']/../../../../../../../..</findElement>
+															<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>  
+															<findElement isSkipCheckDomError="true" by="xpath">//table[@style='position: relative;']//a/img[@title='Edit']</findElement>
+															<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>						
+														</then>
+														<else>
+
+														</else>
+													</IfThenElse>							
+												</else>
+											</IfThenElse>						
+										</else>
+									</IfThenElse>							
+								</else>
+							</IfThenElse>						
+						</else>
+					</IfThenElse>
+				</else>
+			</IfThenElse>
+		</block>		
+
+		<block name="GLOBAL_SPECIFY_UPDATE">
+			<IfThenElse>
+				<if>
+					<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//a[text()='Actions']</findElement>
+				</if>
+				<then>
+					<findElement isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//a[text()='Actions']</findElement>
+					<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>  
+					<findElement isSkipCheckDomError="true" by="xpath">//table[@style='position: relative;']//td[text()='Edit']</findElement>
+					<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>     					
+				</then>
+				<else>
+					<IfThenElse>
+						<if>
+							<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//a[text()='Actions']/../../../../../../../../../../../..</findElement>
+						</if>
+						<then>
+							<findElement isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//a[text()='Actions']/../../../../../../../../../../../..</findElement>
+							<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>  
+							<findElement isSkipCheckDomError="true" by="xpath">//table[@style='position: relative;']//a[text()='Actions']</findElement>
+							<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>														
+							<findElement isSkipCheckDomError="true" by="xpath">//table[@style='position: relative;']//td[text()='Edit']</findElement>
+							<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>				
+						</then>
+						<else>
+							<IfThenElse>
+								<if>
+									<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//span[normalize-space(text())='Edit']</findElement>
+								</if>
+								<then>
+									<findElement isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//span[normalize-space(text())='Edit']</findElement>
+									<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>   					
+								</then>
+								<else>
+									<IfThenElse>
+										<if>
+											<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//span[normalize-space(text())='Edit']/../../../../../../../../../../../..</findElement>
+										</if>
+										<then>
+											<findElement isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//span[normalize-space(text())='Edit']/../../../../../../../../../../../..</findElement>
+											<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>  
+											<findElement isSkipCheckDomError="true" by="xpath">//table[@style='position: relative;']//span[normalize-space(text())='Edit']</findElement>
+											<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>					
+										</then>
+										<else>
+											<IfThenElse>
+												<if>
+													<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//a/img[@title='Edit']</findElement>
+												</if>
+												<then>
+													<findElement isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//a/img[@title='Edit']</findElement>
+													<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>   					
+												</then>
+												<else>
+													<IfThenElse>
+														<if>
+															<findElement highlightTurnedOff="true" isDisplayed="true" isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//a/img[@title='Edit']/../../../../../../../..</findElement>
+														</if>
+														<then>
+															<findElement isSkipCheckDomError="true" by="xpath">SPECIFY_XPATH//a/img[@title='Edit']/../../../../../../../..</findElement>
+															<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>  
+															<findElement isSkipCheckDomError="true" by="xpath">//table[@style='position: relative;']//a/img[@title='Edit']</findElement>
+															<click waitForPageToFinishRendering="true" isSkipCheckDomError="true"/>					
+														</then>
+														<else>
+
+														</else>
+													</IfThenElse>							
+												</else>
+											</IfThenElse>							
+										</else>
+									</IfThenElse>							
+								</else>
+							</IfThenElse>						
+						</else>
+					</IfThenElse>
+				</else>
+			</IfThenElse>
+		</block>		
+
+	</fusionNavigation>
+</navigation>

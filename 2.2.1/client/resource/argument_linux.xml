@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snapshotArguments xmlns="http://snapshotArguments.rapid4cloud.com">
+  <connectionName>oratest90.rapidesuite.com - XX_RS_TATY4</connectionName>
+  <templateSelectionName>TestTemplate</templateSelectionName>
+  <logFolderPath>/home/rapidextract01/Documents/auto_snapshot_log</logFolderPath>
+  <timeLimit>120</timeLimit>
+
+</snapshotArguments>

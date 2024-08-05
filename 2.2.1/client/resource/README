@@ -1,0 +1,6 @@
+# Those commands must be run on a Mac OSX terminal before starting the application.
+# In the Terminal windows, you must change the current directory to the installation folder of RapidSnapshot.
+
+chmod +x snapshot.command
+chmod -R +x jreMacosx/mac/bin/java
+chmod -R +x jreMacosx/mac/lib/jspawnhelper

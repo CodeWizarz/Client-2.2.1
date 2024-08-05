@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<navigation xmlns="http://navigation0005.configurator.erapidsuite.com" xmlns:xsd="http://xsdutility.configurator.erapidsuite.com">
+	<name>SAMPLE</name>
+	<svn>
+		<xsd:revision>$Revision: $:</xsd:revision>
+		<xsd:author>$Author: $:</xsd:author>
+		<xsd:date>$Date: $:</xsd:date>
+		<xsd:headURL>$HeadURL: $:</xsd:headURL>
+		<xsd:id>$Id:  $:</xsd:id>
+	</svn>
+	<description/>
+	<type>FUSION</type>
+	<engine_type>SELENIUM</engine_type>
+	<modules/>
+	<mapper_use_type>UNDEFINED</mapper_use_type>
+	<validate_parent_child_relationships_for_mapped_data>true</validate_parent_child_relationships_for_mapped_data>
+	<fusionNavigation hasScope="true" taskName="n/a" isBatchingAllowed="true" applicationKey="APPLICATION_HOME_PAGE">
+
+		<block name="GLOBAL_SCOPE_LE">
+			<IfThenElse>
+				<if>
+					<findElement highlightTurnedOff="true" by="xpath">//div[text()='###TASK_NAME###']</findElement>
+				</if>
+				<then>
+				<!--Version 11-->
+					<IfThenElse>
+						<if>
+							<findElement by="xpath">//div[text()='###TASK_NAME###']/../../td[(string(//span[text()='Selected Scope']/../../@_d_index))+0]/a</findElement>
+						</if>
+						<then>
+							<IfThenElse>
+								<if>
+									<findElement by="xpath">//div[text()='###TASK_NAME###']/../..//a[normalize-space(text())='<valueKB inventoryName="MAIN_REPEAT_1" columnName="Name"/>']</findElement>
+								</if>
+								<then>
+									<findElement by="xpath" >//div[text()='###TASK_NAME###']/../..//a</findElement>
+									<click waitForPageToFinishRendering="true"/>        
+								</then>
+								<else>
+									<findElements by="xpath" returnElementAtPosition="2">//div[text()='###TASK_NAME###']/../..//a</findElements>
+									<click waitForPageToFinishRendering="true"/>
+								</else>
+							</IfThenElse>  
+						</then>
+						<else>
+							<!--Version 9-->
+							<IfThenElse>
+								<if>
+									<findElement by="xpath">//div[text()='###TASK_NAME###']/../../td[(string(//div[text()='Selected Scope']/../@_d_index))+0]/a</findElement>
+								</if>
+								<then>
+									<IfThenElse>
+										<if>
+											<findElement by="xpath">//div[text()='###TASK_NAME###']/../..//a[normalize-space(text())='<valueKB inventoryName="MAIN_REPEAT_1" columnName="Name"/>']</findElement>
+										</if>
+										<then>
+											<findElement by="xpath" >//div[text()='###TASK_NAME###']/../..//a</findElement>
+											<click waitForPageToFinishRendering="true"/>        
+										</then>
+										<else>
+											<findElements by="xpath" returnElementAtPosition="2">//div[text()='###TASK_NAME###']/../..//a</findElements>
+											<click waitForPageToFinishRendering="true"/>
+										</else>
+									</IfThenElse>  
+								</then>
+								<else>
+									<findElement by="xpath" >//div[text()='###TASK_NAME###']/../..//a</findElement>
+									<click waitForPageToFinishRendering="true"/>
+								</else>
+							</IfThenElse> 
+						</else>
+					</IfThenElse> 
+				</then>
+				<else>
+					<error message="The task doesn't exist."/>
+				</else>
+			</IfThenElse>
+		</block>		
+	</fusionNavigation>
+</navigation>

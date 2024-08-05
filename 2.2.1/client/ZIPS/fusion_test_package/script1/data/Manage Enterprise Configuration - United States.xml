@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data name="Manage Enterprise Configuration - United States" xmlns="http://data0000.configurator.erapidsuite.com">
+<m/>
+<h>
+<c>Name</c>
+<c>Description</c>
+<c>Enterprise Name</c>
+<c>Short Name</c>
+<c>Primary Industry</c>
+<c>Headquarters Country</c>
+<c>Legal Name</c>
+<c>Legal Entity Identifier</c>
+<c>Legal Entity Registration Number</c>
+<c>Legal Reporting Unit Registration Number</c>
+<c>Legal Address</c>
+<c>Location-Name</c>
+<c>Location-Description</c>
+<c>Address Line 1</c>
+<c>Address Line 2</c>
+<c>City</c>
+<c>State</c>
+<c>Postal Code</c>
+<c>Enterprise Configuration Requirements</c>
+<c>RSC Data Label</c>
+<c>Navigation Filter</c>
+</h>
+<r>
+<c>TESTOD1</c>
+<c>TESTOD1</c>
+<c>TESTOD1</c>
+<c>RAPID CORP</c>
+<c>Information</c>
+<c>United States</c>
+<c>Rapid e-Suite Inc.</c>
+<c>111</c>
+<c>111</c>
+<c>111</c>
+<c>Select Existing Address</c>
+<c>RAPID CORP Location1</c>
+<c>RAPID CORP Location description1</c>
+<c>1900 S Norfolk Street</c>
+<c>Suite 350</c>
+<c>San Mateo</c>
+<c>CA</c>
+<c>12345</c>
+<c>Complete setup for a single legal entity in a single country</c>
+<c>FUSION</c>
+<c/>
+</r>
+<r>
+<c>TESTOD2</c>
+<c>TESTOD2</c>
+<c>TESTOD2</c>
+<c>RAPID CORP</c>
+<c>Information</c>
+<c>United States</c>
+<c>Rapid e-Suite Inc.</c>
+<c>111</c>
+<c>111</c>
+<c>111</c>
+<c>CREATE</c>
+<c>RAPID CORP Location1</c>
+<c>RAPID CORP Location description1</c>
+<c>1900 S Norfolk Street</c>
+<c>Suite 350</c>
+<c>San Mateo</c>
+<c>CA</c>
+<c>12345</c>
+<c>Complete setup for a single legal entity in a single country</c>
+<c>FUSION</c>
+<c/>
+</r>
+<r>
+<c>TESTOD3</c>
+<c>TESTOD3</c>
+<c>TESTOD3</c>
+<c>RAPID CORP</c>
+<c>Information</c>
+<c>United States</c>
+<c>Rapid e-Suite Inc.</c>
+<c>111</c>
+<c>111</c>
+<c>111</c>
+<c>CREATE</c>
+<c>RAPID CORP Location1</c>
+<c>RAPID CORP Location description1</c>
+<c>1900 S Norfolk Street</c>
+<c>Suite 350</c>
+<c>San Mateo</c>
+<c>CA</c>
+<c>12345</c>
+<c>Complete setup for a single legal entity in a single country</c>
+<c>FUSION</c>
+<c/>
+</r>
+<r>
+<c>TESTOD4</c>
+<c>TESTOD4</c>
+<c>TESTOD4</c>
+<c>RAPID CORP</c>
+<c>Information</c>
+<c>United States</c>
+<c>Rapid e-Suite Inc.</c>
+<c>111</c>
+<c>111</c>
+<c>111</c>
+<c>CREATE</c>
+<c>RAPID CORP Location1</c>
+<c>RAPID CORP Location description1</c>
+<c>1900 S Norfolk Street</c>
+<c>Suite 350</c>
+<c>San Mateo</c>
+<c>CA</c>
+<c>12345</c>
+<c>Complete setup for a single legal entity in a single country</c>
+<c>FUSION</c>
+<c/>
+</r>
+<r>
+<c>TESTOD5</c>
+<c>TESTOD5</c>
+<c>TESTOD5</c>
+<c>RAPID CORP</c>
+<c>Information</c>
+<c>United States</c>
+<c>Rapid e-Suite Inc.</c>
+<c>111</c>
+<c>111</c>
+<c>111</c>
+<c>CREATE</c>
+<c>RAPID CORP Location1</c>
+<c>RAPID CORP Location description1</c>
+<c>1900 S Norfolk Street</c>
+<c>Suite 350</c>
+<c>San Mateo</c>
+<c>CA</c>
+<c>12345</c>
+<c>Complete setup for a single legal entity in a single country</c>
+<c>FUSION</c>
+<c/>
+</r>
+</data>

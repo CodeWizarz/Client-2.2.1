@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<navigation xmlns="http://navigation0005.configurator.erapidsuite.com" xmlns:xsd="http://xsdutility.configurator.erapidsuite.com">
+    <name>Manage Enterprise Configuration - United States2</name>
+    <svn>
+        <xsd:revision>$Revision: $:</xsd:revision>
+        <xsd:author>$Author: $:</xsd:author>
+        <xsd:date>$Date: $:</xsd:date>
+        <xsd:headURL>$HeadURL: $:</xsd:headURL>
+        <xsd:id>$Id:  $:</xsd:id>
+    </svn>
+    <description/>
+    <type>FUSION</type>
+    <engine_type>SELENIUM</engine_type>
+    <modules/>
+    <mapper_use_type>UNDEFINED</mapper_use_type>
+    <validate_parent_child_relationships_for_mapped_data>true</validate_parent_child_relationships_for_mapped_data>
+    <fusionNavigation hasScope="false"
+        taskName="Establish Enterprise Structures" isBatchingAllowed="true">
+        <block name="Location name search/ create">
+            <IfThenElse>
+                <if>
+                    <comparisons separator="AND">
+                        <comparison operator="EQUAL">
+                            <leftOperand>
+                                <valueKB
+                                    inventoryName="Manage Enterprise Configuration - United States" columnName="Legal Address"/>
+                            </leftOperand>
+                            <rightOperand><valueText>Create New Address</valueText></rightOperand>
+                        </comparison>
+                    </comparisons>
+                </if>
+                <then>
+                    <findElement by="xpath">//a[contains(@id,':createAddr')]</findElement>
+                    <click waitForPageToFinishRendering="true"/>
+                    <findElement by="xpath">//div[text()='Create Location']/../../../../../../../..//label[text()='Name']/../..//input</findElement>
+                    <sendKeys isClear="true">
+                        <valueKB
+                            inventoryName="Manage Enterprise Configuration - United States" columnName="Location-Name"/>
+                    </sendKeys>
+                    <findElement by="xpath">//div[text()='Create Location']/../../../../../../../..//label[text()='Description']/../..//input</findElement>
+                    <sendKeys isClear="true"><valueKB
+                            inventoryName="Manage Enterprise Configuration - United States" columnName="Location-Description"/></sendKeys>
+                    <findElement by="xpath">//div[text()='Create Location']/../../../../../../../..//label[text()='Address Line 1']/../..//input</findElement>
+                    <sendKeys isClear="true"><valueKB
+                            inventoryName="Manage Enterprise Configuration - United States" columnName="Address Line 1"/></sendKeys>
+                    <findElement by="xpath">//div[text()='Create Location']/../../../../../../../..//label[text()='Address Line 2']/../..//input</findElement>
+                    <sendKeys isClear="true"><valueKB
+                            inventoryName="Manage Enterprise Configuration - United States" columnName="Address Line 2"/></sendKeys>
+                    <findElement by="xpath">//div[text()='Create Location']/../../../../../../../..//label[text()='City']/../..//input</findElement>
+                    <sendKeys isClear="true"><valueKB
+                            inventoryName="Manage Enterprise Configuration - United States" columnName="City"/></sendKeys>
+                    <findElement by="xpath">//div[text()='Create Location']/../../../../../../../..//label[text()='State']/../..//input</findElement>
+                    <sendKeys isClear="true"><valueKB
+                            inventoryName="Manage Enterprise Configuration - United States" columnName="State"/></sendKeys>
+                    <findElement by="xpath">//div[text()='Create Location']/../../../../../../../..//label[text()='Postal Code']/../..//input</findElement>
+                    <sendKeys isClear="true"><valueKB
+                            inventoryName="Manage Enterprise Configuration - United States" columnName="Postal Code"/></sendKeys>
+                    <findElements by="xpath" returnElementAtPosition="1">//div[text()='Create Location']/../../../../../../../..//button</findElements>
+                    <click waitForPageToFinishRendering="true"/>
+                </then>
+                <else>
+                    <findElement by="xpath">//a[text()='Search...']</findElement>
+                    <click waitForPageToFinishRendering="true"/>
+                    <findElement by="xpath">//div[text()='Location Name']/../../../../../../../..//label[text()='Location Name']/../..//input</findElement>
+                    <sendKeys isClear="true"><valueKB
+                            inventoryName="Manage Enterprise Configuration - United States" columnName="Location-Name"/></sendKeys>
+                    <findElement by="xpath">//div[text()='Location Name']/../../../../../../../..//button[text()='Search']</findElement>
+                    <click waitForPageToFinishRendering="true"/>
+                    <findElement
+                            by="xpath">//div[text()='Location Name']/../../../../../../../..//td[text()='<valueKB
+                            inventoryName="Manage Enterprise Configuration - United States" columnName="Location-Name"/>']</findElement>
+                    <click waitForPageToFinishRendering="true"/>
+                    <findElement by="xpath">//div[text()='Location Name']/../../../../../../../..//button[text()='OK']</findElement>
+                    <click waitForPageToFinishRendering="true"/>
+                    <findElement by="xpath">//button[text()='Save']</findElement>
+                    <click waitForPageToFinishRendering="true"/>
+                    <findElement by="xpath">//button[text()='OK']</findElement>
+                    <click waitForPageToFinishRendering="true"/>
+                    <findElement by="xpath" concatenatedTextNodes="Cancel">//button</findElement>
+                    <click waitForPageToFinishRendering="true"/>
+                    <findElement by="xpath" concatenatedTextNodes="OK">//button</findElement>
+                    <click waitForPageToFinishRendering="true"/>
+                </else>
+            </IfThenElse>
+        </block>
+        <block name="UPDATE ENTERPRISE STRUCTURES - United States">
+            <findElement by="xpath">//a[text()='<valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Name"/>']</findElement>
+            <click waitForPageToFinishRendering="true"/>
+            <findElement by="xpath">//label[text()='Enterprise Name']/../..//input</findElement>
+            <sendKeys isClear="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Enterprise Name"/></sendKeys>
+            <findElement by="xpath">//label[text()='Short Name']/../..//input</findElement>
+            <sendKeys isClear="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Short Name"/></sendKeys>
+            <findElement by="xpath">//label[text()='Primary Industry']/../..//select</findElement>
+            <select by="selectByVisibleText" isPageLoadingOnSelectValue="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Primary Industry"/></select>
+            <findElement by="xpath">//label[text()='Headquarters Country']/../..//select</findElement>
+            <select by="selectByVisibleText" isPageLoadingOnSelectValue="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Headquarters Country"/></select>
+            <findElement by="xpath">//a[@title='Search: Location Name']</findElement>
+            <click waitForPageToFinishRendering="true"/>
+            <executeBlock name="Location name search/ create"/>
+            <!-- TODO: click SAVE? -->
+        </block>
+        <block name="CREATE ENTERPRISE STRUCTURES - United States">
+            <findElement by="xpath">//a[img[@title='Create']]</findElement>
+            <click waitForPageToFinishRendering="true"/>
+            <findElement by="xpath">//div[text()='Create Enterprise Configuration']/../../../../../../../..//label[text()='Name']/../..//input</findElement>
+            <sendKeys isClear="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Name"/></sendKeys>
+            <findElement by="xpath">//div[text()='Create Enterprise Configuration']/../../../../../../../..//label[text()='Description']/../..//input</findElement>
+            <sendKeys isClear="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Description"/></sendKeys>
+            <findElements by="xpath" returnElementAtPosition="1">//div[text()='Create Enterprise Configuration']/../../../../../../../..//button</findElements>
+            <click waitForPageToFinishRendering="true"/>
+            <findElement by="xpath">//label[text()='Enterprise Name']/../..//input</findElement>
+            <sendKeys isClear="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Enterprise Name"/></sendKeys>
+            <findElement by="xpath">//label[text()='Short Name']/../..//input</findElement>
+            <sendKeys isClear="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Short Name"/></sendKeys>
+            <findElement by="xpath">//label[text()='Primary Industry']/../..//select</findElement>
+            <select by="selectByVisibleText" isPageLoadingOnSelectValue="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Primary Industry"/></select>
+            <findElement by="xpath">//label[text()='Headquarters Country']/../..//select</findElement>
+            <select by="selectByVisibleText" isPageLoadingOnSelectValue="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Headquarters Country"/></select>
+            <findElement by="xpath">//label[text()='Legal Name']/../..//input</findElement>
+            <sendKeys isClear="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Legal Name"/></sendKeys>
+            <findElement by="xpath">//label[text()='Legal Entity Identifier']/../..//input</findElement>
+            <sendKeys isClear="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Legal Entity Identifier"/></sendKeys>
+            <findElement by="xpath">//label[text()='Legal Entity Registration Number']/../..//input</findElement>
+            <sendKeys isClear="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Legal Entity Registration Number"/></sendKeys>
+            <findElement by="xpath">//label[text()='Legal Reporting Unit Registration Number']/../..//input</findElement>
+            <sendKeys isClear="true"><valueKB
+                    inventoryName="Manage Enterprise Configuration - United States" columnName="Legal Reporting Unit Registration Number"/></sendKeys>
+            <findElement by="xpath">//a[@title='Search: Legal Address']</findElement>
+            <click waitForPageToFinishRendering="true"/>
+            <executeBlock name="Location name search/ create"/>
+            <findElement by="xpath">//label[text()='Complete setup for a single legal entity in a single country']/..//input</findElement>
+            <click waitForPageToFinishRendering="true"/>
+            <findElement by="xpath" concatenatedTextNodes="Next">//button11111</findElement>
+            <click waitForPageToFinishRendering="true"/>
+            <findElement by="xpath" concatenatedTextNodes="Submit">//button</findElement>
+            <click waitForPageToFinishRendering="true"/>
+            <!-- this part is to load the configuration - then the record cannot be edited anymore -->
+            <!--
+	<findElement by="xpath" isDebug="true">//a[text()='<value inventoryName="Manage Enterprise Configuration - United States" columnName="Name" />']/../..//img[contains(@src,'gototask_ena.png')]/..</findElement> 
+	<click waitForPageToFinishRendering="true" />
+	<findElement by="xpath" concatenatedTextNodes="OK" >//button</findElement>
+	<click waitForPageToFinishRendering="true" />
+	-->
+        </block>
+        <repeat inventoryName="Manage Enterprise Configuration - United States">
+            <!-- NAVIGATION TO CLICK ON THE TASK -->
+            <findElement by="xpath">//span[text()='###TASK_NAME###']/../../..//a[@title='Go to Task']</findElement>
+            <click waitForPageToFinishRendering="true"/>
+            <IfThenElse>
+                <if>
+                    <findElement by="xpath">//a[text()='<valueKB
+                            inventoryName="Manage Enterprise Configuration - United States" columnName="Name"/>']</findElement>
+                </if>
+                <then>
+                    <executeBlock name="UPDATE ENTERPRISE STRUCTURES - United States"/>
+                    <repeat inventoryName="Manage Enterprise Configuration - United States - DFF">
+                        <findElement by="xpath">//a[text()='<valueKB
+                                inventoryName="Manage Enterprise Configuration - United States - DFF" columnName="Name"/>']</findElement>
+                        <pause durationInSecs="3"/>
+                    </repeat>
+                    <repeat inventoryName="Manage Enterprise Configuration - United States - DFF2">
+                        <findElement by="xpath">//a[text()='<valueKB
+                                inventoryName="Manage Enterprise Configuration - United States - DFF2" columnName="Name"/>']</findElement>
+                        <pause durationInSecs="3"/>
+                    </repeat>
+                </then>
+                <else>
+                    <executeBlock name="CREATE ENTERPRISE STRUCTURES - United States"/>
+                </else>
+            </IfThenElse>
+            <findElement by="xpath">//button[text()='Cancel']</findElement>
+            <click waitForPageToFinishRendering="true"/>
+        </repeat>
+    </fusionNavigation>
+</navigation>

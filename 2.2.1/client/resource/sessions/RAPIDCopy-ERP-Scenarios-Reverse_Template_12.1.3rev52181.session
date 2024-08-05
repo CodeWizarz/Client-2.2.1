@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-extraction-session xmlns="http://data-extraction-session0000.core.rapidesuite.com">
+    <wc>16</wc>
+    <ous/>
+    <operating_unit_specific_type>true</operating_unit_specific_type>
+    <instance_level_type>true</instance_level_type>
+    <users>
+        <oracle_user userId="0"/>
+        <oracle_user userId="1"/>
+        <oracle_user userId="2"/>
+        <oracle_user userId="3"/>
+        <oracle_user userId="4"/>
+        <oracle_user userId="5"/>
+        <oracle_user userId="6"/>
+        <oracle_user userId="7"/>
+        <oracle_user userId="129"/>
+        <oracle_user userId="8"/>
+        <oracle_user userId="128"/>
+        <oracle_user userId="1030"/>
+        <oracle_user userId="1031"/>
+        <oracle_user userId="127"/>
+        <oracle_user userId="126"/>
+        <oracle_user userId="125"/>
+        <oracle_user userId="124"/>
+        <oracle_user userId="123"/>
+        <oracle_user userId="122"/>
+        <oracle_user userId="121"/>
+        <oracle_user userId="-1"/>
+        <oracle_user userId="120"/>
+    </users>
+    <oracle_user_include>false</oracle_user_include>
+    <zip-folder>C:\RSC\rapidclient-2.0.2.49460\.\zip-files</zip-folder>
+    <analyse-mode>false</analyse-mode>
+    <from-date>01-JAN-2005 00:00:00</from-date>
+    <to-date></to-date>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0015-SYS-Profile-Responsibility-JG-Profile###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0015-SYS-Profile-Responsibility-JG-Profile###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0015-SYS-Profile-Responsibility-JG-Profile###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0087-ZX-Define-Tax-Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0087-ZX-Define-Tax-Accounts###E-Business Tax - Tax Account###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0049-AP-Update-Payment-Process-Profiles-Payment-Instruction-Format###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0049-AP-Update-Payment-Process-Profiles-Payment-Instruction-Format###Payment Process Profiles - Payment Instruction Format###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0023-AP-Define-Invoice-Tolerances###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0023-AP-Define-Invoice-Tolerances###Invoice Tolerances - TOLERANCE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0001-SYSADMIN-Profile-User-Substitution-Enable###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0001-SYSADMIN-Profile-User-Substitution-Enable###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0001-SYSADMIN-Profile-User-Substitution-Enable###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0079-SYS-Profile-Responsibility-HR-Cross-Business-Group###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0079-SYS-Profile-Responsibility-HR-Cross-Business-Group###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0079-SYS-Profile-Responsibility-HR-Cross-Business-Group###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0038-AP-Update-Payment-Methods###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0038-AP-Update-Payment-Methods###Payment Administrator - Payment Method - General###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0038-AP-Update-Payment-Methods###Payment Administrator - Payment Method - User Validations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0038-AP-Update-Payment-Methods###Payment Administrator - Payment Method - Update - Usage Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0038-AP-Update-Payment-Methods###Payment Administrator - Payment Method - Pre Validations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0162-AR-Define-Receipt-Sources###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0162-AR-Define-Receipt-Sources###Receipt Sources - AR_BATCH_SOURCES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0162-AR-Define-Receipt-Sources###Receipt Sources - AR_BATCH_SOURCES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0169-AR-Update-Transaction-Types###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0169-AR-Update-Transaction-Types###Transaction Types - RA_CUST_TRX_TYPES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0169-AR-Update-Transaction-Types###Transaction Types - TAB Deposit###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0169-AR-Update-Transaction-Types###Transaction Types - TAB Bills Receivable###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0169-AR-Update-Transaction-Types###Transaction Types - TAB Account###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0169-AR-Update-Transaction-Types###Transaction Types - RA_CUST_TRX_TYPES-DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0169-AR-Update-Transaction-Types###Transaction Types - RA_CUST_TRX_TYPES - Globalization - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0030-INV-Define-Item-Templates###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0030-INV-Define-Item-Templates###Item Templates###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0030-INV-Define-Item-Templates###Item Templates - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0030-INV-Define-Item-Templates###Item Templates - Attributes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0135-OM-Update-Freight-And-Carriers-Organization-Account###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0135-OM-Update-Freight-And-Carriers-Organization-Account###Carriers - CARRIERS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0135-OM-Update-Freight-And-Carriers-Organization-Account###Freight Carriers - ORG_FREIGHT###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0162-GL-Define-Chart-of-Accounts-Mapping###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0162-GL-Define-Chart-of-Accounts-Mapping###Chart of Accounts Mapping - MAPPING###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0162-GL-Define-Chart-of-Accounts-Mapping###Chart of Accounts Mapping - SEGMENT_ACTIONS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0162-GL-Define-Chart-of-Accounts-Mapping###Chart of Accounts Mapping - SEGMENT_RULES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0162-GL-Define-Chart-of-Accounts-Mapping###Chart of Accounts Mapping - CHILD_RANGES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0055-PO-Define-Jobs-Name###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0055-PO-Define-Jobs-Name###Job - PO_JOBS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0055-PO-Define-Jobs-Name###Job - PO_Further Information - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0198-FA-Assign-Assets-Organization-To-OU###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0198-FA-Assign-Assets-Organization-To-OU###Organization - HOU1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0198-FA-Assign-Assets-Organization-To-OU###Organization - HOU1 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0198-FA-Assign-Assets-Organization-To-OU###Organization - Classification###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0147-OM-Define-Credit-Profiles###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0147-OM-Define-Credit-Profiles###Credit Profiles - PROFILES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0147-OM-Define-Credit-Profiles###Credit Profiles - PROF_AMTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0039-INV-Update-Cycle-Counts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0039-INV-Update-Cycle-Counts###Cycle Counts - CC_HEADERS_FOLDER###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0039-INV-Update-Cycle-Counts###Cycle Counts Subinventory - CC_SUBINVENTORIES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0039-INV-Update-Cycle-Counts###Cycle Counts - CC_HEADERS_FOLDER - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0039-INV-Update-Cycle-Counts###Cycle Count Classes - CC_CLASSES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0061-PO-Define-Position-Hierarchy###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0061-PO-Define-Position-Hierarchy###Position Hierarchy###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0061-PO-Define-Position-Hierarchy###Position Hierarchy - Version###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0061-PO-Define-Position-Hierarchy###Position Hierarchy - Position###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0061-PO-Define-Position-Hierarchy###Position Hierarchy - Subordinates###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0061-PO-Define-Position-Hierarchy###Position Hierarchy - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0031-INV-Update-Item-Templates###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0031-INV-Update-Item-Templates###Item Templates###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0031-INV-Update-Item-Templates###Item Templates - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0031-INV-Update-Item-Templates###Item Templates - Attributes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0156-AR-Update-Receivable-Activities###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0156-AR-Update-Receivable-Activities###Receivable Activities - AR_ARXSUMRT###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0156-AR-Update-Receivable-Activities###Receivable Activities - AR_ARXSUMRT - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0042-AP-Define-Payment-Method-Defaulting-Rules-Loans###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0042-AP-Define-Payment-Method-Defaulting-Rules-Loans###Payment Administrator - Defaulting Rules - Loans###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0042-AP-Define-Payment-Method-Defaulting-Rules-Loans###Payment Administrator - Defaulting Rules - Loans - Payment Processing###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0042-AP-Define-Payment-Method-Defaulting-Rules-Loans###Payment Administrator - Defaulting Rules - Loans - Others###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0042-AP-Define-Payment-Method-Defaulting-Rules-Loans###Payment Administrator - Defaulting Rules - Loans - Organization###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0042-AP-Define-Payment-Method-Defaulting-Rules-Loans###Payment Administrator - Defaulting Rules - Loans - Legal Entity###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0146-GL-Assign-Balancing-Segment-Value-Legal-Level###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0146-GL-Assign-Balancing-Segment-Value-Legal-Level###Accounting Setups - Legal Update Balancing Segment Value###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0151-OM-Define-Document-Sequences###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0151-OM-Define-Document-Sequences###Document Sequences - SEQUENCES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0151-OM-Define-Document-Sequences###Document Sequences - SEQUENCES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0052-SYS-Profile-Responsibility-MO-Default-Profile###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0052-SYS-Profile-Responsibility-MO-Default-Profile###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0052-SYS-Profile-Responsibility-MO-Default-Profile###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0127-OM-Define-Pick-Slip-Grouping-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0127-OM-Define-Pick-Slip-Grouping-Rules###Pick Slip Grouping Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0127-OM-Define-Pick-Slip-Grouping-Rules###Pick Slip Grouping Rules - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0164-GL-Define-Chart-of-Accounts-Segment-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0164-GL-Define-Chart-of-Accounts-Segment-Rules###Chart of Accounts Mapping - MAPPING###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0164-GL-Define-Chart-of-Accounts-Segment-Rules###Chart of Accounts Mapping - SEGMENT_ACTIONS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0164-GL-Define-Chart-of-Accounts-Segment-Rules###Chart of Accounts Mapping - SEGMENT_RULES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0164-GL-Define-Chart-of-Accounts-Segment-Rules###Chart of Accounts Mapping - CHILD_RANGES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0202-FA-Define-Asset-Categories-Book###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0202-FA-Define-Asset-Categories-Book###Asset categories - CATEGORY###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0202-FA-Define-Asset-Categories-Book###Asset categories - CATEGORY_BOOK###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0202-FA-Define-Asset-Categories-Book###Asset categories - CATEGORY_BOOK_DEF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0202-FA-Define-Asset-Categories-Book###Asset categories - CATEGORY_BOOK_DEF - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0202-FA-Define-Asset-Categories-Book###Asset categories - CATEGORY_BOOK - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0202-FA-Define-Asset-Categories-Book###Asset categories - CATEGORY - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0005-PO-Define-Organization-Classification###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0005-PO-Define-Organization-Classification###Organization - HOU1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0005-PO-Define-Organization-Classification###Organization - HOU1 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0005-PO-Define-Organization-Classification###Organization - Classification###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0005-PO-Define-Organization-Classification###Additional Organization Information - NAV1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0005-PO-Define-Organization-Classification###Additional Organization Information - HOI2 - 002 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0005-PO-Define-Organization-Classification###Additional Organization Information - HOI2 - 001 Click - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0179-GL-Define-Accounts-Summary-Template###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0179-GL-Define-Accounts-Summary-Template###Summary Accounts - TEMPLATES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0179-GL-Define-Accounts-Summary-Template###Summary Accounts - Template Value - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0179-GL-Define-Accounts-Summary-Template###Summary Accounts - TEMPLATES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0137-GL-Define-Journal-Reversal-Criteria###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0137-GL-Define-Journal-Reversal-Criteria###Journal Reversal Criteria - CRITERIA_SETS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0137-GL-Define-Journal-Reversal-Criteria###Journal Reversal Criteria - CRITERIA_SETS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0137-GL-Define-Journal-Reversal-Criteria###Journal Reversal Criteria - CRITERIA###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0137-GL-Define-Journal-Reversal-Criteria###Journal Reversal Criteria - CRITERIA - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0137-GL-Define-Journal-Reversal-Criteria###Journal Reversal Criteria - Assign Access###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0137-GL-Define-Journal-Reversal-Criteria###Journal Reversal Criteria - Assign Access - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0067-PO-Define-Approval-Assignments###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0067-PO-Define-Approval-Assignments###Assign Approval Groups - FIND###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0067-PO-Define-Approval-Assignments###Assign Approval Groups - ASSIGNMENTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0067-PO-Define-Approval-Assignments###Assign Approval Groups - ASSIGNMENTS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0143-GL-Update-Primary-Subledger-Applications-Accounting-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0143-GL-Update-Primary-Subledger-Applications-Accounting-Options###Subledger Applications - Application###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0143-GL-Update-Primary-Subledger-Applications-Accounting-Options###Subledger Applications - Accounting Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0143-GL-Update-Primary-Subledger-Applications-Accounting-Options###Subledger Applications - Accounting Event Class Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0131-OM-Define-Credit-Checking-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0131-OM-Define-Credit-Checking-Rules###Define Credit Check Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0131-OM-Define-Credit-Checking-Rules###Define Credit Check Rules - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0104-ZX-Define-Tax-Country-Defaults###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0104-ZX-Define-Tax-Country-Defaults###E-Business Tax - Create Country Defaults###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0126-OM-Define-Release-Sequence-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0126-OM-Define-Release-Sequence-Rules###Release Sequence Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0126-OM-Define-Release-Sequence-Rules###Release Sequence Rules - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0008-INV-Update-Cost-Types###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0008-INV-Update-Cost-Types###Cost Type - C_CST_TYPE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0008-INV-Update-Cost-Types###Cost Type - C_CST_TYPE - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0135-XLE-Define-Jurisdiction-Legislative-Category###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0135-XLE-Define-Jurisdiction-Legislative-Category###Jurisdiction - Legislative Category###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0135-XLE-Define-Jurisdiction-Legislative-Category###Jurisdiction - Legal Functions###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0078-SYS-Profile-Responsibility-HR-User-Type###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0078-SYS-Profile-Responsibility-HR-User-Type###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0078-SYS-Profile-Responsibility-HR-User-Type###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0165-GL-Define-Primary-to-Secondary-Ledger-Mapping###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0165-GL-Define-Primary-to-Secondary-Ledger-Mapping###Accounting Setups - Primary to Secondary Ledger Mapping###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0165-GL-Define-Primary-to-Secondary-Ledger-Mapping###Primary to Secondary Ledger Mapping - Journal Source and Category Conversion###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0044-INV-Define-Inter-Location-Transit-time###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0044-INV-Define-Inter-Location-Transit-time###Find Transit Times - FIND_LOCATIONS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0044-INV-Define-Inter-Location-Transit-time###Transit Times - LOCATIONS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0044-INV-Define-Inter-Location-Transit-time###Transit Times - SHIP_METHOD###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0044-INV-Define-Inter-Location-Transit-time###Transit Times - SHIP_METHOD - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0011-INV-Define-Organization-Access###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0011-INV-Define-Organization-Access###Organization Access - ORG_ACCESS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0051-AP-Update-Payment-Process-Profiles-Additional-Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0051-AP-Update-Payment-Process-Profiles-Additional-Information###Payment Process Profiles - Additional Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0137-OM-Update-Transaction-Line-Types###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0137-OM-Update-Transaction-Line-Types###Transaction Types - ORDER_TYPES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0137-OM-Update-Transaction-Line-Types###Transaction Types - ORDER_TYPES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0049-PO-Define-Purchasing-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0049-PO-Define-Purchasing-Options###Purchasing - Options - Define###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0049-PO-Define-Purchasing-Options###Purchasing - Options - Additional Information - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0039-AP-Define-Payment-Method-Defaulting-Rules-Payables###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0039-AP-Define-Payment-Method-Defaulting-Rules-Payables###Payment Administrator - Defaulting Rules - Payables###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0039-AP-Define-Payment-Method-Defaulting-Rules-Payables###Payment Administrator - Defaulting Rules - Payables - Payment Processing###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0039-AP-Define-Payment-Method-Defaulting-Rules-Payables###Payment Administrator - Defaulting Rules - Payables - Others###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0039-AP-Define-Payment-Method-Defaulting-Rules-Payables###Payment Administrator - Defaulting Rules - Payables - Organization###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0039-AP-Define-Payment-Method-Defaulting-Rules-Payables###Payment Administrator - Defaulting Rules - Payables - Legal Entity###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0154-OM-Define-Defaulting-Condition-Validation-Templates###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0154-OM-Define-Defaulting-Condition-Validation-Templates###Defaulting Setup - Entity Attributes - DEFOBJ###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0154-OM-Define-Defaulting-Condition-Validation-Templates###Defaulting Condition Validation Templates - DEFCONDN###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0154-OM-Define-Defaulting-Condition-Validation-Templates###Defaulting Condition Validation Templates - DEFELEMENT###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0154-OM-Define-Defaulting-Condition-Validation-Templates###Defaulting Condition Validation Templates - DEFELEMENT - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0115-CE-Define-System-Parameters###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0115-CE-Define-System-Parameters###System Parameters - SYSPARAM###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0200-FA-Define-Org-to-Asset-Book-Controls###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0200-FA-Define-Org-to-Asset-Book-Controls###Organization - HOU1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0200-FA-Define-Org-to-Asset-Book-Controls###Organization - HOU1 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0200-FA-Define-Org-to-Asset-Book-Controls###Organization - Classification###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0200-FA-Define-Org-to-Asset-Book-Controls###Additional Organization Information - NAV1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0200-FA-Define-Org-to-Asset-Book-Controls###Book Controls - BOOK_CONTROLS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0200-FA-Define-Org-to-Asset-Book-Controls###Book Controls - TAX_RULES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0200-FA-Define-Org-to-Asset-Book-Controls###Book Controls - NATURAL_ACCOUNTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0200-FA-Define-Org-to-Asset-Book-Controls###Book Controls - CALENDAR###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0200-FA-Define-Org-to-Asset-Book-Controls###Book Controls - BOOK_CONTROLS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0200-FA-Define-Org-to-Asset-Book-Controls###Book Controls - ACCOUNTING_RULES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0132-SYS-Profile-Responsibility-BG-Assignment###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0132-SYS-Profile-Responsibility-BG-Assignment###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0132-SYS-Profile-Responsibility-BG-Assignment###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0152-GL-Define-Document-Sequences###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0152-GL-Define-Document-Sequences###Document Sequences - SEQUENCES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0152-GL-Define-Document-Sequences###Document Sequences - SEQUENCES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0048-AP-Update-Payment-Process-Profiles-Payment-Instruction-Creation###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0048-AP-Update-Payment-Process-Profiles-Payment-Instruction-Creation###Payment Process Profiles - Payment Instruction Creation Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0089-ZX-Define-Tax-Jurisdictions###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0089-ZX-Define-Tax-Jurisdictions###E-Business Tax - Jurisdictions###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0089-ZX-Define-Tax-Jurisdictions###E-Business Tax - Jurisdictions - Tax Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0154-AR-Update-AutoAccounting###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0154-AR-Update-AutoAccounting###AutoAccounting-AUTOGL###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0154-AR-Update-AutoAccounting###AutoAccounting-SEGMENTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0149-GL-Define-Operating-Units###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0149-GL-Define-Operating-Units###Accounting Setups - Operating Unit Assignments###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0141-GL-Define-Accounting-Primary-Ledger-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0141-GL-Define-Accounting-Primary-Ledger-Options###Accounting Setups - Ledger Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0142-GL-Update-Accounting-Primary-Ledger-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0142-GL-Update-Accounting-Primary-Ledger-Options###Accounting Setups - Ledger Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0157-AR-Define-Receivable-Activities###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0157-AR-Define-Receivable-Activities###Receivable Activities - AR_ARXSUMRT###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0157-AR-Define-Receivable-Activities###Receivable Activities - AR_ARXSUMRT - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0043-AP-Define-Payment-Method-Defaulting-Rules-Student-System###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0043-AP-Define-Payment-Method-Defaulting-Rules-Student-System###Payment Administrator - Defaulting Rules - Student System###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0043-AP-Define-Payment-Method-Defaulting-Rules-Student-System###Payment Administrator - Defaulting Rules - Student System - Payment Processing###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0043-AP-Define-Payment-Method-Defaulting-Rules-Student-System###Payment Administrator - Defaulting Rules - Student System - Others###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0043-AP-Define-Payment-Method-Defaulting-Rules-Student-System###Payment Administrator - Defaulting Rules - Student System - Organization###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0043-AP-Define-Payment-Method-Defaulting-Rules-Student-System###Payment Administrator - Defaulting Rules - Student System - Legal Entity###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0050-AP-Update-Payment-Process-Profiles-Reporting###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0050-AP-Update-Payment-Process-Profiles-Reporting###Payment Process Profiles - Reporting###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0051-SYS-Define-New-Responsibilities###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0051-SYS-Define-New-Responsibilities###Responsibilities - RESPONSIBILITY###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0051-SYS-Define-New-Responsibilities###Responsibilities - SECURITY_ATTRIBUTES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0051-SYS-Define-New-Responsibilities###Responsibilities - RESP_FUNCTIONS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0051-SYS-Define-New-Responsibilities###Responsibilities - EXCLUDED_ITEMS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0157-GL-Define-Accounting-Secondary-Ledger-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0157-GL-Define-Accounting-Secondary-Ledger-Options###Accounting Setups - Ledger Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0053-SYS-Profile-Responsibility-eBTAX###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0053-SYS-Profile-Responsibility-eBTAX###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0053-SYS-Profile-Responsibility-eBTAX###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0185-SYS-Profile-Responsibility-MO-Security-Profile###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0185-SYS-Profile-Responsibility-MO-Security-Profile###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0185-SYS-Profile-Responsibility-MO-Security-Profile###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0040-AP-Define-Payment-Method-Defaulting-Rules-Receivables###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0040-AP-Define-Payment-Method-Defaulting-Rules-Receivables###Payment Administrator - Defaulting Rules - Receivables###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0040-AP-Define-Payment-Method-Defaulting-Rules-Receivables###Payment Administrator - Defaulting Rules - Receivables - Payment Processing###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0040-AP-Define-Payment-Method-Defaulting-Rules-Receivables###Payment Administrator - Defaulting Rules - Receivables - Others###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0040-AP-Define-Payment-Method-Defaulting-Rules-Receivables###Payment Administrator - Defaulting Rules - Receivables - Organization###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0040-AP-Define-Payment-Method-Defaulting-Rules-Receivables###Payment Administrator - Defaulting Rules - Receivables - Legal Entity###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0061-AP-Define-Open-Account-Balances-Listing-Definitions###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0061-AP-Define-Open-Account-Balances-Listing-Definitions###Open Account Balances Listing Definitions###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0061-AP-Define-Open-Account-Balances-Listing-Definitions###Open Account Balances Listing Definitions - Journal Source###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0061-AP-Define-Open-Account-Balances-Listing-Definitions###Open Account Balances Listing Definitions - Details###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0095-INV-Update-Planners###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0095-INV-Update-Planners###Planners###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0095-INV-Update-Planners###Planners - PLANNERS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0111-UM-Update-Role-Security-Wizard-Security-Administrator###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0111-UM-Update-Role-Security-Wizard-Security-Administrator###User Management - Roles and Role Inheritance###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0133-SYS-Profile-Responsibility-HR-Profile###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0133-SYS-Profile-Responsibility-HR-Profile###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0133-SYS-Profile-Responsibility-HR-Profile###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0044-AP-Define-Payment-Process-Profiles###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0044-AP-Define-Payment-Process-Profiles###Payment Process Profiles - Payment Process Profiles###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0129-OM-Define-Release-Rule-Form###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0129-OM-Define-Release-Rule-Form###Release Rules - RELEASE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0129-OM-Define-Release-Rule-Form###Release Rules - RELEASE - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0179-OM-Run-ATP-Data-Collection###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0179-OM-Run-ATP-Data-Collection###ATP Data Collection - SET_REQUESTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0179-OM-Run-ATP-Data-Collection###ATP Data Collection - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0064-PO-Define-Document-Types###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0064-PO-Define-Document-Types###Document - Types - Create - Type###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0103-ZX-Make-Tax-Available-For-Transactions###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0103-ZX-Make-Tax-Available-For-Transactions###E-Business Tax - Tax - Update - Available###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0052-SYS-Update-Responsibilities###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0052-SYS-Update-Responsibilities###Responsibilities - RESPONSIBILITY###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0052-SYS-Update-Responsibilities###Responsibilities - SECURITY_ATTRIBUTES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0052-SYS-Update-Responsibilities###Responsibilities - RESP_FUNCTIONS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0052-SYS-Update-Responsibilities###Responsibilities - EXCLUDED_ITEMS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0075-ZX-Update-Tax-Legal-Authorities###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0075-ZX-Update-Tax-Legal-Authorities###Legal Authority - Identification Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0075-ZX-Update-Tax-Legal-Authorities###Legal Authority - Legislative Categories###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0160-SYS-Profile-Responsibility-GL-Assignment###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0160-SYS-Profile-Responsibility-GL-Assignment###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0160-SYS-Profile-Responsibility-GL-Assignment###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0125-OM-Update-Order-Holds###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0125-OM-Update-Order-Holds###Holds###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0125-OM-Update-Order-Holds###Holds - Authorizations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0125-OM-Update-Order-Holds###Holds - Authorizations - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0156-GL-Define-Accounting-Secondary-Ledger###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0156-GL-Define-Accounting-Secondary-Ledger###Accounting Setups - Secondary Ledgers###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0025-AP-Define-Expense-Report-Template###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0025-AP-Define-Expense-Report-Template###Expense Report Templates - EXPENSE_REPORT###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0025-AP-Define-Expense-Report-Template###Expense Report Templates - PARAMET###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0025-AP-Define-Expense-Report-Template###Itemizations - PARAMET###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0025-AP-Define-Expense-Report-Template###Expense Report Templates - ITEMIZATIONS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0025-AP-Define-Expense-Report-Template###Expense Report Templates - CARD_EXPENSE_TYPES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0159-AR-Define-Receipt-Method###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0159-AR-Define-Receipt-Method###Receipt Classes - AR_RECEIPT_CLASSES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0159-AR-Define-Receipt-Method###Receipt Methods - AR_RECEIPT_METHODS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0159-AR-Define-Receipt-Method###Remittance Bank Accounts - Bills Receivable###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0159-AR-Define-Receipt-Method###Remittance Bank Accounts - AR_RECEIPT_METHOD_ACCOUNTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0159-AR-Define-Receipt-Method###Remittance Bank Accounts - AR_RECEIPT_METHOD_ACCOUNTS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0159-AR-Define-Receipt-Method###Receipt Methods - AR_RECEIPT_METHODS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0159-AR-Define-Receipt-Method###Receipt Classes - Bill Receivable Remittance###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0159-AR-Define-Receipt-Method###Funds Transfer Error Handling - AR_CC_ERROR_MAPPING###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0159-AR-Define-Receipt-Method###Receipt Classes - AR_RECEIPT_CLASSES - DFF1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0159-AR-Define-Receipt-Method###Receipt Classes - AR_RECEIPT_CLASSES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0143-OM-Define-Shipping-Document-Sets###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0143-OM-Define-Shipping-Document-Sets###Shipping Document Sets###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0143-OM-Define-Shipping-Document-Sets###Shipping Document Sets - Documents###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0143-OM-Define-Shipping-Document-Sets###Shipping Document Sets - Documents - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0143-OM-Define-Shipping-Document-Sets###Shipping Document Sets - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0150-GL-Define-New-Operating-Units###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0150-GL-Define-New-Operating-Units###Accounting Setups - Operating Unit Assignments###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0022-AP-Define-Financial-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0022-AP-Define-Financial-Options###Financials Options - FINANCIALS_SYSTEM_PARAMS_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0022-AP-Define-Financial-Options###Financials Options - FINANCIALS_SYSTEM_PARAMETER###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0178-AR-Update-System-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0178-AR-Update-System-Options###System Options - Accounting###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0178-AR-Update-System-Options###System Options - Trans and Customers###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0178-AR-Update-System-Options###System Options - Miscellaneous###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0178-AR-Update-System-Options###System Options - Miscellaneous - Globalization - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0178-AR-Update-System-Options###System Options - Miscellaneous - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0178-AR-Update-System-Options###System Options - Claims###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0041-AP-Define-Payment-Method-Defaulting-Rules-Cash-Management###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0041-AP-Define-Payment-Method-Defaulting-Rules-Cash-Management###Payment Administrator - Defaulting Rules - Cash Management###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0041-AP-Define-Payment-Method-Defaulting-Rules-Cash-Management###Payment Administrator - Defaulting Rules - Cash Management - Payment Processing###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0041-AP-Define-Payment-Method-Defaulting-Rules-Cash-Management###Payment Administrator - Defaulting Rules - Cash Management - Others###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0041-AP-Define-Payment-Method-Defaulting-Rules-Cash-Management###Payment Administrator - Defaulting Rules - Cash Management - Organization###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0041-AP-Define-Payment-Method-Defaulting-Rules-Cash-Management###Payment Administrator - Defaulting Rules - Cash Management - Legal Entity###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0167-HR-Define-Security-Profile###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0167-HR-Define-Security-Profile###Security Profile - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0167-HR-Define-Security-Profile###Supervisor Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0167-HR-Define-Security-Profile###Static Lists - SEU###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0167-HR-Define-Security-Profile###Position Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0167-HR-Define-Security-Profile###Payroll Security - PSP2-Payroll###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0167-HR-Define-Security-Profile###Payroll Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0167-HR-Define-Security-Profile###Organization Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0167-HR-Define-Security-Profile###Organization Security - PSO###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0167-HR-Define-Security-Profile###Miscellaneous Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0167-HR-Define-Security-Profile###Custom Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0144-GL-Define-Accounting-Setups-Add-Legal-Entities###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0144-GL-Define-Accounting-Setups-Add-Legal-Entities###Accounting Setups - Add Legal Entities###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0158-GL-Define-Ledger-Set###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0158-GL-Define-Ledger-Set###Ledger Set - LEDGER_SETS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0158-GL-Define-Ledger-Set###Ledger Set - LEDGER_SETS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0158-GL-Define-Ledger-Set###Ledger Set - LEDGER_ASSIGNMENT###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0158-GL-Define-Ledger-Set###Ledger Set - LEDGER_ASSIGNMENT - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0138-GL-Update-Journal-Reversal-Criteria###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0138-GL-Update-Journal-Reversal-Criteria###Journal Reversal Criteria - CRITERIA_SETS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0138-GL-Update-Journal-Reversal-Criteria###Journal Reversal Criteria - CRITERIA_SETS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0138-GL-Update-Journal-Reversal-Criteria###Journal Reversal Criteria - CRITERIA###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0138-GL-Update-Journal-Reversal-Criteria###Journal Reversal Criteria - CRITERIA - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0026-AP-Define-Payables-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0026-AP-Define-Payables-Options###Payables Options - AP_SYSTEM_PARAMETERS_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0026-AP-Define-Payables-Options###Payables Options - AP_SYSTEM_PARAMETERS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0026-AP-Define-Payables-Options###Payables Options - AP_SYSTEM_PARAMETERS - GDF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0141-OM-Define-Shipping-Document-Category###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0141-OM-Define-Shipping-Document-Category###Document Categories - WSH_DOC_SEQ_CTG###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0141-OM-Define-Shipping-Document-Category###Document Categories - WSH_DOC_SEQ_CTG - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0199-FA-Define-Asset-Book-Controls###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0199-FA-Define-Asset-Book-Controls###Book Controls - BOOK_CONTROLS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0199-FA-Define-Asset-Book-Controls###Book Controls - TAX_RULES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0199-FA-Define-Asset-Book-Controls###Book Controls - NATURAL_ACCOUNTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0199-FA-Define-Asset-Book-Controls###Book Controls - CALENDAR###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0199-FA-Define-Asset-Book-Controls###Book Controls - BOOK_CONTROLS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0199-FA-Define-Asset-Book-Controls###Book Controls - ACCOUNTING_RULES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0045-AP-Update-Payment-Process-Profiles-Usage-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0045-AP-Update-Payment-Process-Profiles-Usage-Rules###Payment Process Profiles - Usage Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0045-AP-Update-Payment-Process-Profiles-Usage-Rules###Payment Process Profiles - Usage Rules - Payment Method###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0045-AP-Update-Payment-Process-Profiles-Usage-Rules###Payment Process Profiles - Usage Rules - Internal Bank Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0045-AP-Update-Payment-Process-Profiles-Usage-Rules###Payment Process Profiles - Usage Rules - First Party Organizations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0045-AP-Update-Payment-Process-Profiles-Usage-Rules###Payment Process Profiles - Usage Rules - Currencies###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0171-AR-Define-Remit-To-Address-Receipts-From-Criteria###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0171-AR-Define-Remit-To-Address-Receipts-From-Criteria###Receipts From###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0062-AP-Update-Expense-Report-Template###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0062-AP-Update-Expense-Report-Template###Expense Report Templates - EXPENSE_REPORT###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0062-AP-Update-Expense-Report-Template###Expense Report Templates - PARAMET###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0062-AP-Update-Expense-Report-Template###Itemizations - PARAMET###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0062-AP-Update-Expense-Report-Template###Expense Report Templates - ITEMIZATIONS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###Organization - HOU1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###Organization Parameters - INV_PARAM###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###Organization Parameters - Revision Lot Serial###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###Organization Parameters - Other Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###Organization Parameters - Inter-Org Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###Organization Parameters - INV_PARAM - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###Organization Parameters - Costing Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###Organization Parameters - ATP Pick Item - Sourcing###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###Organization - HOU1 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###Organization - Classification###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0021-INV-Update-Organization-Parameters###Additional Organization Information - NAV1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0142-OM-Define-Shipping-Document-Sets-Document###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0142-OM-Define-Shipping-Document-Sets-Document###Shipping Document Sets###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0142-OM-Define-Shipping-Document-Sets-Document###Shipping Document Sets - Documents###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0142-OM-Define-Shipping-Document-Sets-Document###Shipping Document Sets - Documents - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0142-OM-Define-Shipping-Document-Sets-Document###Shipping Document Sets - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0086-ZX-Define-Tax-Regimes-Service-Subscriptions###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0086-ZX-Define-Tax-Regimes-Service-Subscriptions###E-Business Tax - Regimes - Service Subscriptions###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0188-SYS-Profile-Responsibility-MO-Profile###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0188-SYS-Profile-Responsibility-MO-Profile###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0188-SYS-Profile-Responsibility-MO-Profile###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0024-AP-Update-Invoice-Tolerances###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0024-AP-Update-Invoice-Tolerances###Invoice Tolerances - TOLERANCE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0034-INV-Define-ABC-Compile###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0034-INV-Define-ABC-Compile###ABC Compiles - ABC_COMPILES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0034-INV-Define-ABC-Compile###ABC Compiles - ABC_COMPILES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0188-FA-Define-System-Control###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0188-FA-Define-System-Control###System Controls - SYS_CTLS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0079-ZX-Define-Tax-Regimes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0079-ZX-Define-Tax-Regimes###E-Business Tax - Regimes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0145-GL-Define-Primary-Ledger-Reporting-Currencies###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0145-GL-Define-Primary-Ledger-Reporting-Currencies###Accounting Setups - Reporting Currencies###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0145-GL-Define-Primary-Ledger-Reporting-Currencies###Reporting Currencies - Journal Source and Category Conversion###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0153-GL-Define-Primary-Ledger-Intracompany-Balancing-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0153-GL-Define-Primary-Ledger-Intracompany-Balancing-Rules###Accounting Setups - Intracompany Balancing Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0153-GL-Define-Primary-Ledger-Intracompany-Balancing-Rules###Accounting Setups - Intracompany Balancing Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0153-GL-Define-Primary-Ledger-Intracompany-Balancing-Rules###Accounting Setups - Intracompany Balancing Details###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0093-ZX-Define-Tax-Rate###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0093-ZX-Define-Tax-Rate###E-Business Tax - Rate###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0093-ZX-Define-Tax-Rate###E-Business Tax - Rate - Rate Periods###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0183-GL-Define-Consolidation-Set###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0183-GL-Define-Consolidation-Set###Consolidation Set - CONSOLIDATION_SET###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0183-GL-Define-Consolidation-Set###Consolidation Set - SET_ASSIGN###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0059-HR-Update-Position-Name###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0059-HR-Update-Position-Name###Position - POSITIONS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0059-HR-Update-Position-Name###Position - Work Terms###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0059-HR-Update-Position-Name###Position - POSITIONS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0059-HR-Update-Position-Name###Position - Hiring Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0059-HR-Update-Position-Name###Position - Budgets###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0059-HR-Update-Position-Name###Position - Additional Detail###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0172-AR-Define-Standard-Memo-Lines###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0172-AR-Define-Standard-Memo-Lines###Standard Memo Lines - AR_MEMO_LINES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0172-AR-Define-Standard-Memo-Lines###Standard Memo Lines - AR_MEMO_LINES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0145-OM-Update-Ship-Confirm-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0145-OM-Update-Ship-Confirm-Rules###Ship Confirm Rules - SHIP_CONFIRM###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0098-SYS-Profile-Responsibility-Item-Validation-Org###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0098-SYS-Profile-Responsibility-Item-Validation-Org###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0098-SYS-Profile-Responsibility-Item-Validation-Org###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0156-OM-Update-Defaulting-Setup-Entity-Attributes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0156-OM-Update-Defaulting-Setup-Entity-Attributes###Defaulting Setup - Entity Attributes - DEFOBJ###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0156-OM-Update-Defaulting-Setup-Entity-Attributes###Defaulting Setup - Entity Attributes - DEFOBJATTR###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0156-OM-Update-Defaulting-Setup-Entity-Attributes###Attribute Defaulting Rules - DEFCONDN_RULE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0156-OM-Update-Defaulting-Setup-Entity-Attributes###Attribute Defaulting Rules - DEFRULE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0156-OM-Update-Defaulting-Setup-Entity-Attributes###Attribute Defaulting Rules - DEFRULE - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0156-OM-Update-Defaulting-Setup-Entity-Attributes###Defaulting Condition Validation Templates - DEFCONDN###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0156-OM-Update-Defaulting-Setup-Entity-Attributes###Defaulting Condition Validation Templates - DEFELEMENT###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0156-OM-Update-Defaulting-Setup-Entity-Attributes###Defaulting Condition Validation Templates - DEFELEMENT - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0037-INV-Define-Category-Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0037-INV-Define-Category-Accounts###Category Accounts Summary - MTL_CAT_ACCTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0161-AR-Update-Receipt-Classes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0161-AR-Update-Receipt-Classes###Receipt Classes - AR_RECEIPT_CLASSES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0161-AR-Update-Receipt-Classes###Receipt Methods - AR_RECEIPT_METHODS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0161-AR-Update-Receipt-Classes###Remittance Bank Accounts - Bills Receivable###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0161-AR-Update-Receipt-Classes###Remittance Bank Accounts - AR_RECEIPT_METHOD_ACCOUNTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0161-AR-Update-Receipt-Classes###Receipt Methods - AR_RECEIPT_METHODS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0161-AR-Update-Receipt-Classes###Receipt Classes - Bill Receivable Remittance###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0161-AR-Update-Receipt-Classes###Funds Transfer Error Handling - AR_CC_ERROR_MAPPING###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0161-AR-Update-Receipt-Classes###Receipt Classes - AR_RECEIPT_CLASSES - DFF1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0161-AR-Update-Receipt-Classes###Receipt Classes - AR_RECEIPT_CLASSES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0036-AP-Define-Payment-Formats###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0036-AP-Define-Payment-Formats###Payment Administrator - Formats###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0142-AR-Define-System-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0142-AR-Define-System-Options###System Options - Accounting###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0142-AR-Define-System-Options###System Options - Trans and Customers###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0142-AR-Define-System-Options###System Options - Miscellaneous###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0142-AR-Define-System-Options###System Options - Miscellaneous - Globalization - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0142-AR-Define-System-Options###System Options - Miscellaneous - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0142-AR-Define-System-Options###System Options - Claims###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0128-OM-Update-Pick-Slip-Grouping-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0128-OM-Update-Pick-Slip-Grouping-Rules###Pick Slip Grouping Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0128-OM-Update-Pick-Slip-Grouping-Rules###Pick Slip Grouping Rules - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0168-HR-Update-Security-Profile###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0168-HR-Update-Security-Profile###Security Profile - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0168-HR-Update-Security-Profile###Supervisor Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0168-HR-Update-Security-Profile###Static Lists - SEU###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0168-HR-Update-Security-Profile###Position Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0168-HR-Update-Security-Profile###Payroll Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0168-HR-Update-Security-Profile###Organization Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0168-HR-Update-Security-Profile###Organization Security - PSO###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0168-HR-Update-Security-Profile###Miscellaneous Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0168-HR-Update-Security-Profile###Custom Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0171-GL-Update-AutoPost-Criteria###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0171-GL-Update-AutoPost-Criteria###AutoPost Criteria Sets - AUTOPOST_SET###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0171-GL-Update-AutoPost-Criteria###AutoPost Criteria Sets - AUTOPOST_SET - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0171-GL-Update-AutoPost-Criteria###AutoPost Criteria Sets - AUTOPOST###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0171-GL-Update-AutoPost-Criteria###AutoPost Criteria Sets - AUTOPOST - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0168-AR-Define-Transaction-Sources###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0168-AR-Define-Transaction-Sources###Transaction Sources - RA_BATCH_SOURCES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0168-AR-Define-Transaction-Sources###Transaction Sources - RA_BATCH_SOURCES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0109-ZX-Update-Tax-Party-First-Establish-Tax-Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0109-ZX-Update-Tax-Party-First-Establish-Tax-Accounts###E-Business Tax - Party First Establish - Update Account###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0081-ZX-Define-Tax-Reporting-Types###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0081-ZX-Define-Tax-Reporting-Types###E-Business Tax - Create Tax Reporting Type###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0081-ZX-Define-Tax-Reporting-Types###E-Business Tax - Reporting Type - Tax Reporting Codes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0181-PO-Update-Purchasing-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0181-PO-Update-Purchasing-Options###Purchasing - Options - Define###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0181-PO-Update-Purchasing-Options###Purchasing - Options - Additional Information - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0080-ZX-Define-Tax###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0080-ZX-Define-Tax###E-Business Tax - Tax###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Virgin Islands British###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Venezuela###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - United States###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - United Kingdom###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - United Arab Emirates###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Ukraine###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Turkey###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Thailand###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Taiwan###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Switzerland###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Sweden###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Spain###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - South Africa###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Slovenia###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Slovakia###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Singapore###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Serbia and Montenegro###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Saudi Arabia###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Russian Federation###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Romania###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Puerto Rico###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Portugal###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Poland###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Philippines###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Peru###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Panama###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Norway###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - New Zealand###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Netherlands###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Netherlands Antilles###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Morocco###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Mexico###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Mauritius###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Malta###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Malaysia###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Luxembourg###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Latvia###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Korea Republic of###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Japan###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Italy###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Israel###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Ireland###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Indonesia###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - India###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Hungary###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Hong Kong###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Guatemala###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Greece###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Gibraltar###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Germany###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - France###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Finland###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Dominican Republic###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Denmark###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Czech Republic###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Croatia###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Colombia###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - China###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Chile###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Cayman Islands###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Canada###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Bulgaria###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Brazil###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Bermuda###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Belgium###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Barbados###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Austria###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Australia###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0136-XLE-Define-Legal-Entity###Legal Entity - Argentina###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0110-UM-Update-Role-Security-Wizard-Bank-Account-Security-Management###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0110-UM-Update-Role-Security-Wizard-Bank-Account-Security-Management###User Management - Roles and Role Inheritance###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0122-GL-Define-Security-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0122-GL-Define-Security-Rules###Define Security Rules - KEY###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0122-GL-Define-Security-Rules###Define Security Rules - KEY_RULES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0122-GL-Define-Security-Rules###Define Security Rules - KEY_LINES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0080-SYS-Profile-Responsibility-Seq-Numbering###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0080-SYS-Profile-Responsibility-Seq-Numbering###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0080-SYS-Profile-Responsibility-Seq-Numbering###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0066-PO-Define-Approval-Groups###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0066-PO-Define-Approval-Groups###Approval Groups - PO_CONTROL_GROUPS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0066-PO-Define-Approval-Groups###Approval Groups - PO_CONTROL_RULES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0066-PO-Define-Approval-Groups###Approval Groups - PO_CONTROL_RULES - Flexfield Range - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0066-PO-Define-Approval-Groups###Approval Groups - PO_CONTROL_RULES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0066-PO-Define-Approval-Groups###Approval Groups - PO_CONTROL_GROUPS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0139-OM-Update-Transaction-Headers-Type###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0139-OM-Update-Transaction-Headers-Type###Transaction Types - ORDER_TYPES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0139-OM-Update-Transaction-Headers-Type###Transaction Types - ORDER_TYPES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0139-OM-Update-Transaction-Headers-Type###Line Workflow Assingments - ORDER_TRXN_TYPE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0139-OM-Update-Transaction-Headers-Type###Line Workflow Assingments - ORDER_TRXN_DETAIL###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0102-ZX-Update-Taxes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0102-ZX-Update-Taxes###E-Business Tax - Tax - Update - Available###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0020-INV-Define-Sub-Elements-Overheads###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0020-INV-Define-Sub-Elements-Overheads###Overheads - C_OVERHEAD###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0020-INV-Define-Sub-Elements-Overheads###Overheads - C_OVERHEAD - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0090-ZX-Define-Tax-Recovery-Rates###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0090-ZX-Define-Tax-Recovery-Rates###E-Business Tax - Recovery Rates###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0174-OM-Define-System-Parameters-Values###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0174-OM-Define-System-Parameters-Values###OM System Parameters - Values###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0174-OM-Define-System-Parameters-Values###OM System Parameters - Parameters###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0174-OM-Define-System-Parameters-Values###OM System Parameters - Parameters - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0173-OM-Assign-INV-Organization-to-ATP-Schedule-Instances###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0173-OM-Assign-INV-Organization-to-ATP-Schedule-Instances###Application Instances - APPS_INSTANCES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0173-OM-Assign-INV-Organization-to-ATP-Schedule-Instances###Application Instances - INSTANCE_ORGS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0163-GL-Define-Chart-of-Accounts-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0163-GL-Define-Chart-of-Accounts-Rules###Chart of Accounts Mapping - MAPPING###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0163-GL-Define-Chart-of-Accounts-Rules###Chart of Accounts Mapping - FLEXFIELD_MAP###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0163-GL-Define-Chart-of-Accounts-Rules###Chart of Accounts Mapping - FLEXFIELD_MAP - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0100-ZX-Define-Tax-Rules-Guided-Rule-Entry###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0100-ZX-Define-Tax-Rules-Guided-Rule-Entry###E-Business Tax - Tax Rule - Guided Rule Entry###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0100-ZX-Define-Tax-Rules-Guided-Rule-Entry###E-Business Tax - Tax Rule - Guided Rule Entry - Transaction Business###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0100-ZX-Define-Tax-Rules-Guided-Rule-Entry###E-Business Tax - Tax Rule - Guided Rule Entry - Registration Status###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0100-ZX-Define-Tax-Rules-Guided-Rule-Entry###E-Business Tax - Tax Rule - Guided Rule Entry - Non-Inventory###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0100-ZX-Define-Tax-Rules-Guided-Rule-Entry###E-Business Tax - Tax Rule - Guided Rule Entry - Locations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0100-ZX-Define-Tax-Rules-Guided-Rule-Entry###E-Business Tax - Tax Rule - Guided Rule Entry - Intended Use###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0100-ZX-Define-Tax-Rules-Guided-Rule-Entry###E-Business Tax - Tax Rule - Guided Rule Entry - Document Classification###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0100-ZX-Define-Tax-Rules-Guided-Rule-Entry###E-Business Tax - Tax Rule - Guided Rule Entry - Additional Factors###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0100-ZX-Define-Tax-Rules-Guided-Rule-Entry###E-Business Tax - Tax Rule - Guided Rule Entry - Account based###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0010-INV-Update-Organization-Hierarchy-Add-Subordinates###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0010-INV-Update-Organization-Hierarchy-Add-Subordinates###Organization Hierarchy - OS1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0010-INV-Update-Organization-Hierarchy-Add-Subordinates###Organization Hierarchy - OSV1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0010-INV-Update-Organization-Hierarchy-Add-Subordinates###Organization Hierarchy - OU1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0010-INV-Update-Organization-Hierarchy-Add-Subordinates###Organization Hierarchy - OSE1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0010-INV-Update-Organization-Hierarchy-Add-Subordinates###Organization Hierarchy - OS1 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0085-ZX-Define-Tax-Regimes-Configuration-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0085-ZX-Define-Tax-Regimes-Configuration-Options###E-Business Tax - Regimes - Configuration Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0099-ZX-Define-Tax-Formulas###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0099-ZX-Define-Tax-Formulas###Advanced Setup Options - Tax Formula###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0099-ZX-Define-Tax-Formulas###Advanced Setup Options - Tax Formula Compounding Details###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0107-ZX-Define-Tax-Party-Legal###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0107-ZX-Define-Tax-Party-Legal###E-Business Tax - Party First Legal###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0182-GL-Update-Consolidation-Definition###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0182-GL-Update-Consolidation-Definition###Consolidation Definition - CONSOLIDATION###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0153-AR-Define-AutoAccounting###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0153-AR-Define-AutoAccounting###AutoAccounting-AUTOGL###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0153-AR-Define-AutoAccounting###AutoAccounting-SEGMENTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0076-PO-Define-Expense-Account-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0076-PO-Define-Expense-Account-Rules###Expense Account Rules - Create Expense Account Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0025-INV-Define-Consigned-VMI-Consumption###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0025-INV-Define-Consigned-VMI-Consumption###Consumption Set Up - CONSGN_VMI_CONSUMP###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0038-INV-Define-Cycle-Counts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0038-INV-Define-Cycle-Counts###Cycle Counts - CC_HEADERS_FOLDER###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0038-INV-Define-Cycle-Counts###Cycle Counts Subinventory - CC_SUBINVENTORIES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0038-INV-Define-Cycle-Counts###Cycle Counts - CC_HEADERS_FOLDER - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0038-INV-Define-Cycle-Counts###Cycle Count Classes - CC_CLASSES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0006-PO-Update-Organization###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0006-PO-Update-Organization###Organization - HOU1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0006-PO-Update-Organization###Organization - HOU1 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0006-PO-Update-Organization###Organization - Classification###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0006-PO-Update-Organization###Additional Organization Information - NAV1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0006-PO-Update-Organization###Additional Organization Information - HOI2 - 002 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0006-PO-Update-Organization###Additional Organization Information - HOI2 - 001 Click - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0042-INV-Define-Shipping-Network###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0042-INV-Define-Shipping-Network###Shipping Network - INTER_PARA###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0042-INV-Define-Shipping-Network###Shipping Network - INTER_PARA - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0097-ZX-Define-Tax-Determining-Factor-Set###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0097-ZX-Define-Tax-Determining-Factor-Set###Advanced Setup Options - Tax Determining Factor Set###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0097-ZX-Define-Tax-Determining-Factor-Set###Advanced Setup Options - Associate Tax Determining Factors###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0022-INV-Define-Subinventories###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0022-INV-Define-Subinventories###Subinventories###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0022-INV-Define-Subinventories###Subinventories - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0098-ZX-Define-Tax-Condition-Sets###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0098-ZX-Define-Tax-Condition-Sets###Advanced Setup Options - Tax Condition Sets###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0098-ZX-Define-Tax-Condition-Sets###Advanced Setup Options - Tax Condition Sets - Tax Conditions###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0084-ZX-Update-Tax-Operating-Units###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0084-ZX-Update-Tax-Operating-Units###E-Business Tax - Party Tax Profile Operating Unit - Main###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0084-ZX-Update-Tax-Operating-Units###E-Business Tax - Party Tax Profile Operating Unit - Tax Reporting Codes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0084-ZX-Update-Tax-Operating-Units###E-Business Tax - Party Tax Profile Operating Unit - Configuration Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0046-AP-Update-Payment-Process-Profiles-Payment-System###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0046-AP-Update-Payment-Process-Profiles-Payment-System###Payment Process Profiles - Payment System###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0191-FA-Define-Security-Profile###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0191-FA-Define-Security-Profile###Security Profile - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0191-FA-Define-Security-Profile###Supervisor Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0191-FA-Define-Security-Profile###Static Lists - SEU###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0191-FA-Define-Security-Profile###Position Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0191-FA-Define-Security-Profile###Payroll Security - PSP2-Payroll###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0191-FA-Define-Security-Profile###Payroll Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0191-FA-Define-Security-Profile###Organization Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0191-FA-Define-Security-Profile###Organization Security - PSO###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0191-FA-Define-Security-Profile###Miscellaneous Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0191-FA-Define-Security-Profile###Custom Security - PSP1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0152-AR-Define-Transaction-Types###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0152-AR-Define-Transaction-Types###Transaction Types - RA_CUST_TRX_TYPES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0152-AR-Define-Transaction-Types###Transaction Types - TAB Deposit###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0152-AR-Define-Transaction-Types###Transaction Types - TAB Bills Receivable###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0152-AR-Define-Transaction-Types###Transaction Types - TAB Account###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0152-AR-Define-Transaction-Types###Transaction Types - RA_CUST_TRX_TYPES-DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0152-AR-Define-Transaction-Types###Transaction Types - RA_CUST_TRX_TYPES - Globalization - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0096-INV-Update-Locations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0096-INV-Update-Locations###Location - LOC###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0096-INV-Update-Locations###Location - LOC - GDF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0096-INV-Update-Locations###Location - LOC - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0096-INV-Update-Locations###Location - Address - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0158-AR-Define-Receipt-Classes-And-Receipt-Method###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0158-AR-Define-Receipt-Classes-And-Receipt-Method###Receipt Classes - AR_RECEIPT_CLASSES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0158-AR-Define-Receipt-Classes-And-Receipt-Method###Receipt Methods - AR_RECEIPT_METHODS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0158-AR-Define-Receipt-Classes-And-Receipt-Method###Remittance Bank Accounts - Bills Receivable###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0158-AR-Define-Receipt-Classes-And-Receipt-Method###Remittance Bank Accounts - AR_RECEIPT_METHOD_ACCOUNTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0158-AR-Define-Receipt-Classes-And-Receipt-Method###Remittance Bank Accounts - AR_RECEIPT_METHOD_ACCOUNTS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0158-AR-Define-Receipt-Classes-And-Receipt-Method###Receipt Methods - AR_RECEIPT_METHODS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0158-AR-Define-Receipt-Classes-And-Receipt-Method###Receipt Classes - Bill Receivable Remittance###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0158-AR-Define-Receipt-Classes-And-Receipt-Method###Funds Transfer Error Handling - AR_CC_ERROR_MAPPING###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0158-AR-Define-Receipt-Classes-And-Receipt-Method###Receipt Classes - AR_RECEIPT_CLASSES - DFF1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0158-AR-Define-Receipt-Classes-And-Receipt-Method###Receipt Classes - AR_RECEIPT_CLASSES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0036-INV-Define-ABC-Assignment-Groups###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0036-INV-Define-ABC-Assignment-Groups###ABC Assignment Groups - ABC_ASSIGNMENT_GROUPS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0036-INV-Define-ABC-Assignment-Groups###ABC Group Class Assignment - ABC_GROUP_CLASS_ASSGN###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0036-INV-Define-ABC-Assignment-Groups###ABC Assignment Groups - ABC_ASSIGNMENT_GROUPS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0130-PO-Define-Business-Group###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0130-PO-Define-Business-Group###Organization - HOU1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0130-PO-Define-Business-Group###Organization - HOU1 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0130-PO-Define-Business-Group###Organization - Classification###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0130-PO-Define-Business-Group###Additional Organization Information - NAV1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0130-PO-Define-Business-Group###Additional Organization Information - HOI2 - 002 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0130-PO-Define-Business-Group###Additional Organization Information - HOI2 - 001 Click - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0077-ZX-Define-Tax-Zone-Types###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0077-ZX-Define-Tax-Zone-Types###E-Business Tax - Tax Zone Types###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0077-ZX-Define-Tax-Zone-Types###E-Business Tax - Tax Zone Types - Details###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0180-AP-Update-Financials-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0180-AP-Update-Financials-Options###Financials Options - FINANCIALS_SYSTEM_PARAMS_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0180-AP-Update-Financials-Options###Financials Options - FINANCIALS_SYSTEM_PARAMETER###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0060-PO-Define-Position-Name-Shared-HR###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0060-PO-Define-Position-Name-Shared-HR###Position - PST1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###Workday Calendars - B_CALENDARS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###Workday Patterns - B_WRKDAY_PAT###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###Workday Calendars - B_CALENDARS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###Shifts - B_CAL_SHIFTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###Shifts - B_CAL_SHIFTS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###Shift Workday Patterns - B_SHIFT_WRKDAY###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###Shift Times - B_SHIFT_TIMES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###Shift Times - B_SHIFT_TIMES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###Exceptions - B_CAL_EXCEPT###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###Exceptions - B_CAL_EXCEPT - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0001-INV-Define-Workday-Calendar###Calendar Dates - B_CAL_DATES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0184-GL-Update-Consolidation-Set###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0184-GL-Update-Consolidation-Set###Consolidation Set - CONSOLIDATION_SET###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0184-GL-Update-Consolidation-Set###Consolidation Set - SET_ASSIGN###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0196-SYS-Profile-Responsibility-FA-Profile###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0196-SYS-Profile-Responsibility-FA-Profile###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0196-SYS-Profile-Responsibility-FA-Profile###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0050-PO-Define-Purchasing-Options-Single-OU###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0050-PO-Define-Purchasing-Options-Single-OU###Purchasing - Options - Define###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0050-PO-Define-Purchasing-Options-Single-OU###Purchasing - Options - Additional Information - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0012-INV-Define-Cost-Types###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0012-INV-Define-Cost-Types###Cost Type - C_CST_TYPE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0012-INV-Define-Cost-Types###Cost Type - C_CST_TYPE - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0078-ZX-Define-Tax-Zones###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0078-ZX-Define-Tax-Zones###E-Business Tax - Tax Zone - General Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0078-ZX-Define-Tax-Zones###E-Business Tax - Tax Zone - Geographies###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0155-GL-Define-Primary-Ledger-Intercompany-Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0155-GL-Define-Primary-Ledger-Intercompany-Accounts###Intercompany Accounts - Relationships###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0155-GL-Define-Primary-Ledger-Intercompany-Accounts###Intercompany Accounts - Receivables Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0155-GL-Define-Primary-Ledger-Intercompany-Accounts###Intercompany Accounts - Payables Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0084-PO-Update-Locations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0084-PO-Update-Locations###Location - LOC###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0084-PO-Update-Locations###Location - LOC - GDF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0084-PO-Update-Locations###Location - LOC - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0084-PO-Update-Locations###Location - Address - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0129-PO-Define-Locations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0129-PO-Define-Locations###Location - LOC###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0129-PO-Define-Locations###Location - LOC - GDF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0129-PO-Define-Locations###Location - LOC - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0129-PO-Define-Locations###Location - Address - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0091-ZX-Define-Tax-Recovery-Rates-Periods###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0091-ZX-Define-Tax-Recovery-Rates-Periods###E-Business Tax - Recovery Rates###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0074-XLE-Define-Legal-Authority-Identification-Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0074-XLE-Define-Legal-Authority-Identification-Information###Legal Authority - Identification Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0074-XLE-Define-Legal-Authority-Identification-Information###Legal Authority - Legislative Categories###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0213-INV-Organization-Access-Drop-off###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0213-INV-Organization-Access-Drop-off###Organization Access - ORG_ACCESS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0047-AP-Update-Payment-Process-Profiles-Payment-Creation###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0047-AP-Update-Payment-Process-Profiles-Payment-Creation###Payment Process Profiles - Payment Creation###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0092-ZX-Define-Tax-Recovery-Rates-Tax-Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0092-ZX-Define-Tax-Recovery-Rates-Tax-Accounts###E-Business Tax - Recovery Rates - Tax Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0068-PO-Update-Approval-Assignments###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0068-PO-Update-Approval-Assignments###Assign Approval Groups - FIND###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0068-PO-Update-Approval-Assignments###Assign Approval Groups - ASSIGNMENTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0068-PO-Update-Approval-Assignments###Assign Approval Groups - ASSIGNMENTS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0181-GL-Define-Consolidation-Definition###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0181-GL-Define-Consolidation-Definition###Consolidation Definition - CONSOLIDATION###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0076-ZX-Define-Tax-Party-Authority###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0076-ZX-Define-Tax-Party-Authority###E-Business Tax - Party Authority###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0054-HR-Define-Jobs-Name###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0054-HR-Define-Jobs-Name###Job - JOBS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0054-HR-Define-Jobs-Name###Job - Name - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0054-HR-Define-Jobs-Name###Job - Further Information - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0054-HR-Define-Jobs-Name###Job - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0096-ZX-Define-Tax-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0096-ZX-Define-Tax-Rules###E-Business Tax - Tax Rule###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0138-OM-Define-Transaction-Headers-Type###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0138-OM-Define-Transaction-Headers-Type###Transaction Types - ORDER_TYPES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0138-OM-Define-Transaction-Headers-Type###Transaction Types - ORDER_TYPES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0138-OM-Define-Transaction-Headers-Type###Line Workflow Assingments - ORDER_TRXN_TYPE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0138-OM-Define-Transaction-Headers-Type###Line Workflow Assingments - ORDER_TRXN_DETAIL###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0123-GL-Assign-Security-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0123-GL-Assign-Security-Rules###Find Key Flexfield Segment - KEY###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0123-GL-Assign-Security-Rules###Assign Security Rules - KEY - USAGES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0011-SYSADMIN-Define-New-Responsibilities###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0011-SYSADMIN-Define-New-Responsibilities###Responsibilities - RESPONSIBILITY###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0011-SYSADMIN-Define-New-Responsibilities###Responsibilities - SECURITY_ATTRIBUTES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0011-SYSADMIN-Define-New-Responsibilities###Responsibilities - RESP_FUNCTIONS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0011-SYSADMIN-Define-New-Responsibilities###Responsibilities - EXCLUDED_ITEMS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0136-OM-Define-Transaction-Line-Types###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0136-OM-Define-Transaction-Line-Types###Transaction Types - ORDER_TYPES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0136-OM-Define-Transaction-Line-Types###Transaction Types - ORDER_TYPES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0018-SYS-Profile-User-Substitution-Enable###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0018-SYS-Profile-User-Substitution-Enable###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0018-SYS-Profile-User-Substitution-Enable###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0134-OM-Assign-Organization-to-Freight-and-Carriers###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0134-OM-Assign-Organization-to-Freight-and-Carriers###Carriers - CARRIERS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0134-OM-Assign-Organization-to-Freight-and-Carriers###Carriers - SERVICES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0134-OM-Assign-Organization-to-Freight-and-Carriers###Organization Assignments - ASSIGNMENTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0134-OM-Assign-Organization-to-Freight-and-Carriers###Organization Assignments - ASSIGNMENTS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0153-GL-Define-Document-Sequence-Assignment###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0153-GL-Define-Document-Sequence-Assignment###Sequence Assignments - ASSIGNMENTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0153-GL-Define-Document-Sequence-Assignment###Sequence Assignments - ASSIGNMENTS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0159-GL-Define-Data-Access-Set###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0159-GL-Define-Data-Access-Set###Data Access Set - ACCESS_SET###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0159-GL-Define-Data-Access-Set###Data Access Set - ACCESS_DETAIL###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0043-INV-Define-Shipping-Network-Assign-Shipping-Method###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0043-INV-Define-Shipping-Network-Assign-Shipping-Method###Inter Org Shipping Networks - SHIP_METHOD###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0043-INV-Define-Shipping-Network-Assign-Shipping-Method###Inter Org Shipping Networks - SHIP_METHOD - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0060-AP-Define-Withholding-Tax###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0060-AP-Define-Withholding-Tax###Withholding Tax Details - AP_TAX_CODES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0060-AP-Define-Withholding-Tax###Withholding Tax Details - AP_TAX_CODES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0060-AP-Define-Withholding-Tax###Withholding Tax Details - AP_AWT_TAX_RATES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0144-OM-Define-Ship-Confirm-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0144-OM-Define-Ship-Confirm-Rules###Ship Confirm Rules - SHIP_CONFIRM###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0151-AP-Define-Distribution-Sets###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0151-AP-Define-Distribution-Sets###Distribution Sets - DIST_SET###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0151-AP-Define-Distribution-Sets###Distribution Sets - DIST_SET_LINES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0151-AP-Define-Distribution-Sets###Project Information - DIST_SET_LINES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0151-AP-Define-Distribution-Sets###Distribution Sets - DIST_SET_LINES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0021-AP-Define-User-Operating-Unit-Preferences###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0021-AP-Define-User-Operating-Unit-Preferences###User Operating Unit Preferences - Multi-Org Preferences###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0019-INV-Define-Material-Sub-Elements###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0019-INV-Define-Material-Sub-Elements###Material Subelements - SUB_ELEMENTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0019-INV-Define-Material-Sub-Elements###Resource Information - SUB_ELEMENTS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0173-AR-Update-Standard-Memo-Lines###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0173-AR-Update-Standard-Memo-Lines###Standard Memo Lines - AR_MEMO_LINES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0173-AR-Update-Standard-Memo-Lines###Standard Memo Lines - AR_MEMO_LINES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0083-ZX-Define-Tax-Operating-Units###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0083-ZX-Define-Tax-Operating-Units###E-Business Tax - Party Tax Profile Operating Unit - Main###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0083-ZX-Define-Tax-Operating-Units###E-Business Tax - Party Tax Profile Operating Unit - Tax Reporting Codes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0083-ZX-Define-Tax-Operating-Units###E-Business Tax - Party Tax Profile Operating Unit - Configuration Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0147-GL-Update-Balancing-Segment-Value-Legal-Level###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0147-GL-Update-Balancing-Segment-Value-Legal-Level###Accounting Setups - Legal Update Balancing Segment Value###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0150-OM-Define-Document-Categories###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0150-OM-Define-Document-Categories###Document Categories - CATEGORIES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0016-AP-Define-Payment-Terms###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0016-AP-Define-Payment-Terms###Payment Terms - AP_TERMS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0016-AP-Define-Payment-Terms###Payment Terms - Third Discount###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0016-AP-Define-Payment-Terms###Payment Terms - Second Discount###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0016-AP-Define-Payment-Terms###Payment Terms - First Discount###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0016-AP-Define-Payment-Terms###Payment Terms - Due###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0016-AP-Define-Payment-Terms###Payment Terms - Due - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0016-AP-Define-Payment-Terms###Payment Terms - AP_TERMS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0003-INV-Build-Inventory-Calendars###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0003-INV-Build-Inventory-Calendars###Workday Calendars - B_CALENDARS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0002-INV-Update-Workday-Calendar###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0002-INV-Update-Workday-Calendar###Workday Calendars - B_CALENDARS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0002-INV-Update-Workday-Calendar###Workday Calendars - B_CALENDARS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0170-AR-Define-Remit-To-Address###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0170-AR-Define-Remit-To-Address###Remit -To Addresses - United States Style###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0170-AR-Define-Remit-To-Address###Remit -To Addresses - UK-Africa-Australasia Style###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0170-AR-Define-Remit-To-Address###Remit -To Addresses - Southern Europe Style###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0170-AR-Define-Remit-To-Address###Remit -To Addresses - South America Style###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0170-AR-Define-Remit-To-Address###Remit -To Addresses - Northern Europe Style###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0170-AR-Define-Remit-To-Address###Remit -To Addresses - Japanese Style###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0170-AR-Define-Remit-To-Address###Remit -To Addresses - Default Address Style###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0170-AR-Define-Remit-To-Address###Remit -To Addresses - Default Address Style - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0170-AR-Define-Remit-To-Address###Remit -To Addresses - Brazilian Style###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0170-AR-Define-Remit-To-Address###Remit -To Addresses - Brazilian Style - Globalization - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0167-AR-Update-Transaction-Sources###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0167-AR-Update-Transaction-Sources###Transaction Sources - RA_BATCH_SOURCES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0167-AR-Update-Transaction-Sources###Transaction Sources - RA_BATCH_SOURCES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0155-OM-Define-Defaulting-Setup-Entity-Attributes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0155-OM-Define-Defaulting-Setup-Entity-Attributes###Defaulting Setup - Entity Attributes - DEFOBJ###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0155-OM-Define-Defaulting-Setup-Entity-Attributes###Defaulting Setup - Entity Attributes - DEFOBJATTR###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0155-OM-Define-Defaulting-Setup-Entity-Attributes###Attribute Defaulting Rules - DEFCONDN_RULE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0155-OM-Define-Defaulting-Setup-Entity-Attributes###Attribute Defaulting Rules - DEFRULE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0155-OM-Define-Defaulting-Setup-Entity-Attributes###Attribute Defaulting Rules - DEFRULE - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0155-OM-Define-Defaulting-Setup-Entity-Attributes###Defaulting Condition Validation Templates - DEFCONDN###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0155-OM-Define-Defaulting-Setup-Entity-Attributes###Defaulting Condition Validation Templates - DEFELEMENT###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0155-OM-Define-Defaulting-Setup-Entity-Attributes###Defaulting Condition Validation Templates - DEFELEMENT - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0058-HR-Define-Position-Name###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0058-HR-Define-Position-Name###Position - POSITIONS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0058-HR-Define-Position-Name###Position - Work Terms###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0058-HR-Define-Position-Name###Position - POSITIONS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0058-HR-Define-Position-Name###Position - Hiring Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0058-HR-Define-Position-Name###Position - Budgets###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0058-HR-Define-Position-Name###Position - Additional Detail###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0101-ZX-Define-Tax-Rules-Expert-Rule-Entry###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0101-ZX-Define-Tax-Rules-Expert-Rule-Entry###E-Business Tax - Tax Rule - Expert Rule - Entry###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0101-ZX-Define-Tax-Rules-Expert-Rule-Entry###E-Business Tax - Tax Rule - Expert Rule - Rule Order###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0101-ZX-Define-Tax-Rules-Expert-Rule-Entry###E-Business Tax - Tax Rule - Expert Rule - Condition Set###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0094-ZX-Define-Tax-Rate-Details###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0094-ZX-Define-Tax-Rate-Details###E-Business Tax - Rate - Rate Details###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0180-GL-Define-Suspense-Account###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0180-GL-Define-Suspense-Account###Suspense Accounts - SUSPENSE_ACCTS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0180-GL-Define-Suspense-Account###Suspense Accounts - SUSPENSE_ACCTS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0010-INV-Define-Organization-Parameters###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0010-INV-Define-Organization-Parameters###Organization - HOU1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0010-INV-Define-Organization-Parameters###Organization Parameters - INV_PARAM###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0010-INV-Define-Organization-Parameters###Organization Parameters - Revision Lot Serial###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0010-INV-Define-Organization-Parameters###Organization Parameters - Other Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0010-INV-Define-Organization-Parameters###Organization Parameters - Inter-Org Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0010-INV-Define-Organization-Parameters###Organization Parameters - INV_PARAM - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0010-INV-Define-Organization-Parameters###Organization Parameters - Costing Information###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0010-INV-Define-Organization-Parameters###Organization Parameters - ATP Pick Item - Sourcing###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0010-INV-Define-Organization-Parameters###Organization - Classification###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0010-INV-Define-Organization-Parameters###Additional Organization Information - NAV1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0034-AP-Define-Reporting-Entities###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0034-AP-Define-Reporting-Entities###Reporting Entities - REP_ENTITY###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0034-AP-Define-Reporting-Entities###Reporting Entities - ENTITY_LINE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0163-AR-Update-Receipt-Sources###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0163-AR-Update-Receipt-Sources###Receipt Sources - AR_BATCH_SOURCES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0163-AR-Update-Receipt-Sources###Receipt Sources - AR_BATCH_SOURCES - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0166-GL-Update-Primary-to-Secondary-Ledger-Mapping###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0166-GL-Update-Primary-to-Secondary-Ledger-Mapping###Accounting Setups - Primary to Secondary Ledger Mapping###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0166-GL-Update-Primary-to-Secondary-Ledger-Mapping###Primary to Secondary Ledger Mapping - Journal Source and Category Conversion###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0023-INV-Update-Subinventories###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0023-INV-Update-Subinventories###Subinventories###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0023-INV-Update-Subinventories###Subinventories - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0148-GL-Define-Balancing-Segment-Value-Primary-Ledger-Criteria###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0148-GL-Define-Balancing-Segment-Value-Primary-Ledger-Criteria###Accounting Setups - Ledger Balancing Segment Value Assignments###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0105-ZX-Define-Tax-Configuration-Owner-Tax-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0105-ZX-Define-Tax-Configuration-Owner-Tax-Options###E-Business Tax - Create Configuration Owner Tax Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0095-ZX-Define-Tax-Rate-Tax-Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0095-ZX-Define-Tax-Rate-Tax-Accounts###E-Business Tax - Rate - Tax Accounts###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0106-ZX-Define-Tax-Application-Tax-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0106-ZX-Define-Tax-Application-Tax-Options###E-Business Tax - Create Application Tax Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0004-PO-Define-Organization###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0004-PO-Define-Organization###Organization - HOU1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0004-PO-Define-Organization###Organization - HOU1 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0004-PO-Define-Organization###Organization - Classification###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0004-PO-Define-Organization###Additional Organization Information - NAV1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0004-PO-Define-Organization###Additional Organization Information - HOI2 - 002 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0004-PO-Define-Organization###Additional Organization Information - HOI2 - 001 Click - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0035-INV-Define-ABC-Classes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0035-INV-Define-ABC-Classes###ABC Classes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0094-INV-Define-Planners###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0094-INV-Define-Planners###Planners###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0094-INV-Define-Planners###Planners - PLANNERS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0140-OM-Define-Transaction-Type-Line-Workflow###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0140-OM-Define-Transaction-Type-Line-Workflow###Transaction Types - ORDER_TYPES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0140-OM-Define-Transaction-Type-Line-Workflow###Line Workflow Assingments - ORDER_TRXN_TYPE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0140-OM-Define-Transaction-Type-Line-Workflow###Line Workflow Assingments - ORDER_TRXN_DETAIL###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0211-SYS-Profile-Responsibility-Others###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0211-SYS-Profile-Responsibility-Others###Find System Profile Values - PROFILE_QF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0211-SYS-Profile-Responsibility-Others###System Profile Values - PROFILE_VALUES###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0146-OM-Define-Shipping-Parameters###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0146-OM-Define-Shipping-Parameters###Shipping Parameters - WSH_SHIPPING_PARAMETERS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0082-ZX-Define-Tax-Reporting-Codes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0082-ZX-Define-Tax-Reporting-Codes###E-Business Tax - Reporting Code###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0009-INV-Define-Organization-Hierarchy###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0009-INV-Define-Organization-Hierarchy###Organization Hierarchy - OS1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0009-INV-Define-Organization-Hierarchy###Organization Hierarchy - OSV1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0009-INV-Define-Organization-Hierarchy###Organization Hierarchy - OU1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0009-INV-Define-Organization-Hierarchy###Organization Hierarchy - OSE1###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0009-INV-Define-Organization-Hierarchy###Organization Hierarchy - OS1 - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0108-ZX-Define-Tax-Party-First-Establish###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0108-ZX-Define-Tax-Party-First-Establish###E-Business Tax - Party First Establish###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0108-ZX-Define-Tax-Party-First-Establish###E-Business Tax - Party First Establish - Tax Reporting Codes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0108-ZX-Define-Tax-Party-First-Establish###E-Business Tax - Party First Establish - Classifications###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0130-OM-Update-Release-Rule-Form###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0130-OM-Update-Release-Rule-Form###Release Rules - RELEASE###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0130-OM-Update-Release-Rule-Form###Release Rules - RELEASE - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0024-INV-Define-Stock-Locators###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0024-INV-Define-Stock-Locators###Stock Locators - LOC###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0024-INV-Define-Stock-Locators###Stock Locators - LOC - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0140-GL-Define-Accounting-Representations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0140-GL-Define-Accounting-Representations###Accounting Setups - Accounting Representations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0037-AP-Define-Payment-Methods###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0037-AP-Define-Payment-Methods###Payment Administrator - Payment Method - General###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0037-AP-Define-Payment-Methods###Payment Administrator - Payment Method - User Validations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0037-AP-Define-Payment-Methods###Payment Administrator - Payment Method - Usage Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0037-AP-Define-Payment-Methods###Payment Administrator - Payment Method - Pre Validations###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0051-PO-Define-Receiving-Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0051-PO-Define-Receiving-Options###Receiving - Options - Define###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0154-GL-Define-Secondary-Ledger-Intracompany-Balancing-Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0154-GL-Define-Secondary-Ledger-Intracompany-Balancing-Rules###Accounting Setups - Intracompany Balancing Rules###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0154-GL-Define-Secondary-Ledger-Intracompany-Balancing-Rules###Accounting Setups - Intracompany Balancing Options###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0154-GL-Define-Secondary-Ledger-Intracompany-Balancing-Rules###Accounting Setups - Intracompany Balancing Details###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0065-PO-Update-Document-Type###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0065-PO-Update-Document-Type###Document - Types - Update###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0088-ZX-Define-Tax-Statuses###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0088-ZX-Define-Tax-Statuses###E-Business Tax - Status###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 2###0088-ZX-Define-Tax-Statuses###E-Business Tax - Tax - Statuses - Reporting Codes###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0032-INV-Define-Account-Aliases###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0032-INV-Define-Account-Aliases###Account Aliases - ACCOUNT_ALIAS###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 3###0032-INV-Define-Account-Aliases###Account Aliases - ACCOUNT_ALIAS - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0170-GL-Define-AutoPost-Criteria###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0170-GL-Define-AutoPost-Criteria###AutoPost Criteria Sets - AUTOPOST_SET###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0170-GL-Define-AutoPost-Criteria###AutoPost Criteria Sets - AUTOPOST_SET - DFF###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0170-GL-Define-AutoPost-Criteria###AutoPost Criteria Sets - AUTOPOST###</node>
+    <node>ERP Scenarios###ERP Scenarios - Part 1###0170-GL-Define-AutoPost-Criteria###AutoPost Criteria Sets - AUTOPOST - DFF###</node>
+</data-extraction-session>

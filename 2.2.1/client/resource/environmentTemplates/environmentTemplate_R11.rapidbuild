@@ -1,0 +1,18 @@
+FLD_FORM_PASSWORD=SYSADMIN
+FLD_FORM_USERNAME=SYSADMIN
+Full URL for FLD files=http://oratest11.rapidesuite.com:8000/dev60cgi/f60cgi?record=/erpp/scripts/%s.log%20play=/erpp/scripts/%s
+REMOTE_FLD_LOGS_FOLDER=/erpp/scripts
+SSH_HOST=oratest11.rapidesuite.com
+SSH_LOGIN=applerpp
+SSH_PASSWORD=Applerpp
+SSH_PRIVATE_KEY_FILE_NAME=
+Script Location (FLDs)=/erpp/scripts/erpp/scripts
+TELNET_HOST=
+TELNET_LOGIN=
+TELNET_PASSWORD=
+TRANSFER_PROTOCOL=SSH
+DATABASE_HOST_NAME=oratest11.rapidesuite.com
+DATABASE_PORT_NUMBER=1521
+DATABASE_SID=ERPP
+DATABASE_USER_NAME=apps
+DATABASE_PASSWORD=Apps

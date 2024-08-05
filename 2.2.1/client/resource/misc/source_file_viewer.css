@@ -1,0 +1,45 @@
+.command {
+	font-weight: bold;
+}
+
+.comment {
+	color: gray;
+}
+
+.param_value {
+	color: black;
+}
+
+.param_name {
+	color: black;
+}
+
+.comment .table_name {
+	color: orange;
+}
+
+.comment .field_name {
+	color: green;
+}
+
+.string {
+	color: blue;
+}
+
+.number {
+	color: black;
+}
+
+.normal {
+	color: black;
+}
+
+.iteration_boundary {
+	color: black;
+}
+
+.iteration_boundary_highlight {
+	color: red;
+	border-bottom:2px solid black;
+	font-weight: bold;
+}

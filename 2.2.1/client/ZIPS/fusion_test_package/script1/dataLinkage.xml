@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fusionData xmlns="http://fusionData0000.core.rapidesuite.com">
+
+<inventoryMap name="Manage Enterprise Configuration - United States" code="1" recordsCount="5" isRootInventory="true" />
+<inventoryMap name="Manage Enterprise Configuration - United States - DFF" code="2" recordsCount="8" />
+
+<l>
+	<m c="1" r="0"/>
+	<m c="2" r="0"/>
+</l>
+<l>
+	<m c="1" r="0"/>
+	<m c="2" r="1"/>
+</l>
+<l>
+	<m c="1" r="0"/>
+	<m c="2" r="2"/>
+</l>
+<l>
+	<m c="1" r="0"/>
+	<m c="2" r="3"/>
+</l>
+<l>
+	<m c="1" r="0"/>
+	<m c="2" r="4"/>
+</l>
+<l>
+	<m c="1" r="1"/>
+	<m c="2" r="5"/>
+</l>
+<l>
+	<m c="1" r="1"/>
+	<m c="2" r="6"/>
+</l>
+<l>
+	<m c="1" r="2" />
+	<m c="2" r="7"/>
+</l>
+<l>
+	<m c="1" r="3" />
+</l>
+<l>
+	<m c="1" r="4" />
+</l>
+</fusionData>
+

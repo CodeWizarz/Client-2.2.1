@@ -1,0 +1,342 @@
+package com.rapidesuite.snapshot.view;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.net.URL;
+import java.util.List;
+
+import javax.swing.BorderFactory;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JProgressBar;
+import javax.swing.plaf.basic.BasicProgressBarUI;
+
+import com.rapidesuite.client.common.util.FileUtils;
+import com.rapidesuite.client.common.util.GUIUtils;
+import com.rapidesuite.inject.InjectMain;
+import com.rapidesuite.inject.InjectUtils;
+import com.rapidesuite.snapshot.SnapshotMain;
+import com.rapidesuite.snapshot.controller.GenericController;
+import com.rapidesuite.snapshot.model.SnapshotDownloadCancellation;
+
+@SuppressWarnings("serial")
+public class SnapshotImportPanel extends JPanel {
+
+	private JLabel statusLabel;
+	private JLabel totalTasksLabel;
+	private JLabel totalTasksErrorsLabel;
+	private JLabel totalRecordCountLabel;
+	private JLabel totalTimeLabel;
+	private JButton closeButton;
+	private JButton cancelButton;
+	private JDialog dialog;
+	private JButton saveGridToExcelButton;
+	
+	private JProgressBar progressBar;
+	private SnapshotDownloadGridPanel snapshotDownloadGridPanel;
+	private GenericController genericController;
+	private TabSnapshotsPanel tabSnapshotsPanel;
+	
+	public SnapshotImportPanel(GenericController genericController,TabSnapshotsPanel tabSnapshotsPanel) {
+		this.genericController=genericController;
+		this.tabSnapshotsPanel=tabSnapshotsPanel;
+		setLayout(new BorderLayout());
+		setOpaque(true);
+		setBackground(Color.decode("#343836"));
+		setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+		createComponents();
+	}
+
+	public void closeWindow() {
+		processActionClose();
+	}
+
+	public void createComponents(){
+		ImageIcon ii=null;
+		URL iconURL =null;
+		
+		JPanel northPanel=new JPanel();
+		northPanel.setOpaque(false);
+		northPanel.setBorder(BorderFactory.createEmptyBorder(0,0,0,0));
+		northPanel.setLayout(new BoxLayout(northPanel, BoxLayout.Y_AXIS));
+		northPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
+		add(northPanel,BorderLayout.NORTH);
+		
+		JPanel centerPanel=new JPanel();
+		centerPanel.setOpaque(false);
+		//centerPanel.setBorder(new LineBorder(Color.GREEN));
+		centerPanel.setLayout(new BoxLayout(centerPanel, BoxLayout.Y_AXIS));
+		centerPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
+		add(centerPanel,BorderLayout.CENTER);
+		
+		JPanel southPanel=new JPanel();
+		southPanel.setOpaque(false);
+		//southPanel.setBorder(new LineBorder(Color.YELLOW));
+		southPanel.setLayout(new BoxLayout(southPanel, BoxLayout.Y_AXIS));
+		southPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
+		add(southPanel,BorderLayout.SOUTH);
+				
+		JPanel tempPanel=new JPanel();
+		tempPanel.setBorder(BorderFactory.createEmptyBorder(0,0,20,0));
+		tempPanel.setOpaque(false);
+		//tempPanel.setBorder(new LineBorder(Color.RED));
+		tempPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+		northPanel.add(tempPanel);
+		JLabel label=new JLabel("Status: ");
+		label.setFont(new Font("Arial", Font.BOLD, 16));
+		label.setForeground(Color.white);
+		tempPanel.add(label);
+		statusLabel=new JLabel();
+		statusLabel.setForeground(Color.white);
+		statusLabel.setFont(new Font("Arial", Font.BOLD, 16));
+		tempPanel.add(statusLabel);
+		
+		tempPanel=new JPanel();
+		tempPanel.setOpaque(false);
+		//tempPanel.setBorder(new LineBorder(Color.RED));
+		tempPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+		northPanel.add(tempPanel);
+		label=new JLabel("Execution Time:");
+		InjectUtils.assignArialPlainFont(label,InjectMain.FONT_SIZE_NORMAL);
+		label.setForeground(Color.white);
+		tempPanel.add(label);
+		totalTimeLabel=new JLabel();
+		InjectUtils.assignArialPlainFont(totalTimeLabel,InjectMain.FONT_SIZE_NORMAL);
+		totalTimeLabel.setForeground(Color.white);
+		tempPanel.add(totalTimeLabel);
+
+		tempPanel=new JPanel();
+		tempPanel.setOpaque(false);
+		//tempPanel.setBorder(new LineBorder(Color.RED));
+		tempPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+		northPanel.add(tempPanel);
+		label=new JLabel("Inventories: ");
+		InjectUtils.assignArialPlainFont(label,InjectMain.FONT_SIZE_NORMAL);
+		label.setForeground(Color.white);
+		tempPanel.add(label);
+		totalTasksLabel=new JLabel();
+		InjectUtils.assignArialPlainFont(totalTasksLabel,InjectMain.FONT_SIZE_NORMAL);
+		totalTasksLabel.setForeground(Color.white);
+		tempPanel.add(totalTasksLabel);
+		
+		tempPanel=new JPanel();
+		tempPanel.setOpaque(false);
+		tempPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+		northPanel.add(tempPanel);
+		label=new JLabel("Errors: ");
+		InjectUtils.assignArialPlainFont(label,InjectMain.FONT_SIZE_NORMAL);
+		label.setForeground(Color.white);
+		tempPanel.add(label);
+		totalTasksErrorsLabel=new JLabel();
+		InjectUtils.assignArialPlainFont(totalTasksErrorsLabel,InjectMain.FONT_SIZE_NORMAL);
+		totalTasksErrorsLabel.setForeground(Color.white);
+		tempPanel.add(totalTasksErrorsLabel);
+		
+		tempPanel=new JPanel();
+		tempPanel.setOpaque(false);
+		tempPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+		northPanel.add(tempPanel);
+		label=new JLabel("Total Imported Records:");
+		InjectUtils.assignArialPlainFont(label,InjectMain.FONT_SIZE_NORMAL);
+		label.setForeground(Color.white);
+		tempPanel.add(label);
+		totalRecordCountLabel=new JLabel();
+		InjectUtils.assignArialPlainFont(totalRecordCountLabel,InjectMain.FONT_SIZE_NORMAL);
+		totalRecordCountLabel.setForeground(Color.white);
+		tempPanel.add(totalRecordCountLabel);		
+				
+		tempPanel=new JPanel();
+		northPanel.add(tempPanel);
+		tempPanel.setOpaque(false);
+		tempPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
+		tempPanel.setBorder(BorderFactory.createEmptyBorder(20, 15, 20, 15));
+		
+		label=new JLabel("Progress: ");
+		InjectUtils.assignArialPlainFont(label,InjectMain.FONT_SIZE_NORMAL);
+		label.setForeground(Color.white);
+		tempPanel.add(label);
+		
+		progressBar=new JProgressBar();
+		Dimension prefSize = progressBar.getPreferredSize();
+		prefSize.width = 300;
+		prefSize.height = 20;
+		progressBar.setPreferredSize(prefSize);
+		tempPanel.add(progressBar);
+		progressBar.setOpaque(true);
+		progressBar.setBackground(Color.black);
+		progressBar.setMinimum(0);
+		progressBar.setValue(0);
+		progressBar.setStringPainted(true);
+		progressBar.setBorderPainted(false);
+		progressBar.setUI( new BasicProgressBarUI() {
+		      protected Color getSelectionBackground() { return Color.white; }
+		      protected Color getSelectionForeground() { return Color.white; }
+		    });
+			
+		snapshotDownloadGridPanel=new SnapshotDownloadGridPanel(tabSnapshotsPanel);
+		
+		centerPanel.add(snapshotDownloadGridPanel);
+		
+		tempPanel=new JPanel();
+		tempPanel.setOpaque(false);
+		tempPanel.setBorder(BorderFactory.createEmptyBorder(10, 0, 5, 0));
+		tempPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
+		tempPanel.setLayout(new BoxLayout(tempPanel, BoxLayout.X_AXIS));
+		southPanel.add(tempPanel);
+		
+		iconURL = this.getClass().getResource("/images/snapshot/button_save_grid_to_excel.png");
+		try{ ii=new ImageIcon(iconURL); }catch(Exception e) {FileUtils.printStackTrace(e);}
+		saveGridToExcelButton = new JButton();
+		saveGridToExcelButton.setIcon(ii);
+		saveGridToExcelButton.setBorderPainted(false);
+		saveGridToExcelButton.setContentAreaFilled(false);
+		saveGridToExcelButton.setFocusPainted(false);
+		saveGridToExcelButton.setRolloverEnabled(true);
+		iconURL = this.getClass().getResource("/images/snapshot/button_save_grid_to_excel_rollover.png");
+		try{ ii=new ImageIcon(iconURL); }catch(Exception e) {FileUtils.printStackTrace(e);}
+		saveGridToExcelButton.setRolloverIcon(new RolloverIcon(ii));
+		saveGridToExcelButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e)
+			{
+				processActionSaveGrid();
+			}
+		}
+				);
+		tempPanel.add(saveGridToExcelButton);
+		tempPanel.add(Box.createRigidArea(new Dimension(15, 15)));
+		
+		iconURL = this.getClass().getResource("/images/snapshot/button_close.png");
+		try{ ii=new ImageIcon(iconURL); }catch(Exception e) {FileUtils.printStackTrace(e);}
+		closeButton = new JButton();
+		closeButton.setIcon(ii);
+		closeButton.setBorderPainted(false);
+		closeButton.setContentAreaFilled(false);
+		closeButton.setFocusPainted(false);
+		closeButton.setRolloverEnabled(true);
+		iconURL = this.getClass().getResource("/images/snapshot/button_close_rollover.png");
+		try{ ii=new ImageIcon(iconURL); }catch(Exception e) {FileUtils.printStackTrace(e);}
+		closeButton.setRolloverIcon(new RolloverIcon(ii));
+		closeButton.setEnabled(false);
+		closeButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e)
+			{
+				processActionClose();
+			}
+		}
+				);
+		tempPanel.add(closeButton);
+		
+		// CANCEL button
+		iconURL = this.getClass().getResource("/images/snapshot/button_cancel_snapshot.png");
+		try{ ii=new ImageIcon(iconURL); }catch(Exception e) {FileUtils.printStackTrace(e);}
+		cancelButton = new JButton();
+		cancelButton.setIcon(ii);
+		cancelButton.setBorderPainted(false);
+		cancelButton.setContentAreaFilled(false);
+		cancelButton.setFocusPainted(false);
+		cancelButton.setRolloverEnabled(true);
+		iconURL = this.getClass().getResource("/images/snapshot/button_cancel_snapshot_rollover.png");
+		try{ ii=new ImageIcon(iconURL); }catch(Exception e) {FileUtils.printStackTrace(e);}
+		cancelButton.setRolloverIcon(new RolloverIcon(ii));
+		cancelButton.setEnabled(true);
+		cancelButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e)
+			{
+				processActionCancel();
+			}
+		}
+				);
+		tempPanel.add(cancelButton);
+	}
+
+	protected void processActionSaveGrid() {
+		try {
+			snapshotDownloadGridPanel.saveGridToExcel();
+		} catch (Exception e) {
+			FileUtils.printStackTrace(e);
+			GUIUtils.popupErrorMessage("Cannot complete operation. Error: "+e.getMessage());
+		}
+	}
+
+	protected void processActionClose() {
+		if (closeButton.isEnabled()) {
+			dialog.dispose();
+		}
+	}
+
+	protected void processActionCancel() {
+		int response = JOptionPane.showConfirmDialog(null, "Are you sure to cancel the current operation?", "Confirmation",
+				JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+		if (response == JOptionPane.YES_OPTION) {
+			//snapshotDownloadController.stopExecution();
+			cancelButton.setEnabled(false);
+			genericController.setCancelled(true);
+			SnapshotDownloadCancellation swingWorker=new SnapshotDownloadCancellation(genericController);
+			final int width=450;
+			final int height=150;
+			UIUtils.displayOperationInProgressModalWindow(this,width,height,"Cancel in progress...",swingWorker,SnapshotMain.getSharedApplicationIconPath());
+		}
+	}
+
+	public JLabel getTotalTasksLabel() {
+		return totalTasksLabel;
+	}
+	
+	public JLabel getTotalTasksErrorsLabel() {
+		return totalTasksErrorsLabel;
+	}
+
+	public JLabel getTotalRecordCountLabel() {
+		return totalRecordCountLabel;
+	}
+
+	public JButton getActionButton() {
+		return closeButton;
+	}
+	
+	public JButton getCancelButton() {
+		return cancelButton;
+	}
+
+	public void setDialog(JDialog dialog) {
+		this.dialog=dialog;
+		
+	}
+
+	public JLabel getStatusLabel() {
+		return statusLabel;
+	}
+
+	public void setTotalSteps(int totalStepsCounter) {
+		progressBar.setMaximum(totalStepsCounter);
+	}
+
+	public void updateProgressBar(int currentStep) {
+		progressBar.setValue(currentStep);
+	}
+
+	public void refreshGrid(List<SnapshotInventoryGridRecord> snapshotInventoryGridRecordList) {
+		snapshotDownloadGridPanel.refreshGrid(snapshotInventoryGridRecordList);
+	}
+
+	public JLabel getTotalTimeLabel() {
+		return totalTimeLabel;
+	}
+
+	public SnapshotDownloadGridPanel getSnapshotDownloadGridPanel() {
+		return snapshotDownloadGridPanel;
+	}
+		
+}

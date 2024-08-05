@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data name="Manage Taxes" xmlns="http://data0000.configurator.erapidsuite.com">
+<m/>
+<h>
+<c>Tax Regime Code</c>
+<c>RSC Data Label</c>
+<c>Navigation Filter</c>
+</h>
+<r>
+<c>OOODDD</c>
+<c>FUSION</c>
+<c/>
+</r>
+</data>

@@ -1,0 +1,18 @@
+FLD_FORM_PASSWORD=SYSADMIN
+FLD_FORM_USERNAME=SYSADMIN
+Full URL for FLD files=http://oratest06.rapidesuite.com:8000/forms/frmservlet?record=/erpp/oracle/ERPP/inst/apps/ERPP_oratest06/logs/ora/10.1.2/forms/%s.log%20play=/erpp/oracle/ERPP/inst/apps/ERPP_oratest06/logs/ora/10.1.2/forms/%s
+REMOTE_FLD_LOGS_FOLDER=/erpp/oracle/ERPP/inst/apps/ERPP_oratest06/logs/ora/10.1.2/forms
+SSH_HOST=oratest06.rapidesuite.com
+SSH_LOGIN=applerpp
+SSH_PASSWORD=Applerpp
+SSH_PRIVATE_KEY_FILE_NAME=
+Script Location (FLDs)=/erpp/oracle/ERPP/inst/apps/ERPP_oratest06/logs/ora/10.1.2/forms
+TELNET_HOST=
+TELNET_LOGIN=
+TELNET_PASSWORD=
+TRANSFER_PROTOCOL=SSH
+DATABASE_HOST_NAME=oratest06.rapidesuite.com
+DATABASE_PORT_NUMBER=1521
+DATABASE_SID=ERPP
+DATABASE_USER_NAME=apps
+DATABASE_PASSWORD=Apps

@@ -1,0 +1,88 @@
+###########################################
+# $Revision: 76175 $:
+# $Author: warangkana.yoomieng $:
+# $Date: 2021-06-17 17:27:47 +0700 (Thu, 17 Jun 2021) $:
+# $HeadURL: https://svn03.rapid4cloud.com/svn/a/dev/rapidesuite/programs/2.2.1/client/build.properties_defaults $:
+# $Id: build.properties_defaults 76175 2021-06-17 10:27:47Z warangkana.yoomieng $:
+#
+#
+# This file is used as a default set of build properties.
+# To override, DO NOT MODIFY THIS FILE.
+# Create a new file called "build.properties", copy ONLY those properties you need
+# to change (override), and make your changes.
+# The Ant build first sources build.properties, then build.properties_defaults.  Thus,
+# any settings in build.properties will override those specified in build.properties_defaults.
+
+isPatchMode=false
+basedir=.
+src.dir=${basedir}/src
+classes.dir=${basedir}/classes
+lib.dir=${basedir}/lib
+springframework.core.lib.jar=${basedir}/../core/lib/spring-core-3.2.3.RELEASE.jar
+apache.commons.codec.lib.jar=${basedir}/../configurator/public_html/WEB-INF/lib/commons-codec-1.6.jar
+opencsv.lib.jar=${basedir}/../core/lib/opencsv-2.3.jar
+commons.io.lib.jar=${basedir}/../core/lib/commons-io-2.4.jar
+commons.lang.lib.jar=${basedir}/../core/lib/commons-lang3-3.1.jar
+xmlbean.lib.jar=${basedir}/../core/lib/xbean.jar
+poi.lib.jar1=${basedir}/../core/lib/poi-3.10-FINAL-20140208.jar
+poi.lib.jar2=${basedir}/../core/lib/poi-ooxml-3.10-FINAL-20140208.jar
+poi.lib.jar3=${basedir}/../core/lib/poi-ooxml-schemas-3.10-FINAL-20140208.jar
+dom4j.lib.jar=${basedir}/../configurator/public_html/WEB-INF/lib/dom4j-1.6.1.jar
+
+configurator.lib.jar=${basedir}/../configurator/deploy/configurator.jar
+core.lib.jar=${basedir}/../core/deploy/rapidcore.jar
+
+deploy.dir=${basedir}/deploy
+jar.path=${deploy.dir}/rapidclient.jar
+images.dir=${basedir}/images
+resource.dir=${basedir}/resource
+docs.dir=${resource.dir}/docs
+distribution.dir=${basedir}/distribution
+embeddedJRE32.dir=${basedir}/../../lib/jre7-32bit
+embeddedJRE64.dir=${basedir}/../../lib/jre7-64bit
+embeddedJREMac.dir=${basedir}/../../lib/jre1.7.0_79-mac
+7zsfx.dir=${basedir}/../../lib/7zsfx_v1.0
+jodconverter.lib.dir=${basedir}/../../lib/jodconverterlib2.2.2
+temp.dir=${basedir}/temp
+xmlbeans.temp.dir=${temp.dir}/xmlbeans
+release.name=2.2.1
+misc.dir=${resource.dir}/misc
+
+panopticon.jar.name=panopticon.jar
+panopticon.htmldir.name=html
+
+reverse.template.sessions.dir.name=sessions
+
+snapshot.kb.output.folder.name=jenkins_build_outputs
+
+7zip.exe=/usr/local/bin/7za
+#For Windows:
+#7zip.exe=C:/Program Files/7-Zip/7z.exe
+
+svn.binary=/opt/CollabNet_Subversion/bin/svn
+#For Windows:
+#svn.binary=C:/Program Files/CollabNet/Subversion Client/svn
+
+snapshot.svn.kb.version.12.1.3=2.2.0.0
+snapshot.svn.kb.url.12.1.3=http://svn01.rapidesuite.com:999/svn/a/dev/rapidesuite/controldata/12.1.3/branches/core/v${snapshot.svn.kb.version.12.1.3}
+
+snapshot.svn.kb.version.12.2.4=2.0.2.0
+snapshot.svn.kb.url.12.2.4=http://svn01.rapidesuite.com:999/svn/a/dev/rapidesuite/controldata/12.2.4/branches/core/v${snapshot.svn.kb.version.12.2.4}
+
+snapshot.svn.kb.version.12.2.5=2.1.0.0
+snapshot.svn.kb.url.12.2.5=http://svn01.rapidesuite.com:999/svn/a/dev/rapidesuite/controldata/12.2.5/branches/core/v${snapshot.svn.kb.version.12.2.5}
+
+snapshot.svn.kb.version.12.2.6=2.2.0.0
+snapshot.svn.kb.url.12.2.6=http://svn01.rapidesuite.com:999/svn/a/dev/rapidesuite/controldata/12.2.6/branches/core/v${snapshot.svn.kb.version.12.2.6}
+
+snapshot.svn.kb.version.12.2.7=2.2.3.0
+snapshot.svn.kb.url.12.2.7=http://svn01.rapidesuite.com:999/svn/a/dev/rapidesuite/controldata/12.2.7/branches/core/v${snapshot.svn.kb.version.12.2.7}
+
+snapshot.svn.kb.version.12.2.8=2.2.3.1
+snapshot.svn.kb.url.12.2.8=http://svn01.rapidesuite.com:999/svn/a/dev/rapidesuite/controldata/12.2.8/branches/core/v${snapshot.svn.kb.version.12.2.8}
+
+snapshot.svn.kb.version.12.2.9=2.2.3.1
+snapshot.svn.kb.url.12.2.9=http://svn01.rapidesuite.com:999/svn/a/dev/rapidesuite/controldata/12.2.9/branches/core/v${snapshot.svn.kb.version.12.2.9}
+
+snapshot.svn.kb.version.12.2.10=2.2.3.1
+snapshot.svn.kb.url.12.2.10=http://svn01.rapidesuite.com:999/svn/a/dev/rapidesuite/controldata/12.2.10/branches/v${snapshot.svn.kb.version.12.2.10}

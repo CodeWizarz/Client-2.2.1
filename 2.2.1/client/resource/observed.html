@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Rapid Controller - Observed Clients</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="title_blue_fixed.css" />
+		<link href="res_icon.png" rel="shortcut icon">
+
+		<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="arrow27.js"></script>
+		<script type="text/javascript">
+                        var auto_refresh = setInterval(
+                                function () {
+                                        $('#observed').load('observedTable.shtml?' + Math.random()).fadeIn("slow");
+                                }
+                                , 30000); // refresh every 30 seconds
+                </script>
+
+	</head>
+	<body>			
+		<div id="leftHalf" style="z-index:-1"></div>
+		<div id="rightHalf"  style="z-index:-1"></div>
+		
+		<table style="margin-top:20px"align="center" width="990" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td align="left"><img src="rapidlogo.png" width="190"/></td>
+			</tr>
+			<tr>
+				<td><div style="height:102px;" align="center"><img src="rapidads.png" width="300" height="86"></div></td>
+			</tr>
+		</table>
+		
+		<div style="background:#2886C0" align="center">
+			<table width="990" border="0" cellspacing="0" cellpadding="10">
+				<tr>
+					<td><div> <b><span style="color:#fff; font-size:30px; ">RAP<span style="color:#ED252C">I</span>DController</span></b></div></td>
+					<td style="padding-right:10px;">
+						<div align="right" style="cursor:pointer;" onClick="$('#popup_help').fadeIn('normal'); $('#overlay').fadeIn('normal');  $('#popup_help_close').fadeIn('normal'); ">
+							<span style="color:#FFFFFF; font-size:19px; position:absolute; margin-left:-215px; margin-top:-12px;" >Need Help</span>
+							<img src="rapidhelpicon.png" height="24" alt="Need Help" style="cursor:pointer;  position:absolute; margin-left:-120px; margin-top:-12px;" 
+								onClick="$('#popup_help').fadeIn('normal'); $('#overlay').fadeIn('normal'); $('#popup_help_close').fadeIn('normal');"/>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<table  bgcolor="#FFFFFF" width="990" align="center">
+			<tbody>
+				<tr><td><div style="float:right; font-style:italic; font-size:12px">Virtual Desktop screens are updated every %s seconds.</div></td></tr>
+				<tr><td><div style="float:right; font-style:italic; font-size:12px">Version: %s</div></td></tr>
+				<tr><td>
+					<div id="observed" style="margin-top:50px;">
+					%s
+					</div>
+				</td></tr>
+			</tbody>
+		</table>
+		<div id="popup_help" style="width:400px; height:300px; margin:0 auto; background:#FFF; border:solid #333 1px; position:fixed; 
+			border-radius:10px; margin-left:auto; margin-right:auto; right:0; left:0; top:50%%; margin-top:-150px; z-index:10; padding:20px; display:none;"> 
+
+			<span style="font-size:26px;">Feel free to use any appliance below, they are friendly.</span><br>
+
+			<span style="font-size:22px; color:red;">How to use appliance? </span><br>
+			<br>no VNC <br>
+			<div style="line-height:24px; padding-left:10px; padding-top:5px;">
+			1. Click on any off the active sessions below, a noVNC session
+				window will open in a new tab.<br>  
+			2. If prompted for password please provide the password, 
+				the default password is 'dbasupport' without the single quote.<br>
+			3. Congratulation!.<br>
+			4. Note: Please close all stuff on the desktop once you finished.
+			</div>
+		</div>
+		
+		<div id="overlay" style="width:100%%; height:100%%; margin:0 auto; background:#000; border:solid #333 1px; position:fixed; 
+			border-radius:5px; margin-left:auto; margin-right:auto; right:0; left:0; top:0; opacity:0.5; z-index:9; display:none;"></div>
+			
+		<div id="popup_help_close" style=" margin:0 auto;position:fixed; 
+			margin-left:auto; margin-right:auto; right:0; left:380px; top:50%%; margin-top:-140px; z-index:12; width:20px; display:none; cursor:pointer;" 
+			onClick="$('#popup_help').fadeOut('normal'); $('#overlay').fadeOut('normal');  $('#popup_help_close').fadeOut('normal'); "><img src="icon-close.png" alt="close" width="30" title="close" /> </div>
+	</body>
+</html>

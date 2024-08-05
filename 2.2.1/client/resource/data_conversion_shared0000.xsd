@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://data_conversion_shared0000.client.rapidesuite.com"
+	xmlns:e="http://data_conversion_shared0000.client.rapidesuite.com"
+	elementFormDefault="qualified">
+		
+	<xs:complexType name="valueMapType">
+		<xs:attribute name="source" type="xs:string" use="required"/>
+		<xs:attribute name="target" type="xs:string" use="required"/>
+    </xs:complexType>
+	
+	<xs:complexType name="valuesMapType">
+		<xs:sequence>
+			<xs:element name="valueMap" type="e:valueMapType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+	
+	<xs:complexType name="constantType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="value" type="xs:string" use="required"/>
+    </xs:complexType>
+	
+	<xs:complexType name="constantsType">
+		<xs:sequence>
+			<xs:element name="constant" type="e:constantType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+    <xs:complexType name="dataConversionShared">
+		<xs:sequence>
+			<xs:element name="valuesMap" type="e:valuesMapType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="constants" type="e:constantsType" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="dataConversionShared" type="e:dataConversionShared"/>
+	
+</xs:schema>

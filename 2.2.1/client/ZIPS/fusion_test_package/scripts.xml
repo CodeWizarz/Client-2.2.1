@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fusionScripts implementationProject="Implementation Project - OD" xmlns="http://fusionScripts0000.core.rapidesuite.com">
+<!-- implementationProject="Implementation Project - OD" -->
+
+<script uniqueID="1" name="Manage Enterprise Configuration - United States" location="script1"  /> 
+<script uniqueID="2" name="Manage Enterprise Configuration - United States2" location="script1" /> 
+<script uniqueID="3" name="Manage Enterprise Configuration - United States2" location="script1" />
+<script uniqueID="4" name="Assign Business Unit Business Function" location="script2" />
+<script uniqueID="5" name="Manage Taxes" location="script3" />
+
+</fusionScripts>
+

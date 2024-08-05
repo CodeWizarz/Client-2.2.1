@@ -1,0 +1,16 @@
+;!@Install@!UTF-8!
+Title="RAPIDSnapshot Installer"
+BeginPrompt="Installation folder selection."
+CancelPrompt="Do you want to cancel the installation?"
+ExtractDialogText="Please wait..."
+ExtractPathText="Please select the Installation folder:"
+ExtractTitle="Installing..."
+GUIFlags="8+32+64+256+4096"
+GUIMode="1"
+InstallPath="C:\\RES\\snapshot"
+OverwriteMode="0"
+FinishMessage="RAPIDSnapshot was successfully installed, please use the desktop icon to start it."
+Shortcut="Du,{%%T\\snapshot.exe},{},{},{RAPIDSnapshot},{RAPIDSnapshot},{%%T\\},{%%T\\ico\\snapshot.ico},{0}"
+Shortcut="Pu,{%%T\\snapshot.exe},{},{RAPIDSnapshot},{RAPIDSnapshot},{RAPIDSnapshot},{%%T\\},{%%T\\ico\\snapshot.ico},{0}"
+Shortcut="Pu,{%%T\\site.url},{},{RAPIDSnapshot},{Rapid4Cloud Website},{Rapid4Cloud Website},{%%T\\},{%%T\\ico\\website.ico},{0}"
+;!@InstallEnd@!

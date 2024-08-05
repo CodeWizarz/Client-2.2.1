@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://snapshotMetadata0000.client.rapidesuite.com"
+	xmlns:e="http://snapshotMetadata0000.client.rapidesuite.com"
+	elementFormDefault="qualified">
+	
+	<xs:complexType name="inventoryType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="status" type="xs:string" use="required"/>
+		<xs:attribute name="remarks" type="xs:string" use="required"/>
+		<xs:attribute name="totalRecords" type="xs:long" use="required"/>
+		<xs:attribute name="rawTimeInSecs" type="xs:long" use="required"/>
+		<xs:attribute name="executionTime" type="xs:string" use="required"/>
+		<xs:attribute name="createdOn" type="xs:string"/>
+		<xs:attribute name="completedOn" type="xs:string"/>			
+    </xs:complexType>
+		
+	<xs:complexType name="inventoriesType">
+		<xs:sequence>
+			<xs:element name="inventory" type="e:inventoryType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="snapshotInformationType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="status" type="xs:string" use="required"/>
+		<xs:attribute name="description" type="xs:string" use="required"/>
+		<xs:attribute name="completedOn" type="xs:string" use="required"/>
+		<xs:attribute name="isConversion" type="xs:boolean" use="required"/>
+		<xs:attribute name="osUserName" type="xs:string" use="required"/>
+		<xs:attribute name="clientHostName" type="xs:string" use="required"/>
+		<xs:attribute name="createdOn" type="xs:string" use="required"/>
+		<xs:attribute name="templateName" type="xs:string"/>
+    </xs:complexType>	
+	
+	<xs:complexType name="ouType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="id" type="xs:long" use="required"/>
+    </xs:complexType>
+	<xs:complexType name="ousType">
+		<xs:sequence>
+			<xs:element name="ou" type="e:ouType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="invType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="id" type="xs:long" use="required"/>
+    </xs:complexType>
+	<xs:complexType name="ouInvMapType">
+		<xs:sequence>
+			<xs:element name="inv" type="e:invType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+		<xs:attribute name="id" type="xs:long" use="required"/>
+    </xs:complexType>
+	<xs:complexType name="ousToinvsType">
+		<xs:sequence>
+			<xs:element name="ouInvMap" type="e:ouInvMapType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="bgType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="id" type="xs:long" use="required"/>
+    </xs:complexType>
+	<xs:complexType name="ouBGMapType">
+		<xs:sequence>
+			<xs:element name="bg" type="e:bgType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+		<xs:attribute name="id" type="xs:long" use="required"/>
+    </xs:complexType>
+	<xs:complexType name="ousToBGsType">
+		<xs:sequence>
+			<xs:element name="ouBGMap" type="e:ouBGMapType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="ledgerType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="id" type="xs:long" use="required"/>
+    </xs:complexType>
+	<xs:complexType name="ouToledgerMapType">
+		<xs:sequence>
+			<xs:element name="ledger" type="e:ledgerType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+		<xs:attribute name="id" type="xs:long" use="required"/>
+    </xs:complexType>
+	<xs:complexType name="ousToledgersType">
+		<xs:sequence>
+			<xs:element name="ouToledgerMap" type="e:ouToledgerMapType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="legalEntityType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="id" type="xs:long" use="required"/>
+    </xs:complexType>
+	<xs:complexType name="ouTolegentMapType">
+		<xs:sequence>
+			<xs:element name="legalEntity" type="e:legalEntityType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+		<xs:attribute name="id" type="xs:long" use="required"/>
+    </xs:complexType>
+	<xs:complexType name="ousTolegentsType">
+		<xs:sequence>
+			<xs:element name="ouTolegentMap" type="e:ouTolegentMapType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+	<xs:complexType name="userType">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="id" type="xs:long" use="required"/>
+    </xs:complexType>
+	
+	<xs:complexType name="usersType">
+		<xs:sequence>
+			<xs:element name="user" type="e:userType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+	
+    <xs:complexType name="snapshotMetadataType">
+		<xs:sequence>
+			<xs:element name="snapshotInformation" type="e:snapshotInformationType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="inventories" type="e:inventoriesType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="ous" type="e:ousType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="ousToinvs" type="e:ousToinvsType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="ousToBGs" type="e:ousToBGsType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="ousToledgers" type="e:ousToledgersType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="ousTolegents" type="e:ousTolegentsType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="users" type="e:usersType" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="snapshotMetadata" type="e:snapshotMetadataType"/>
+	
+</xs:schema>

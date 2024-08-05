@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data name="Assign Business Unit Business Function" xmlns="http://data0000.configurator.erapidsuite.com">
+<m/>
+<h>
+<c>Business Unit</c>
+<c>RSC Data Label</c>
+<c>Navigation Filter</c>
+</h>
+<r>
+<c>RAPID1_Business_Unit</c>
+<c>FUSION</c>
+<c/>
+</r>
+</data>
